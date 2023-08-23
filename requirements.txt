@@ -22,3 +22,4 @@ pandas
 xmltodict
 jiwer
 nnmnkwii
+comet-ml

@@ -1,0 +1,1000 @@
+BASIC5000_3460|jsut|{m e e sh u s e N pau n o j o o z o o m o t o t o sh I t e pau sh a ch o o sh o k u n i a cl t a}|銘酒仙醸の醸造元として、社長職にあった。
+BASIC5000_1579|jsut|{m o t o s o o r i d a i j i N n o s u z u k I sh i g a pau i i N k a i n o g i ch o o n i n a r u d a r o o}|元総理大臣の鈴木氏が、委員会の議長になるだろう。
+BASIC5000_3106|jsut|{f e m i n a r u sh i s U t o n a i k I k a t a o t e e sh o o sh i pau s o o g o o sh o k u n i t e N z o k u sh I t a}|フェミナルシストな生き方を提唱し、総合職に転属した。
+BASIC5000_3648|jsut|{k u u k i w a a ts u k u i k i g u r u sh I k u pau k a i s o o z e N t a i g a k e w a sh i i k e e sh a d e a r i pau h i r a ch i w a s o N z a i sh i n a k a cl t a}|空気は熱く息苦しく、階層全体が険しい傾斜であり、平地は存在しなかった。
+BASIC5000_1724|jsut|{b o o o N s e ts u b i g a h o d o k o s a r e pau p u r a i b e e t o o j u u sh i sh I t a g e s U t o r u u m u d e s U}|防音設備が施され、プライベートを重視したゲストルームです。
+BASIC5000_0166|jsut|{w a r u k a cl t a k e r e d o m o pau a n o t e e d o n a r a m a d a m a sh i d a cl t a}|悪かったけれども、あの程度ならまだましだった。
+BASIC5000_1062|jsut|{m a i cl t a y o pau k a r e w a w a t a sh i o d a m a sh I t e i t a N d a}|参ったよ、彼は私をだましていたんだ。
+BASIC5000_3956|jsut|{g e N t a N s e e s a k u n o e e ky o o m o a r i pau n o o ky o o t o sh I t e n o sh u ry o k u n o n o o s a N b u ts u o k o m e t o sh I t e i n a i n o g a t o k U sh o k u}|減反政策の影響もあり、農協としての主力の農産物をコメとしていないのが特色。
+BASIC5000_2096|jsut|{k o N s e e k i n i w a ch u u m o k U s u b e k I ch i sh I k i n o z o o k a g a a cl t a}|今世紀には注目すべき知識の増加があった。
+BASIC5000_1992|jsut|{k u r a k a cl t a k e r e d o m o pau w a t a sh i w a d o o n i k a y a cl t o pau i e e t a d o r i ts u i t a}|暗かったけれども、私はどうにかやっと、家へたどり着いた。
+BASIC5000_1660|jsut|{i t a k u n a cl t a r a ch i N ts u u z a i o n o N d e k u d a s a i}|痛くなったら鎮痛剤を飲んでください。
+BASIC5000_3763|jsut|{z a i ry o o n o sh u r u i n i y o cl t e pau o o ry o k u pau h i z u m i ky o k U s e N n o t o k U ch o o w a k o t o n a r u}|材料の種類によって、応力-ひずみ曲線の特徴は異なる。
+BASIC5000_3212|jsut|{j u gy o o n o j i k a N w a r i w a pau j o o k e N o m i t a s u n a k a d e pau s e e t o o n o o n o g a pau j i y u u n i k a m o k u o s e N t a k U s u r u}|授業の時間割は、条件を満たす中で、生徒各々が、自由に科目を選択する。
+BASIC5000_3401|jsut|{m o cl t o m o f U ts u u n o h o o h o o d e w a pau k a t a a sh i o a g e t e pau h i z a o m a g e pau k U ts u n o u ch i g a w a o u e n i m u k e pau k a k a t o n o k a N s e ts u n o b u b u N n i pau j e N z u o a t e t e k e r u}|もっとも普通の方法では、片足を上げて、膝を曲げ、靴の内側を上に向け、かかとの関節の部分に、ジェンズを当てて蹴る。
+BASIC5000_1244|jsut|{i cl t a N f u r o pau a N d o pau m e sh i o ch i pau y o N j u cl p u N g u r a i sh I t e k I k a N}|一旦風呂、アンド、飯落ち、４０分ぐらいして帰還。
+BASIC5000_3966|jsut|{k o k o w a s a u r o N n o o o k o k u n o sh i N z o o b u t o i u b e k i m o n o d e a r i pau k a r e n o s e k i j i ts u n o ch I k a r a n o m i n a m o t o d e m o a r u}|ここはサウロンの王国の心臓部と言うべきものであり、彼の昔日の力の源でもある。
+BASIC5000_1954|jsut|{k a g i n o i r a n a i a N sh o o t a i p u n i w a pau o s U k i n a b a N g o o o s e cl t e e d e k i r u f u r i i d a i y a r u sh I k i t o pau a r a k a j i m e pau b a N g o o g a s e cl t e e z u m i n o pau k o t e e sh I k i t o g a a r i m a s U}|鍵のいらない暗証タイプには、お好きな番号を設定できるフリーダイヤル式と、あらかじめ、番号が設定済みの、固定式とがあります。
+BASIC5000_1468|jsut|{s e N t a k u o s u r u t o i u k o t o w a pau ts u n e n i g i s e e o pau ts u m a r i pau a r u m o n o o a k i r a m e t e pau b e ts u n o m o n o o t o r u k o t o o i m i s u r u}|選択をするということは、常に犠牲を、つまり、ある物をあきらめて、別のものを取ることを意味する。
+BASIC5000_2391|jsut|{m i n a s a m a n i pau g o m e e w a k u o o k a k e sh I t e o r i m a s U}|皆様に、ご迷惑をおかけしております。
+BASIC5000_3654|jsut|{n a o pau k i N n e N n o b u N r u i t a i k e e n o h e N k o o n i y o r i pau s o n o z o k u n o ky o o k a i m o h e N s e N o t a d o cl t e o r i pau k a t o r e y a n o n a o k a N s u r u sh o k u b u ts u n o h a b a m o h i r o k u n a cl t a m e N g a a r u}|なお、近年の分類体系の変更により、その属の境界も変遷をたどっており、カトレヤの名を冠する植物の幅も広くなった面がある。
+BASIC5000_3721|jsut|{a s a n o h o o s o o w a k u d e w a a r u g a pau m o N s U t a a n o sh i o e g a i t a s U t o o r i i g a o o k u pau h I t o n o g o o o o o k u e g a i t a m o n o m o h o N s a k U h i N n o t o k U ch o o d e a r u}|朝の放送枠ではあるが、モンスターの死を描いたストーリーが多く、人の業を多く描いたのも本作品の特徴である。
+BASIC5000_0896|jsut|{p o o r u w a pau m e o t e d e o o i n a g a r a t a cl t e i t a}|ポールは、目を手で覆いながら立っていた。
+BASIC5000_2069|jsut|{u w a s a w a pau m a cl t a k u n o u s o d e a r u k o t o g a w a k a cl t a}|うわさは、全くのうそであることがわかった。
+BASIC5000_0571|jsut|{y u m i k o w a k o n o m a e n o r o k u g a ts u n i pau k o d o m o j i d a i n o y u u j i N t o k e cl k o N sh I t a}|ゆみこはこの前の６月に、子供時代の友人と結婚した。
+BASIC5000_1156|jsut|{n a N b i k I k a n o s a r u g a k i n i n o b o cl t e i r u n o o m i t a}|何匹かのサルが木に登っているのを見た。
+BASIC5000_0573|jsut|{sh i N m e e o k a k e t e sh o k u m u o j i cl s e N sh i pau s u b e t e n o k e e s a ts u k a N n o k o k o r o n i h i o t o m o sh I t e k u r e m a sh I t a}|身命をかけて職務を実践し、すべての警察官の心に火をともしてくれました。
+BASIC5000_3097|jsut|{s a k U ch u u h a ts U sh i y o o n o s a i n i w a pau j i z e N n i sh i r i o o o k I k u b o o ch o o s a s e pau j i b a k U t o i ts u w a cl t e pau s U p a N d a m u r a o ky o o k o o j o o t a i n i o t o sh i i r e t a}|作中初使用の際には、事前に尻を大きく膨張させ、自爆と偽って、スパンダムらを恐慌状態に陥れた。
+BASIC5000_0389|jsut|{p a t a a s o N n o j i cl k e N d e w a pau a u t o p u cl t o s a r e t a b u cl t a i g a d e z a i N s a r e t a m o d e r u t o pau k a N z e N n i i cl ch I s u r u k a d o o k a f u m e e k a k u d e a r u}|パターソンの実験では、アウトプットされた物体がデザインされたモデルと、完全に一致するかどうか不明確である。
+BASIC5000_2534|jsut|{m o k U hy o o o m o cl t e i r u t o i u t e N d e pau k a n o j o w a t a n o h I t o t o w a ch i g a u}|目標を持っているという点で、彼女は他の人とは違う。
+BASIC5000_3276|jsut|{k i N n o t a m e n i sh i g a N sh I t a t o i u g a pau t a n o p a i r o cl t o n o h i cl sh i n i t a t a k a u s u g a t a o m e n i sh I t e pau sh i d a i n i t a i d o o a r a t a m e r u}|金のために志願したというが、他のパイロットの必死に戦う姿を目にして、次第に態度を改める。
+BASIC5000_1028|jsut|{ch u u k o sh a n i sh I t e w a pau k o n o n e d a N w a y a y a t a k a i}|中古車にしては、この値段はやや高い。
+BASIC5000_3728|jsut|{i t a i sh o r i n o j i cl sh i w a pau k o o sh u u e e s e e o i j i sh i pau m a t a pau k o k u m i N n o sh i N r i t e k i n a h i g a i o t e e g e N s u r u t a m e n i h I ts u y o o d e a r i pau t o o ky o k u n i w a sh i sh a n o s o N g e N o i y a sh i m e r u k o t o n o n a i y o o h a i ry o s u r u s e k i n i N g a a r u}|遺体処理の実施は、公衆衛生を維持し、また、国民の心理的な被害を低減するために必要であり、当局には死者の尊厳を卑しめることのないよう配慮する責任がある。
+BASIC5000_2183|jsut|{t a i sh a m a e n i pau d e N t o o y a pau d a N b o o k i o k e s U k o t o n i n a cl t e i r u}|退社前に、電灯や、暖房器を消すことになっている。
+BASIC5000_2890|jsut|{m i N sh u u w a pau z a N k o k u n a b o o k u N n i y o cl t e pau sh i i t a g e r a r e t e i t a}|民衆は、残酷な暴君によって、虐げられていた。
+BASIC5000_3320|jsut|{j u sh o o w a pau i N y o o o s e z u n i b u N sh o o d a k e n i i t a sh i m a s U}|受賞は、引用をせずに文章だけに致します。
+BASIC5000_2467|jsut|{t e a r a n i a ts U k a w a r e t a n o d e pau k a cl p u n i w a i k U ts u k a h i b i g a h a i cl t e i r u}|手荒に扱われたので、カップにはいくつかひびが入っている。
+BASIC5000_3697|jsut|{t a m a n o k I k a i y o o s o g a m e N o ts U t a u y o o n a m o n o w a t e N t a i g u u t o i e r u}|球の機械要素が面を伝うようなものは点対偶と言える。
+BASIC5000_0602|jsut|{s a r a a r a i o m e e j i r a r e t e pau k a n o j o w a k U ch i o t o g a r a s e t a}|皿洗いを命じられて、彼女は口をとがらせた。
+BASIC5000_1272|jsut|{m o n o n i w a s u b e t e pau h a j i m e t o i u n o g a a r u h a z u d a}|ものには全て、始めというのがあるはずだ。
+BASIC5000_0405|jsut|{d e t e i k I t a i t o k i n i pau j i y u u n i d e t e i cl t e i i d e s U}|出て行きたい時に、自由に出ていっていいです。
+BASIC5000_2991|jsut|{m i n a m i j u u j i s e e w a pau n i cl p o N d e w a m i r u k o t o g a d e k i n a i}|南十字星は、日本では見ることができない。
+BASIC5000_0303|jsut|{g a N w a h a cl k e N g a m a n i a e b a pau n a o s U k o t o g a d e k i r u}|癌は発見が間に合えば、治すことができる。
+BASIC5000_3683|jsut|{w a t a sh i d o m o w a pau k o j i N j o o h o o n i w a k a N sh i N g a a r i m a s e N}|私共は、個人情報には関心がありません。
+BASIC5000_3485|jsut|{s o n o s a i pau k a s U p a a j i sh i N w a pau k a N k a k u n o k a b i N s a y u e pau k e e k e N sh I t a k o t o n o n a i h I k a r i t o s o o o N n i y o cl t e i t a m i o u k e k u r u sh i N d a t o i u}|その際、カスパー自身は、感覚の過敏さゆえ、経験したことのない光と騒音によって痛みを受け苦しんだという。
+BASIC5000_2803|jsut|{m i n a pau r u s u d a t o i u n o n i pau f U sh i g i n a k o t o n i pau i e j u u n o d e N t o o g a ts u i t e i t a}|皆、留守だというのに、不思議なことに、家中の電灯がついていた。
+BASIC5000_1354|jsut|{o t o k o t a ch i w a pau t o r a cl k u n i t e n i m o ts u o ts u N d a}|男たちは、トラックに手荷物を積んだ。
+BASIC5000_1935|jsut|{s a i sh i N n o s a N k a g e ts u d e pau j u N r i e k i g a pau k a k o s a i k o o k i r o k U t o n a cl t e i m a s U}|最新の３ヶ月で、純利益が、過去最高記録となっています。
+BASIC5000_2294|jsut|{ky o o w a k o k U t o w a pau o o y a o o j o d e n a k u pau d a i t o o ry o o g a ch o o t o n a r u k o cl k a d e a r u}|共和国とは、王や王女でなく、大統領が長となる国家である。
+BASIC5000_0413|jsut|{o a i s u r u n o w a i ts u g a g o ts u g o o g a y o i k a pau o sh i r a s e i t a d a k e m a s U k a}|お会いするのはいつがご都合が良いか、お知らせいただけますか。
+BASIC5000_1451|jsut|{k a z o k u w a m a m o n a k u pau a t a r a sh i i k a N ky o o n i t o k e k o N d a}|家族はまもなく、新しい環境に溶け込んだ。
+BASIC5000_1780|jsut|{ch i n o o n o t a k a i h I t o d e pau i N sh u sh I t a a t o d e pau u N t e N s u r u y o o n a h I t o w a i n a i}|知能の高い人で、飲酒した後で、運転するような人はいない。
+BASIC5000_1297|jsut|{y a ky u u j o o n i w a pau o o k u n o k o o f u N sh I t a f a N g a i m a sh I t a}|野球場には、多くの興奮したファンがいました。
+BASIC5000_2504|jsut|{k i gy o o w a s o n o a t o o n e r a cl t e pau ky o o s o o sh I t e i m a s U}|企業はそのあとをねらって、競争しています。
+BASIC5000_2625|jsut|{t o o s o o w a pau m a N z o k u n o i cl t a k o t o n i w a k a i n i o w a cl t a}|闘争は、満足の行ったことに和解に終わった。
+BASIC5000_3741|jsut|{m a b u t a g a u ch i g a w a n i m a k I k o m u k o t o d e pau m a ts u g e g a ts u n e n i k a k u m a k u n o hy o o m e N o k o s u r u t a m e pau f U k a i k a N y a pau i t a m i o t o m o n a u}|まぶたが内側に巻き込むことで、まつげが常に角膜の表面を擦る為、不快感や、痛みを伴う。
+BASIC5000_0839|jsut|{k o o k a n o k a ch i w a pau ts U k a w a r e t a k i N z o k u n o o m o s a n i y o cl t e k i m a cl t a}|硬貨の価値は、使われた金属の重さによって決まった。
+BASIC5000_2265|jsut|{y u k I k o ch a N w a pau a sh I t a i k o o pau h I k i k i N n o sh i f U t o d e sh u cl k i N sh I t e k u r e r e b a i i k a r a}|由紀子ちゃんは、明日以降、火木金のシフトで出勤してくれればいいから。
+BASIC5000_1955|jsut|{d o t e n o m u k o o n i y a n e g a m i e r u n o g a pau s u z u k I k u N n o i e d e s U}|土手の向こうに屋根が見えるのが、鈴木君の家です。
+BASIC5000_1815|jsut|{k u r u m a y a h I k o o k i d e w a pau i ts u m o a N z e N b e r u t o o sh i m e r u k o t o g a pau h o o r i ts u d e k i m e r a r e t e i m a s U}|車や飛行機では、いつも安全ベルトを締めることが、法律で決められています。
+BASIC5000_3546|jsut|{s e N r o t o h e e k o o sh I t e i t a k e N d o o n o k a k U f u k u y o o ch I t o s a r e pau h o d o o t o n a cl t e i r u}|線路と並行していた県道の拡幅用地とされ、歩道となっている。
+BASIC5000_2137|jsut|{k a k u m e e s e e f u w a pau m i N sh u u k a r a h e e o ts u n o cl t e b o o s e N s u r u t o t o m o n i pau ky o o w a s e e j i o k a k u r i ts u sh I t e pau t o r a e t e i t a pau r u i j u u r o k u s e e o sh o k e e sh i m a sh I t a}|革命政府は、民衆から兵をつのって防戦するとともに、共和政治を確立して、捕らえていた、ルイ１６世を処刑しました。
+BASIC5000_1068|jsut|{h o N n o s u u n i N n o s e e t o d a k e g a pau s o n o m o N d a i o r i k a i sh I t a}|ほんの数人の生徒だけが、その問題を理解した。
+BASIC5000_0256|jsut|{h a sh i d e s o n o sh i m a e w a t a r e r u y o o n i n a cl t e i r u}|橋でその島へ渡れるようになっている。
+BASIC5000_3299|jsut|{n e b a r i g a d e t a t o k o r o d e pau d a N g o j o o n i pau t e k i d o n a o o k i s a n i m a r u m e r u}|粘りが出たところで、団子状に、適度な大きさに丸める。
+BASIC5000_3764|jsut|{h a ch I sh a a y a n o t o f u r i f u t a ts u n o y o o sh i o sh I t e i r u}|八車文乃と瓜二つの容姿をしている。
+BASIC5000_2249|jsut|{n i pau s a N n o k e cl t e N o b e ts u n i s u r e b a pau k a r e w a sh i N r a i d e k i r u p a a t o n a a d a}|２、３の欠点を別にすれば、彼は信頼できるパートナーだ。
+BASIC5000_3753|jsut|{h a N s e cl ch a k u m a d a r a g a i j o o n i n a r e b a pau k I t e e s a i b o o n o z o o sh o k u w a i j o o n i n a r u}|半接着斑が異常になれば、基底細胞の増殖は異常になる。
+BASIC5000_0058|jsut|{y o sh i o w a pau s e e k a k u w a h a h a o y a n i pau y o o b o o w a pau ch I ch i o y a n i n i t e i r u}|ヨシオは、性格は母親に、容貌は、父親に似ている。
+BASIC5000_0383|jsut|{b e ts u n o d a N r a k u d e pau k a r e w a k o N m a o h I t o ts u i r e t a}|別の段落で、彼はコンマを１つ入れた。
+BASIC5000_2949|jsut|{y u r u i m u s u b i m e o pau s u b e t e t e N k e N sh I t e sh i cl k a r i sh i m e n a s a i}|緩い結び目を、すべて点検してしっかりしめなさい。
+BASIC5000_3443|jsut|{t a m a sh i i b a sh i r a n i y o r i o t o g a u r a i t a m a d e sh i N d o o sh i pau g a cl k i z e N t a i n i o t o g a h i b i k u y o o n i n a r u}|魂柱により音が裏板まで振動し、楽器全体に音が響くようになる。
+BASIC5000_1635|jsut|{s a ts u j i N h a N w a pau m o o s u g u j i b u N n o ts u m i o h a k u j o o s u r u d a r o o}|殺人犯は、もうすぐ自分の罪を白状するだろう。
+BASIC5000_2911|jsut|{j i r u w a k a w a i i d a k e d e n a k u pau a t a m a m o y o i}|ジルはかわいいだけでなく、頭もよい。
+BASIC5000_3380|jsut|{s o k u j i s a k u j o t a g u ch o o f u g o m o pau ch o o k I h o o ch i j o o t a i d e a r u k o t o k a r a pau ts u u j o o n o s a k u j o i r a i n i k i r i k a e m a s U}|即時削除タグ貼付後も、長期放置状態であることから、通常の削除依頼に切り替えます。
+BASIC5000_3217|jsut|{s e cl ch u u a N t o i u k a pau k a i k e ts u s a k U t o sh I t e h a ts u d o o j i w a pau k a t a n a n o ts u b a o ts U k a cl t a g a N t a i d e i t o t e k i n i sh I k a i o s e b a m e t e i r u}|折衷案というか、解決策として発動時は、刀の鍔を使った眼帯で意図的に視界を狭めている。
+BASIC5000_2738|jsut|{h o N k i d e w a t a sh i n o k o t o pau a i sh I t e i r u cl t e i u n o}|本気で私のこと、愛しているっていうの。
+BASIC5000_2563|jsut|{r i N r i g a k U t o i u n o w a pau k o o d o o n o k I h a N o i m i s u r u}|倫理学というのは、行動の規範を意味する。
+BASIC5000_0005|jsut|{k e ts u a ts u w a pau k e N k o o n o p a r o m e e t a a t o sh I t e j u u y o o d e a r u}|血圧は、健康のパロメーターとして重要である。
+BASIC5000_2508|jsut|{g e N j u u m i N w a pau t o ch i o pau sh i N ry a k U sh a k a r a m a m o r a n e b a n a r a n a i}|原住民は、土地を、侵略者から守らねばならない。
+BASIC5000_2023|jsut|{g a N k a t o w a pau m e o i r e t e i r u h o n e n o pau i r e m o n o n o k o t o d e s U}|眼窩とは、目をいれている骨の、いれもののことです。
+BASIC5000_3393|jsut|{n i sh o o d e w a h o t a r u b i n o s a b u w e p o N t o sh I t e t o o j o o}|弐章では蛍火のサブウェポンとして登場。
+BASIC5000_3555|jsut|{sh i r o i i t a j o o n i n a cl t e o r i pau sh o r i j i n i a b u r a m i o ts U k e t a m a m a n i sh I t a m o n o m o a r u}|白い板状になっており、処理時に脂身を付けたままにしたものもある。
+BASIC5000_1366|jsut|{t a i ch o o w a b u k a n i pau t a d a ch i n i sh u u g o o s u r u y o o n i m e e r e e sh I t a}|隊長は部下に、直ちに集合するように命令した。
+BASIC5000_1001|jsut|{b u N t a i g a s a cl k a n i m o ts U k a N k e e w a pau sh I k i s a i g a g a k a n i t a i s u r u n o t o o n a j i d e a r u}|文体が作家に持つ関係は、色彩が画家に対するのと同じである。
+BASIC5000_2993|jsut|{d a i i ch i j i s e k a i t a i s e N d e pau e e k o k u n o s e e n e N d a N sh i n o t a i h a N g a pau o o sh o o sh I t a}|第１次世界大戦で、英国の成年男子の大半が、応召した。
+BASIC5000_1334|jsut|{sh i N k e e sh I ts u n a h I t o w a pau k o n o sh i g o t o n i w a m u k a n a i}|神経質な人は、この仕事には向かない。
+BASIC5000_2884|jsut|{k u n i k o w a pau u m a r e t e h a j i m e t e pau s o N n a n i t a k U s a N o s a k e o n o N d a}|クニ子は、生まれて初めて、そんなにたくさんお酒を飲んだ。
+BASIC5000_3567|jsut|{s o ts u gy o o g o w a i k a d a i g a k u n i sh i N g a k U sh i pau i sh a n i n a cl t e i sh a g a i n a i y o o n a ch i i s a n a s a N s o N d e pau k a i gy o o s u r u k o t o o m e z a sh I t e i r u}|卒業後は医科大学に進学し、医者になって医者がいないような小さな山村で、開業することを目指している。
+BASIC5000_0258|jsut|{h e e j i ts u w a pau h I k a k U t e k I k o N d e i n a i y o o d e s U}|平日は、比較的混んでいないようです。
+BASIC5000_0784|jsut|{k I k a N sh a w a pau n a g a i k a m o ts U sh a n o r e ts u o h i cl p a cl t e h a sh i cl t e i t a}|機関車は、長い貨物車の列を引っ張って走っていた。
+BASIC5000_3758|jsut|{t a ch i i m u n o s u r u d o i h e N k a ky u u o k u z u s u sh u d a N t o sh I t e pau s a m a z a m a n a d a h o o m o a m i d a s a r e t e i r u}|他チームの鋭い変化球を崩す手段として、様々な打法も編み出されている。
+BASIC5000_2326|jsut|{h a y a k u a r u k U k o t o w a d e k i n a i g a pau n a g a k u a r u k U k o t o w a d e k i r u}|早く歩くことはできないが、長く歩くことはできる。
+BASIC5000_0910|jsut|{t a ts u o w a pau k o o k u u k i n o ch a k u r i k U s o o ch i o m i r u n o g a s U k i d e s U}|辰雄は、航空機の着陸装置を見るのが好きです。
+BASIC5000_0979|jsut|{o n e g a i d a k a r a pau d a r e n i m o s o n o k o t o w a i w a n a i d e}|お願いだから、誰にもそのことは言わないで。
+BASIC5000_3292|jsut|{k o n o u g o k i d e pau s o o g o o s o sh I k i n o k u m i a i n o ch o ch I k u k o o z a o h i r a k i pau t o o hy o o k e N o e t e pau t a n a b o t a t e k i n a sh I h a r a i o u k e y o o t o pau h I ky o o d o o k u m i a i k a n o t o o hy o o o h a ts u g i s u r u t o o sh i k a g a a r a w a r e r u y o o n i n a cl t a}|この動きで、総合組織の組合の貯蓄口座を開き、投票権をえて、タナボタ的な支払を受けようと、非協同組合化の投票を発議する投資家があらわれるようになった。
+BASIC5000_0584|jsut|{u r o o j u u b u N sh i n o g e r u y o o n i pau p e N k i o n i k a i n u r u b e k i d a}|雨露を十分しのげるように、ペンキを二回塗るべきだ。
+BASIC5000_3291|jsut|{w a t a sh i t a ch i o s o d a t e r u m a n a b i n o e N w a s a k a e r u}|私たちを育てる学びの園は栄える。
+BASIC5000_2226|jsut|{s a N s a i n o m u s U k o n o sh i N s a ts u n o y o y a k u o o n e g a i sh i m a s U}|３歳の息子の診察の予約をお願いします。
+BASIC5000_1836|jsut|{t a m a w a t o k i d o k i pau h I t o r i d e s a N p o n i i k i m a s U}|タマはときどき、ひとりで散歩に行きます。
+BASIC5000_0374|jsut|{b e n i y a i t a d e j u u b u N d a t o n o k o t o pau o sh i e r a r e t a t o o r i pau b e n i y a i t a d e ts U k u r u k o t o n i sh i m a s U}|ベニヤ板で十分だとのこと、教えられたとおり、ベニヤ板で作ることにします。
+BASIC5000_0330|jsut|{g i k o ch i n a i w a r a i o sh I t a t e N i N g a k o t a e t a}|ぎこちない笑いをした店員が答えた。
+BASIC5000_1312|jsut|{ny u u sh I s e e d o n o k a i k a k u pau k a r i ky u r a m u n o k a i k a k u w a ch a k U ch a k U t o s u s u N d e i r u g a pau a y u m i w a o s o i}|入試制度の改革、カリキュラムの改革は着々と進んでいるが、歩みは遅い。
+BASIC5000_3586|jsut|{a i sh i N n i pau b o o k o o n i y o r u n e cl t o t o o k o o o sh i y o o t o k a r a N d a t o k o r o pau h o N sh o o o a r a w a sh I t a a i sh i N n i y o cl t e pau j i g e N n o k a n a t a n i k e s a r e t e sh i m a u}|藍神に、暴行によるネット投稿をしようと絡んだところ、本性を表した藍神によって、次元の彼方に消されてしまう。
+BASIC5000_2082|jsut|{m a t e b a m a ts U h o d o pau m a s u m a s U h o sh i g a r u m o n o d a}|持てば持つほど、ますます欲しがるものだ。
+BASIC5000_3822|jsut|{d a N s e e y a k a N g a N n a d o m o d o o y o o n o n i N o o k o n a u k o t o g a a cl t a g a pau d a N sh I k i N s e e t o s a r e r u k o o ky u u y a pau k o o h i n o sh I s e e k a ts u n o k a N r i n i w a pau h I ts u z e N t e k i n i j o s e e n o k a N j i N g a h I ts u y o o t o n a cl t a}|男性や宦官なども同様の任を行うことがあったが、男子禁制とされる後宮や、后妃の私生活の管理には、必然的に女性の官人が必要となった。
+BASIC5000_2006|jsut|{k a w a z o i n i s a N p o sh i y o o t o pau k a r e w a i cl t a}|川沿いに散歩しようと、彼は言った。
+BASIC5000_0447|jsut|{y o s o o s a r e t a t o o r i pau k a r e r a w a a m a y a k a s a r e t a}|予想されたとおり、彼らは甘やかされた。
+BASIC5000_1236|jsut|{k a w a b e r i n i w a pau k o o j o o n o e N t o ts u g a pau h a y a sh i n o y o o n i s o s o r i t a cl t e i r u}|川べりには、工場の煙突が、林のようにそそり立っている。
+BASIC5000_2259|jsut|{u d e n o i i k o o g e e sh i w a pau j i b u N n o s a k U h i N n i h o k o r i o m o cl t e i r u}|腕のいい工芸師は、自分の作品に誇りを持っている。
+BASIC5000_1194|jsut|{t e N r a N s a r e t a e n o pau k a n a r i o o k u g a pau k a i k a i sh o n i ch i n i u r e t a}|展覧された絵の、かなり多くが、開会初日に売れた。
+BASIC5000_2896|jsut|{o k o s a N n i s U k o sh i pau h a cl p a o k a k e t a h o o g a i i d e s U y o}|お子さんに少し、発破をかけた方がいいですよ。
+BASIC5000_0512|jsut|{d o y o o b i n o g o g o pau ts u r i n i i k i m a s e N k a}|土曜日の午後、釣りに行きませんか。
+BASIC5000_2244|jsut|{i k o o t o t o d o m a r o o t o pau a n a t a n o j i y u u d a}|行こうととどまろうと、あなたの自由だ。
+BASIC5000_1364|jsut|{o h a u ch I k a r a sh I t a k a r e n o s u g a t a o m i r u n o w a sh i n o b i n a i n e}|尾羽打ち枯らした彼の姿を見るのは忍びないね。
+BASIC5000_3338|jsut|{n i N j u ts u d e w a n a k u pau sh u f u o k i w a m e r u m i ch i o e r a N d a}|忍術ではなく、主婦を究める道を選んだ。
+BASIC5000_3779|jsut|{s o n o k o r o pau m a ch i d e w a z e N z a i s a N o u sh i n a cl t e m o pau k U s u r i o h o cl s u r u h I t o b i t o g a pau i z u m a o j o o o n i t o o s u sh i m i N sh u u k a i o h i r a i t e i t a}|その頃、町では全財産を失っても、薬を欲する人々が、イズマを女王にと推す市民集会を開いていた。
+BASIC5000_2215|jsut|{a i sh I t a h I t o n o sh i o pau a m a r i n a g a i k o t o k a n a sh i N d e i t e w a i k e n a i}|愛した人の死を、あまり長いこと悲しんでいてはいけない。
+BASIC5000_0834|jsut|{k o n o m i n i ts u i t e s e ts u m e e s u r u k o t o w a d e k i n a i}|好みについて説明することはできない。
+BASIC5000_3980|jsut|{s o n o t a pau i k a n o ky o o s o o b a n o n a g a a g a r u}|その他、以下の競走馬の名が挙がる。
+BASIC5000_2472|jsut|{i m a a m a r i o k a n e g a n a k U t e k o m a cl t e i r u n o d e pau s o N n a g o o k a n a sh o k u j i w a d e k i n a i}|今あまりお金がなくて困っているので、そんな豪華な食事はできない。
+BASIC5000_2243|jsut|{k a k u r o b o cl t o n i w a pau ts u u w a k i g a t o r i ts U k e r a r e t e i m a s U}|各ロボットには、通話機が取り付けられています。
+BASIC5000_2408|jsut|{m a r u i ch i n i ch i o sh i e r a r e t e i t a n o d e h e t o h e t o d a cl t a}|丸一日教えられていたのでへとへとだった。
+BASIC5000_1180|jsut|{k o g a pau a N t a n o h a N s e e d e pau i cl t a i n a n i g a a cl t a n o}|古賀、あんたの半生で、一体何があったの。
+BASIC5000_1824|jsut|{d a r e o sh o o k a i s u r u k a d e pau w a t a sh i w a pau i m o o t o t o k o o r o N t o n a cl t a}|誰を紹介するかで、私は、妹と口論となった。
+BASIC5000_0376|jsut|{i t e N n i t o m o n a i pau g o g a ts U s a N j u u n i ch i pau s a N j u u i ch i n i ch i w a pau ky u u gy o o i t a sh i m a s U}|移転にともない、５月３０日、３１日は、休業いたします。
+BASIC5000_2444|jsut|{ch o o k i k a N n o r e N sh u u g a k a r e g a ry u u ch o o n a e e g o o h a n a s U k o t o o k a n o o n i sh I t a}|長期間の練習が彼が流暢な英語を話すことを可能にした。
+BASIC5000_3270|jsut|{h e cl d o sh o cl t o o n e r a u k a pau n i h a ts u r e N z o k u d e u ch I k o m u t o pau t e k i o k i z e ts U s a s e r u k o t o g a d e k i r u}|ヘッドショットを狙うか、二発連続で撃ち込むと、敵を気絶させることができる。
+BASIC5000_1578|jsut|{n a N p u N k a t a cl t a n o k a pau s o r e t o m o n a N j i k a N k a t a cl t a n o k a pau n u m a t a s e N s e e g a i e n i h a i cl t e k i t e pau s a d a k o n o g a k u n i t e o a t e t a}|何分か経ったのか、それとも何時間か経ったのか、沼田先生が家に入ってきて、禎子の額に手を当てた。
+BASIC5000_1300|jsut|{o o n a m i o u k e t e pau k a r e n o k a n u u w a t e N p U k u sh I t a}|大波を受けて、彼のカヌーは転覆した。
+BASIC5000_2359|jsut|{y u t a k a n a k u n i w a pau m a z u sh i i k u n i n o k o t o o pau a m a r i k a N g a e t e i n a i}|豊かな国は、貧しい国のことを、あまり考えていない。
+BASIC5000_0993|jsut|{ch u u g o k u d e w a pau b i w a pau k e N k o o t o k i r i h a n a sh I t e k a N g a e r a r e r u k o t o w a n a k a cl t a}|中国では、美は、健康と切り離して考えられることはなかった。
+BASIC5000_1191|jsut|{m u r a n o h I t o t a ch i g a pau sh i z e N k a N ky o o n i k a N sh I t e h a n a sh I t a g i r o N w a h a k u n e ts u sh I t a}|村の人たちが、自然環境に関して話した議論は白熱した。
+BASIC5000_0755|jsut|{k u w a sh i k U s e ts u m e e sh I t e i r u j i k a N g a a r i m a s e N}|詳しく説明している時間がありません。
+BASIC5000_0777|jsut|{k U s a n o n a g a k u n o b i t e i r u t o k o r o o y u b i s a sh I t e i i m a sh I t a}|草の長く伸びている所を指さしていいました。
+BASIC5000_3366|jsut|{h a N i w a h i r o i m o n o n o pau e e sh o o n o t a m e pau k o o g e k i m a d e n i j i k a N g a k a k a r u}|範囲は広いものの、詠唱のため、攻撃までに時間がかかる。
+BASIC5000_0766|jsut|{t o ch u u d e b a s u g a k o sh o o sh I t a n o d e pau g a cl k o o e h a sh i cl t e i cl t a}|途中でバスが故障したので、学校へ走っていった。
+BASIC5000_0136|jsut|{ch i n a m i n i pau s o r e w a k o n o h a n a sh i n o pau g o j i ts u d a N n i s u r u y o t e e d e s U}|ちなみに、それはこの話の、後日談にする予定です。
+BASIC5000_2511|jsut|{sh o o s e ts u k a t o i u m o n o w a pau n i N g e N n i ky o o m i o m o cl t e i r u}|小説家というものは、人間に興味を持っている。
+BASIC5000_2691|jsut|{ch i k e cl t o g a t e n i h a i cl t a r a pau s u g u n i k i m i n o t o k o r o n i o k u r i m a s U}|チケットが手に入ったら、すぐに君のところに送ります。
+BASIC5000_1067|jsut|{t a b i b i t o w a t a ch i d o m a cl t e pau w a t a sh i n i m i ch i o k i i t a}|旅人は立ち止まって、私に道を聞いた。
+BASIC5000_1953|jsut|{k o n e k o n o sh i cl p o o h i cl p a r u t o w a pau m e a r i i m o i t a z u r a cl k o d a cl t a}|子ネコのしっぽを引っ張るとは、メアリーもいたずらっ子だった。
+BASIC5000_0283|jsut|{t o r i d a cl t a r a pau s u g u s o k o n i t o N d e i k u n o n i}|鳥だったら、すぐそこに飛んでいくのに。
+BASIC5000_0368|jsut|{p u u r u d e o y o i d e i r u a i d a n i pau k a n o j o w a r o cl k a a n o k a g i o n a k U sh i t a}|プールで泳いでいる間に、彼女はロッカーの鍵をなくした。
+BASIC5000_2782|jsut|{m u k a sh i pau k o n o m u r a n i h I t o r i n o i t a z u r a n a sh o o n e N g a s u N d e i t a}|昔、この村に１人のいたずらな少年が住んでいた。
+BASIC5000_3105|jsut|{k o n o k o t o n i y o r i f u N s a i sh i y a s U k u n a r i pau sh o k U k a i n o k e e s e e y a pau e N k a o y o o i n i s u r u}|このことにより粉砕しやすくなり、食塊の形成や、嚥下を容易にする。
+BASIC5000_0534|jsut|{s e e k o o sh I t e m o sh i n a k U t e m o pau b e s U t o o ts U k u s u}|成功してもしなくても、ベストを尽くす。
+BASIC5000_3593|jsut|{ch o o g u N sh u u r a i j i n i w a pau h I sh i N t a i d e d a i s a N g o ch o o t o n a r u g a pau y a e e ch u u n i t o ts u j o t o sh I t e r a i sh u u sh I t a h o o pau n i y o cl t e pau s a ts u g a i s a r e t a}|趙軍襲来時には、飛信隊で第三伍長となるが、野営中に突如として来襲した龐煖によって、殺害された。
+BASIC5000_0613|jsut|{g e ts u y o o m a d e n i pau k o n o sh i g o t o o o e t e k u d a s a i}|月曜までに、この仕事を終えてください。
+BASIC5000_3784|jsut|{r i m e N ch u u o o n i m a r u w a k U k i r i m o N pau k i cl k o o k i r i m o N pau k a o o n o g o k u i N n i k u w a e pau h i d a r i sh I t a n i z a j i N pau g o k u i N g a u t a r e r u}|裏面中央に丸枠桐紋、亀甲桐紋、花押の極印に加え、左下に座人、極印が打たれる。
+BASIC5000_0159|jsut|{ry o k a k u w a pau h o d o o ky o o o ts U k a cl t e pau r o s e N o w a t a cl t e k u d a s a i}|旅客は、歩道橋を使って、路線を渡ってください。
+BASIC5000_3452|jsut|{k e r o r o g u N s o o d e w a pau h a i i r o n o k a m i n o k e d a g a pau sh I ch i n i N n o n a n a d e w a pau e m e r a r u d o g u r i i N d a cl t a}|ケロロ軍曹では、灰色の髪の毛だが、七人のナナでは、エメラルドグリーンだった。
+BASIC5000_0329|jsut|{n e m u k u n a i k a r a t o i u d a k e d e pau o s o k u m a d e o k i t e i t e w a i k e n a i}|眠くないからと言うだけで、遅くまで起きていてはいけない。
+BASIC5000_3680|jsut|{d a N j o N n o t a N s a k U ch u u n i w a pau y a s e e n o m o N s U t a a t o b a t o r u sh I t a r i pau t a k a r a b a k o k a r a pau a i t e m u o ny u u sh u d e k I t a r i s u r u}|ダンジョンの探索中には、野生のモンスターとバトルしたり、宝箱から、アイテムを入手できたりする。
+BASIC5000_2866|jsut|{sh o o k i gy o o w a pau d a i k i gy o o n i sh i b a sh i b a pau ky u u sh u u s a r e r u}|小企業は、大企業にしばしば、吸収される。
+BASIC5000_3782|jsut|{i t a r i a g o n i k a N n o o d e a r i pau k e N ky u u h a cl py o o m o k I h o N t e k i n i i t a r i a g o d e o k o n a u}|イタリア語に堪能であり、研究発表も基本的にイタリア語で行う。
+BASIC5000_3399|jsut|{m a t a pau i k I s a r e t a z a i g a i sh i s a N w a pau ch u u k a N b a i sh o o t o y o b a r e r u b a i sh o o n o i ch i b u t o i u k e e t a i o t o r u k o t o m o a r u}|また、遺棄された在外資産は、中間賠償と呼ばれる賠償の一部という形態をとることもある。
+BASIC5000_2216|jsut|{a i w a pau s u b a r a sh i i k a N j o o d e pau i cl sh o o n o u ch i n i pau i ts U k a w a d a r e n i m o u m a r e t e k u r u m o n o d e a r u}|愛は、すばらしい感情で、一生のうちに、いつかは誰にも生まれてくるものである。
+BASIC5000_2801|jsut|{h a i sh a d e h a n i ts u i t a t a b a k o n o y a n i o t o cl t e m o r a u t o pau h i y o o w a pau d o r e k u r a i k a k a r u d e sh o o}|歯医者で歯についたたばこのヤニを取ってもらうと、費用は、どれくらいかかるでしょう。
+BASIC5000_1604|jsut|{p i z a o j i y u u n i m e sh i a g a cl t e k u d a s a i}|ピザを自由に召し上がってください。
+BASIC5000_3433|jsut|{h a k a w a k a N n i a cl t a t o i u g a pau g e N s o N sh I t e i n a i}|墓所は館にあったというが、現存していない。
+BASIC5000_3962|jsut|{n i N g e N k a i d e w a pau m a r i n a n o i e n i i s o o r o o sh I t e i t a}|人間界では、マリナの家に居候していた。
+BASIC5000_2150|jsut|{h o o m o N ky a k u w a j u u h a ch i n i ch i n i k i t e pau h a ts U k a n i t a ts U k o t o n i n a cl t e i r u}|訪問客は１８日に来て、２０日に立つことになっている。
+BASIC5000_1130|jsut|{h a y a k a r o u g a y u cl k u r i d e a r o o g a pau ch u u i sh I t e u N t e N sh i n a s a i}|速かろうがゆっくりであろうが、注意して運転しなさい。
+BASIC5000_2139|jsut|{k i m e n o a r a i z a i sh I ts u g a pau s o n o k o n o y a w a r a k a i h a d a o k i z u ts U k e t a}|きめの粗い材質が、その子の柔らかい肌を傷つけた。
+BASIC5000_3326|jsut|{k a N g e k I s e e n o t a n e m o sh i r a r e t e o r i pau k o N g o m o o o k u g a ts u i k a s a r e r u k a n o o s e e g a a r u}|間隙性の種も知られており、今後も多くが追加される可能性がある。
+BASIC5000_0966|jsut|{sh a k u y o o g o g a m a cl t a k u n a i t o i u g e N g o w a pau o s o r a k u n a i d e a r o o}|借用語が全くないという言語は、おそらくないであろう。
+BASIC5000_3481|jsut|{t o k U ch o o t o sh I t e pau a k u m a d e r e k I sh i n o k i r o k u n i j u u t e N g a o o i n o d e pau sh i k i n i k u r a b e t e m o n o g a t a r i n o k i j u ts U t o sh I t e w a o m o sh i r o m i n i k a k e r u g a pau m i k o t o n o r i y a j o o s o o b u N o s o n o m a m a i N y o o sh I t e i r u t a m e pau s e e k a k u s a d e w a sh i k i n i m a s a r u}|特徴として、あくまで歴史の記録に重点が多いので、史記に比べて物語の記述としては面白みに欠けるが、詔や上奏文をそのまま引用しているため、正確さでは史記に勝る。
+BASIC5000_0883|jsut|{k I sh a w a o m o cl t e i t a h o d o k o N d e i n a k a cl t a}|汽車は思っていたほど混んでいなかった。
+BASIC5000_3668|jsut|{ky o o ry o k u n a n o o ry o k u o m o ts U h a i k i b u ts U t o pau g u N t a i t o k a sh I t a b a k e m o n o r a n i y o r u k u r o o o g u N n o sh i N k o o n o m a e n i pau y o o s a i w a pau k a N t a N n i k a N r a k u sh I t e sh i m a cl t a}|強力な能力を持つ廃棄物と、軍隊と化した化物らによる黒王軍の侵攻の前に、要塞は、簡単に陥落してしまった。
+BASIC5000_2785|jsut|{y o r u n e m u r e n a k U t e pau k a r e w a h i r o o sh I t e pau k a o i r o g a w a r u k a cl t a}|夜眠れなくて、彼は疲労して、顔色が悪かった。
+BASIC5000_2417|jsut|{k e e k a i ch u u n o k e e k a N g a pau t o o k u n o b o N y a r i t o sh I t a k a g e n i k i z u i t a}|警戒中の警官が、遠くのぼんやりとした影に気づいた。
+BASIC5000_3382|jsut|{t a n o k a z o k u y a sh i y o o n i N n o y o o n i o cl t o n i a i j i N g a i t a t o g i n e N o d a i t a n o k a h i k a w a f u m e e d e a r u}|他の家族や使用人のように夫に愛人がいたと疑念を抱いたのか否かは不明である。
+BASIC5000_1719|jsut|{ky o o h a k u n o m o t o n i n a s a r e t a y a k U s o k u w a pau m u k o o d a}|脅迫のもとになされた約束は、無効だ。
+BASIC5000_2376|jsut|{e cl k U s u s e N w a pau k o cl s e ts u k a sh o o ts U k i t o m e r u n o n i m o ch i i r a r e r u}|エックス線は、骨折箇所をつきとめるのに用いられる。
+BASIC5000_1129|jsut|{i ch i pau n i n e N d e m a s U t a a s u r u n o w a m u z u k a sh i i}|１、２年でマスターするのは難しい。
+BASIC5000_1847|jsut|{g a k e k a r a o ch i t a k i sh u m o u m a m o pau m a m o n a k U ky u u j o s a r e t a}|崖から落ちた騎手も馬も、まもなく救助された。
+BASIC5000_2019|jsut|{u s u g i t a n a i pau u m a r e t a k o ky o o n o m a ch i n i m o d o cl t e k i t a}|薄汚い、生まれた故郷の街に戻ってきた。
+BASIC5000_2706|jsut|{k e e i ch i pau t e N p u r a g a a g a cl t a k a r a pau s a r a m o cl t e k o i}|恵一、天ぷら揚がったから、皿持って来い。
+BASIC5000_2628|jsut|{k o u r i sh o o n i N w a pau o r o sh i d e sh i i r e t e k o u r i d e u r u}|小売商人は、卸しで仕入れて小売りで売る。
+BASIC5000_2870|jsut|{g o d a i n o sh o o b o o sh a g a pau k a j i n o g e N b a n i k a k e ts U k e t a}|５台の消防車が、火事の現場に駆けつけた。
+BASIC5000_3757|jsut|{sh i r o n o y u u sh a w a pau n o k o s a r e t a f u e o t e n i j o o o ky u u sh U ts u n o t a m e sh i r o o n u k e d a s u}|白の勇者は、残された笛を手に女王救出のため城を抜け出す。
+BASIC5000_3251|jsut|{n i h o N g o n i e e g o o m a z e r u g a pau s U p e i N g o o ts U k a u b a m e N w a n a k a cl t a}|日本語に英語を混ぜるが、スペイン語を使う場面はなかった。
+BASIC5000_1465|jsut|{k U s u r i g a r a N y o o s a r e r u t o pau h I t o b i t o n o k e N k o o o g a i s u r u k a n o o s e e g a a r u}|薬が乱用されると、人々の健康を害する可能性がある。
+BASIC5000_0338|jsut|{t o r a w a pau sh o o m e ts u sh I k a k a cl t e i r u sh u z o k u d e a r u}|虎は、消滅しかかっている種族である。
+BASIC5000_1330|jsut|{b e cl sh i n o ch u u b u N sh o n o t o o r i pau ch u u m o N i t a sh i m a s U}|別紙の注文書の通り、注文いたします。
+BASIC5000_3858|jsut|{sh i N d a N g a k u d e w a o o d a N w a h I t o ts u n o ch o o k o o t o sh I t e t o r a e r a r e t e i r u}|診断学では黄疸はひとつの徴候としてとらえられている。
+BASIC5000_0473|jsut|{o cl t o g a sh i N d a t o k i pau k a n o j o w a j i s a ts u sh I t a i k i b u N n i n a cl t a}|夫が死んだ時、彼女は自殺したい気分になった。
+BASIC5000_1994|jsut|{n u s u m a r e t a h o o s e k i w a pau d o N n a k o t o g a a cl t e m o t o r i m o d o s a n a k e r e b a n a r a n a i}|盗まれた宝石は、どんなことがあっても取り戻さなければならない。
+BASIC5000_2406|jsut|{d o n o y o o n i sh I t e i g i r i s u j i N t o a m e r i k a j i N o k u b e ts u d e k i m a s U k a}|どのようにしてイギリス人とアメリカ人を区別できますか。
+BASIC5000_2583|jsut|{u t a g a h e t a n a n o d e pau k a r e w a pau h I t o m a e d e u t a u n o o i y a g a r u}|歌が下手なので、彼は、人前で歌うのをいやがる。
+BASIC5000_1375|jsut|{sh i r e e k a N w a pau b u k a n i m u k a cl t e t a d a ch i n i h a cl p o o s u r u y o o m e e r e e o h a cl sh I t a}|司令官は、部下に向かって直ちに発砲するよう命令を発した。
+BASIC5000_3463|jsut|{a t o n i a t o t o r i n o o o j i o u m u g a pau o cl t o o u sh i n a cl t a sh i N r o o d e k U ch i o t o z a s u}|後に跡取りの皇子を生むが、夫を失った心労で口を閉ざす。
+BASIC5000_0781|jsut|{sh i N y a t e r e b i d e pau k a u b o o i n o e e g a o m i m a sh I t a k a}|深夜テレビで、カウボーイの映画を見ましたか。
+BASIC5000_0997|jsut|{k e N j i ts u n a k U s a n o n e r e b e r u n o u N d o o o k i z u k i a g e r u k o t o n i sh u u ch u u sh i n a k e r e b a n a r a n a i}|堅実な草の根レベルの運動を築きあげることに集中しなければならない。
+BASIC5000_0067|jsut|{m i i t i N g u n i a n a o a k e t e sh i m a cl t a k o t o n i t a i sh i pau s a i d o pau o w a b i sh i m a s U}|ミーティングに穴をあけてしまったことに対し、再度、お詫びします。
+BASIC5000_2998|jsut|{k a k U ch i n o m a ts u r i d e m o pau m i N y o o g a k I k a r e n a i t o k o r o w a n a i h o d o d e pau m i N y o o s e N m o N b a N g u m i m o h o o s o o s a r e t e i r u}|各地の祭りでも、民謡が聞かれないところはない程で、民謡専門番組も放送されている。
+BASIC5000_1112|jsut|{m e u e n o h I t o n i w a pau r e e g i t a d a sh I k u sh i n a k e r e b a n a r a n a i}|目上の人には、礼儀正しくしなければならない。
+BASIC5000_0480|jsut|{i ch i n a N s a cl t e m a t a i ch i n a N pau m a t a m a t a n a N d a i g a sh a ch o o k a r a pau t o cl p u d a u N d e o r i t e k i t a y o}|一難去ってまた一難、またまた難題が社長から、トップダウンで降りてきたよ。
+BASIC5000_2891|jsut|{k a cl sh I t a m o n o n i m i z u o pau u e t a r u m o n o n i w a pau k a t e o a t a e y o}|渇した者に水を、飢えたる者には、糧を与えよ。
+BASIC5000_0905|jsut|{s u i s o k u g a m a ch i g a cl t e i n a k e r e b a pau k a r e w a y o N j u cl s a i d a}|推測が間違っていなければ、彼は４０歳だ。
+BASIC5000_1525|jsut|{k I k o k U sh a t a ch i w a pau n i cl p o N n o s e e k a ts u n i n a r e r u n o n i k u r o o sh I t e i r u}|帰国者たちは、日本の生活に慣れるのに苦労している。
+BASIC5000_3256|jsut|{m a t a pau t o o d a i ch u u k i i k o o w a pau j i k a m a k i sh I k i d e a cl t a i n a s a k u w a pau n a w a sh i r o sh I k i n i k a w a cl t e i cl t a}|また、唐代中期以降は、直播き式であった稲作は、苗代式に変わっていった。
+BASIC5000_0700|jsut|{u ch i d e sh I t o w a pau sh i t o sh i N sh o k u o t o m o n i sh i pau a r a y u r u b u j u ts u n o n o o h a u t o pau h i d e N o ts U t a e r u s e e d o d a}|内弟子とは、師と寝食をともにし、あらゆる武術のノウハウと、秘伝を伝える制度だ。
+BASIC5000_3882|jsut|{b u sh I sh u cl sh i N n o b a a i w a sh u k u N n o m e N j o o o u k e pau t a k o k u e w a t a r u b a a i n i w a pau b u gy o o sh o e n o t o d o k e d e g a h I ts u y o o d e pau m a ch i b u gy o o sh o n o k a t a k i u ch I ch o o n i k I s a i s a r e pau t o o h o N o u k e t o r u}|武士出身の場合は主君の免状を受け、他国へわたる場合には、奉行所への届出が必要で、町奉行所の敵討帳に記載され、謄本を受け取る。
+BASIC5000_1747|jsut|{k a r e w a pau a sh I t a a o o t o i cl t e w a k a r e t a g a pau s o r e k a r a pau n a n i n o o t o s a t a m o n a i}|彼は、明日会おうと言って別れたが、それから、何の音沙汰もない。
+BASIC5000_3343|jsut|{f U k u b u g a i z e N y o r i m o h o s o k u n a cl t e o r i pau y o r i ky o o ry o k u n a a g o t o d o k u e k i o b u k I t o s u r u}|腹部が以前よりも細くなっており、より強力な顎と毒液を武器とする。
+BASIC5000_0255|jsut|{o N n a n o k o w a pau i i f U k u o m i s e b i r a k a s u n o g a s U k i d a}|女の子は、いい服を見せびらかすのが好きだ。
+BASIC5000_3947|jsut|{d a i n i b u k a r a d a i s a N b u n i k a k e t e pau k i n a i z e N i k i o sh U ch u u n i o s a m e t e pau o d a k a n o h i cl t o o b u t a i d e a cl t a g a t o ts u j o pau m u h o N}|第二部から第三部にかけて、畿内全域を手中に治めて、織田家の筆頭部隊であったが突如、謀反。
+BASIC5000_3209|jsut|{i r u u v a t a a r u n o t e n i y o cl t e s o o z o o s a r e t a s a N sh u z o k u pau a i n u a pau e r u f u pau n i N g e N n o n a k a n i w a pau sh u z o k u n o k a k i n e o k o e t e m u s u b a r e r u m o n o g a i t a}|イルーヴァタールの手によって創造された三種族、アイヌア、エルフ、人間の中には、種族の垣根を越えて結ばれるものがいた。
+BASIC5000_0600|jsut|{r i j i k a i w a pau k a i g a i n o m o ch I k a b u o h o o k I s u r u k o t o o k e ts u g i sh i m a sh I t a}|理事会は、海外の持ち株を放棄することを議決しました。
+BASIC5000_3505|jsut|{y a k a i m a k i o s o ts u n a k U k o n a sh i pau g u u k o m o u r a y a m u j o sh i ry o k u n o t a k a i b i j i N d a g a pau o t o k o u N g a w a r u k u pau sh u m i w a o m i a i}|夜会巻きをソツなくこなし、ぐー子も羨む女子力の高い美人だが、男運が悪く、趣味はお見合い。
+BASIC5000_2859|jsut|{a r e cl k U s u w a pau n a N d a i k u r u m a o m o cl t e i r u n o}|アレックスは、何台クルマを持っているの。
+BASIC5000_0898|jsut|{p o r u n o e e g a w a pau t a i t e e m a ch i n o m i s u b o r a sh i i t o k o r o n i a r u pau f u r u b i t a e e g a k a N d e j o o e e s a r e r u}|ポルノ映画は、たいてい町のみすぼらしい所にある、古びた映画館で上映される。
+BASIC5000_0186|jsut|{m e r o s u w a pau k e cl sh I t e u s o ts U k i d e w a n a i}|メロスは、決してうそつきではない。
+BASIC5000_3348|jsut|{sh u j i N k o o w a m a i n i ch i o i k i r u n o n i s e e i cl p a i d e a r i pau i w a k a N w a ts u n o r u m o n o n o pau n a z o o ts u i ky u u sh i y o o t o w a sh i n a k a cl t a}|主人公は毎日を生きるのに精一杯であり、違和感は募るものの、謎を追求しようとはしなかった。
+BASIC5000_2352|jsut|{s a N by a k U h a ch i j u u i ch i n i ch i k a N pau m o N t o g o m e r i i n o b a s u w a pau h o t o N d o k a r a cl p o n o j o o t a i d e pau r o s e N o o o f U k u sh I t a}|３８１日間、モントゴメリーのバスは、ほとんど空っぽの状態で、路線を往復した。
+BASIC5000_2599|jsut|{k e N s e e n o k i k i g a h a j i m a cl t a n o w a pau k o n o y o o n a j o o ky o o n o m o t o d e a cl t a}|憲政の危機が始まったのは、このような状況のもとであった。
+BASIC5000_3729|jsut|{ch o j u ts u b u ts u n o e e y a k u n i h I ts u y o o n a d a i k i N w a pau k a i n o k a ts u d o o sh i k i N k a r a n e N sh U ts u s a r e r u}|著述物の英訳に必要な代金は、会の活動資金から捻出される。
+BASIC5000_2190|jsut|{d a b u r u n o b a s U ts u k i n o h e y a g a i i d e s U}|ダブルのバスつきの部屋がいいです。
+BASIC5000_2468|jsut|{n e ts u g a a r u s e i d e pau n a N k a a t a m a g a b o o cl t o sh I t e i r u}|熱があるせいで、なんか頭がぼーっとしている。
+BASIC5000_2789|jsut|{m u k a sh i n o t a N k e N k a t a ch i w a pau k o o k a i s u r u n o n i pau h o sh i o r i y o o sh I t a}|昔の探検家たちは、航海するのに、星を利用した。
+BASIC5000_0304|jsut|{i ch i m e N n o o o sh o k u w a pau d o o h a N m o sh I t a n o k a k e N t o o m o ts U k a n a i pau h i m a w a r i n o m u r e d a}|一面の黄色は、どう繁茂したのか見当もつかない、ヒマワリの群れだ。
+BASIC5000_0110|jsut|{n i y a r i t o w a r a cl t e pau s a N s e e n o i sh i o sh i m e sh I t a}|にやりと笑って、賛成の意思を示した。
+BASIC5000_0510|jsut|{o o m u w a pau h I t o n o k o e o m a n e r u k o t o g a d e k i r u}|オウムは、人の声をまねることができる。
+BASIC5000_2602|jsut|{sh i ch o o n o k a z o k u w a pau i ch i n i ch i j u u ky o o h a k u d e N w a n i n a y a m a s a r e t a}|市長の家族は、一日中脅迫電話に悩まされた。
+BASIC5000_0774|jsut|{k e N k u N t o t o n i i k u N t o d e w a pau d o ch i r a g a h a y a k U h a sh i r i m a s U k a}|健君とトニー君とでは、どちらが早く走りますか。
+BASIC5000_2485|jsut|{i m a n o t o k o r o e N j i N n i w a k o sh o o w a n a i}|今のところエンジンには故障はない。
+BASIC5000_3402|jsut|{p i a n o b a N s o o b a N m o pau h i N p a N n i e N s o o s a r e r u}|ピアノ伴奏版も、頻繁に演奏される。
+BASIC5000_2361|jsut|{s u m o o w a pau n i cl p o N n o pau d e N t o o t e k i n a s U p o o ts u d e s U}|相撲は、日本の、伝統的なスポーツです。
+BASIC5000_0491|jsut|{a d o r u f o w a pau a t a r a sh i i g a cl k o o g a k i n i i cl t e i m a s U g a pau m a e n o g a cl k o o n o y u u j i N n o k o t o o pau t a i h e N n a ts U k a sh i k u o m o cl t e i m a s U}|アドルフォは、新しい学校が気に入っていますが、前の学校の友人のことを、たいへん懐かしく思っています。
+BASIC5000_3837|jsut|{h o N s a k U h i N w a pau j i k a N n o n a g a r e g a k o t o n a r u b e cl s e k a i n o s o N z a i y a pau m i r a i n o s e k a i pau i d o o j i k a N pau s o r e r a n i y o r u p a r a r e r u n a r e k I sh i pau r u u p u pau p a r a d o cl k U s u n a d o pau f U k u z a ts u n a j i k a N j i k u o m o cl t e i r u}|本作品は、時間の流れが異なる別世界の存在や、未来の世界、時間移動、それらによるパラレルな歴史、ループ、パラドックスなど、複雑な時間軸を持っている。
+BASIC5000_0375|jsut|{b e b i i sh i cl t a a w a pau a k a N b o o n i u t a o u t a cl t e n e ts u k a s e y o o t o sh I t a}|ベビーシッターは、赤ん坊に歌を歌って寝付かせようとした。
+BASIC5000_1518|jsut|{sh o o b o o sh a g a t o o ch a k u sh I t a t o k i n i w a pau i e w a m o e a g a cl t e i t a}|消防車が到着したときには、家は燃え上がっていた。
+BASIC5000_3417|jsut|{j i b u N n o h a t a k e o a r a s u m o n o n i w a y o o sh a n a k U t e cl k e N s e e s a i o k u w a e r u}|自分の畑を荒らす者には容赦なく鉄拳制裁を加える。
+BASIC5000_0476|jsut|{s e N m u t o r i sh i m a r i y a k u n i g o sh u u n i N s a r e r u t o n o k o t o pau o m e d e t o o g o z a i m a s U}|専務取締役にご就任されるとのこと、おめでとうございます。
+BASIC5000_0150|jsut|{k e N b i ky o o t o b o o e N ky o o n o ch i g a i g a pau w a k a r i m a s U k a}|顕微鏡と望遠鏡の違いが、わかりますか。
+BASIC5000_2482|jsut|{i m a d e w a j i N s e e n i t a i s u r u k a N g a e k a t a g a k a w a cl t a}|今では人生に対する考え方が変わった。
+BASIC5000_0089|jsut|{g a r u f U p o o t o d e i ch i b a N n o f u r a i d o ch i k i N t o i cl t a r a pau s o r e w a m o o pau o b a a ch a N n o d a i d o k o r o d e s U y o}|ガルフポートで一番のフライドチキンと言ったら、それはもう、おばあちゃんの台所ですよ。
+BASIC5000_0799|jsut|{k o o s a N s u r u k u r a i n a r a pau sh i N d a h o o g a m a sh i d a}|降参するくらいなら、死んだ方がましだ。
+BASIC5000_0759|jsut|{ky o o k a sh o o t o j i t e w a t a sh i n o i u k o t o o k I k i n a s a i}|教科書を閉じて私の言うことを聞きなさい。
+BASIC5000_2943|jsut|{k i m i i g a i n i pau b o k u o sh i a w a s e n i d e k i r u h I t o w a i n a i}|君以外に、僕を幸せに出来る人はいない。
+BASIC5000_0508|jsut|{o n a k a g a a i t e i t a b a k a r i d e n a k u pau w a t a sh i t a ch i w a pau n o d o n o k a w a k i n i m o k u r u sh i N d e i t a}|お腹が空いていたばかりでなく、私達は、喉の渇きにも苦しんでいた。
+BASIC5000_1964|jsut|{m a n e e j a a w a pau w a t a sh i g a k a r e t o i cl sh o n i k u u k o o n i i cl t e w a d o o k a t o i i d a sh I t a}|マネージャーは、私が彼と一緒に空港に行ってはどうかと言い出した。
+BASIC5000_0864|jsut|{sh i N sh a ch o o w a pau k a i sh a n o t a i sh I ts u o pau k e N g o n a m o n o n i ts U k u r i a g e t a}|新社長は、会社の体質を、堅固なものに作り上げた。
+BASIC5000_2980|jsut|{u g o i t e i r u d e N sh a n i t o b i n o r u n o w a k I k e N d e a r u}|動いている電車に飛び乗るのは危険である。
+BASIC5000_3281|jsut|{n e m u t o t o m o n i t o sh o k a N d e h a t a r a i t e i r u g a pau n i N sh i N sh I t e pau k o t o b u k I t a i sh o k u g a k i m a cl t a}|ネムと共に図書館で働いているが、妊娠して、寿退職が決まった。
+BASIC5000_0251|jsut|{e N s o o k a i n o k i cl p u w a pau t o o j i m u sh o d e h a N b a i sh I t e i m a s U}|演奏会の切符は、当事務所で販売しています。
+BASIC5000_2784|jsut|{t a k e r i k u r u u u m i n o a r a sh i n o y o o n i pau i ch i z o k u g a h a g e sh i k U h a sh i r u}|猛り狂う海の嵐のように、一族が激しく走る。
+BASIC5000_0094|jsut|{d a ky o o s u r u n o w a pau w a t a sh i n o sh u g i n i h a N sh I t e i r u}|妥協するのは、私の主義に反している。
+BASIC5000_2231|jsut|{ky u u ky u u sh a w a pau k e g a n i N o pau m o y o r i n o by o o i N n i h a k o N d a}|救急車は、けが人を、最寄りの病院に運んだ。
+BASIC5000_1745|jsut|{k a r e cl t e pau n a g a n o n i s u N d e i r u h a z u n a n o n i pau n a N d e t o o ky o o e k i n i i r u}|彼って、長野に住んでいるはずなのに、なんで東京駅にいる。
+BASIC5000_2543|jsut|{y a ts u n o t a k u m i n a h a n a sh i n i pau b o k u w a k a N t a N n i d a m a s a r e t e sh i m a cl t a}|奴の巧みな話に、僕は簡単に騙されてしまった。
+BASIC5000_0416|jsut|{n e N ch o o n o m u s U k o t a ch i w a pau i m a w a ch I ch i o y a k a r a m a cl t a k u d o k u r i ts u sh I t e i r u}|年長の息子たちは、今は父親からまったく独立している。
+BASIC5000_3425|jsut|{d o o k U ts u n o n a k a n i w a d o w a a f u t a ch i g a s u m i ts u k i pau ch i k a n o n a k a k a r a t a n o sh i g e n a o t o g a h i b i k u}|洞窟の中にはドワーフ達が住み着き、地下の中から楽しげな音が響く。
+BASIC5000_1066|jsut|{n a n i y o r i m o m a z u d a i i ch i n i pau u s o o ts u k u n a}|何よりもまず第一に、うそをつくな。
+BASIC5000_0287|jsut|{t o r i n o y o o n i o m o i n o m a m a n i s o r a o t o b i t a i t o i u y o k u b o o g a pau h I k o o k i n o h a ts u m e e n i ts u n a g a cl t a}|鳥のように思いのままに空を飛びたいという欲望が、飛行機の発明につながった。
+BASIC5000_0906|jsut|{k i m i t a ch i w a pau d o o y a cl t e o t a g a i o sh i r i a cl t a n o d e s U k a}|君達は、どうやってお互いを知り合ったのですか。
+BASIC5000_0295|jsut|{k u s a k U s a s u r u k o t o b a cl k a r i d a k e d o pau k i o t o r i n a o sh I t e g a N b a cl t e i k i m a sh o o}|クサクサすることばっかりだけど、気を取り直して頑張っていきましょう。
+BASIC5000_2651|jsut|{s e k U sh a r u h a r a s u m e N t o w a pau i m a y a sh a k a i m o N d a i t o n a cl t a}|セクシャルハラスメントは、いまや社会問題となった。
+BASIC5000_1235|jsut|{k e N g a w a t a sh i n i a i n i k i t a n o w a pau ch o o d o n i sh u u k a N m a e d a cl t a}|ケンが私に会いに来たのは、ちょうど２週間前だった。
+BASIC5000_1436|jsut|{ch i ch I t o w a t a sh i w a pau n i ch i y o o b i n i w a pau i ts u m o t e n i s u o sh I t e i t a}|父と私は、日曜日には、いつもテニスをしていた。
+BASIC5000_1788|jsut|{a i h a N s u r u r i s o o o d a i t a pau f U t a ts u n o ky o o ry o k u n a s e e ry o k u g a t a i k e ts U s u r u n o w a pau s a i sh u u sh u d a N n o t o k i d e a r u}|相反する理想を抱いた、二つの強力な勢力が対決するのは、最終手段の時である。
+BASIC5000_0740|jsut|{a k u u N ts u z u k I t o i u m e n i a cl t a n o d e pau w a t a sh i n o z a i s a N w a pau t a ch i d o k o r o n i pau ts u i e s a cl t e sh i m a cl t a}|悪運続きという目にあったので、私の財産は、たちどころに、ついえさってしまった。
+BASIC5000_3749|jsut|{sh o k i n o p a r a sh u u t o w a k i n u s e e d e pau k o r e w a sh i m e r u t o o m o k u n a r u u e n i pau h i r a k a n a i j i k o g a y o k u o k o cl t a}|初期のパラシュートは絹製で、これは湿ると重くなる上に、開かない事故がよく起こった。
+BASIC5000_2064|jsut|{k o o k a t e k i n i pau i sh i n o s o ts u u o h a k a r u n o n i pau t a n o g o g a k u o sh i cl t e i r u d a k e d e w a pau j u u b u N d e w a n a i}|効果的に、意志の疎通を図るのに、他の語学を知っているだけでは、十分ではない。
+BASIC5000_1915|jsut|{ry o o a sh i o sh i cl k a r i t o j i m e N n i ts U k e t e i n a s a i}|両足をしっかりと地面につけていなさい。
+BASIC5000_0162|jsut|{m i N sh u sh u g i d e w a pau k o k u m i N w a pau ch o k U s e ts U s e e f u n o y a k u n i N o y o b u}|民主主義では、国民は、直接政府の役人を選ぶ。
+BASIC5000_2445|jsut|{k e e s a N n i i k u r a k a n o g o s a o k o o ry o n i i r e m a sh I t a k a}|計算にいくらかの誤差を考慮に入れましたか。
+BASIC5000_0414|jsut|{o y a s u m i w a pau a cl t o y u u m a n i o w a cl t e sh i m a cl t a}|お休みは、あっと言う間に終わってしまった。
+BASIC5000_3842|jsut|{a n i m e b a N d e w a pau b u k a w a s a w a N n i b i i m u j u u o s o o b i sh I t e i r u}|アニメ版では、部下は左腕にビーム銃を装備している。
+BASIC5000_3765|jsut|{sh I t a sh i i j i N b u ts u n i pau a d a n a o ts U k e r u k U s e g a a r u}|親しい人物に、あだ名をつける癖がある。
+BASIC5000_0818|jsut|{z u ts u u g a sh I t a n o d e pau a s U p i r i N o n i j o o n o N d a}|頭痛がしたので、アスピリンを２錠飲んだ。
+BASIC5000_3856|jsut|{i k U ts u k a n o ch i i k i d e w a pau sh i n a i sh I k u n i a t a i s u r u t o sh i g a n a k u pau k I s o j i ch I t a i g a ch o o s o N d a cl t a}|いくつかの地域では、市ないし区に値する都市がなく、基礎自治体が町村だった。
+BASIC5000_1470|jsut|{h i d o i n e pau b o k u r a n o k a N k e e w a pau k o N n a n i d o r a i d a cl t a n o}|ヒドイね、ボクらの関係は、こんなにドライだったの。
+BASIC5000_3706|jsut|{s o b o o pau k a ts u o o h e e n a s e e k a k u d e pau h a h a o y a g a d o i ts u j i N n o t a m e k a n a m a cl t a k U ch o o d e h a n a s u}|粗暴、かつ横柄な性格で、母親がドイツ人のためかなまった口調で話す。
+BASIC5000_3800|jsut|{sh o o z a k o ts U k i r i k o N n i w a pau u ch I h e e s a s u j i n o z a k o ts U ts u ts u m i g a m i r a r e r u}|小坐骨切痕には、内閉鎖筋の坐骨包がみられる。
+BASIC5000_1928|jsut|{k I s e e k a N w a g a s u s u N d e pau s e r u f U s a a b i s u n o g a s o r i N ky u u y u w a pau n e d a N g a s U k o sh i y a s u k u n a cl t a}|規制緩和が進んで、セルフサービスのガソリン給油は、値段が少し安くなった。
+BASIC5000_3435|jsut|{sh I k a sh I k o n o h i pau j i b u N n o y a cl t a k o t o g a z u cl t o k i n i n a cl t e i t e pau s o r e o ts u g u n a u ts u m o r i d e pau s a i g e N p a a t i i n i sh U ts u g e N sh I t a}|しかしこの日、自分のやったことがずっと気になっていて、それを償うつもりで、再現パーティーに出席した。
+BASIC5000_3959|jsut|{n o o k o o s o k U t o sh i N d a N s a r e pau i ch i j i k I t o k u j o o t a i d a cl t a g a pau k I s e k i t e k i n i m o ch i n a o s u}|脳梗塞と診断され、一時危篤状態だったが、奇跡的に持ち直す。
+BASIC5000_2335|jsut|{y o o g a N o pau ch i r i g a k u t e k i n i s e ts u m e e sh I t e k u r e m a s e N k a}|溶岩を、地理学的に説明してくれませんか。
+BASIC5000_0695|jsut|{n a ts u pau i g i r i s u d e w a pau a s a y o j i g o r o n i h i g a n o b o r u}|夏、イギリスでは、朝４時ごろに日が昇る。
+BASIC5000_3847|jsut|{k o n o k o t o w a pau g e N s e e r i e k i t e k i n a sh i N k o o k e e t a i d e a cl t a k o t o o m o n o g a t a cl t e i r u}|このことは、現世利益的な信仰形態であったことを物語っている。
+BASIC5000_2757|jsut|{h o o s e k i w a pau o m o i g a k e n a i b a sh o d e m i ts U k a cl t a}|宝石は、思いがけない場所で見つかった。
+BASIC5000_0835|jsut|{f u a N n a t o k i m o k a n a r i a cl t a g a pau k e cl ky o k u w a s u b e t e g a u m a k u i cl t a}|不安な時もかなりあったが、結局は全てがうまくいった。
+BASIC5000_3145|jsut|{k I t a N n o n a i g o i k e N pau k a i z e N a N o o y o s e k u d a s a i}|忌憚のないご意見、改善案をお寄せください。
+BASIC5000_0238|jsut|{s e e o o sh o k o k u w a pau k o n o m o N d a i n i t a i s u r u n i cl p o N n o sh I s e e o pau h a g e sh i k U h i n a N sh I t e i m a s U}|西欧諸国は、この問題に対する日本の姿勢を、激しく非難しています。
+BASIC5000_3232|jsut|{g e N z o o g o w a pau k a m i g a sh i m e cl t e i r u t a m e k a w a k a s U h i ts u y o o g a a cl t a g a pau s o r e d e m o a o j a sh i N y o r i w a k a N k o o g o n o t a i ky u u s e e m o t a k a k u pau t e m a g a k a k a r a n a k a cl t a}|現像後は、紙が湿っているため乾かす必要があったが、それでも青写真よりは感光後の耐久性も高く、手間が掛からなかった。
+BASIC5000_2771|jsut|{w a i r u d a a sh i y o r i pau a n a t a n o m e e r u a d o r e s u o u k a g a i m a sh I t a}|ワイルダー氏より、あなたのメールアドレスを伺いました。
+BASIC5000_0650|jsut|{t e o a r a cl t e sh i m a cl t a r a pau k o k o e o i d e}|手を洗ってしまったら、ここへおいで。
+BASIC5000_3464|jsut|{m a t a pau k a N b u o t e k i o N n i a t a t a m e r u k o t o n i y o cl t e k e ts u ry u u o s a k a N n i sh i pau e N sh o o n a d o o h a y a k U sh i z u m e r u pau m e N e k i ry o k u n a d o g a j o o sh o o s u r u pau k i N y a u i r u s u o g e N k i N sh I t a r i a r a i n a g a s u n a d o n o k o t o m o i w a r e t e i r u}|また、患部を適温に温めることによって血流をさかんにし、炎症などを早く鎮める、免疫力などが上昇する、菌やウイルスを減菌したり洗い流すなどのこともいわれている。
+BASIC5000_0665|jsut|{f U k u sh a ch o o n i y o r u t o pau k a i sh a w a pau i m a d a n i g a i k o k u n o k a i sh a k a r a pau k e e y a k u o m o r a cl t e i n a i}|副社長によると、会社は、いまだに外国の会社から、契約をもらっていない。
+BASIC5000_1404|jsut|{d o k i o k o e t e pau k o d a i n o k o N ch u u t a ch i g a pau k o h a k u n o n a k a d e i k i i k I t o o d o r u}|時を超えて、古代の昆虫たちが、琥珀の中で生き生きと踊る。
+BASIC5000_2170|jsut|{p u r e z e N t o n i s u r u pau k i r e i n a k a i g a r a o h i r o i n i i cl t a y o}|プレゼントにする、きれいな貝がらをひろいにいったよ。
+BASIC5000_3965|jsut|{s u b e t e n o sh i r i i z u n o b u cl k U k a b a a n i w a pau t o o j i n o n i N k i j o s e e a i d o r u k a sh u n i y o r u s u i s e N b u N g a k e e s a i s a r e t a}|すべてのシリーズのブックカバーには、当時の人気女性アイドル歌手による推薦文が掲載された。
+BASIC5000_0481|jsut|{a h i r u t a ch i w a pau i k e n o a ch i k o ch i o o y o i d e i t a}|アヒル達は、池のあちこちを泳いでいた。
+BASIC5000_2446|jsut|{e e k o k u d e w a k o k u o o w a k u N r i N s u r u g a pau t o o ch i w a sh i n a i}|英国では国王は君臨するが、統治はしない。
+BASIC5000_1813|jsut|{k u r u m a m o n a n i m o n a k u pau s e e k a ts u h o g o d e i k i t e m a s U}|車も何もなく、生活保護で生きてます。
+BASIC5000_2728|jsut|{h o N n o r i s U t o g a n a g a s u g i r u y o o d a cl t a r a pau g a i k o k u n o h o N w a h a b u i t e k u d a s a i}|本のリストが長すぎるようだったら、外国の本は省いてください。
+BASIC5000_0718|jsut|{y o o w a pau k a n o j o g a h I t o r i d e sh U k u d a i o sh i y o o t o sh i n a i k o t o d e a r u}|要は、彼女が一人で宿題をしようとしないことである。
+BASIC5000_0055|jsut|{m i ts u b a ch i w a pau n i o i n o s a N p u r u o s u n i m o ch I k a e r u k o t o n i y o cl t e pau sh o k u ry o o n o a r i k a o ts U t a e r u}|ミツバチは、においのサンプルを巣に持ち帰ることによって、食糧のありかを伝える。
+BASIC5000_1933|jsut|{o d a a k a n e w a pau b i sh o o j o k o N t e s U t o a g a r i n o j o y u u d a}|小田茜は、美少女コンテスト上がりの女優だ。
+BASIC5000_2792|jsut|{s a i z e N o ts U k u s U k o t o w a pau y o i k o t o d e a r u}|最善をつくすことは、よいことである。
+BASIC5000_1680|jsut|{e k i n o ch i k a k u n o h o d o o n i w a pau d o k o n i i cl t e m o o b i t a d a sh i i k a z u n o j i t e N sh a g a h o o ch I s a r e t e i r u n o g a m i k a k e r a r e r u}|駅の近くの歩道には、何処に行ってもおびただしい数の自転車が放置されているのが見かけられる。
+BASIC5000_3688|jsut|{s a i sh o o s U t u u n e t o t o m o n i pau t a i k a N ch o k u z e N n o s a a d i n o o sh i n o b i ry o k o o o ky o k a sh I t a g a pau s o n o k e cl k a pau g o o t o o d a N n i y o r u s a a d i y u u k a i o y u r u sh I t e sh i m a u}|宰相ストゥーネと共に、戴冠直前のサーディのお忍び旅行を許可したが、その結果、強盗団によるサーディ誘拐を許してしまう。
+BASIC5000_2333|jsut|{g u N n o k i r i ts u w a g e N k a k u d a k a r a pau a n a t a w a s o cl ch i n o s e k a i n i w a m u i t e i n a i}|軍の規律は厳格だから、あなたはそっちの世界には向いていない。
+BASIC5000_3585|jsut|{m a N g a b a N d e w a s o n o s e e sh I ts u n o sh o o s a i g a a k a s a r e pau f u u i N s u r u a i t e n i o o j i t e j u ts u sh i n i m o s o o o o n o t a i ry o k u g a m o t o m e r a r e r u t o s a r e pau a m a r i n i m o j i ts u ry o k u n i s a g a a r u b a a i w a f u u i N d e k i n a i}|漫画版ではその性質の詳細が明かされ、封印する相手に応じて術師にも相応の体力が求められるとされ、あまりにも実力に差がある場合は封印できない。
+BASIC5000_2085|jsut|{g o r i r a w a h a n a s u n o n i k U ch i b i r u y a sh I t a o ts U k a u k o t o g a d e k i n a i g a pau b e ts u n o h o o h o o d e h I t o b i t o t o k o my u n i k e e sh o N g a d e k i r u n o d e a r u}|ゴリラは話すのに唇や舌を使うことができないが、別の方法で人々とコミュニケーションができるのである。
+BASIC5000_1277|jsut|{ch o o e k i n i n e N n o h a N k e ts u n i pau ch I h o o k e N j i w a f u m a N d a cl t a}|懲役２年の判決に、地方検事は不満だった。
+BASIC5000_2660|jsut|{t o o s e N sh I t a i n a r a pau i m e e j i a cl p U s u r u ts u m o r i d e n a i t o n e}|当選したいなら、イメージアップするつもりでないとね。
+BASIC5000_1464|jsut|{h i i t o a i r a N d o g e N sh o o n o j i cl t a i k a i s e k I t o pau t a i s a k u n o a r i k a t a n i ts u i t e}|ヒートアイランド現象の実体解析と、対策のあり方について。
+BASIC5000_1593|jsut|{ky o o b u n o r e N t o g e N o t o cl t e k u d a s a i}|胸部のレントゲンをとってください。
+BASIC5000_3836|jsut|{ch u u z o o k o o t e e n i o i t e pau f u N j i N n o d e n a i k o o a ts U k i N g a t a ch u u z o o n o d o o ny u u y a pau j u u ry o o b u ts u o a ts U k a u s a gy o o n o k I k a i k a n i y o r u h i r o o k e e g e N n a d o w a s o n o i ch i r e e d e a r u}|鋳造工程において、粉塵の出ない高圧金型鋳造の導入や、重量物を扱う作業の機械化による疲労軽減などはその一例である。
+BASIC5000_2695|jsut|{y o N sh u r u i n o k i N z o k u o ts U k a u k o t o d e pau t o k U t e e n o ky o o sh i N o o s a e m a s U}|四種類の金属を使うことで、特定の共振を抑えます。
+BASIC5000_1029|jsut|{m i y u k i w a k a m e r a o m o cl t e i r u pau sh I k a sh i pau k a n o j o w a s o r e g a s U k i d e n a i}|美由紀はカメラを持っている、しかし、彼女はそれが好きでない。
+BASIC5000_0630|jsut|{w a t a sh i n o z o N d e t a ch i i o t e n i i r e r u k o t o g a d e k i n a k a cl t a}|私望んでいた地位を手に入れることができなかった。
+BASIC5000_2298|jsut|{n a b e n i g o m a a b u r a o ch u u b i d e n e cl sh i pau n i N n i k u pau t o r i n i k u o i r e t e i t a m e pau i r o g a k a w a cl t a r a pau ch u u k a s u u p U t o h a k u s a i o i r e t e n i r u}|鍋にごま油を中火で熱し、にんにく、鶏肉を入れて炒め、色が変わったら、中華スープと白菜を入れて煮る。
+BASIC5000_2831|jsut|{sh i N s e e f u w a pau k a z u o o k u n o gy o o s e e k a i k a k u o m o t a r a s u m o n o t o pau k I t a i s a r e t a}|新政府は、数多くの行政改革をもたらすものと、期待された。
+BASIC5000_0051|jsut|{m i n i s U k a a t o g a m o o i ch i d o pau f u cl k a ts U s u r u t o o m o i m a s U k a}|ミニスカートがもう一度、復活すると思いますか。
+BASIC5000_1877|jsut|{s a b i sh i k u n a cl t a t o k i w a pau i ts u d e m o pau k i r a k u n i w a t a sh I t o h a n a sh i n i k i t e k u d a s a i}|寂しくなった時は、いつでも、気楽に私と話しに来て下さい。
+BASIC5000_3039|jsut|{sh I t a g a cl t e pau h o o j o o k e N r o N w a h i r o k u pau t a y o o n a k o o z o o o o n a j i w a k u g u m i n i h o o s e ts U s u r u m o n o d e a r u}|したがって、豊饒圏論は広く、多様な構造を同じ枠組みに包摂するものである。
+BASIC5000_0324|jsut|{s e e k e e o t a t e r u t a m e n i pau sh i cl k a r i h a t a r a k i n a s a i}|生計を立てるために、しっかり働きなさい。
+BASIC5000_1377|jsut|{s e r o N w a s e e j i n o ry o o i k i d e pau j u u y o o n a y a k u w a r i o e N z u r u}|世論は政治の領域で、重要な役割を演ずる。
+BASIC5000_3029|jsut|{n a o pau m a j u ts U s a i d o g a i ch i m a i i w a d e w a n a i k o t o m o a r i pau s e e ry o k u n o k i N k o o m o pau h a N h a N d e t a m o t a r e t e i r u t o s a r e r u}|なお、魔術サイドが一枚岩ではないこともあり、勢力の均衡も、半々で保たれているとされる。
+BASIC5000_0188|jsut|{m e r i i n o n i k o y a k a n a k a o w a pau k a n o j o n o sh i a w a s e o a r a w a sh I t e i t a}|メリーのにこやかな顔は、彼女の幸せを表していた。
+BASIC5000_3746|jsut|{t o k u n i k o o t o o n a r e N k i N j u ts u sh i w a pau r e e k o N n o r e N k i N j u ts u o o k o n a i sh i N t o i cl t a i k a s u r u t o k a N g a e r a r e t a n o d e pau sh u u ky o o y a sh i N p I sh i s o o n o o m o m u k i g a ts u y o k u n a cl t a}|特に高等な錬金術師は、霊魂の錬金術を行い神と一体化すると考えられたので、宗教や神秘思想の趣きが強くなった。
+BASIC5000_1152|jsut|{t e h a j i m e w a pau s a N d a i sh u u ky o o n o s e e ch i pau e r u s a r e m u o o t o z u r e r u k o t o d a cl t a}|手始めは、三大宗教の聖地、エルサレムを訪れることだった。
+BASIC5000_0553|jsut|{g a i sh U ts u s u r u y o r i k a w a pau m u sh i r o k a n i i t a i}|がいしゅつするよりかは、むしろ家にいたい。
+BASIC5000_0985|jsut|{o N sh a n o o k a N g a e o pau s a k i n i o cl sh a cl t e k u d a s a i}|御社のお考えを、先におっしゃってください。
+BASIC5000_3123|jsut|{h a k o h i b a ch i n i w a pau w a k i n i m i z u o i r e t e pau s o n o n a k a n i k a N t o cl k u r i o ts U k e r u s e ts u b i g a s o n a w a r u y o o n i n a cl t a}|箱火鉢には、脇に水を入れて、その中に燗徳利を漬ける設備が備わるようになった。
+BASIC5000_1975|jsut|{m a r i g a N w a pau j u u y o N k a g e ts u m a e n i pau gy a k U t e N d e o o z a o d a cl sh u sh I t e i r a i pau m a cl t a k u n o m a k e sh i r a z u d e s U}|マリガンは、１４ヶ月前に、逆転で王座を奪取して以来、まったくの負けしらずです。
+BASIC5000_1444|jsut|{a k a j i w a n a n i t o k a u m e a w a s e n a k e r e b a n a r a n a i}|赤字は何とか埋め合わせなければならない。
+BASIC5000_2501|jsut|{t o o j o o sh a t a ch i w a pau o sh i w a k e n a g a r a u sh i r o n o d e g u ch i n i s u s u N d a}|搭乗者達は、押し分けながら後ろの出口に進んだ。
+BASIC5000_1181|jsut|{s a i b a N k a N w a pau s o n o sh u u j i N n o i ch i n e N n o k e e k i o pau sh a m e N sh I t a}|裁判官は、その囚人の一年の刑期を、赦免した。
+BASIC5000_2760|jsut|{m i z u u m i n o u e n i pau i k u s o o k a n o b o o t o g a a cl t a}|湖の上に、幾艘のボートがあった。
+BASIC5000_1473|jsut|{k U s u r i n o k I k i m e g a pau d a N d a N n a k u n a cl t e k i t a}|薬の効き目が、だんだんなくなってきた。
+BASIC5000_2419|jsut|{k o sh i n o i t a m i k a r a a sh i g a n a m a r i n o y o o n i o m o k U h i k i z u r u y o o n i a r u i t e i m a sh I t a}|腰の痛みから足が鉛のように重く引きずるように歩いていました。
+BASIC5000_3655|jsut|{t a d a sh i pau s a o t o m e d o o y o o pau u cl t a ch o k u g o n i gy a k U h o o k o o n i n o k i i o o s e b a z e N g o d o o j i n i m o u t e pau ky o o g e k i sh I t e k i t a f U k u s u u n o a i t e o f u cl t o b a s U k o t o g a d e k i r u}|ただし、さおとめ同様、撃った直後に逆方向にのキーを押せば前後同時にも撃て、挟撃してきた複数の相手を吹っ飛ばすことができる。
+BASIC5000_2597|jsut|{k o o sh i n o k e j i m e o ts U k e n a k e r e b a i k e m a s e N}|公私のけじめをつけなければいけません。
+BASIC5000_3499|jsut|{i ch i m i g a k a i sh a d e ry o o r i o k o n o m u k o t o g a b a r e r u k o t o g a pau r o s e N t e N k a N n i n a r i pau ry o o r i n i sh I t a sh i m u k o t o n o j u u y o o s e e o i m i s u r u k o t o g a o o k I k u n a cl t a}|一味が会社で料理を好むことがばれることが、路線転換になり、料理に親しむことの重要性を意味することが大きくなった。
+BASIC5000_2545|jsut|{ky a k U t o sh I t e a ts U k a w a r e t e pau k a n o j o w a m a N z o k u d a cl t a}|客として扱われて、彼女は満足だった。
+BASIC5000_0543|jsut|{sh I t a i k o t o n o d e k i r u j i y u u g a m o cl t o a r i pau s e e g e N n o a m a r i n a i sh a k a i s e e k a ts u o t a n o sh i m u k o t o g a d e k i r u}|したいことの出来る自由がもっとあり、制限のあまりない社会生活を楽しむことが出来る。
+BASIC5000_2933|jsut|{a i n i k u d e s U g a pau h o N j i ts u w a y o y a k u d e i cl p a i d e s U}|あいにくですが、本日は予約でいっぱいです。
+BASIC5000_3957|jsut|{s o r e y u e k a pau j i sh i N n o u w a N o h e N sh u u t e k i n a m a d e n i a i sh i pau k a t a r i k a k e r u k I h e k i g a a r u}|それ故か、自身の右腕を偏執的なまでに愛し、語りかける奇癖がある。
+BASIC5000_1591|jsut|{g i i N n i sh u u sh o k u k o o n o s e w a o t a n o N d e m i t a g a pau h a n a d e a sh i r a w a r e t a}|議員に就職口の世話を頼んでみたが、鼻であしらわれた。
+BASIC5000_3067|jsut|{m u n e n o k a N d o g a h i j o o n i y o k u pau m u n e g a f U k u n i k o s u r e r u d a k e d e k a N j i t e sh i m a u k o t o m o}|胸の感度が非常に良く、胸が服に擦れるだけで感じてしまう事も。
+BASIC5000_1699|jsut|{b o k U t o i cl sh o n i pau e e g a n i i cl t a o N n a n o k o w a pau b o k u n o t o m o d a ch i d e s U}|僕と一緒に、映画に行った女の子は、僕の友達です。
+BASIC5000_3397|jsut|{s e e y u u n o e N g i o h o m e r u s a i w a pau o y a y u b i o t a t e r u}|声優の演技を褒める際は、親指を立てる。
+BASIC5000_2667|jsut|{g a k u b u ch o o w a pau t a m e r a u k o t o n a k u pau e e e N n o e e ch i o e r a N d a}|学部長は、ためらうことなく、永遠の英知を選んだ。
+BASIC5000_0331|jsut|{g i z a g i z a n o k a d o g a pau k a r e n o z u b o N n i h i cl k a k a cl t e a n a o a k e t a}|ぎざぎざのかどが、彼のズボンに引っかかって穴を空けた。
+BASIC5000_0007|jsut|{ky o k a sh o g a n a k e r e b a k o k o e w a i r e n a i}|許可書がなければここへは入れない。
+BASIC5000_2437|jsut|{k o o d o n i s e N m o N t e k i n a w a d a i d e pau t a b u N n i a y a m a cl t a j o o h o o g a f U k u m a r e r u k a n o o s e e g a a r u k o t o w a a r a k a j i m e o k o t o w a r i sh I t e o k i m a s U}|高度に専門的な話題で、多分に誤った情報が含まれる可能性があることはあらかじめお断りしておきます。
+BASIC5000_0789|jsut|{g a i m a i w a b o s o b o s o sh I t e i t e pau n i cl p o N j i N n o k U ch i n i w a a w a n a i}|外米はぼそぼそしていて、日本人の口には合わない。
+BASIC5000_2863|jsut|{n a k a m a t a ch i g a pau w a t a sh i n i y a b o o o h a t a s u y o o pau h a g e m a sh I t e k u r e t a}|仲間達が、私に野望を果たすよう、励ましてくれた。
+BASIC5000_1371|jsut|{s a gy o o i N w a pau a t a r a sh i i i e n i h a i s e N k o o j i o sh I t e i r u}|作業員は、新しい家に配線工事をしている。
+BASIC5000_0657|jsut|{i cl p u N d a cl t e pau h o b o y o N p o N d o k a k a r u N d a k a r a}|１分だって、ほぼ４ポンドかかるんだから。
+BASIC5000_0982|jsut|{r o o k a o f U s e g u t a m e n i pau m o cl t o k a r a d a o u g o k a s u b e k i d a}|老化を防ぐために、もっと体を動かすべきだ。
+BASIC5000_0915|jsut|{k o ch i r a n o t e g a m i o u k e t o cl t a t o i u ts u u ch i g a k i t a}|こちらの手紙を受け取ったという通知が来た。
+BASIC5000_2612|jsut|{r e ts u n i n a r a N d e n a g a i a i d a m a t a s a r e t a a t o pau m i b u N sh o o m e e t o sh I t e pau s e e sh I k i n a sh u cl sh o o sh o o m e e sh o g a h I ts u y o o d a t o i w a r e t a}|列に並んで長い間待たされた後、身分証明として、正式な出生証明書が必要だといわれた。
+BASIC5000_1837|jsut|{f u ry o o t a ch i w a pau k a r e o n a g u r i t a o sh I t e s a i f u o u b a cl t a}|不良たちは、彼を殴り倒して財布を奪った。
+BASIC5000_1552|jsut|{k a i b u ts u n o a sh i o t o o k I k u t o pau k a r e r a w a sh I h o o h a cl p o o n i h a sh i r i d a sh I t a}|怪物の足音を聞くと、彼らは四方八方に走り出した。
+BASIC5000_3923|jsut|{i r a i j i N n o t e g a m i n o n a i y o o g a t a N t e k i n i m a t o m e r a r e pau b a N g u m i n o d a i n i s o k u sh I t a y o o sh i g a pau a n a u N s a a n i y o cl t e t a N t a N t o pau y o k u y o o n a k u y o m i a g e r a r e t a}|依頼人の手紙の内容が端的にまとめられ、番組の題に即した要旨が、アナウンサーによって淡々と、抑揚なく読み上げられた。
+BASIC5000_3587|jsut|{s a r a n i k a b u k I ch o o p u r o r e s u n o h a t a a g e k a r a m a s U k o cl t o g a a r u t o sh I t e s a N s e N pau g e N z a i m o pau t a r e N t o k a ts u d o o sh i n a g a r a t o r e e n i N g u w a ts u z u k e t e i r u}|更に歌舞伎町プロレスの旗揚げからマスコットガールとして参戦、現在も、タレント活動しながらトレーニングは続けている。
+BASIC5000_2761|jsut|{m i z u u m i n i f u n e g a u k a N d e i r u n o w a pau u ts U k u sh i i f u u k e e d a}|湖に船が浮かんでいるのは、美しい風景だ。
+BASIC5000_2329|jsut|{sh i N k o o sh a w a pau r a i sh u N m a d e n i w a k a N s e e n o y o t e e d e a r u}|新校舎は、来春までには完成の予定である。
+BASIC5000_3584|jsut|{h e cl d o f o N n a d o d e o N g a k u o k I k u b a a i w a pau o N ry o o o a g e s u g i n a i k o t o m o y o b o o n i n a r u}|ヘッドフォンなどで音楽を聴く場合は、音量を上げすぎないことも予防になる。
+BASIC5000_3650|jsut|{g i s o o o o k o n a u s a i w a pau ch I k e e y a t e N k o o d a k e d e n a k u pau k i s e ts u y a i r o y a r i N k a k U s e N n i m o k i o ts U k e pau sh i n i N s e e o h I k u m e r u y o o n i s u r u k o t o g a pau j u u y o o d e a r u t o k a N g a e r a r e t e i r u}|偽装を行う際は、地形や天候だけでなく、季節や色や輪郭線にも気をつけ、視認性を低めるようにすることが、重要であると考えられている。
+BASIC5000_0130|jsut|{h o o g e k i w a pau m a s u m a s U h a g e sh i k u n a cl t e k i t a n o d e pau w a t a sh i t a ch i pau h a sh i cl t e ch I k a sh I ts u n i o r i t e i cl t a n o y o}|砲撃は、ますます激しくなってきたので、私たち、走って地下室に降りていったのよ。
+BASIC5000_1649|jsut|{i ch i d o h a n a sh i a i o s u r e b a pau o t a g a i n i m a N z o k u n o i k U k a i k e ts U h o o h o o o m i ts U k e r a r e r u t o o m o i m a s U}|一度話し合いをすれば、お互いに満足のいく解決方法を見つけられると思います。
+BASIC5000_3572|jsut|{k U ch i b i r u w a m o m o i r o d e pau k i b u w a k u r o k u pau a sh i m o m o m o i r o o o b i t e i r u}|嘴は桃色で、基部は黒く、足も桃色を帯びている。
+BASIC5000_2876|jsut|{k u r i s u m a s u n i o a i d e k i r u n o o t a n o sh i m i n i sh I t e i m a s U}|クリスマスにお会い出来るのを楽しみにしています。
+BASIC5000_3904|jsut|{s a i k e N j o o t o n i o k e r u pau i g i n a k I sh o o d a k u n a d o}|債権譲渡における、異議なき承諾など。
+BASIC5000_1715|jsut|{ch I k a j i k a pau m a t a o a i d e k i r u n o o t a n o sh i m i n i m a cl t e m a s U}|近々、またお会いできるのを楽しみに待ってます。
+BASIC5000_3164|jsut|{n a g a r e t e i r u m i z u g a pau i w a n o m a w a r i n i t o b i ch i r u k o t o k a r a pau k I h o o g a m i z u n i f U k u m a r e t e pau m i z u n o hy o o m e N n o i ch i b u g a sh i r o k u n i g o r u}|流れている水が、岩の周りに飛び散ることから、気泡が水に含まれて、水の表面の一部が白く濁る。
+BASIC5000_2714|jsut|{t a t e ts u y o sh i w a pau p o k e cl t o n i t e o i r e t e pau k e N o s a g a sh I t a}|建雄は、ポケットに手を入れて、券を探した。
+BASIC5000_2906|jsut|{ch o o o N s o k u j e cl t o k i n o h a cl t a ts u n i ts u r e t e pau s e k a i w a m a s u m a s U ch i i s a k u n a r i ts u ts u a r u}|超音速ジェット機の発達につれて、世界はますます小さくなりつつある。
+BASIC5000_0192|jsut|{ch i j i N g a f u e r e b a f u e r u h o d o pau s o r e d a k e pau a u j i k a N g a s U k u n a k u n a r u}|知人が増えれば増えるほど、それだけ、会う時間が少なくなる。
+BASIC5000_0680|jsut|{o k a a s a N w a pau m u i sh I k i n i i s u o ts U k a N d a}|お母さんは、無意識に椅子をつかんだ。
+BASIC5000_1826|jsut|{k I t a a m e r i k a d e w a pau sh i i t o b e r u t o o sh i m e n a i n o w a h o o r i ts u n i h a N s u r u}|北アメリカでは、シートベルトを締めないのは法律に反する。
+BASIC5000_0262|jsut|{m i j i k a k u sh I t e m o r a w a n a k e r e b a n a r i m a s e N}|短くしてもらわなければなりません。
+BASIC5000_1063|jsut|{n a n i m o m o cl t e i n a i n o d a k a r a pau n a n i m o u sh i n a u h a z u g a n a i}|何も持っていないのだから、何も失うはずがない。
+BASIC5000_2875|jsut|{k u r o k e cl t o n o s e N sh u w a pau sh i a i ch u u pau sh i r o i w e a o k i n a k e r e b a n a r a n a i}|クロケットの選手は、試合中、白いウェアを着なければならない。
+BASIC5000_0647|jsut|{k o s a m e n o t o k i w a pau k a s a w a y a k u n i t a ts u g a pau d o sh a b u r i n o t o k i w a pau h o t o N d o y a k u n i t a t a n a i}|小雨のときは、傘は役に立つが、土砂降りのときは、ほとんど役に立たない。
+BASIC5000_1830|jsut|{k e N sh u u n i y o cl t e pau j u u gy o o i N n o h i j o o j i t a i e n o t a i o o o pau j i N s o k U k a d e k i r u}|研修によって、従業員の非常事態への対応を、迅速化できる。
+BASIC5000_2162|jsut|{k e cl k o N sh I t e i r u h I t o w a pau t o k i d o k i pau d o k U sh i N d e a r e b a y o i n o n i t o o m o u}|結婚している人は、時どき、独身であれば良いのにと思う。
+BASIC5000_1997|jsut|{k u r a s u g i t e pau s o k o d e h o N o y o m u k o t o w a d e k i n a i}|暗すぎて、そこで本を読むことはできない。
+BASIC5000_2301|jsut|{g o ch u u m o N o u k e t o r i sh i d a i pau s e e h i N o pau k i sh a n i o o k u r i sh i m a s U}|ご注文を受け取り次第、製品を、貴社にお送りします。
+BASIC5000_2475|jsut|{i m a sh i cl k a r i b e N ky o o s u r u n o g a k i m i n o t a m e n i n a r u}|今しっかり勉強するのか君のためになる。
+BASIC5000_3096|jsut|{d o o i ts U s e e h i N d e m o pau j a cl k a N n o k o t a i s a g a a r u t o s a r e r u}|同一製品でも、若干の個体差があるとされる。
+BASIC5000_0001|jsut|{m i z u o m a r e e sh i a k a r a k a w a n a k U t e w a n a r a n a i n o d e s U}|水をマレーシアから買わなくてはならないのです。
+BASIC5000_0160|jsut|{a k u w a o k o n a u n i y a s a sh i k U t e pau s o n o k e e t a i m o m u g e N d e a r u}|悪は行うに易しくて、その形体も無限である。
+BASIC5000_2027|jsut|{f U t a t a b i n e m u r i n i o ch i t e i k U t o pau o n a j i y u m e o pau z e N b u d e s a N k a i m i t a}|再び眠りに落ちていくと、同じ夢を、全部で３回見た。
+BASIC5000_1337|jsut|{b i sh o o g a pau k a n a r a z u sh i m o m a N z o k u o a r a w a sh I t e i r u w a k e d e w a n a i}|微笑が、必ずしも満足を表しているわけではない。
+BASIC5000_1280|jsut|{k i n u w a t e z a w a r i g a y a w a r a k a k u pau s u b e s u b e sh I t e i r u}|絹は手触りが柔らかく、すべすべしている。
+BASIC5000_3684|jsut|{i cl p a N t e k i n i w a pau k a N s e ts u n o u g o k i o k o r o s U t a m e n i pau k a N s e ts u d e sh i b a r u pau sh i N t a i g a u g o k U k o t o w a m u s u b i m e g a y u r u m u k o t o n i ts u n a g a r u n o d e pau d e k i r u k a g i r i u g o k a s a n a i y o o n i k o t e e s u r u pau t o i cl t a k U f u u g a h I ts u y o o n i n a r u}|一般的には、関節の動きを殺すために、関節で縛る、身体が動くことは結び目が緩むことにつながるので、出来る限り動かないように固定する、といった工夫が必要になる。
+BASIC5000_1914|jsut|{hy o o k o o g a pau g u N t o t a k a k u n a r u t o pau k o ky u u k o N n a N o k a N j i r u}|標高が、ぐんと高くなると、呼吸困難を感じる。
+BASIC5000_0205|jsut|{m i t e pau s o n o w a k a i j o s e e w a pau r o o j i N n i o i k a k e r a r e r u}|見て、その若い女性は、老人に追いかけられる。
+BASIC5000_3315|jsut|{t a g o N m u y o o t o i i n o k o sh i pau sh a k u r o v i i t u i g a s a r u t o pau d a i sh o y a w a pau sh i N d a n a k a m a n o h i cl s e k i d e k a i t e y a cl t a pau y a ts u w a b a k a y a r o o s a pau t o a z a k e r u}|他言無用と言い残し、シャクロヴィートゥイが去ると、代書屋は、死んだ仲間の筆跡で書いてやった、奴は馬鹿野郎さ、と嘲る。
+BASIC5000_3371|jsut|{m a t a pau ry u u k I sh i n o ch I k a r a w a h e N sh i N g o m o z a N ry u u s u r u r a sh i k u pau d o r a g o N n o m e t o y o b u n o o ry o k u n i y o cl t e pau t a n i N n o k o k o r o o m i s U k a s U k o t o g a d e k i r u}|また、竜騎士の力は変身後も残留するらしく、ドラゴンの眼と呼ぶ能力によって、他人の心を見透かすことができる。
+BASIC5000_3893|jsut|{e e y o o s e e b u N w a pau k u z u k o n i y o r u t a N s u i k a b u ts U t o pau s a t o o n o t o o b u N g a h o t o N d o d e a r u}|栄養成分は、葛粉による炭水化物と、砂糖の糖分がほとんどである。
+BASIC5000_3329|jsut|{s a i g o w a b a k e m o n o n o sh o o m e ts u n i m a k I k o m a r e sh o o s o k u o t a ts u}|最期は化物の消滅に巻き込まれ消息を絶つ。
+BASIC5000_1702|jsut|{h I ts u u ch i w a k o w a i k a r a pau d e n a i h o o g a i i y o}|非通知は恐いから、出ない方がいいよ。
+BASIC5000_0772|jsut|{y u u j i N w a pau n a r i t a o t a cl t e p a r i n i m u k a cl t a}|友人は、成田をたってパリに向かった。
+BASIC5000_2248|jsut|{r o m e N d e N sh a w a pau i m a d e w a t a sh I k a n i j i d a i o k u r e k a m o sh i r e n a i}|路面電車は、今では確かに時代遅れかもしれない。
+BASIC5000_2595|jsut|{k a k U k a i i N w a pau ts U k i n i i ch i m a N e N h a r a w a n a k e r e b a n a r a n a i}|各会員は、月に１万円払わなければならない。
+BASIC5000_0342|jsut|{s o o ky u u n i k o n o m o N d a i n i ts u i t e pau g i r o N s u r u h I ts u y o o g a a r u}|早急にこの問題について、議論する必要がある。
+BASIC5000_3432|jsut|{f U ch a k u sh I t a a b u r a g a t e k I k a s u r u n o o f U s e g u t a m e pau k a b u n i a b u r a u k e z a r a o s o o b i sh I t a m o n o g a o o i}|付着した油が滴下するのを防ぐため、下部に油受け皿を装備したものが多い。
+BASIC5000_2973|jsut|{h I k a r i g a e n o n a k a n i w a e g a k a r e t e i n a i pau o o k i n a m a d o k a r a s a sh I k o N d e i m a s U}|光が絵の中には描かれていない、大きな窓から射し込んでいます。
+BASIC5000_0535|jsut|{y u u k i o u sh i n a w a n a i d e pau d o N d o N k a k I ts u z u k e n a s a i}|勇気を失わないで、どんどん書きつづけなさい。
+BASIC5000_0061|jsut|{m i r u t o N n o s a k U h i N o y o N d a k o t o g a a r i m a s U k a}|ミルトンの作品を読んだことがありますか。
+BASIC5000_1647|jsut|{t a y o r i g a n a i n o d e pau w a t a sh i w a pau k a n o j o g a n a N j i n i ts u k U k a w a k a r a n a i}|便りがないので、私は、彼女が何時に着くかわからない。
+BASIC5000_2781|jsut|{m u k a sh I k a r a i m a n i i t a r u m a d e s o N z a i s u r u pau a r a y u r u sh a k a i n o r e k I sh i w a pau k a i ky u u t o o s o o n o r e k I sh i d e a r u}|昔から今に至るまで存在する、あらゆる社会の歴史は、階級闘争の歴史である。
+BASIC5000_1712|jsut|{a i t e n o y o w a m i n i ts U k e k o m u y o o n a f u r u m a i d a k e w a y a m e y o o y a}|相手の弱みにつけ込むような振る舞いだけはやめようや。
+BASIC5000_3944|jsut|{r e o n a a t o w a pau t a n a a g e n i n a cl t e i t a e r o o t o k u r a u d i o n o k e cl k o N o i w a u t a m e n i pau k a m e N b u t o o k a i o k a i s a i s u r u}|レオナートは、棚上げになっていたエローとクラウディオの結婚を祝うために、仮面舞踏会を開催する。
+BASIC5000_0014|jsut|{z a N k o k U t o i u k o t o w a pau k a r e n o s e e sh I ts u n i w a n a i k o t o d a}|残酷ということは、彼の性質にはないことだ。
+BASIC5000_0876|jsut|{m e g a s a m e t e m i r u t o pau y u k i g a f u cl t e i t a}|目が覚めてみると、雪が降っていた。
+BASIC5000_0059|jsut|{m e e w a k u o o k a k e sh I t e m o o sh i w a k e a r i m a s e N}|迷惑をおかけして申し訳ありません。
+BASIC5000_2940|jsut|{a o m u k e n i n e r u t o pau sh I t a y a n o d o ch i N k o g a n o d o n o o k u n i s a g a r u t a m e pau j o o k i d o o g a f U s a g a r i y a s U k u n a r i m a s U}|あお向けに寝ると、舌やノドチンコがノドの奥に下がるため、上気道が塞がりやすくなります。
+BASIC5000_3093|jsut|{k o r e w a pau e N g i n o b a o f u m i sh i z u m e r u y a k u w a r i o h a t a s u}|これは、演技の場を踏み鎮める役割をはたす。
+BASIC5000_0010|jsut|{m a cl k I sh i k e N n i s o n a e t e pau h o N t o o n i k i a i o i r e t e b e N ky o o sh i n a ky a}|末期試験に備えて、本当に気合いを入れて勉強しなきゃ。
+BASIC5000_3598|jsut|{sh i N s e e ry o o z a N p a k u d e m o h I k i ts u z u k i b a h I ts u o t a N t o o pau z e N s a k u d e sh o o k o o o ts U t o m e t a k e e k e N m o i k a sh I t e pau u m a n o k a i ts U k e n i m o k a ts u y a k U s u r u}|新生梁山泊でも引き続き馬匹を担当、前作で将校を務めた経験も生かして、馬の買い付けにも活躍する。
+BASIC5000_2769|jsut|{k o o u N n i m o pau w a t a sh i w a s u b a r a sh i i t o sh o k a N o r i y o o d e k i r u}|幸運にも、私はすばらしい図書館を利用できる。
+BASIC5000_2166|jsut|{d a cl s o o sh a n i t a i s u r u pau s o o s a k u g a h a j i m a cl t e i r u}|脱走者に対する、捜索が始まっている。
+BASIC5000_2509|jsut|{d e z a a t o n o t a m e n i i b u k u r o o a k e t e o k I t a i n o d e s U}|デザートのために胃袋を空けておきたいのです。
+BASIC5000_0401|jsut|{k e N ny o o o m a sh i N n i i r e r u d a k e d e pau g u a i g a w a r u i t o k o r o o sh i N d a N sh I t e pau t a i sh o h o o o o sh i e t e k u r e r u N d a}|検尿をマシンに入れるだけで、具合が悪いとこを診断して、対処法を教えてくれるんだ。
+BASIC5000_0782|jsut|{sh I t a i o k a i b o o sh I t a k e cl k a pau k o o s a ts U t o h a N m e e sh I t a}|死体を解剖した結果、絞殺と判明した。
+BASIC5000_0488|jsut|{a cl sh U s a N w a pau ts u i t a b a k o o s u w a z u n i pau i r a r e n a i m i t a i d e s U n e}|アッシュさんは、ついタバコを吸わずに、いられないみたいですね。
+BASIC5000_2493|jsut|{r e N t a k a a n o n o r i s U t e t e ry o o k i N w a i k u r a d a r o o}|レンタカーの乗り捨て料金はいくらだろう。
+BASIC5000_2661|jsut|{h o o k o k U sh a w a pau j i b u N n o k e N ky u u h o o h o o n i ts u i t e k u w a sh i k u n o b e t a}|報告者は、自分の研究方法について詳しく述べた。
+BASIC5000_0815|jsut|{y o r o k o b i n o n a m i w a pau t o k I h a n a t a r e t a w a t a sh i n o k o k o r o o t a d a y o u}|喜びの波は、解き放たれた私の心を漂う。
+BASIC5000_1240|jsut|{t e i t o sh i o ts u r e t e k i t e i t a d a k e m a s e N k a}|テイト氏をつれてきていただけませんか。
+BASIC5000_1148|jsut|{r e e ch o o r u i n o k e z u k u r o i w a pau sh u u d a N n o k e ts u g o o o ts u y o m e r u}|霊長類の毛づくろいは、集団の結合を強める。
+BASIC5000_2822|jsut|{n a N b a i k a n o m u t o pau s o n o o t o k o w a y o cl t e k i m o ch i y o k u n a cl t a}|何杯か飲むと、その男は酔って気持ちよくなった。
+BASIC5000_0748|jsut|{m i r a i n o k o t o o pau d o o sh I t e s o N n a n i r a cl k a N d e k i r u N d e s U k a}|未来のことを、どうしてそんなに楽観できるんですか。
+BASIC5000_0411|jsut|{k a N i b e cl d o n o k u m i t a t e k a t a o pau o sh i e t e m o r a e m a s U k a}|簡易ベッドの組み立て方を、教えてもらえますか。
+BASIC5000_1950|jsut|{t o y o t a w a pau k o t o sh i j u u gy o o i N o s e N n i N s a k u g e N s u r u k o t o o h a cl py o o sh I t a}|トヨタは、今年従業員を１０００人削減することを発表した。
+BASIC5000_3657|jsut|{n a N b u n o k a i h i N b u w a pau g e N d a i n i o k e r u u m e t a t e z o o s e e ch i d e pau k o o gy o o ch i t a i t o n a cl t e i r u}|南部の海浜部は、現代における埋立造成地で、工業地帯となっている。
+BASIC5000_1626|jsut|{j u u d a i k e cl t e e g a n a s a n a k e r e b a n a r a n a i d a r o o}|重大決定がなさなければならないだろう。
+BASIC5000_2572|jsut|{sh o k u ry o o z a cl k a t e N n o sh u j i N w a pau j i b u N n o s e e j i ts u s a o pau o ky a k u n i n a n i t o k a s e cl t o k u sh I t a}|食料雑貨店の主人は、自分の誠実さを、お客に何とか説得した。
+BASIC5000_0334|jsut|{o h e N j i g a k o n a i n o d e s U g a pau w a t a sh i n o m e e r u g a t o d o k a n a k a cl t a n o d e w a n a i k a t o k i n i n a cl t e i m a s U}|お返事が来ないのですが、私のメールが届かなかったのではないかと気になっています。
+BASIC5000_0090|jsut|{g a r i r e o w a pau f U t a ts u n o t e ts u n o t a m a o pau t o o n o t e cl p e N k a r a o t o sh i t a}|ガリレオは、二つの鉄の玉を、塔のてっぺんから落とした。
+BASIC5000_1127|jsut|{k e m u r i w a pau k a r e n o sh i N z o o n i y o k u n a i k a m o sh i r e n a i}|煙は、彼の心臓によくないかもしれない。
+BASIC5000_1857|jsut|{o o z e e n o h I t o b i t o g a pau k o n o n o o j o o d e h a t a r a i t e i r u}|大勢の人々が、この農場で働いている。
+BASIC5000_3278|jsut|{t o sh i b u d e m o ch o cl t o sh I t a ry o k U ch i n i w a sh U ts u g e N sh i pau n i w a k i y a pau t e r a n o i sh i d o u r o u n a d o n i m o m i r a r e r u k o t o g a y o k u a r u}|都市部でもちょっとした緑地には出現し、庭木や、寺の石灯籠などにも見られることがよくある。
+BASIC5000_3247|jsut|{s o n o ch o cl k a N d o o r i f u N s e N m u n a sh i k U k a N p a i s u r u m o n o n o pau s U t e m i n o k a k u g o d e ky o n o k a t a u d e o f u u j i pau d o o j i n i j i b u N n o k e N o g i N j i n i w a t a s U k o t o d e pau k a r e g a ky o n i i cl sh i m u k u i r u k o t o n i k o o k e N sh I t a}|その直感通り奮戦むなしく完敗するものの、捨て身の覚悟で虚の片腕を封じ、同時に自分の剣を銀時に渡すことで、彼が虚に一矢報いることに貢献した。
+BASIC5000_0475|jsut|{o cl t o k a r a m o pau k u r e g u r e m o y o r o sh I k u t o n o k o t o d e s U}|夫からも、くれぐれもよろしくとのことです。
+BASIC5000_3530|jsut|{k o r e r a n o n a k a n i w a pau y u u n o k a r a d a n o j u N k a N k e e y a pau sh o o k a k i k e e t o i cl t a k i k a N g a t a i k a sh I t e pau h o t o N d o m e s u n o k a r a d a t o d o o k a sh I t e sh i m a u pau m i ts U k u r i e n a g a ch o o ch i N a N k o o n a d o n o t a n e m o s o N z a i s u r u}|これらの中には、雄の体の循環系や、消化器系といった器官が退化して、ほとんど雌の体と同化してしまう、ミツクリエナガチョウチンアンコウなどの種も存在する。
+BASIC5000_1052|jsut|{ky o o k u b o k U sh i w a pau h o o w a n o t o k i pau sh i b a sh i b a s e e sh o n i g e N ky u u s u r u}|教区牧師は、法話の時、しばしば聖書に言及する。
+BASIC5000_0547|jsut|{d o k U s a i sh a w a pau s o n o j i t a i n i t a i sh o sh i y o o t o sh I t a g a pau m u d a d a cl t a}|独裁者は、その事態に対処しようとしたが、無駄だった。
+BASIC5000_2679|jsut|{ch i k i N w a t a b e r a r e n a i pau t o i u k e d o pau t a N n a r u k u w a z u g i r a i j a n a i n o}|チキンは食べられない、というけど、単なる食わず嫌いじゃないの。
+BASIC5000_2135|jsut|{m a i n i ch i f u r o n i h a i r u h I t o m o i r e b a pau s o o d e n a i h I t o m o i r u}|毎日風呂に入る人もいれば、そうでない人もいる。
+BASIC5000_3349|jsut|{h a r u w a a t a t a k a k u n a r u n o g a h a y a k u pau n a ts u w a k i o N g a t a k a k u pau a k i w a a m e g a o o k u pau f u y u w a sh i m o g a s U k u n a i}|春は暖かくなるのが早く、夏は気温が高く、秋は雨が多く、冬は霜が少ない。
+BASIC5000_3992|jsut|{n o t a n i i h a k a s e n o h e N s o o j i t o pau h o N p e N t o o j o o j i n o k a m i g a t a t o pau m a y u g e n o k e e j o o g a k o t o n a r u}|ノタニー博士の変装時と、本編登場時の髪型と、眉毛の形状が異なる。
+BASIC5000_2643|jsut|{k i N o n a k U sh i t a t a m e n i pau k a r e w a g a i k o k u n i i k e n a k u n a cl t a}|金をなくしたために、彼は外国に行けなくなった。
+BASIC5000_1423|jsut|{s o o sh a n o n a k a n i w a pau h a sh i r i n a g a r a m i z u o n o m u m o n o m o i r u}|走者の中には、走りながら水を飲む者もいる。
+BASIC5000_0472|jsut|{m a cl s u g u i k i n a s a i pau s o o s u r e b a pau e k i g a m i e m a s U}|真っ直ぐ行きなさい、そうすれば、駅が見えます。
+BASIC5000_0634|jsut|{u k e ts U k e d e pau ny u u i N n o t e ts u z u k i o sh I t e k u d a s a i}|受付で、入院の手続きをしてください。
+BASIC5000_1142|jsut|{d a i h a ts u m e e n i k a N sh I t e w a pau g u u z e N w a pau h o N n o ch i i s a n a y a k u w a r i sh i k a sh i n a k a cl t a}|大発明に関しては、偶然は、ほんの小さな役割しかしなかった。
+BASIC5000_3488|jsut|{j i k u ry o k u g a y o w a i t o pau sh i N d o o n i y o r u y u r u m i n o g e N i N n i n a r i pau ts u y o s u g i r u t o pau h I t e e k e ts u b u z a i n o h a k a i o h I k i o k o sh I t a r i pau n e j i g a s o s e e n o b i o o k o sh i pau y u r u m i n o g e N i N t o m o n a r u}|軸力が弱いと、振動に因る緩みの原因になり、強すぎると、被締結部材の破壊を引き起こしたり、ねじが塑性伸びを起こし、緩みの原因ともなる。
+BASIC5000_0077|jsut|{a N y a n i t e cl p o o j a a r u m a i sh i pau s o N n a b a a t a r i t e k i n a y a r i k a t a d e pau u m a k u i k U t o w a o m o e n a i y o}|闇夜に鉄砲じゃあるまいし、そんな場当たり的なやり方で、うまくいくとは思えないよ。
+BASIC5000_0174|jsut|{u e j i n i n i s u r u k u r a i n a r a pau o b o r e sh i N d a h o o g a m a sh i d a}|飢え死にするくらいなら、溺れ死んだほうがましだ。
+BASIC5000_0167|jsut|{b a k U s u g e N sh a n o k e N ky u u j o d e pau sh i N y a k u n o sh I k e N g a o k o n a w a r e t a}|バクスゲン社の研究所で、新薬の試験が行われた。
+BASIC5000_0844|jsut|{y o n o n a k a n i n a cl t o k u d e k i r u m o n o n a N t e n a i y o}|世の中に納得できるものなんてないよ。
+BASIC5000_2791|jsut|{a N n a i j i N w a pau w a t a sh i t a ch i n i pau h o t e r u n o b a sh o o pau m a ch i g a e t e o sh i e t a}|案内人は、私たちに、ホテルの場所を、間違えて教えた。
+BASIC5000_1065|jsut|{n a N r a k a n o g i j u ts u t e k i m o N d a i n i y o r i pau y o k o k U s a r e t a b a N g u m i n o k a w a r i n i pau e e g a g a h o o e e s a r e t a}|何らかの技術的問題により、予告された番組の代わりに、映画が放映された。
+BASIC5000_2289|jsut|{o r e g a k i z u i t a t o k i pau o r e w a k u r u m a n o n a k a n i i t a}|俺が気づいたとき、俺は車の中にいた。
+BASIC5000_1291|jsut|{i y o i y o t o i u t o k i n i n a cl t e pau k a r e w a o j i k e z u i t a}|いよいよという時になって、彼は怖じ気付いた。
+BASIC5000_1504|jsut|{p e i r u e r u w a pau a r u k o o r u g a N y u u ry o u n o s U k u n a i b i i r u d a}|ペイルエルは、アルコール含有量の少ないビールだ。
+BASIC5000_3625|jsut|{sh i N g a ts u y o i h a N m e N pau n a m i d a m o r o i i ch i m e N m o}|芯が強い半面、涙もろい一面も。
+BASIC5000_3829|jsut|{i o d o n o sh o n i y o r e b a pau ky u u sh I h a i sh a n o h I t o p a sh i r a d e w a n a i t o s a r e pau ch i j o o n i sh U ts u g e N s u r e b a pau a r a y u r u s e e m e e w a sh i n i t a e r u t o s a r e t e i r u}|イオドの書によれば、旧支配者の一柱ではないとされ、地上に出現すれば、あらゆる生命は死に絶えるとされている。
+BASIC5000_0173|jsut|{g u cl s u r i n e m u cl t a a t o w a pau z u cl t o k i b u N g a y o i}|ぐっすり眠った後は、ずっと気分がよい。
+BASIC5000_3468|jsut|{s o r e t o o n a j i k u sh I t e pau sh i N s e e n a m a ts u r i o k i y o m e r u pau a k u m a b a r a i n o i m i o m o ts u}|それと同じくして、神聖な祭りを清める、悪魔祓いの意味を持つ。
+BASIC5000_3070|jsut|{f u j i N n i t a n o m a r e pau y u i g o N j o o o s a k U s e e s u r u}|夫人に頼まれ、遺言状を作成する。
+BASIC5000_2874|jsut|{k u r e j i cl t o k a a d o w a pau y a k u n i t a ts u g a k I k e N d a}|クレジットカードは、役に立つが危険だ。
+BASIC5000_2490|jsut|{g o s e N h a cl py a k u j u u y o N o s e N n o k u r a i n i sh i sh a g o ny u u s u r e b a n a n i n i n a r i m a s U k a}|５８１４を千の位に四捨五入すれば何になりますか。
+BASIC5000_2686|jsut|{k a k I k a t a g a pau k o n o k i j i d e w a pau z u cl t o f U k u z a ts u j a n a k u n a cl t e i r u}|書き方が、この記事では、ずっと複雑じゃなくなっている。
+BASIC5000_3605|jsut|{n e ts u o k u w a e t e n o b a s U t o pau u b u g e g u r a i n o h o s o s a m a d e n o b a s U k o t o g a d e k i pau s o r e o pau n a N j u u n i m o k a s a n e t e ts U k u r u k a b e w a pau k o o t e ts u o m o sh i n o g u k a t a s a n i n a r u}|熱を加えて延ばすと、産毛ぐらいの細さまで延ばすことができ、それを、何重にも重ねて造る壁は、鋼鉄をも凌ぐ硬さになる。
+BASIC5000_2919|jsut|{a cl s a r i k o t o w a r a r e r u t o o m o i k i y a pau k a n o j o w a sh o o d a k u sh I t e k u r e m a sh I t a}|あっさり断られると思いきや、彼女は承諾してくれました。
+BASIC5000_2640|jsut|{h o r a a e e g a o m i r u k o t o n i pau t a n o sh i m i o m i i d a s U h i t o m o i r u}|ホラー映画を見ることに、楽しみを見いだす人もいる。
+BASIC5000_1880|jsut|{g o o k a k U sh a n o k a h a N s u u w a pau d a i g a k U sh u cl sh i N sh a d e a cl t a}|合格者の過半数は、大学出身者であった。
+BASIC5000_2624|jsut|{h I t o g o r o sh i d e t a i h o s a r e t a o t o k o w a pau f u r i n a sh o o g e N w a ky o h i sh I t a i t o i cl t a}|人殺しで逮捕された男は、不利な証言は拒否したいといった。
+BASIC5000_1785|jsut|{k u r a sh i m u k i g a y o i h I t o m o i r u sh i pau y o k u n a i h I t o m o i r u}|暮らし向きが良い人もいるし、良くない人もいる。
+BASIC5000_1527|jsut|{n a s U k o t o g a d e k i r u m o n o g a n a sh i pau n a s U k o t o g a d e k i n a i m o n o g a o sh i e r u}|為すことができる者が為し、為すことができない者が教える。
+BASIC5000_2205|jsut|{s u n a k a r a k i N o pau b u N r i s a i sh u u s u r u h o o h o o o pau a n a t a n i o m i s e sh i m a sh o o}|砂から金を、分離採集する方法を、あなたにお見せしましょう。
+BASIC5000_0732|jsut|{r o N b u N w a pau ky o n e N n o y o r i n a g a k a cl t a g a pau s u u n i N n o g a k U s e e w a pau n a N t o k a sh i a g e t a}|論文は、去年のより長かったが、数人の学生は、なんとかし上げた。
+BASIC5000_0853|jsut|{g a i b u k a r a n o a ts u ry o k u g a pau m a s u m a s U ts u y o k u n a cl t e k i t e i r u}|外部からの圧力が、ますます強くなってきている。
+BASIC5000_1540|jsut|{t e h a cl ch o o k U ch i h a cl ch o o n o k a r e d a k e d o pau m a k o t o g a n a i n o g a t a m a n i k i z u d a n e}|手八丁口八丁の彼だけど、誠がないのが玉に疵だね。
+BASIC5000_3807|jsut|{s o sh I t e pau k u r o o z e cl t o n i w a pau d o o k U ts u n i f u u j i r a r e t e i t a h a z u n o ts U ch i s u z u g a a cl t a}|そして、クローゼットには、洞窟に封じられていたはずの土鈴があった。
+BASIC5000_3886|jsut|{y u i b u ts u r o N y a k I k a i r o N o m u k a m i r o N t o m i n a s u m o n o m o i r u g a pau k o r e r a n o r i r o N w a r e e k o N y a pau b u cl sh I ts u s e k a i e n o ch o o e ts u t e k i n a ch I k a r a n o k a i ny u u o h I t e e sh I t e i r u n o d e a cl t e pau k a n a r a z u sh i m o pau k a m i n o s o N z a i o h I t e e sh i n a i}|唯物論や機械論を無神論とみなす者もいるが、これらの理論は霊魂や、物質世界への超越的な力の介入を否定しているのであって、必ずしも、神の存在を否定しない。
+BASIC5000_0037|jsut|{h a t a m e h a ch i m o k U t o i u k o t o b a g a a r u y o o n i i ch i d o ky o o k a i k a r a h a n a r e t e pau n i cl p o N s a cl k a a o m i t e i t a d a k I t a i}|傍目八目という言葉があるように一度協会から離れて、日本サッカーをみて頂きたい。
+BASIC5000_0568|jsut|{n e f u d a o t o r i h a z u sh I t e i t a d a k e m a s U k a}|値札を取りはずしていただけますか。
+BASIC5000_0620|jsut|{s e N d a i e i cl t e pau t o N b o g a e r i d e k a e cl t e k i m a sh I t a}|仙台へ行って、とんぼ返りで戻ってきました。
+BASIC5000_1113|jsut|{m o cl k a n o t o k o r o pau k o r e d e m a n i a u d e sh o o}|目下のところ、これで間に合うでしょう。
+BASIC5000_1367|jsut|{k a g o sh i m a n i w a i ch i d o m o i cl t a k o t o g a a r i m a s e N g a pau k o t o sh i n o n a ts u pau i k U ts u m o r i d e s U}|鹿児島には一度も行ったことがありませんが、今年の夏、行くつもりです。
+BASIC5000_1384|jsut|{o w a s u r e n i n a cl t a d a k e k a t o o m o i m a sh I t a}|お忘れになっただけかと思いました。
+BASIC5000_3236|jsut|{ky a r a k U t a a j i sh i N n o n o o ry o k u g a t a k a i h o d o pau t e k i g a o o i h o d o n i k a k U s e e s u r u k a k u r i ts u g a t a k a m a r u}|キャラクター自身の能力が高いほど、敵が強いほどに覚醒する確率が高まる。
+BASIC5000_1506|jsut|{n i cl k i o ts U k e r u k o t o d e pau h i b i n o s e e k a ts u n i t a i s u r u h a N s e e n o k i k a i o e r u k o t o n i m o n a r u}|日記をつけることで、日々の生活に対する反省の機会を得ることにもなる。
+BASIC5000_2944|jsut|{i cl t o o n o k a i b u ts u g a pau y a m a n o ch o o j o o n o ch i k a k u n o i w a n i pau y o k o n i n a cl t e i t a}|１頭の怪物が、山の頂上の近くの岩に、横になっていた。
+BASIC5000_0384|jsut|{n a N k a i k u r a i k i m i n o p e cl t o n i e s a o a t a e r u h I ts u y o o g a a r i m a s U k a}|何回くらい君のペットにえさを与える必要がありますか。
+BASIC5000_1387|jsut|{s o n o sh i g o t o w a pau sh o o g o m a e n i o e n e b a n a r a n a i}|其の仕事は、正午前に終えねばならない。
+BASIC5000_3194|jsut|{sh u u n o h a N i g a k I h o N t e k i n i pau k i N d a i i z e N n o ry o o h o o k u N sh u n o h a N t o d e a r u t a m e pau ry o o h o o k u N sh u n o sh o z a i ch i g a pau s o n o m a m a sh u u t o t o n a r u r e e g a m i r a r e r u}|州の範囲が基本的に、近代以前の領邦君主のはんとであるため、領邦君主の所在地が、そのまま州都となる例が見られる。
+BASIC5000_3744|jsut|{ch o o n a i n i k o o t o o g a cl k o o w a s o N z a i s e z u pau k u w a n a sh i n a d o n i a r u g a cl k o o n i ts u u g a k U s u r u k o t o n i n a r u}|町内に高等学校は存在せず、桑名市などにある学校に通学することになる。
+BASIC5000_0147|jsut|{o o k a m i g a i n u n i n i t e i r u y o o n i pau o b e cl k a z u k a i w a t o m o d a ch i n o y o o n i m i e r u}|狼が犬に似ているように、おべっか使いは友達のように見える。
+BASIC5000_0169|jsut|{b a i k i N g u n o h o o g a pau k o r o N b u s u y o r i s a k i n i pau a m e r i k a o h a cl k e N sh I t a t o i w a r e t e i r u}|バイキングのほうが、コロンブスより先に、アメリカを発見したと言われている。
+BASIC5000_1106|jsut|{s a cl p o r o n i s u N d e i r u a n i n i pau t e g a m i o o k u r u ts u m o r i d a}|札幌に住んでいる兄に、手紙を送るつもりだ。
+BASIC5000_0673|jsut|{ch o o t o cl ky u u n o z o m i w a pau h I k a r i y o r i h a y a k U h a sh i r u}|超特急のぞみは、ひかりより速く走る。
+BASIC5000_3848|jsut|{k o N g o o r i k I sh i n o g o t o k I s u r u d o i g a N k o o g a t o r e e d o m a a k u}|金剛力士の如き鋭い眼光がトレードマーク。
+BASIC5000_3977|jsut|{m a t a pau sh u j i N t a ch i n o k o e t o m a j i w a r u t o pau s a r a n i k o o g e k i n o o ry o k u o a g e r u k o t o g a d e k i r u}|また、主人たちの声と交わると、さらに攻撃能力を上げることができる。
+BASIC5000_1187|jsut|{y o k u a s a pau y u k i d a r u m a w a a t o k a t a m o n a k U k i e u s e t e i t a}|翌朝、雪だるまは跡形もなく消え失せていた。
+BASIC5000_1480|jsut|{s o o o N g a h i d o k a cl t a n o d e pau b e i r i i ky o o j u w a pau j i b u N n o k o e o t o o s U k o t o g a d e k i n a k a cl t a}|騒音がひどかったので、ベイリー教授は、自分の声を通すことができなかった。
+BASIC5000_1619|jsut|{sh i N y a k u n o o k a g e d e pau w a t a sh i w a by o o k I k a r a k a i f U k u sh I t a}|新薬のおかげで、私は病気から回復した。
+BASIC5000_3849|jsut|{h o o r e e n i k I t e e s a r e t e i n a i sh o k U sh u w a pau k a k u g a cl k o o n o s e cl ch I sh a pau k a k u g a cl k o o g a d o k u j i n i m o o k e r u k a pau m a t a w a pau j i m u sh o k u i N pau g i j u ts U sh o k u i N n o sh o cl k a i t o sh I t e i ch i z u k e r a r e r u}|法令に規定されていない職種は、各学校の設置者、各学校が独自に設けるか、または、事務職員、技術職員の職階として位置づけられる。
+BASIC5000_0532|jsut|{sh i b a r a k U f u ky o o d a cl t a pau n i cl p o N k e e z a i n o k a i f U k u g a pau y o o y a k U h a j i m a cl t a}|しばらく不況だった、日本経済の回復が、ようやく始まった。
+BASIC5000_1203|jsut|{z e e j a k u d e ch I k a r a n o n a i pau t a d a n o n i N g e N n a N d a}|脆弱で力の無い、ただの人間なんだ。
+BASIC5000_0471|jsut|{m u t e cl p o o d e pau k o d o m o n o t o k i k a r a pau s o N b a k a r i sh I t e i r u}|無鉄砲で、子供の時から、損ばかりしている。
+BASIC5000_1960|jsut|{m a m a m o p a p a m o pau h i d o k u i r a d a cl t e i r u n o}|ママもパパも、ひどくいらだっているの。
+BASIC5000_2994|jsut|{i cl p a N t e k i n i w a pau t a k e n o h I k u i m o n o g a s a s a t a k e n o ry a k U t o s a r e r u}|一般的には、丈の低いものが笹竹の略とされる。
+BASIC5000_0983|jsut|{g u N t a i d e w a pau m u d a N t a i sh U ts u s u r u k o t o w a y u r u s a r e n a i}|軍隊では、無断退出する事は許されない。
+BASIC5000_0198|jsut|{ch i j i w a pau a t a r a sh i i h a sh i n o t e e p U k a cl t o o sh I t a}|知事は、新しい橋のテープカットをした。
+BASIC5000_1263|jsut|{k i r e e d a cl t e k o t o w a pau h i f u n o f U k a s a b u N n o k o t o d a k e d a}|綺麗だってことは、皮膚の深さ分のことだけだ。
+BASIC5000_0737|jsut|{k a n o j o n i o o k e g a o s a s e r a r e t a s e i d e pau k o n o k o n o n a ts u y a s u m i n o y o t e e w a pau z e N b u o j a N n i n a cl t e sh i m a cl t a N d e s U y o}|貴女に大怪我をさせられたせいで、この子の夏休みの予定は、全部おじゃんになってしまったんですよ。
+BASIC5000_2144|jsut|{i cl s a ts u n o a t a r a sh i i j i sh o n o h a cl k o o g a pau k e e k a k U s a r e t e i r u}|１冊の新しい辞書の発行が、計画されている。
+BASIC5000_2986|jsut|{j u u t a i n o a k a ch a N w a pau i sh a n o ch u u i b u k a i k a N sh i k a n i o k a r e t e i t a}|重体の赤ちゃんは、医者の注意深い監視下に置かれていた。
+BASIC5000_0291|jsut|{t o r i t a ch i w a pau s o n o n e k o o m i r u t o b i cl k u r i sh I t e t o b i s a cl t a}|鳥たちは、その猫を見るとビックリして飛び去った。
+BASIC5000_1241|jsut|{t i n a w a pau s u g u n i n i cl p o N n o t a b e m o n o n i n a r e t a}|ティナは、すぐに日本の食べ物に慣れた。
+BASIC5000_1653|jsut|{m a d o k a r a n o k o o s e N g a h a i cl t e k i t e pau ky o o j u w a pau f U k a i n e m u r i k a r a m e o s a m a sh I t a}|窓からの光線が入ってきて、教授は、深い眠りから目を覚ました。
+BASIC5000_3424|jsut|{h a b a h i r o pau k a ts U h e N p e e d e m a r u m i o o b i r u}|幅広、かつ扁平で丸みを帯びる。
+BASIC5000_1347|jsut|{k I k o e r u s e N r i ts u w a u ts U k u sh i i g a pau k I k o e n a i s e N r i ts u w a s a r a n i u ts U k u sh i i}|聞える旋律は美しいが、聞こえない旋律はさらに美しい。
+BASIC5000_1227|jsut|{e d a g a n o b i pau m i g a n a r u k o t o o s o o t e e sh I t e pau ts u g u b a sh o o e r a b i m a sh o o}|枝が伸び、実が成ることを想定して、接ぐ場所を選びましょう。
+BASIC5000_1700|jsut|{b o k u n i u s o o ts u k U t o w a pau k a r e m o o ch i t a m o N d a}|僕に嘘をつくとは、彼も落ちたもんだ。
+BASIC5000_0446|jsut|{m a i t a t a n e w a pau j i b u N d e k a r i t o r a n a k e r e b a n a r a n a i}|まいた種は、自分で刈り取らなければならない。
+BASIC5000_0408|jsut|{w a t a sh i m o p a a t i i n i k u r u b e k i d a pau t o pau k a r e w a ts U k e k u w a e t a}|私もパーティーに来るべきだ、と、彼はつけ加えた。
+BASIC5000_2299|jsut|{h i y o o w a b e ts U t o sh I t e pau s o n o h a sh i o k i z u k u n i w a pau n a g a i j i k a N g a k a k a r u d a r o o}|費用は別として、その橋を築くには、長い時間がかかるだろう。
+BASIC5000_1972|jsut|{m a N p a w a a w a pau s e k a i d e i ch i b a N o o k i n a j i N z a i h a k e N g a i sh a d e s U}|マンパワーは、世界で一番大きな人材派遣会社です。
+BASIC5000_1943|jsut|{k a N g a e r u k o t o w a j i y u u d e a r u t o w a pau i cl p a N n i i w a r e t e i r u k o t o d a}|考えることは自由であるとは、一般に言われていることだ。
+BASIC5000_1382|jsut|{k a N p e k i n a o cl t o n i pau m a d a d e a cl t a k o t o g a n a i}|完璧な夫に、まだ出会ったことがない。
+BASIC5000_3446|jsut|{i cl sh o o b i N o k e e t a i sh I t e o r i pau ts u n e n i s a k e k U s a i}|一升瓶を携帯しており、常に酒臭い。
+BASIC5000_3869|jsut|{t a t a k a i k a t a w a pau d a N s u n o y o o n i k a r o y a k a d a g a pau sh u u h e N h i g a i n i w a m a cl t a k u n o m u t o N ch a k u d e a r a cl p o i}|戦い方は、ダンスのように軽やかだが、周辺被害には全くの無頓着で荒っぽい。
+BASIC5000_3596|jsut|{w a z u k a n i i k i n o k o cl t a m o n o t a ch i m o d a cl sh U ts u o k o k o r o m i r u m o pau m o N s U t a a n i t o r i k a k o m a r e t e pau z e cl t a i z e ts u m e e n o p i N ch i o m u k a e r u}|わずかに生き残った者たちも脱出を試みるも、モンスターに取り囲まれて、絶体絶命のピンチを迎える。
+BASIC5000_1409|jsut|{ts u u b u r o cl k U s a k i m a d e a r u k i pau h i d a r i e m a g a r i n a s a i}|ツーブロック先まで歩き、左へ曲がりなさい。
+BASIC5000_3772|jsut|{d a i n i cl p o N t e e k o k u r i k u g u N y a s e N g o n o j i e e t a i d e w a pau d o o y o o n o m o n o t o sh I t e pau s e e k i N sh o o g a s a d a m e r a r e t e i r u}|大日本帝国陸軍や戦後の自衛隊では、同様のものとして、精勤章が定められている。
+BASIC5000_3929|jsut|{m a t a k o o g e k I s a r e r u t o pau b u N sh i N o n o k o sh I t e w a a p u d e n i g e r u}|また攻撃されると、分身を残してワープで逃げる。
+BASIC5000_3761|jsut|{t a N j o o s e k i n o k i g e N n i w a pau s e N s e e j u ts u y a ch i i k i s e ts u n a d o n o sh o s e ts u g a a r u g a pau m e e k a k u n i b u N sh o t o sh I t e n o k o cl t e i r u m o n o n i s o r e z o r e n o s e e sh o g a a r u}|誕生石の起源には、占星術や地域説などの諸説があるが、明確に文書として残っているものにそれぞれの聖書がある。
+BASIC5000_2867|jsut|{z o o n o o o k i s a n i pau s o n o o s a n a i sh o o n e N w a b i cl k u r i s a s e r a r e t a}|象の大きさに、その幼い少年はびっくりさせられた。
+BASIC5000_2040|jsut|{k a i s o o m o N d a i n i t a i s u r u pau sh o o h I sh a k a i r o N n o ch o d e a r u}|階層問題に対する、消費社会論の著である。
+BASIC5000_1749|jsut|{k a r e n a r a s u g o i k o t o o y a r a k a sh i s o o d a}|彼ならすごいことをやらかしそうだ。
+BASIC5000_0155|jsut|{t o o ch a k U s u r u m a e n i pau e e g a g a h a j i m a cl t e sh i m a u N d e sh o o n e}|到着する前に、映画が始まってしまうんでしょうね。
+BASIC5000_1238|jsut|{t e k I s a s u sh u u w a pau m e k I sh i k o t o s e cl sh i t e i r u}|テキサス州は、メキシコと接している。
+BASIC5000_1374|jsut|{i ch i b u n o by o o i N w a pau y o o j i y o o m i r u k u n o m u ry o o m i h o N o h a i f U s u r u}|一部の病院は、幼児用ミルクの無料見本を配布する。
+BASIC5000_3011|jsut|{d o o i ts U k a N s u u n a i n i sh o r i o e N e N t o k a k I ts u r a n e t a r i pau i cl k a N s e e n o n a i k i j u ts u o k u r i k a e sh I t a r i s u r u k o t o n i y o r i k a d o k U s e e g a h I k u k u n a r u k o t o g a a r u}|同一関数内に処理を延々と書き連ねたり、一貫性のない記述を繰り返したりすることにより可読性が低くなることがある。
+BASIC5000_2816|jsut|{s e N s e e n o i ch i g e k i o s u r e b a pau h a N b u N k a cl t a y o o n a m o n o d a}|先制の一撃をすれば、半分勝ったようなものだ。
+BASIC5000_0639|jsut|{s u r a s u r a i e r u y o o n i n a r u m a d e pau k o n o b u N o a N k I sh i n a s a i}|すらすら言えるようになるまで、この文を暗記しなさい。
+BASIC5000_0684|jsut|{sh i n a m o n o g a s U k u n a i t o k i n i w a pau u r i t e g a y u u r i d a}|品物が少ないときには、売り手が有利だ。
+BASIC5000_2569|jsut|{y a r a n a k U t e w a i k e n a i sh i g o t o g a pau t a k U s a N a r i m a s U k a r a}|やらなくてはいけない仕事が、たくさんありますから。
+BASIC5000_2314|jsut|{sh i r i ts U t a N t e e t a ch i g a pau s o n o k a w a cl t a j i k e N o ch o o s a s u r u t a m e n i y a t o w a r e t a}|私立探偵たちが、その変わった事件を調査するために雇われた。
+BASIC5000_3510|jsut|{d a sh a o o s a e t a s a i n i o o g o e d e h o e pau d o h a d e n a g a cl ts U p o o z u o m i s e r u h a N m e N pau m a u N d o o h a n a r e r e b a i t a cl t e k e N ky o d e o N k o o n a j i N b u ts u d e a r u}|打者を抑えた際に大声で吠え、ド派手なガッツポーズを見せる反面、マウンドを離れれば至って謙虚で温厚な人物である。
+BASIC5000_3303|jsut|{s o n o h o k a pau i ry o o pau k a i g o y o o t o t o sh I t e pau f U sh o k U f u n o t a o r u g a a r u}|そのほか、医療、介護用途として、不織布のタオルがある。
+BASIC5000_2618|jsut|{t a o sh I t a z a s e k i n o s e o pau s U k o sh i m o d o sh I t e i t a d a k e m a s U k a}|倒した座席の背を、少し戻していただけますか。
+BASIC5000_0357|jsut|{s e N s e N f u k o k u n i i t a r u m a d e n o j i k i w a pau k o n o y o o n a j o o ky o o d e a cl t a t o i e r u}|宣戦布告に至るまでの時期は、このような状況であったと言える。
+BASIC5000_0270|jsut|{h a N z a ts u n a t e ts u z u k i o s u m a s e pau f u n e g a t e e j i n i sh u cl k o o d e k i r u t a m e n i w a pau t o k u b e ts u n o u e n i m o t o k u b e ts u n a w a k a r a i g a pau d o o sh I t e m o h I ts u y o o d e a r u}|繁雑な手続きをすませ、船が定時に出港できるためには、特別の上にも特別なはからいが、どうしても必要である。
+BASIC5000_3310|jsut|{t a d a sh i pau g i r u d o m e N b a a g a m a N i N n i n a cl t e i r u t o pau p u r e i y a a n o sh i N s e e w a sh o o n i N s a r e n a i}|ただし、ギルドメンバーが満員になっていると、プレイヤーの申請は承認されない。
+BASIC5000_0347|jsut|{g a N b a r e s a e s u r e b a pau t a i ry o k u y a ch i ry o k u g a n a k U t e m o pau n a n i d e m o d e k i r u t o i u pau i cl sh u n o s e e sh i N sh u g i m o a r u}|頑張れさえすれば、体力や知力がなくても、何でもできるという、一種の精神主義もある。
+BASIC5000_0813|jsut|{z e N k o o s e e t o g a pau a t a r a sh i i k i s o k u n i h a N t a i sh I t e i r u}|全校生徒が、新しい規則に反対している。
+BASIC5000_3073|jsut|{b e r u r i N o r i N p i cl k u n o k a i k a i sh I k i d e w a pau i g i r i s u s e N sh u d a N n o k i sh u o ts U t o m e t a}|ベルリンオリンピックの開会式では、イギリス選手団の旗手を務めた。
+BASIC5000_0907|jsut|{sh u u m a ts u g a d a i n a sh i n i n a r i s a e sh i n a k e r e b a i i d e s U y o}|週末が台無しになりさえしなければいいですよ。
+BASIC5000_3732|jsut|{n i N g e N n o b u N m e e k a ts u d o o g a t o m a cl t a m a ch i w a h o o k a i sh i pau m i z u b i t a sh i n i n a r i pau m i d o r i g a o i sh i g e r u}|人間の文明活動がとまった街は崩壊し、水浸しになり、緑が生い茂る。
+BASIC5000_3868|jsut|{i j o o n o y o o n a s a i g a a r u k o t o k a r a pau j o o b u N j o o d e s a d a m e r a r e t e i r u pau k e N r i k o o sh i n o k I k a N s e e g e N g a pau sh o o m e ts u j i k o o o s a d a m e t a m o n o k a pau j o s e k I k i k a N o s a d a m e t a m o n o k a h a N d a N s u r u h I ts u y o o g a a r u}|以上のような差異があることから、条文上で定められている、権利行使の期間制限が、消滅時効を定めたものか、除斥期間を定めたものか判断する必要がある。
+BASIC5000_0033|jsut|{r a i g e ts u n o k a b u k i z a n o d a sh i m o n o w a n a N d e s U k a}|来月の歌舞伎座の出し物はなんですか。
+BASIC5000_0402|jsut|{m a ts u sh I t a w a pau ky o o s o o g a i sh a k a r a s o N k e e n o m e d e m i r a r e t e i m a s U n e}|松下は、競争会社から尊敬の目で見られていますね。
+BASIC5000_1615|jsut|{m o N w a o o k I k u a i t e i t a k a pau s o r e t o m o h o N n o s U k o sh i a i t e i t a k a}|門は大きくあいていたか、それともほんの少しあいていたか。
+BASIC5000_2281|jsut|{o r e n i w a n a n i n o k o n e m o n a i k a r a pau sh u u sh o k U s u r u n o g a t a i h e N d a}|俺には何のコネもないから、就職するのが大変だ。
+BASIC5000_2127|jsut|{k o m e d i a N w a pau m u z a N n a sh i y a d a i j i k o t o i cl t a pau h i g e k i t e k i j o o ky o o o j o o d a N n o n e t a n i sh I t e i r u}|コメディアンは、無惨な死や大事故といった、悲劇的状況を冗談のネタにしている。
+BASIC5000_1189|jsut|{m u r a n i w a pau n i j u u n i N sh I k a n o k o cl t e i n a k a cl t a}|村には、２０人しか残っていなかった。
+BASIC5000_1839|jsut|{s a ts u e e t a i w a pau m a z u r o k e ch i o m o t o m e t e pau s o n o k u n i ch u u o t a b i sh I t a}|撮影隊は、まずロケ地を求めて、その国中を旅した。
+BASIC5000_2003|jsut|{k i r i s U t o w a pau o o k u n o k i s e k i o o k o n a cl t a t o sh i N j i r a r e t e i r u}|キリストは、多くの奇跡を行ったと信じられている。
+BASIC5000_3230|jsut|{ky o t a i o i k a sh I t a k o o g e k I t o pau k a z e o a y a ts u r u k o o g e k i o t o k u i t o sh I t e i r u}|巨体を活かした攻撃と、風を操る攻撃を得意としている。
+BASIC5000_2397|jsut|{a N g o o g i j u ts u m o pau k a n a r i sh i N r a i n o o k e r u m o n o n i s u s u m u}|暗号技術も、かなり信頼のおけるものに進む。
+BASIC5000_2928|jsut|{sh a o k u y a j u u gy o o i N n i h i g a i w a n a k u pau h e e j o o d o o r i e e gy o o sh I t e i r u}|社屋や従業員に被害はなく、平常通り営業している。
+BASIC5000_3748|jsut|{h a N s o k u k i N n o sh I h a r a i w a n i N i d e a r i pau h a N s o k u k i N o n o o f U sh i n a i b a a i n i w a pau ts u u j o o n o k e e j i t e ts u z u k i n i i k o o sh i pau s a i b a N n i y o r u sh I h o o h a N d a N o a o g u k e N r i o y u u sh I t e i r u}|反則金の支払いは任意であり、反則金を納付しない場合には、通常の刑事手続に移行し、裁判による司法判断を仰ぐ権利を有している。
+BASIC5000_0891|jsut|{p o cl p U k o o N n i pau t o k a sh i b a t a a o k a k e t e k u d a s a i}|ポップコーンに、溶かしバターをかけてください。
+BASIC5000_1734|jsut|{b a i sh i N i N t a ch i w a pau h I k o k u n o n e N r e e o k o o ry o s u r u y o o m o t o m e r a r e t a}|陪審員たちは、被告の年齢を考慮するよう求められた。
+BASIC5000_0343|jsut|{s a k u y a pau k a r e w a j e e N t o i cl sh o n i p a a t i i n i k i t a}|昨夜、彼はジェーンと一緒にパーティーに来た。
+BASIC5000_1510|jsut|{ky o o f u u w a pau a r a sh i g a ch I k a z u i t e i r u k o t o o pau sh i m e sh I t e i r u}|強風は、嵐が近づいていることを、示している。
+BASIC5000_0903|jsut|{o u w a s a w a k a n e g a n e pau t a i s o o u k e t a m a w a cl t e i m a s U}|お噂はかねがね、たいそう承っています。
+BASIC5000_1070|jsut|{h o m e r u k o t o g a pau g a k U sh u u sh a n i y a r u k i o o k o s a s e r u}|ほめることが、学習者にやる気を起こさせる。
+BASIC5000_2399|jsut|{ry o o sh a n o g a cl p e e n o sh i r a s e g a k i n o o t o ts u z e N ts U t a w a cl t a}|両社の合併の知らせがきのう突然伝わった。
+BASIC5000_3185|jsut|{t o o sh o w a m a m o r i h o N z o N m o m a t o m o n i w a d a s e n a k a cl t a g a pau r o t e N b u r o n i s u m i ts u i t a m a h o t o k e o t a i j i sh I t a s a i n i w a pau m i g o t o n a t a i sh a k U t e N o y o b i d a sh I t a}|当初は守り本尊もまともには出せなかったが、露天風呂に住み着いた魔仏を退治した際には、見事な帝釈天を呼び出した。
+BASIC5000_3444|jsut|{d o r a i p o i N t o n o b a a i w a pau s u r e b a s u r u h o d o pau s e N n o sh u u h e N n o t o cl k i b u ts u g a o s a e ts U k e r a r e pau sh i d a i n i s e N g a ts u b u r e t e k u r u}|ドライポイントの場合は、刷れば刷るほど、線の周辺の突起部が押さえつけられ、次第に線がつぶれてくる。
+BASIC5000_1768|jsut|{y o ch i y o ch i a r u k i d e n o y o o j i d e m o d e k i r u n o d a k a r a pau k a z o k u d e t a n o sh i N d e i t a d a k I t a i}|よちよち歩きの幼児でもできるのだから、家族で楽しんでいただきたい。
+BASIC5000_0788|jsut|{i i ts U k e d o o r i n i sh i n a k e r e b a n a r a n a i}|言いつけどおりにしなければならない。
+BASIC5000_3722|jsut|{s e N r e e z e N ky o o i k u n i o i t e w a pau r u t a a i k o o pau j i cl k a i pau sh I t o sh i N j o o pau o m o n o i n o r i o j u u sh I sh i pau s o r e z o r e g a ky o o g i pau k a m i n o t a d a sh i i s u u h a i pau sh i N t o t o sh I t e n o s e e k a ts u o o sh i e r u m o n o t o k a N g a e r u}|洗礼前教育においては、ルター以降、十戒、使徒信条、主の祈りを重視し、それぞれが教義、神の正しい崇拝、信徒としての生活を教えるものと考える。
+BASIC5000_3541|jsut|{k o n o e N d e h i h a k u j i N g a pau t o o j i n o k o N r a N n o j i d a i n i o i t e pau h I k a k U t e k i a N t e e sh I t e i t a e k i sh u u n i y o b a r e t a t a m e pau h i pau m o pau g i f u n o h a k a r a i d e e k i sh u u e y u u g a k u sh I t a}|この縁で費伯仁が、当時の混乱の時代において、比較的安定していた益州に呼ばれたため、費禕も、義父の計らいで益州へ遊学した。
+BASIC5000_3617|jsut|{t o m a k u n o u w a n u r i o y o b i k a s o o n i t a i s u r u s e cl ch a k U s e e g a y o k u pau k i r e ts u n o h a cl s e e m o s U k u n a i}|塗膜の上塗り及び下層に対する接着性が良く、亀裂の発生も少ない。
+BASIC5000_3368|jsut|{sh I k a sh i pau d o o z o k u n o h a t a m o t o g a s o N z a i sh i pau s e N n i hy a cl s e k i o ch i gy o o sh I t e pau a r a k a w a m u r a n i j i N y a o k a m a e t a}|しかし、同族の旗本が存在し、１２００石を知行して、荒川村に陣屋を構えた。
+BASIC5000_2877|jsut|{y a d o g a m i ts U k a r a n a k a cl t a r a pau n o j u k U sh i k a n a i n e}|宿が見つからなかったら、野宿しかないね。
+BASIC5000_0114|jsut|{s a N n e N t o i u w a pau n a g a i j i k a N d a t o w a t a sh i w a o m o u}|３年というは、長い時間だと私は思う。
+BASIC5000_2155|jsut|{by o o k i n o t a m e pau j e e N w a pau g a cl k o o n i i k e m a s e N d e sh I t a}|病気のため、ジェーンは、学校に行けませんでした。
+BASIC5000_1851|jsut|{t a r a N ch u r a w a pau s o n o i k e n i e o pau s u b a y a k U ts u k a m a e t a}|タランチュラは、そのいけにえを、素早く捕まえた。
+BASIC5000_3083|jsut|{m u r o m a ch i b a k U f u s a N k a N ry o o pau h i cl t o o pau sh i b a sh i n o i ch i z o k u}|室町幕府三管領、筆頭、斯波氏の一族。
+BASIC5000_2774|jsut|{k o k u b u N p o o n o g e N z a i k a t a ch i w a pau k o r e k a r a n o k o t o o sh i m e s u y o o h o o g a o o i}|国文法の現在形は、これからのことを示す用法が多い。
+BASIC5000_0828|jsut|{i r o i r o ch i g a cl t a y a k u w a r i g a h i r a k a r e t e i r u k o t o o pau j o s e e t a ch i w a pau i m a sh i r i h a j i m e t e i r u}|色々違った役割が開かれていることを、女性たちは、今知り始めている。
+BASIC5000_3570|jsut|{i cl p a N n i pau k o o b u ts u w a k e cl sh o o k o o z o o o m o ch i pau k a g a k u sh I k i d e a r a w a s U k o t o g a d e k i r u}|一般に、鉱物は結晶構造を持ち、化学式で表すことができる。
+BASIC5000_2038|jsut|{f U k u j u u s u r u y o r i h o k a pau sh I k a t a g a n a k a cl t a}|服従するよりほか、しかたがなかった。
+BASIC5000_1632|jsut|{t o o k a N b u r a w a pau t o o s o sh I k i n o k e cl k a N m o N d a i n i t o r i k u N d e i m a s U}|党幹部らは、党組織の欠陥問題に取り組んでいます。
+BASIC5000_3549|jsut|{z o o e N o h a k e N sh I t a b a k a r i d a cl t a t a m e pau y o r i k a g u w a sh i i s e N k a o k I t a i sh I t a n o d e a cl t a}|増援を派遣したばかりだったため、より芳しい戦果を期待したのであった。
+BASIC5000_0850|jsut|{sh u cl s u i n o h i g a i w a pau s e N m a N d o r u n i t a cl sh I t e i r u}|出水の被害は、１０００万ドルに達している。
+BASIC5000_2627|jsut|{i w a n o u e d e k a m i o t o k a sh i n a g a r a pau k a n o j o w a k o k o r o y o i u t a o u t a cl t a}|岩の上で髪をとかしながら、彼女は快い歌を歌った。
+BASIC5000_3526|jsut|{k o sh o o n o o k a n o s e e k o o w a pau t o k U h i ts u n i a t a i s u r u}|胡椒農家の成功は、特筆に価する。
+BASIC5000_3268|jsut|{g a k U f u n i k a k U t o k i pau h I t o ts u n o ky o o h a k u n i ts u r a n a r u h a k u n o m a t o m a r i o pau sh o o s e ts U t o y o b u}|楽譜に書くとき、ひとつの強拍に連なる拍のまとまりを、小節と呼ぶ。
+BASIC5000_0886|jsut|{z u u t a i b a k a r i o o k i i k a r a pau k e N k a ky o o s o o d a g a pau j i cl s a i k e N k a y o w a i d a r o}|図体ばかり大きいから、喧嘩強そうだが、実際喧嘩弱いだろ。
+BASIC5000_2555|jsut|{s u r e e t o n o k o m i ch i d e w a pau sh i b a w a k a r i n o k o s a r e t e o r i pau z a cl s o o m o n o k o cl t e o r i pau d o o r o n o s o b a n o i k e g a k i n o pau s o t o g a w a n o sh i b a w a k a cl t e i n a i k o t o g a o o k a cl t a}|スレートの小道では、芝は刈り残されており、雑草も残っており、道路のそばの生け垣の、外側の芝は刈っていないことが多かった。
+BASIC5000_3786|jsut|{k e N ch I k u n o b u N y a d e w a sh u u n i h a i cl t e k a r a s o r e m a d e n o k a y a b u k I k a r a pau k a w a r a g a i cl p a N t e k i n i n a cl t a k o t o g a w a k a cl t e i r u}|建築の分野では周に入ってからそれまでの茅葺きから、瓦が一般的になったことがわかっている。
+BASIC5000_0429|jsut|{t o o y o o j i N w a pau m o n o n o m i k a t a g a w a r e w a r e t o w a ch i g a u}|東洋人は、ものの見方が我々とは違う。
+BASIC5000_0812|jsut|{g o s o N p u n o g o s e e ky o n i t a i sh i pau ts U ts u sh i N d e a i t o o n o i o a r a w a sh i m a s U}|ご尊父のご逝去に対し、謹んで哀悼の意を表します。
+BASIC5000_1879|jsut|{s e N r e N s a r e pau ky o o y o o n o a r u h I t o o k u b e ts U s u r u hy o o sh I k i w a pau n a N d e a r o o}|洗練され、教養のある人を区別する標識は、なんであろう。
+BASIC5000_1550|jsut|{i m i n o a r u h e N k a k u g a n a s a r e r u n a r a b a pau w a t a sh i w a s e e j i k a i k a k u n i s o o j i t e s a N s e e d a}|意味のある変革がなされるならば、私は政治改革に総じて賛成だ。
+BASIC5000_1483|jsut|{h i r o k o w a pau m a cl t a k U h i t o r i k i r i d e s o k o n i s u w a cl t e i t a}|広子は、全く一人きりでそこに座っていた。
+BASIC5000_2240|jsut|{n i ch i b o ts u w a pau k o t o b a d e w a hy o o g e N d e k i n a i h o d o u ts U k u sh i k a cl t a}|日没は、言葉では表現できないほど美しかった。
+BASIC5000_0621|jsut|{w a t a sh i pau ky o o w a t o cl t e m o sh i a w a s e n a k i b u N n a n o}|私、今日はとっても幸せな気分なの。
+BASIC5000_0430|jsut|{k o o r e e sh a n o k e a n i ts u i t e pau k a N g a e n a k e r e b a n a r a n a i}|高齢者のケアについて、考えなければならない。
+BASIC5000_3870|jsut|{k o n o i d a i n a u N m e e t o i u b e k i y u m e n o k i w a m i n i i t a r u t o k i pau a t a r a sh i i j i d a i g a h a j i m a cl t e i r u d a r o o}|この偉大な運命というべき夢の極みにいたるとき、新しい時代が始まっているだろう。
+BASIC5000_2000|jsut|{k i m u w a pau s u g o k u m i ry o k u t e k i n a f U k u s o o o sh I t e i r u}|キムは、すごく魅力的な服装をしている。
+BASIC5000_0608|jsut|{u N m e e n i a m a N j i r u k u r a i n a r a pau j i s a ts u sh I t a h o o g a i i}|運命に甘んじるくらいなら、自殺したほうがいい。
+BASIC5000_2311|jsut|{n i k u g a N d e w a h o t o N d o m i e n a i h o sh i m o a r u}|肉眼ではほとんど見えない星もある。
+BASIC5000_1664|jsut|{m i sh i m a y u k i o w a pau s e N ky u u hy a k u n a n a j u u n e N n i j i s a ts u sh I t a}|三島由紀夫は、１９７０年に自殺した。
+BASIC5000_2616|jsut|{d e n i s u w a pau w i r u s o N s a N n o m a r u i k a o o a z a w a r a u}|デニスは、ウィルソンさんの丸い顔をあざ笑う。
+BASIC5000_2786|jsut|{z a i k a i d e w a pau h o o a N t e e sh U ts u d a N n e N n i pau h a N p a ts u o ts u y o m e t e i r u s o o d a}|財界では、法案提出断念に、反発を強めているそうだ。
+BASIC5000_1735|jsut|{y a s u k a cl t a n o d e pau f u y o o n a m o n o m a d e k a u k i n i n a cl t e sh i m a cl t a}|安かったので、不要なものまで買う気になってしまった。
+BASIC5000_2136|jsut|{i ch i m a N m e e t o r u o h a sh i r u n i w a pau o o i n i t a i ky u u ry o k u o h I ts u y o o t o s u r u}|１万メートルを走るには、大いに耐久力を必要とする。
+BASIC5000_2031|jsut|{h a y a sh I sh o o t e N g a pau n i cl p o N n i o k e r u pau w a g a sh a n o y u i i ts u n o d a i r i t e N d e a r u}|林商店が、日本における、わが社の唯一の代理店である。
+BASIC5000_3418|jsut|{h o N r a i w a pau k a t a i t o h i n e r i n o k i i t o o pau a r a i h i r a o r i n i sh I t a pau k i n u o r i m o n o d e a r u}|本来は、片糸撚りの生糸を、荒い平織りにした、絹織物である。
+BASIC5000_1322|jsut|{t o r i i t o i u t o pau k a i d a N o a g a cl t a t o k o r o n i a cl t a pau a k a i o b u j e}|鳥居と言うと、階段を上がったところにあった、赤いオブジェ。
+BASIC5000_2043|jsut|{t o o ch i d e w a pau t e g a m i w a n a N k a i h a i t a ts U s a r e m a s U k a}|当地では、手紙は何回配達されますか。
+BASIC5000_2044|jsut|{k i m i m i z u k a r a g a k a i g i n i sh u cl s e k I s u b e k i d e a cl t a n o d a}|君自らが会議に出席すべきであったのだ。
+BASIC5000_2603|jsut|{d a i y o N n i pau w a t a sh i w a pau j i b u N g a n a n i k a o o s o r e t e i r u t o h I t o b i t o n i o m o w a r e t a k u n a i}|第四に、私は、自分が何かを恐れていると人々に思われたくない。
+BASIC5000_2746|jsut|{a s a g a a k e r u t o pau k a r e r a w a k a N p a N n i d e t e i t a}|朝が明けると、彼らは甲板に出ていた。
+BASIC5000_0829|jsut|{s U k i n a h I t o n a r a d a r e n i d e m o pau s o r e o a g e n a s a i}|好きな人なら誰にでも、それをあげなさい。
+BASIC5000_2225|jsut|{k I k o o g a s e e k a k u n i e e ky o o s u r u t o o m o i m a s U k a}|気候が性格に影響すると思いますか。
+BASIC5000_2499|jsut|{i N e e n i k i o ts U k e t e m i t a n o d e s U g a n a k a n a k a u m a k u i k a n a i d e s U}|陰影に気をつけてみたのですがなかなかうまくいかないです。
+BASIC5000_3783|jsut|{k o o i cl t a h a N d a N o a o g u t a m e n i pau s e N m o N i n o j u sh i N w a k a k a s e n a i}|こういった判断を仰ぐために、専門医の受診はかかせない。
+BASIC5000_0040|jsut|{h e b i o m i t a t o k i pau k a r e w a h i m e e o a g e t a}|蛇をみたとき、彼は悲鳴をあげた。
+BASIC5000_1395|jsut|{t a e r a r e n a i a cl p a k U k a r a n o g a r e r u t a m e n i pau j i s a ts u n i h a sh i r u k o d o m o t a ch i m o i r u}|耐えられない圧迫から逃れるために、自殺に走る子供たちもいる。
+BASIC5000_2892|jsut|{w a f U k u s u g a t a n o d a N s e e w a pau t o o ky o o d e w a m o o a m a r i m i k a k e n a i}|和服姿の男性は、東京ではもうあまり見かけない。
+BASIC5000_3061|jsut|{k i N s e e n i w a pau e d o b a k U f u n o i n o ch i n i y o r i pau s e e j o o k o o t e r a o s o o h o N z a N t o s u r u pau t o k i m u n e n o k a N k a ts u k a n i o k a r e t a}|近世には、江戸幕府の命により、清浄光寺を総本山とする、時宗の管轄下におかれた。
+BASIC5000_1305|jsut|{a k a r u i e g a o d e pau f U t a r i w a h I k a r i k a g a y a k u m i r a i o a y u m i h a j i m e t a N d a}|明るい笑顔で、２人は光り輝く未来を歩み始めたんだ。
+BASIC5000_1320|jsut|{m a ts u m o t o s e e ch o o w a pau s e N ky u u hy a k U ky u u j u u n i n e N n i n a k u n a cl t a}|松本清張は、１９９２年に亡くなった。
+BASIC5000_0146|jsut|{k a m i n a r i n i o d o r o i t a ky o o k o g a pau o r e n i sh i g a m i ts u i t e k i t a}|雷に驚いた京子が、俺にしがみついてきた。
+BASIC5000_2152|jsut|{s a cl ky o k u k a n o n a k a d e w a pau d a r e g a i ch i b a N s U k i d e s U k a}|作曲家の中では、誰が一番好きですか。
+BASIC5000_3374|jsut|{d a i b u j i k a N g a t a cl t e o r i m a s U n o d e sh o o s a i w a o m o i d a s e m a s e N g a pau k a i w a p e e j i o k a k u n i N sh I t a k a g i r i d e w a pau w a t a sh i g a t e e n e e n i r i r e k i o m i t e i r e b a pau s a k e r a r e t a g o k a i d a cl t a k a m o sh i r e n a i t o o m o i m a sh I t a}|だいぶ時間がたっておりますので詳細は思い出せませんが、会話ページを確認した限りでは、私が丁寧に履歴をみていれば、避けられた誤解だったかもしれないと思いました。
+BASIC5000_1054|jsut|{o t o n a n o sh i h a i n i t a i sh i pau k a r e r a w a k o n o y o o n a sh o o ky o k u t e k i n a h a N k o o n o sh I k a t a o s u r u n o d e a r u}|大人の支配に対し、彼らはこのような消極的な反抗の仕方をするのである。
+BASIC5000_2470|jsut|{t e ts u d o o r o s e N g a ts u g a r u k a i ky o o n o sh I t a o t o o cl t e h o cl k a i d o o m a d e e N ch o o s a r e t a}|鉄道路線が津軽海峡の下を通って北海道まで延長された。
+BASIC5000_3213|jsut|{k a N r a N k i b o o sh a w a pau m a e m o cl t e g e N ch i n o n e cl t o ky o k u a t e n i pau k a N r a N sh I t a i m u n e n o h a g a k i o o k u r u h I ts u y o o g a a cl t a}|観覧希望者は、前もって現地のネット局宛に、観覧したい旨のハガキを送る必要があった。
+BASIC5000_0640|jsut|{s u r i h e r a s u n o w a sh i i ts u d e w a n a k U k u ts u n i sh i r o}|すり減らすのはシーツではなく靴にしろ。
+BASIC5000_1554|jsut|{j o o ky a k u w a pau i cl t e e ry o u n o n i m o ts u o k i n a i n i m o ch I k o m u k o t o g a d e k i r u}|乗客は、一定量の荷物を機内に持ち込むことができる。
+BASIC5000_2389|jsut|{h o N t o o n i s o n o h a i y u u w a pau t a n o d o n o h a i y u u y o r i m o pau j o o z u n i k a u b o o i n o y a k u o k o n a sh I t a}|本当にその俳優は、他のどの俳優よりも、上手にカウボーイの役をこなした。
+BASIC5000_1207|jsut|{t o o k o o n o t o ch u u pau w a s u r e z u n i k o n o t e g a m i o d a sh I t e n e}|登校の途中、忘れずにこの手紙を出してね。
+BASIC5000_3755|jsut|{h I t o b i t o g a n i ch i j o o t e k i n i t a b e r u n i ch i j o o sh o k u n o k o N d a t e w a pau t a b e r u h I t o n o k e N k o o o m a z u d a i i ch i n i k a N g a e t e t a t e r u b e k i d e a r u pau t o sh I t e k I s a r e r u y o o n i n a cl t e k i t e i r u}|人々が日常的に食べる日常食の献立は、食べる人の健康をまず第一に考えて立てるべきである、と指摘されるようになってきている。
+BASIC5000_2895|jsut|{j i m i i g a d o o b u ts u e N n i ts u r e t e i k e t o i cl t e k I k a n a i N d e s U}|ジミーが動物園に連れて行けと言ってきかないんです。
+BASIC5000_3307|jsut|{s u m e r a g i h I t o n a cl t a a n e o o N ry o o d e u sh i n a cl t e o r i pau m a t a k o n o e sh o o sh o o t o i u t a ch i b a k a r a pau o N ry o o o t o r i n o z o k U h o o h o o o m o t o m e t e i r u}|皇妃となった姉を怨霊で失っており、また近衛少将と言う立場から、怨霊を取り除く方法を求めている。
+BASIC5000_3719|jsut|{sh o k i n o p u r a g u w a pau m o k U h e N o k e z u cl t e ts U k u cl t a f u ry o k u n o t a k a i m o n o d e pau s u b e t e m i z u n i u k u pau t o cl p u w o o t a a p u r a g u d e a cl t a}|初期のプラグは、木片を削って作った浮力の高いもので、すべて水に浮く、トップウォータープラグであった。
+BASIC5000_0272|jsut|{sh o o d a N n i h a i r u m a e n i pau s U k o sh i z a ts u d a N d e m o sh i m a sh o o}|商談に入る前に、少し雑談でもしましょう。
+BASIC5000_3553|jsut|{ny u u sh o k U h a k u j i N t a ch i w a pau d o k u i r i n o n i k u y a pau t e N n e N t o o n i k a N s e N sh I t a i N d i a N n o m o o f u o o o k a m i n i a t a e t a}|入植白人たちは、毒入りの肉や、天然痘に感染したインディアンの毛布を狼に与えた。
+BASIC5000_3718|jsut|{k a k I sh i b u n o n u r a r e t a k a m i o pau sh i b u g a m i t o y o b u}|柿渋の塗られた紙を、渋紙と呼ぶ。
+BASIC5000_2117|jsut|{k a z e y a r a a m e y a r a d e pau s o n o sh i a i w a s a N z a N d a cl t a}|風やら雨やらで、その試合はさんざんだった。
+BASIC5000_3778|jsut|{d e e m o N w a h i j o o n i ky o o a k u d e h I t o s u j i n a w a d e w a i k a z u pau t o k i n i w a m a h o o n i t a y o cl t e pau t o k i n i w a h o k a n o p u r e i y a a t o ky o o ry o k u sh I t e t a o s U k o t o m o j u u y o o n i n a cl t e k u r u}|デーモンは非常に凶悪で一筋縄ではいかず、時には魔法に頼って、時には他のプレイヤーと協力して倒すことも重要になってくる。
+BASIC5000_3336|jsut|{d a N s o o n a i n o d a N y a k u m o m u s e e g e N n i n a r u t a m e pau r i r o o d o s u r u k o t o n a sh i n i t a m a o u ch I ts u z u k e r u k o t o g a d e k i r u}|弾倉内の弾薬も無制限になるため、リロードすること無しに弾を撃ち続けることができる。
+BASIC5000_0923|jsut|{k o k o k a r a pau d i z u n i i r a N d o i k i n o b a s u n i n o r e r u t o o m o i m a s U}|ここから、ディズニーランド行きのバスに乗れると思います。
+BASIC5000_3588|jsut|{o N n a w a o cl t o n i i e n u m a m a y u u sh o k u n o sh I t a k u o sh i pau f U t a r i w a s e k i n i ts u i t a}|女は夫に言えぬまま夕食の支度をし、二人は席に着いた。
+BASIC5000_3535|jsut|{sh I k a sh i pau s o n o d e k i g o t o o k i cl k a k e n i sh I t e pau k a n o j o o h o cl s u r u b a r a N n i pau b u r a N k a w a n o cl t o r a r e t e sh i m a u}|しかし、その出来事をきっかけにして、彼女を欲するバランに、ブランカは乗っ取られてしまう。
+BASIC5000_1232|jsut|{k a i k o k u w a pau n i cl p o N b u N m e e n i o o k i n a e e ky o o o m o t a r a sh I t a}|開国は、日本文明に大きな影響をもたらした。
+BASIC5000_0063|jsut|{my u u j i k a r u w a pau m i n a k a cl t a n o d e s U k a}|ミュージカルは、見なかったのですか。
+BASIC5000_3110|jsut|{a t o n i h a d a N n i n a cl t a t a m e pau n o r o u h I ts u y o o g a n a k u n a cl t a}|後に破談になったため、呪う必要が無くなった。
+BASIC5000_3423|jsut|{t o o n a i y a g e f e n i a n i sh U ts u g e N s u r u t e N sh i g a o t o s U t o k U t e e n o a i t e m u o k a n o j o n i w a t a s e b a pau i k u r a k a n o h o o sh o o g a a t a e r a r e r u}|塔内やゲフェニアに出現する天使が落とす特定のアイテムを彼女に渡せば、いくらかの褒賞が与えられる。
+BASIC5000_1356|jsut|{h a h a n o sh i w a pau w a t a sh i n o sh o o g a i n i pau o o k i n a k u u h a k u o n o k o sh I t a}|母の死は、私の生涯に、大きな空白を残した。
+BASIC5000_0660|jsut|{ch u u g a e r i s u r u j e cl t o k o o s U t a a n i n o cl t a r a pau k i m o ch i w a r u k u n a cl ch a cl t a}|宙返りするジェットコースターに乗ったら、気持ち悪くなっちゃった。
+BASIC5000_3750|jsut|{o n a j i k U h o o g a k u b u N y a n i z o k u sh i pau s u d e n i sh u u i ts u n a k i j i n i s e N sh U ts u s a r e t e i r u sh o o n e N h o g o t e ts u z u k i y a pau b a i sh i N s e e t o h I k a k u sh I t e m o pau f U ts u u n o d o k U sh a n i w a k a r i n i k u i t o w a a m a r i i e n a i t o o m o i m a s U}|同じく法学分野に属し、既に秀逸な記事に選出されている少年保護手続や、陪審制と比較しても、普通の読者にわかりにくいとはあまり言えないと思います。
+BASIC5000_0610|jsut|{sh i cl k e n o o o i k I k o o w a pau s o n o h a N t o o n o t o k U sh o k u d e s U}|湿気の多い気候は、その半島の特色です。
+BASIC5000_2689|jsut|{a m e n i n a r u t o i k e n a i n o d e pau k a s a o m o cl t e i cl t a h o o g a y o i}|雨になるといけないので、傘を持って言ったほうがよい。
+BASIC5000_1889|jsut|{h a r i n o o ch i r u o t o m o k I k o e r u h o d o n o sh i z u k e s a d a}|針の落ちる音も聞こえるほどの静けさだ。
+BASIC5000_1522|jsut|{e r a k u g o k i g e N n a n a m e n e pau k e N k a g o sh i n i n a r a n a i d e}|えらくご機嫌ななめね、けんか腰にならないで。
+BASIC5000_2070|jsut|{h a i k a a w a m o r i n o n a k a d e m o h o o k o o g a w a k a r u y o o n i k o N p a s u o k e e t a i s u r u h I ts u y o o g a a r u}|ハイカーは森の中でも方向が分かるようにコンパスを携帯する必要がある。
+BASIC5000_1567|jsut|{ky o k U ch i t e k i n a o o a m e d a cl t a r a sh i i k e d o pau i k a n a k U t e s e e k a i d a cl t a y o}|局地的な大雨だったらしいけど、行かなくて正解だったよ。
+BASIC5000_2172|jsut|{p u r a cl t o h o o m u n i w a pau t o t e m o pau o o k u n o h I t o g a i t a}|プラットホームには、とても、多くの人がいた。
+BASIC5000_2059|jsut|{a n i g a ky u u s e e sh I t a n o w a n i n e N m a e pau g i sh i w a pau h I t o r i k e e n o n o k o sh I t a ch i i s a n a h o o sh o k u t e N o pau k e n a g e n i m a m o cl t e k i t a}|兄が急逝したのは２年前、義姉は、一人兄の遺した小さな宝飾店を、健気に守ってきた。
+BASIC5000_0138|jsut|{i cl ch i d a N k e ts u sh I t e pau n a n i k a a t a r a sh i i k o t o o y a r o o j a n a i k a}|一致団結して、何か新しいことをやろうじゃないか。
+BASIC5000_3780|jsut|{h a ts u g a sh I t a k a g e j u n o n a e w a pau sh i d a i n i s e g a t a k a k u n a r i pau y a g a t e pau s e N d a i n o r i N k a N o ts U k u cl t a k i t o o k I k a w a r u k o t o d e pau sh i N r i N w a a m a r i h e N k a s e z u n i s o n o j o o t a i o t a m o ts u pau t o n o k a N g a e g a a cl t a}|発芽した陰樹の苗は、次第に背が高くなり、やがて、先代の林冠を作った木と置き換わることで、森林はあまり変化せずにその状態を保つ、との考えがあった。
+BASIC5000_0372|jsut|{b e t i i g a p a a t i i n i k i t a s a i sh o n o o N n a n o k o d a cl t a}|ベティがパーティーに来た最初の女の子だった。
+BASIC5000_3690|jsut|{j o o sh I k i o m o ch i a w a s e t e i r u g a pau s e k i n i N t e N k a n a d o o o k o n a u k o t o m o a r u}|常識を持ち合わせているが、責任転嫁などを行うこともある。
+BASIC5000_3254|jsut|{k o r e r a w a s e e t e k I k o o i o t o m o n a w a n a i t a m e pau i N k o o j o o r e e n i w a i h a N s e z u pau m a t a b a i sh u N k o o i n i m o a t a r a n a i}|これらは性的行為を伴わないため、淫行条例には違反せず、また売春行為にも当たらない。
+BASIC5000_3932|jsut|{m o n o g o sh i w a y a w a r a k a i g a pau t o k i o r i pau s o n o h I t o m i n i ts u m e t a i h I k a r i o sh U k u s u j i N b u ts u}|物腰は柔らかいが、時折、その瞳に冷たい光を宿す人物。
+BASIC5000_2123|jsut|{a i z u n i t e o a g e r u k o t o n i sh i m a sh o o}|合図に手をあげることにしましょう。
+BASIC5000_3993|jsut|{m a t a pau k u z u n o ts u r u w a n a g a i k o t o k a r a pau k i r i t o cl t a ts u r u g a k a N s o o sh I t e k a t a k u n a r u m a e n i a m u k o t o d e pau k a g o n a d o n o s e e k a ts u y o o h i N o ts U k u r u k o t o g a d e k i r u}|また、クズのつるは長いことから、切り取ったつるが乾燥して固くなる前に編むことで、籠などの生活用品を作ることができる。
+BASIC5000_2460|jsut|{h o o ch o o t o k a n a b e t o k a d a i d o k o r o y o o h i N o j i s a N s u r u k o t o}|包丁とかなべとか台所用品を持参すること。
+BASIC5000_0313|jsut|{w a k a r a n a i t o k o r o w a a k a d e sh i r u sh i o ts U k e t e pau j u gy o o d e k i i t e k u d a s a i}|わからないところは赤でしるしを付けて、授業で聞いてください。
+BASIC5000_3353|jsut|{m a y a k u o y o b i k o o s e e sh i N y a k u n o f U s e e t o r i h I k i n o b o o sh i n i k a N s u r u k o k U s a i r e N g o o j o o y a k u pau i w a y u r u m a y a k U sh i N j o o y a k u n o t e e k e ts u n i t o m o n a u pau n i cl p o N k o k u n a i n o h o o r i ts u n o s e e b i t o sh I t e r i cl p o o s a r e t a}|麻薬及び向精神薬の不正取引の防止に関する国際連合条約、いわゆる麻薬新条約の締結に伴う、日本国内の法律の整備として立法された。
+BASIC5000_1748|jsut|{k a r e t o u m a k u y a cl t e i k U k o t o w a d e k i n a i}|彼とうまくやっていくことはできない。
+BASIC5000_3092|jsut|{sh u j i N k o o t a ch i w a pau r i z o o t o h o t e r u n i t a i z a i sh I t e i t a t o k o r o pau z o N b i t a ch i n o sh u u g e k i n i y o cl t e pau m e z a m e r u}|主人公達は、リゾートホテルに滞在していたところ、ゾンビ達の襲撃によって、目覚める。
+BASIC5000_0846|jsut|{g e N b a n i w a pau k a r e n i f u r i n a sh o o k o h i N w a n a n i m o n a k a cl t a}|現場には、彼に不利な証拠品は何もなかった。
+BASIC5000_1188|jsut|{n a g a k u r e N sh u u sh I t a o k a g e d e pau k a r e w a t o t e m o j u k U t a ts u sh I t a}|長く練習したおかげで、彼はとても熟達した。
+BASIC5000_2195|jsut|{k o i w a g e e m u j a n a i k a r a pau i i t o k o t o r i w a d e k i n a i N d a y o}|恋はゲームじゃないから、いいとこ取りはできないんだよ。
+BASIC5000_2453|jsut|{h a t o sh o k u b u ts U t o n o k a N k e e w a pau h a i t o d o o b u ts U t o n o k a N k e e n i h I t o sh i i}|葉と植物との関係は、肺と動物との関係に等しい。
+BASIC5000_1713|jsut|{m i s a k i w a pau a t a r a sh i k u d e a cl t a h I t o t o pau n e ts u r e ts u n a k o i o sh i m a sh I t a}|美咲は、新しく出会った人と、熱烈な恋をしました。
+BASIC5000_1977|jsut|{m a r e e sh i a w a pau s e N ky u u hy a k u g o j u u n a n a n e N n i t a N j o o sh I t a}|マレーシアは、１９５７年に誕生した。
+BASIC5000_3242|jsut|{b o cl k I f u z e N i g a i n o m o k U t e k i d e m o ch i i r a r e r u t a i p u n o m o n o w a pau k e ts u ry u u g a m o d o r u ch I k a r a o y o w a m e r u t a m e n o k i n o o g a ts u i t e i r u}|勃起不全以外の目的で用いられるタイプの物は、血流が戻る力を弱めるための機能が付いている。
+BASIC5000_3685|jsut|{o m a k e n i h i i r o n i h a d a k a o m i s e t e m o d o o j i n a i n a d o pau sh u u ch i sh i N m o k a i m u}|おまけにヒイロに裸を見せても動じないなど、羞恥心も皆無。
+BASIC5000_3522|jsut|{t o k u n i s a N k a N b u d e w a pau t o o k i w a r o m e N t o o k e ts u y a pau s e k I s e ts u m o m e z u r a sh i k u n a i}|特に山間部では、冬季は路面凍結や、積雪も珍しくない。
+BASIC5000_2403|jsut|{d o ch i r a d e m o s U k i n a m i ch i o i cl t e m o y o i}|どちらでも好きな道を行ってもよい。
+BASIC5000_0958|jsut|{ts u r a i t o k i pau k a n a sh i i t o k i w a pau h I t o n o t a m e n i n a n i k a sh I t e m i m a sh o o}|つらいとき、哀しいときは、人のために何かしてみましょう。
+BASIC5000_3459|jsut|{h i g a k a g a m i b i k a r a m o r a cl t a n u i g u r u m i g a pau y o o sh i n o b u k a r i n o s u g a t a d a cl t a}|妃が鏡美からもらったぬいぐるみが、世を忍ぶ仮の姿だった。
+BASIC5000_0084|jsut|{j i k o k u n o k o t o b a n i ts u i t e pau i k u r a k a sh i cl t e m o sh i r i s u g i r u k o t o w a n a i}|自国の言葉について、いくらか知っても知りすぎることはない。
+BASIC5000_2693|jsut|{m i b u N sh o o m e e sh o o m o cl t e i r u g a k U s e e n a r a pau d a r e d e m o t o sh o k a N n i h a i r u k o t o g a d e k i r u}|身分証明書を持っている学生なら、誰でも図書館に入ることができる。
+BASIC5000_3607|jsut|{d a k a r a w a t a sh i t a ch i w a pau j i N s e e n i o i t e s e e j i ts u n i pau m u n e o h a r i pau h a j i r u k o t o n a k u i k i r u b e k i n a n o d e s U}|だから私たちは、人生において誠実に、胸を張り、恥じることなく生きるべきなのです。
+BASIC5000_3036|jsut|{ky u u sh I ts u s e z u pau t o s o o o o k a s U k o t o m o n a i g a pau b u r e e k I sh i s U t e m u n o sh i i r u t o o n o g o m u r u i n i t a i sh I t e pau k o o g e k I s e e g a t a k a i}|吸湿せず、塗装を侵すことも無いが、ブレーキシステムのシール等のゴム類に対して、攻撃性が高い。
+BASIC5000_0747|jsut|{s a z a e w a j i b u N n o d e N w a b a N g o o o w a s u r e t e b a k a r i i r u N d a k a r a}|サザエは自分の電話番号を忘れてばかりいるんだから。
+BASIC5000_3566|jsut|{s o r e o sh i cl t a h a h a o y a k a N g a r u u w a pau j i m a N n o p a N ch i ry o k U t o ky a k u ry o k u d e pau k o d o m o o t a s U k e d a s U t a m e n i h I t o r i pau s a r u n o k u n i e t o h a i cl t e i cl t a}|それを知った母親カンガルーは、自慢のパンチ力と脚力で、子供を助け出すためにひとり、サルの国へと入っていった。
+BASIC5000_2078|jsut|{k a z e n o ch I k a r a w a pau o o k u n o k u n i d e m o a r u t e e d o w a ts U k a w a r e t e k i t a}|風の力は、多くの国でもある程度は使われてきた。
+BASIC5000_2337|jsut|{h o o t e e b e N g o sh i t a ch i w a pau m a f i a n o b o s u n o m o ch i i r u m o k U h i s e N j u ts u o k a w a s U k o t o g a d e k i n a k a cl t a}|法廷弁護士達は、マフィアのボスの用いる黙秘戦術をかわすことができなかった。
+BASIC5000_1044|jsut|{s a k a n a w a t o o b i d e y u cl k u r i pau k o N g a r i y a k i a g e m a s U}|魚は遠火でゆっくり、こんがり焼き上げます。
+BASIC5000_3792|jsut|{s a N g o o w a g o k o k u s a N pau sh u u h a w a s o o t o o sh u u pau h o N z o N w a sh o o k a N n o N b o s a ts u}|山号は護国山、宗派は曹洞宗、本尊は聖観音菩薩。
+BASIC5000_0269|jsut|{sh i N k o k u n a k i k i g a sh o o j i r e b a pau s e e f u w a j i N s o k u n a k o o d o o o t o r a n a k e r e b a n a r a n a i}|深刻な危機が生じれば、政府は迅速な行動をとらなければならない。
+BASIC5000_3916|jsut|{a r a y u r u sh o k u b u ts u w a pau t e ts U k e ts u b o o n o e e ky o o o u k e r u}|あらゆる植物は、鉄欠乏の影響を受ける。
+BASIC5000_1075|jsut|{g o ch I s o o g a d e r u k a r a pau o n a k a o s u k a s e t e o k i n a s a i}|ご馳走が出るから、おなかをすかせておきなさい。
+BASIC5000_1242|jsut|{a k a sh i N g o o n o t o k i n i o o d a N sh I t e w a i k e n a i t o pau k e e k a N w a w a t a sh i t a ch i n i i i m a sh I t a}|赤信号の時に横断してはいけないと、警官は私たちに言いました。
+BASIC5000_3166|jsut|{k o n o k e N d e s U g a pau a i t e g a b e N g o sh i d e a r u b a a i n i w a j i N s o k u n a t a i o o g a h I ts u y o o k a t o m o o m o i m a sh I t a g a pau b e N g o sh I t o w a i cl t e i n a i k o t o y a pau y o o g o n o ts U k a i k a t a t o o n i k a N g a m i r u t o pau s o o y u u k o t o w a n a s a s o o d e s U n e}|この件ですが、相手が弁護士である場合には迅速な対応が必要かとも思いましたが、弁護士とは言っていないことや、用語の使い方等に鑑みると、そういうことはなさそうですね。
+BASIC5000_1673|jsut|{e k I k a r a s o n o g a cl k o o m a d e pau t a cl p u r i g o k i r o w a a r i m a sh I t a}|駅からその学校まで、たっぷり５キロはありました。
+BASIC5000_1575|jsut|{k o o k i g a n i d o o t o z u r e r u k o t o w a pau m e cl t a n i n a i}|好機が二度訪れることは、めったにない。
+BASIC5000_1573|jsut|{ky o o sh u u j o n o ky o o sh i n i s o o pau k o g e r u n a t o i w a r e t e i m a s U}|教習所の教師にそう、焦るなと言われています。
+BASIC5000_3933|jsut|{m i n a m i s e e n o h e e sh i o ky o o r i n i k a e sh i pau s e N sh I sh a o t o m u r a u y o o j o o s o o sh I t e pau k I k i i r e r a r e t a}|南征の兵士を郷里に帰し、戦死者を弔うよう上奏して、聞き入れられた。
+BASIC5000_0672|jsut|{k I h o N r u u r u o m a n a N d e sh i m a e b a pau s o n o g e e m u w a k a N t a N d e s U}|基本ルールを学んでしまえば、そのゲームは簡単です。
+BASIC5000_3390|jsut|{s a r a n i b a z a a r i w a pau t o sh i o i t a s o d o m a w a s a r a n i n a m a k e r u y o o n i n a r i pau k a b e n o u e n i ch o k U s e ts u e g a k u n u r u n o d e w a n a k u pau f u r e s U k o g a y o o n o j i ts u b u ts u d a i n o sh I t a e o ts U k u cl t a pau t o r i k I s e ts u sh I t e i r u}|さらにヴァザーリは、年老いたソドマはさらに怠けるようになり、壁の上に直接描く塗るのではなく、フレスコ画用の実物大の下絵を作った、と力説している。
+BASIC5000_0522|jsut|{s a w a d a s a N o y o b i d a sh I t e i t a d a k e m a s U k a}|沢田さんを呼び出していただけますか。
+BASIC5000_0980|jsut|{y o ts u b a n o k u r o o b a a o m i ts U k e t a k o t o g a a r i m a s U k a}|四つ葉のクローバーを見つけたことがありますか。
+BASIC5000_1177|jsut|{k I f u j i N w a i s o i d e by o o i N e i k i pau s o n o m a m a sh i N s a ts u sh I ts u e t o ts u r e t e i k a r e t a}|税に関して言えば、それは魅力的な制度だ。
+BASIC5000_2989|jsut|{s o o g o N n a j i i N d e pau sh i N s e e n a g i sh I k i g a o k o n a w a r e t a}|荘厳な寺院で、神聖な儀式が行われた。
+BASIC5000_1370|jsut|{k o o s o k u d o o r o o h a sh i r u t o k i w a pau i k u r a ch u u i sh I t e m o j u u b u N t o w a i e n a i}|高速道路を走る時は、いくら注意しても十分とは言えない。
+BASIC5000_0228|jsut|{g o s e N e N a r e b a pau k o n o j i sh o o k a u n o n i j u u b u N d a}|５千円あれば、この辞書を買うのに十分だ。
+BASIC5000_0148|jsut|{g o d o r u g u r a i sh I k a m o ch i a w a s e g a n a i}|５ドルぐらいしか持ち合わせがない。
+BASIC5000_1973|jsut|{m a y o n e e z u n o a b u r a w a pau b u N r i s u r u k o t o g a a r u}|マヨネーズの油は、分離することがある。
+BASIC5000_3295|jsut|{ch I h o o j i ch i o k a k u r i ts U s u r u k o t o g a n o z o m a sh i i n a r a b a pau i n i N j i m u o h e r a sh i pau k o y u u j i m u o f u y a s U k o t o g a n o z o m a sh i i}|地方自治を確立することが望ましいならば、委任事務を減らし、固有事務を増やすことが望ましい。
+BASIC5000_0578|jsut|{k a N k e ts u n i i u t o pau h o b u b o o m u n o r o N t e N w a pau n i j u cl s e e k i n o r e k I sh i w a b u N k a s u i t a i n o r e k I sh i d e a r u t o i u k o t o d a}|簡潔に言うと、ホブボームの論点は、２０世紀の歴史は文化衰退の歴史であるということだ。
+BASIC5000_2016|jsut|{s e cl ky o k u t e k i n a sh I s e e g a a r e b a pau k a i k e ts u d e k i r u m o N d a i w a s o n o y a r i k a t a o m o t o m e pau sh o o a k u d e k i n a i k o t o g a r a k a r a w a pau t e o h I k u k o t o n i n a r u}|積極的な姿勢があれば、解決できる問題はそのやり方を求め、掌握できない事柄からは、手を引くことになる。
+BASIC5000_3960|jsut|{s o n o ry o o sh i n o h a h a w a y a m a n i h a i r i t a k i g i y a k o n o m i o t o r i pau ry o o sh i w a sh I k a o k a r u t a m e n i y a m a n i h a i cl t a}|その猟師の母は山に入り薪や木の実を採り、猟師は鹿を狩るために山に入った。
+BASIC5000_2939|jsut|{a e t e i i m a s U g a pau m o sh i w a r e w a r e g a s o N n a k o t o o s u r e b a pau t a i h e N n a a y a m a r i o o k a s U k o t o n i n a r u t o pau w a t a sh i w a o m o i m a s U}|あえて言いますが、もし我々がそんなことをすれば、大変な誤りを犯すことになると、私は思います。
+BASIC5000_0335|jsut|{n e m u cl t e i r u a k a N b o o o o k o s a n a i y o o n i pau ch u u i sh i n a s a i}|眠っている赤ん坊を起こさないように、注意しなさい。
+BASIC5000_3662|jsut|{s o r e w a d i r u m u N t a i r i k u n i s e N r i ts u g a h a sh i r u sh u N k a N d a cl t a}|それはディルムン大陸に戦慄が走る瞬間だった。
+BASIC5000_3643|jsut|{k a t e e d e w a sh o k U t a k u n i n o r u m e ny u u t o sh I t e y o r i pau e N s o k u y a h a i k i N g u n a d o n o y a g a i k a ts u d o o n o b e N t o o n o m e ny u u t o sh I t e ts U k u r a r e r u k o t o g a o o i}|家庭では食卓に乗るメニューとしてより、遠足やハイキングなどの野外活動の弁当のメニューとして作られることが多い。
+BASIC5000_0622|jsut|{g a N s e k i y a k o o b u ts u w a pau i r o i r o n a m e N d e w a t a sh i t a ch i n i y u u e k i d e a r u}|岩石や鉱物は、いろいろな面で私たちに有益である。
+BASIC5000_1446|jsut|{k U ch i b u e w a pau a r u h o o h o o d e pau i k i o f u k U k o t o d e d e k i r u}|口笛は、ある方法で、息を吹くことでできる。
+BASIC5000_1686|jsut|{k a g e g u ch i o i w a r e r u n o g a s U k i n a h I t o w a i n a i}|陰口を言われるのが好きな人はいない。
+BASIC5000_0145|jsut|{g o m a i r u w a pau p i k u n i cl k u n i t e k i sh I t a ky o r i d a}|５マイルは、ピクニックに適した距離だ。
+BASIC5000_2507|jsut|{k o m a r i h a t e t e pau n a n i o sh I t e y o i k a w a k a r a n a k a cl t a}|困り果てて、何をしてよいかわからなかった。
+BASIC5000_1911|jsut|{g u N j i k u N r e N t o w a pau h e e sh i t a ch i g a u k e r u k u N r e N d e a r u}|軍事訓練とは、兵士たちが受ける訓練である。
+BASIC5000_1585|jsut|{i f U k u o k a u n o o s e ts u y a k U sh i n a k e r e b a n a r a n a i}|衣服を買うのを節約しなければならない。
+BASIC5000_1881|jsut|{h a r i h o d o n o k o t o o pau b o o h o d o n i i u n o w a d o o k a t o o m o i m a s U}|針ほどのことを、棒ほどにいうのはどうかと思います。
+BASIC5000_0193|jsut|{g o k a z o k u m o i cl sh o n i ts u r e t e k o r a r e t a n o d e s U k a}|ご家族もごいっしょに連れてこられたのですか。
+BASIC5000_3743|jsut|{k o o sh I t a s e cl s e e t o k o cl k i n i w a pau k a r e n o sh I t e k i n a k a N j u s e e n o n a k a n i pau k a N sh i t e k i n a d e N t o o pau a r u i w a pau j u ky o o t e k i n a s e e sh i N g a n e ts u i t e i r u k o t o g a u k a g a w a r e r u}|こうした節制と克己には、彼の詩的な感受性の中に、漢詩的な伝統、あるいは、儒教的な精神が根付いていることがうかがわれる。
+BASIC5000_1930|jsut|{y a sh o k u n i pau i N s U t a N t o r a a m e N o t a b e t a}|夜食に、インスタントラーメンを食べた。
+BASIC5000_3189|jsut|{o k o m a n o h a h a w a pau g e j o n o o k I k u o ky o o n i sh I t e y a k U sh o n i i k i pau o k I k u n i o k o m a e n o s a sh i i r e o m o t a s e t e h a i r a s e pau m i z u k a r a w a m o N z e N d e m a cl t e i t a}|お駒の母は、下女のお菊を供にして役所に行き、お菊にお駒への差し入れを持たせて入らせ、自らは門前で待っていた。
+BASIC5000_3250|jsut|{g e N z a i n o t o o ky o o j i k e e k a i i k a d a i g a k U k a ts U sh i k a i ry o o s e N t a a d e a r u}|現在の東京慈恵会医科大学葛飾医療センターである。
+BASIC5000_0083|jsut|{g a cl t o n o sh i N k e ts u g i a N w a pau k a n a r i n o sh o o g e k i o a t a e r u k a n o o s e e g a a r i m a s U}|ガットの新決議案は、かなりの衝撃を与える可能性があります。
+BASIC5000_0133|jsut|{f U k a cl p a ts u n a k o d o m o w a pau k u u s o o n o s e k a i n i t o j i k o m o r u k e e k o o g a z u cl t o ts u y o i}|不活発な子供は、空想の世界に閉じこもる傾向がずっと高い。
+BASIC5000_2452|jsut|{h a n o sh o k u b u ts u n i t a i s u r u k a N k e e w a h a i n o d o o b u ts u n i t a i s u r u k a N k e e t o o n a j i d e a r u}|葉の植物に対する関係は肺の動物に対する関係と同じである。
+BASIC5000_2530|jsut|{i r i g u ch i d e pau k U ts u o n u g u k o t o n i n a cl t e i r u}|入り口で、靴を脱ぐことになっている。
+BASIC5000_0544|jsut|{u g a i y a k u d e t a b i t a b i u g a i o sh I t e k u d a s a i}|うがい薬でたびたびうがいをしてください。
+BASIC5000_2582|jsut|{k a N z e e o k o k u g o t o d e w a n a k u pau b u r o cl k u d e k o N t o r o o r u s u r u h o o g a pau k o o ts u g o o d e a r u k o t o o ky o o ch o o sh I t a i}|関税を国ごとではなく、ブロックでコントロールする方が、好都合であることを強調したい。
+BASIC5000_1328|jsut|{t a i s o o ky o o g i n o n a k a d e w a pau t e ts u b o o n o d a i sh a r i N g a s U k i d e s U}|体操競技の中では、鉄棒の大車輪が好きです。
+BASIC5000_0432|jsut|{m a ch i g a cl t e pau a n a t a n o t e g a m i o a k e t e sh i m a cl t e s u m i m a s e N}|まちがって、あなたの手紙を開けてしまってすみません。
+BASIC5000_2869|jsut|{b o k U sh i w a pau k a n o j o n o k i r i s U t o sh i N k o o n o k o k U h a k u o k i i t a}|牧師は、彼女のキリスト信仰の告白を聞いた。
+BASIC5000_2251|jsut|{m a d o g a r a s u g a w a r e t e i t a n o d e pau s o n o h e y a o pau a t a t a k a k u sh I t e o k e n a k a cl t a}|窓ガラスが割れていたので、その部屋を、暖かくしておけなかった。
+BASIC5000_3687|jsut|{h o N k o o d e w a pau t e sh i o t a N k o o t e ts u d o o g a h o y u u sh I t a t e ts u d o o r o s e N n i k a N s u r u k o t o n i ts u i t e pau o m o n i k i j u ts U s u r u m o n o t o s u r u}|本項では、天塩炭礦鉄道が保有した鉄道路線に関することについて、主に記述するものとする。
+BASIC5000_1421|jsut|{s a k a o o r i r u t o k i n i pau k a n o j o n o o N b o r o j i t e N sh a w a pau k i i k i i o t o o t a t e t a}|坂を下りるときに、彼女のおんぼろ自転車は、キーキー音を立てた。
+BASIC5000_0800|jsut|{n a k a n i n a n i g a h a i cl t e i r u n o k a pau w a t a sh i n i w a k a r u y o o n i b a cl g u o a k e t e k u d a s a i}|中に何が入っているのか、私に分かるようにバッグを開けてください。
+BASIC5000_1572|jsut|{g a k U sh a n o n a k a n i w a pau a m e r i k a ny u u sh o k u o n i sh i y o o r o cl p a n o sh a k a i f u a N n o s e i n i s u r u m o n o m o i r u}|学者の中には、アメリカ入植を西ヨーロッパの社会不安のせいにする者もいる。
+BASIC5000_3210|jsut|{m a ch i d e a b a r e r u o m u n i r o i d o n o m a e n i pau s a cl s o o t o a r a w a r e t e t a ch i m u k a u sh i N d o r o o m u d a g a pau j i b u N g a r i m o k o N d e a y a ts u r a r e t e i r u k o t o o g a k U sh u u sh I t a o m u n i r o i d o n o h a N g e k i o u k e t e k i z e ts u sh I t e sh i m a u}|街で暴れるオムニロイドの前に、颯爽と現れて立ち向かうシンドロームだが、自分がリモコンで操られていることを学習したオムニロイドの反撃を受けて気絶してしまう。
+BASIC5000_3182|jsut|{k e N o m a cl k a n i h a ts u n e ts U s a s e pau t e k i o t o k a sh I t e h a t a k i k i r u h i cl s a ts u w a z a pau y o o k o o m a r u k a i t e N z a N t o y o o k o o m a r u i ch i pau o h a n a ts u}|剣を真っ赤に発熱させ、敵を熔かして叩き斬る必殺技、陽光丸回転斬と陽光丸一閃斬を放つ。
+BASIC5000_3186|jsut|{e s u r i i N t o n o n a r e s o m e w a f u m e e d a g a pau m a j i N t o sh i cl t e n a o ts u m a t o sh I t a f U t o k o r o n o o o k i i o t o k o}|エスリーンとのなれそめは不明だが、魔神と知ってなお妻とした懐の大きい男。
+BASIC5000_2010|jsut|{k I ts u n e w a pau a n a g a a i t a k i n o n a k a e k a k u r e t a}|キツネは、穴があいた木の中へ隠れた。
+BASIC5000_0455|jsut|{t o o m o r o k o sh i w a pau g a cl sh u u k o k u n o j u u y o o n a n o o s a k u m o ts u d a}|トウモロコシは、合衆国の重要な農作物だ。
+BASIC5000_0247|jsut|{b a cl t e e w a w a r u k u n a i k a m o sh i r e n a i pau k e r e d o pau w a t a sh i m o w a r u k u n a i}|末弟は悪くないかもしれない、けれど、私も悪くない。
+BASIC5000_3664|jsut|{f u n a n o s u g a t a n i b a k e r u k o t o m o d e k i r u}|フナの姿に化けることもできる。
+BASIC5000_2872|jsut|{s a i y o o t o k e cl t e e sh I t a r a pau g o ts u u ch i i t a sh i m a s U}|採用と決定したら、ご通知いたします。
+BASIC5000_3730|jsut|{h a n o s u N p o o w a f U t a sh a k u z e N g o n o m o n o g a o o i g a pau w a k i z a sh I k e N y o o n i ts U k u cl t a m o n o d e a r o o}|刃の寸法は二尺前後のものが多いが、脇差兼用に作ったものであろう。
+BASIC5000_2518|jsut|{a i ts u g u f U sh o o j i n i m o k a k a w a r a z u pau k e e s a ts u w a pau o m e o m e i h a N k i cl p u o k i cl t e i r u}|相次ぐ不祥事にも関わらず、警察は、オメオメ違反切符を切っている。
+BASIC5000_2591|jsut|{s o o b a sh i n o n a k a n i w a pau r o o j i N n o m u ch I t o pau s a b i sh i s a n i ts U k e k o m u y a ts u g a i r u}|相場師の中には、老人の無知と、寂しさに付け込む奴がいる。
+BASIC5000_1385|jsut|{f u y u y a s u m i w a d o n o y o o n i s u g o sh i m a sh I t a k a}|冬休みはどのように過ごしましたか。
+BASIC5000_2666|jsut|{k u j i r a g a pau k o N s e e k i n o o w a r i n i sh i n i t a e r u k a n o o s e e w a pau g o b u g o b u d e a r u}|鯨が、今世紀の終わりに死に絶える可能性は、五分五分である。
+BASIC5000_3456|jsut|{k a z e y a m i z u d e u g o i t a r i pau h I k a r i o t a k u m i n i t o r i i r e r u k o t o d e pau sh i z e N t o n o i cl t a i k a N o u m u s a k U h i N n i t o k U ch o o g a a r u}|風や水で動いたり、光を巧みに取り入れることで、自然との一体感を生む作品に特徴がある。
+BASIC5000_2797|jsut|{m i t a m a n i y o cl t e u m a r e r u m o n o m o pau m i n a pau s o n o t o o r i d e s U}|御霊によって生まれるものも、皆、そのとおりです。
+BASIC5000_2924|jsut|{a s a cl t e k a r e n i k o k o e k i t e m o r a u ts u m o r i d e s U}|あさって彼にここへ来てもらうつもりです。
+BASIC5000_2549|jsut|{s a k u n e N w a pau a r i a m a r u h o d o n o b e e g a pau s e e s a N s a r e t a}|昨年は、有り余る程の米が、生産された。
+BASIC5000_1215|jsut|{s o t o e d e n a s a i pau d e n a i t o k o o k a i sh i m a s U y o}|外へでなさい、でないと後悔しますよ。
+BASIC5000_0521|jsut|{ky o o k a i n i ts u k u m a d e pau m a cl s u g u i k i n a s a i}|教会に着くまで、まっすぐ行きなさい。
+BASIC5000_1589|jsut|{i cl p o d e m o u g o i t e g o r a N pau g a k e k a r a o ch i t e sh i m a u y o}|一歩でも動いてごらん、崖から落ちてしまうよ。
+BASIC5000_1205|jsut|{sh i d o o sh a w a pau k o k u m i N t o b o cl k o o sh o o n i n a cl t e i t a}|指導者は、国民と没交渉になっていた。
+BASIC5000_3056|jsut|{d o w a a f u w a j u u k I s u k i r u n i k a N s u r u z o o k e e g a f U k a k u pau t o k U sh u n a z a i ry o o n o k o o ny u u y a pau t e k u n i cl k u n o sh u u t o k u pau j u u k I ts u k a i m u k e n o k u e s U t o m o k o k o d e o k o n a w a r e r u}|ドワーフは銃器スキルに関する造詣が深く、特殊な材料の購入や、テクニックの習得、銃器使い向けのクエストもここで行われる。
+BASIC5000_3533|jsut|{a N b a a n i h a N sh a s u r u g e cl k o o d e k e e s e e s a r e pau g e cl k o o g a k a g e r u t o sh o o m e ts U s u r u}|アンバーに反射する月光で形成され、月光が陰ると消滅する。
+BASIC5000_0498|jsut|{a a k e e d o t e N j o o n i pau t a k U s a N n o h a r i b o t e g a k a z a r a r e t e t a}|アーケード天井に、たくさんの張りぼてが飾られてた。
+BASIC5000_3742|jsut|{e e gy o o s a i sh u u b i w a m u ry o o k a i h o o t o n a r i pau h e e t e N o o sh i m u f a N g a pau z e N k o k U k a r a ts u m e k a k e t a}|営業最終日は無料開放となり、閉店を惜しむファンが、全国から詰め掛けた。
+BASIC5000_0776|jsut|{h i pau b o o ry o k U sh u g i sh a n o m a h a t o r a pau g a N j i i w a pau s e N h a cl py a k u ky u u j u u r o k u n e N n i u m a r e t a}|非、暴力主義者のマハトラ・ガンジーは、１８９６年に生まれた。
+BASIC5000_0157|jsut|{s a N b a N m e n i k o o ry o s u b e k i j i k o o w a pau k a a p e cl t o n o j i d a i s e e d e a r u}|３番目に考慮すべき事柄は、カーペットの時代性である。
+BASIC5000_1607|jsut|{p i k a s o n o e w a pau w a t a sh i n i w a k i my o o n i m i e r u}|ピカソの絵は、私には奇妙に見える。
+BASIC5000_1822|jsut|{g a k u d a N w a a t a r a sh i i sh I k i sh a n o sh I k i d e pau s u b a r a sh i i e N s o o o sh I t a}|楽団は新しい指揮者の指揮で、すばらしい演奏をした。
+BASIC5000_1523|jsut|{k o N z a ts u sh I t a d e N sh a n o n a k a d e w a pau s u r i n i g o y o o j i N k u d a s a i}|混雑した電車の中では、スリにご用心ください。
+BASIC5000_3101|jsut|{t a sh a n i t a i sh I t e m o pau f o o s u o m o ch i i t e pau y a m a i y a k i z u n a d o o i y a s U k o t o g a d e k i r u}|他者に対しても、フォースを用いて、病や傷などを癒すことができる。
+BASIC5000_3571|jsut|{y a d o m o t a d a t o m e r u d a k e d e w a n a k u pau sh I t a sh i r a b e sh I t a r i pau o N n a n i ts U k i s o cl t a r i pau o N n a n o k a z o k u g a k i t a r a t a ch i a i n i N n i n a cl t a r i s u r u w a k e d e s U}|宿もただ泊めるだけではなく、下調べしたり、女に付き添ったり、女の家族が来たら立会人になったりするわけです。
+BASIC5000_1867|jsut|{h o N r a i w a pau h i N k o N s o o n o j o s e e y a pau k o d o m o n i i ry o o h o g o o t e e ky o o s u r u t a m e n i s o o s e ts U s a r e t a s e e d o d e a r u pau a m e r i k a t e e sh o t o k U sh a pau i ry o o f u j o s e e d o g a pau ky o o d e w a pau s o n o y o s a N n o pau y a k U s a N p u N n o i ch i o pau r o o j i N n i ts u i y a sh I t e i r u}|本来は、貧困層の女性や、子供に医療保護を提供するために創設された制度である、アメリカ低所得者、医療扶助制度が、今日では、その予算の、約３分の１を、老人に費やしている。
+BASIC5000_1462|jsut|{h i r u t o N sh i w a pau i e o u r i t a k u n a cl t e pau sh i N b u N n i k o o k o k u o d a sh I t a}|ヒルトン氏は、家を売りたくなって、新聞に広告をだした。
+BASIC5000_2590|jsut|{sh I t e N o d a s u n a d o t o i u k a N g a e o pau k a r e w a d o k o d e o m o i ts u i t a n o d a r o o k a}|支店を出すなどという考えを、彼はどこで思い付いたのだろうか。
+BASIC5000_0309|jsut|{n o o e N n u sh i w a pau k a r e r a o i s o g a sh i k U s a s e t e o k u n o g a s U k i d a cl t a n o d e s U}|農園主は、彼らを忙しくさせておくのが好きだったのです。
+BASIC5000_0183|jsut|{s a i b a i n i t e k i sh I t a d o j o o o e r u n i w a pau t a g a y a s a n a k e r e b a n a r a n a i}|栽培に適した土壌を得るには、耕さなければならない。
+BASIC5000_0164|jsut|{n o o m i N t a ch i w a pau y o i r i N g o t o pau f u ry o o h i N o s e N b e ts U s u r u}|農民たちは、よいリンゴと、不良品を選別する。
+BASIC5000_1993|jsut|{n u s u m i o s u r u y o r i m o pau u e j i n i n i sh I t a h o o g a m a sh i d a}|盗みをするよりも、飢え死にした方がましだ。
+BASIC5000_1048|jsut|{sh I h a ts u n o b a s u w a pau g o z e N r o k u j i n i d e r u t o u N t e N sh u w a i cl t a}|始発のバスは、午前６時に出ると運転手は言った。
+BASIC5000_3773|jsut|{m a t a pau j u u r a i w a sh o m i N w a s e N j i ch a pau f u y u u s o o w a m a cl ch a o n o N d e i t a t o s a r e t e i t a g a pau ch u u s e e d e w a sh o m i N s o o m o h I k i ch a o n o N d e i t a k o t o g a a k i r a k a n i n a cl t e i r u}|また、従来は庶民は煎じ茶、富裕層は抹茶を飲んでいたとされていたが、中世では庶民層も挽き茶を飲んでいたことが明らかになっている。
+BASIC5000_2132|jsut|{m u j o o k e N n i pau a n a t a w a s o n o s u i cl ch i n i s a w a r a n a k e r e b a n a r a n a i}|無条件に、あなたはそのスイッチに触らなければならない。
+BASIC5000_2732|jsut|{d a r e h I t o r i pau j i b u N g a m a ch i g a cl t e i r u k o t o o m i t o m e y o o t o sh i n a k a cl t a n o d e pau g i r o N w a pau e N e N t o ts u z u i t a}|誰一人、自分が間違っていることを認めようとしなかったので、議論は、延々と続いた。
+BASIC5000_3691|jsut|{n o cl t e i r u h i n a N m i N n o n a k a n i w a pau u s u i t a d a sh i j i N n o s u g a t a m o a r u}|乗っている避難民の中には、臼井儀人の姿もある。
+BASIC5000_2344|jsut|{s a N by a k u y o N j u u g o g a t a w a pau y o i j o o t a i d e u k e t o r i m a sh I t a}|３４５型は、良い状態で受け取りました。
+BASIC5000_3387|jsut|{m o t o m o t o w a n i h o N g a m i o y u u t o k i n o d o o g u n o h I t o ts u d e pau k a ts U t e w a j o s e e d o o y o o n i pau d a N s e e m o k a m i o m a t o m e r u t a m e n i k o r e o m o ch i i t a}|もともとは日本髪を結う時の道具の一つで、かつては女性同様に、男性も髪を纏めるためにこれを用いた。
+BASIC5000_0942|jsut|{i cl k o k u m o h a y a k u pau k o k o o d e n a k e r e b a n a r a n a i}|一刻も早く、ここを出なければならない。
+BASIC5000_3927|jsut|{k o m a cl t e i r u h I t o n i w a t e o s a sh i n o b e r u pau k o k o r o n o y a s a sh i i j i N b u ts u}|困っている人には手を差し伸べる、心の優しい人物。
+BASIC5000_2571|jsut|{y a r u k a r a n i w a pau ch a N t o y a r i n a s a i}|やるからには、ちゃんとやりなさい。
+BASIC5000_3313|jsut|{s e N g o k u n o y o n o d a i my o o n o m u s u m e t o sh I t e n o pau s a m a z a m a n a k a k u g o w a d e k I t e i r u g a pau s o o sh I t a s o k u b a k u n i m o o j u u s u r u n o d e w a n a k u pau k a n o o n a k a g i r i pau n i N g e N r a sh I k u i k i y o o t o sh I t e i r u}|戦国の世の大名の娘としての、さまざまな覚悟は出来ているが、そうした束縛に盲従するのではなく、可能な限り、人間らしく生きようとしている。
+BASIC5000_3814|jsut|{s o n o t a m e k o o n a i d e m o h I t o r i d e s u g o s U k o t o g a o o k a cl t a g a pau m i s a k i i ch I t o d e a cl t e k a r a w a pau g a cl k o o gy o o j i n a d o d e sh i d a i n i k u r a s u n i t o k e k o m u y o o n i n a cl t e i k u}|そのため校内でも一人で過ごすことが多かったが、岬一と出会ってからは、学校行事などで次第にクラスに溶け込むようになっていく。
+BASIC5000_2147|jsut|{sh i o pau b e ts u n o g e N g o n i h o N y a k U s u r u n o w a pau m u z u k a sh i i}|詩を、別の言語に翻訳するのは、難しい。
+BASIC5000_1722|jsut|{sh a n a i n o k a r e n o m a w a r i d e w a pau h o k a n o j o o ky a k u t a ch i g a pau z e N g o s a y u u n i y u r e t e i t a}|車内の彼の周りでは、ほかの乗客たちが、前後左右に揺れていた。
+BASIC5000_2079|jsut|{m o cl t e i t a o k a n e w a s U k u n a i g a pau z e N b u k a r e n i a g e t a}|持っていたお金は少ないが、全部彼にあげた。
+BASIC5000_1252|jsut|{k a w a g a h a N r a N sh I t e i t e pau h i r o i s u i i k i g a m i z u b i t a sh i n i n a cl t a}|川が氾濫していて、広い地域が水浸しになった。
+BASIC5000_0465|jsut|{sh u n i N s e e b i i N w a pau t e n i s U k o o t o n o sh I k i ch i n o pau ch o o d o ch u u o o n i pau ch i i s a n a i e o m o cl t e i r u}|主任整備員は、テニスコートの敷地の、ちょうど中央に、小さな家を持っている。
+BASIC5000_0597|jsut|{y o k o n i n a cl t e m i r u t o pau s o n o b e cl d o w a pau t o t e m o n e g o k o ch i g a y o k a cl t a}|横になってみると、そのベッドは、とても寝心地がよかった。
+BASIC5000_1746|jsut|{k a r e n o s e cl t o k u w a pau m a N z o k u d e k i r u m o n o d e w a n a k a cl t a}|彼の説得は、満足できるものではなかった。
+BASIC5000_2320|jsut|{a k i n o y o n a g a w a pau d o k U sh o n i m a s a r u m o n o w a a r i m a s e N}|秋の夜長は、読書にまさるものはありません。
+BASIC5000_1730|jsut|{m o N k u o i u n o w a y a m e t e pau i w a r e t a t o o r i n i y a r i n a s a i}|文句を言うのはやめて、言われた通りにやりなさい。
+BASIC5000_0345|jsut|{ky o o w a pau i r o i r o t o a r i g a t o o g o z a i m a sh I t a}|今日は、いろいろとありがとうございました。
+BASIC5000_3377|jsut|{ny u u e N j i n o m e N s e k i j i k o o n i w a pau j i k o o y o b i k e g a n i t a i sh i pau j i k o s e k i n i N d e ny u u j o o s u r u m u n e g a k I s a i s a r e t e i r u}|入園時の免責事項には、事故及びケガに対し、自己責任で入場する旨が記載されている。
+BASIC5000_1704|jsut|{g a i r o j u n o a r u t o o r i n o m u k o o n i pau u m i g a m i e t a}|街路樹のある通りの向こうに、海が見えた。
+BASIC5000_3907|jsut|{m a t a pau o o k u n o ky o o i N g a pau sh u u sh i y a h a k a s e n o g a k u i o m o cl t e i r u g a pau j i ts u m u k a o s u e r u s a i n i w a g a k U sh i n o g a k u i y a k o o k o o s o ts u n o b a a i g a a r u}|また、多くの教員が、修士や博士の学位をもっているが、実務家を据える際には学士の学位や高校卒の場合がある。
+BASIC5000_0407|jsut|{d e d a sh i g a y o k e r e b a pau n a k a b a y a r i t o g e t a y o o n a m o n o d a}|出だしがよければ、半ばやり遂げたようなものだ。
+BASIC5000_3595|jsut|{k o k u m i N a N z e N n o h i n i pau k a k u g i ry o o k a i n i m o t o z u k i pau a N z e N k o o r o o sh a hy o o sh o o t o pau b o o s a i k o o r o o sh a hy o o sh o o g a o k o n a w a r e pau hy o o sh o o j o o t o k i n e N h i N g a j u y o s a r e r u}|国民安全の日に、閣議了解に基づき、安全功労者表彰と、防災功労者表彰が行われ、表彰状と記念品が授与される。
+BASIC5000_0641|jsut|{s u r u t o s a r u w a pau ch i i s a n a b u r i k i n o k o cl p u o m o cl t e pau a r u k i m a w a r i m a sh I t a}|するとサルは、小さなブリキのコップを持って、歩き回りました。
+BASIC5000_3009|jsut|{h a m a m a ts u h a N n o h a N s e e w a pau k o o r i k I t a d a f U s a n o j i d a i n i k a k u r i ts U s a r e t a}|浜松藩の藩政は、高力忠房の時代に確立された。
+BASIC5000_0126|jsut|{i m a pau w a t a sh i w a f u r u u t o n i m u ch u u n i n a cl t e k i t e i r u}|今、私はフルートに夢中になってきている。
+BASIC5000_1831|jsut|{k i r i o t o o sh i t e pau w a z u k a n i r i k U ch i o m i w a k e r u k o t o g a d e k i t a}|霧を通して、わずかに陸地をみわけることができた。
+BASIC5000_1767|jsut|{s a N j u cl p u N h o d o pau o j i k a N o i t a d a k e m a s e N k a}|三十分ほど、お時間をいただけませんか。
+BASIC5000_2813|jsut|{h a cl t e N t o j o o k o k u d e w a pau s u g u r e t a g i j u ts U sh a g a f U s o k u sh I t e i r u}|発展途上国では、優れた技術者が不足している。
+BASIC5000_1710|jsut|{g o i s o g i d e n a k a cl t a r a pau o ch a k a n a n i k a i k a g a d e s U k a}|御急ぎでなかったら、御茶か何かいかがですか。
+BASIC5000_0124|jsut|{i cl p o N n o t a k a i k i g a pau s u i m e N n i n a g a i k a g e o u ts u sh I t e i r u}|一本の高い木が、水面に長い影を映している。
+BASIC5000_2036|jsut|{h a n a pau u s o n a k i w a t a m a a n i y a r u k a r a pau k o o k a a r u N d a z o}|花乃、嘘泣きはたまーにやるから、効果あるんだぞ。
+BASIC5000_1331|jsut|{s a r u t a ch i w a pau t a g a i n i k e z u k u r o i sh i a cl t e i r u}|猿たちは、互いに毛繕いし合っている。
+BASIC5000_2961|jsut|{b a i sh u N y a d o k a r a d e t e k i t a t o k o r o o pau y u u j i N n i m i r a r e t e pau b a ts u g a w a r u k a cl t a}|売春宿から出てきたところを、友人に見られて、ばつが悪かった。
+BASIC5000_1036|jsut|{j i b a k U t e r o h a N w a pau b e n a j i r u pau b u cl t o m o t o sh u sh o o n i m u k e t e h a cl p o o sh I t a g a pau t a m a w a s o r e t a}|自爆テロ犯は、ベナジル・ブット元首相に向けて発砲したが、弾はそれた。
+BASIC5000_0322|jsut|{k o o sh u u n o m e N z e N n i s u g a t a o m i s e n a k e r e b a n a r a n a i n o g a pau i y a d a cl t a}|公衆の面前に姿を見せなければならないのが、厭だった。
+BASIC5000_1445|jsut|{ch i ch I k a r a w a t a sh i n i pau k o N py u u t a a g e e m u g a a t a e r a r e t a}|父から私に、コンピューターゲームが与えられた。
+BASIC5000_0289|jsut|{m o N k a r a h a i r i k a k e t e i t a f u j i N t o pau s o n o m o N b a N n i t o m e r a r e t a}|門から入りかけていた婦人と、その門番に止められた。
+BASIC5000_3200|jsut|{j i N n i n o z o m a r e r u g a m a m a pau m i s a o o s a s a g e r u n a d o pau s o n o g o m o f U t a r i n o k a N k e e w a ts u z u k i pau k e cl k a t e k i n i pau m o n o g a t a r i k o o h a N d e m i k o N n o m a m a n i N sh i N g a h a cl k a k U s u r u}|陣に望まれるがまま、操をささげるなど、その後も二人の関係は続き、結果的に、物語後半で未婚のまま妊娠が発覚する。
+BASIC5000_3661|jsut|{f u k a g a t a N j u N n a d e N k I t e e k o o d e a r u b a a i pau d e N a ts u n o j i cl k o o ch i t o pau d e N ry u u n o j i cl k o o ch i n o s e k i w a pau d e N ry o k U t o h I t o sh i k u n a r u y o o n i t e e g i s a r e t e i r u}|負荷が単純な電気抵抗である場合、電圧の実効値と、電流の実効値の積は、電力と等しくなるように定義されている。
+BASIC5000_2835|jsut|{f U ts u u k u k a N n o k a i ts u u n o m i k o m i w a pau m a d a n a i}|不通区間の開通の見込みは、まだない。
+BASIC5000_0121|jsut|{y a m a d a k u N w a pau j i b u N n o b o s u n i t a i s u r u i k a r i o pau o s a e y o o t o ts U t o m e t a}|山田君は、自分のボスに対する怒りを、抑えようと努めた。
+BASIC5000_1416|jsut|{n a y a n i w a j i t e N sh a o o i t e w a i k e n a i}|納屋には自転車を置いてはいけない。
+BASIC5000_1426|jsut|{i s o n o s a N i cl k a w a pau y o k U h a i k i N g u n i i cl t a m o n o d a}|磯野さん一家は、よくハイキングに行ったものだ。
+BASIC5000_0730|jsut|{g e N e k I k a r a i N t a i sh I t a h I t o w a pau a sh i g a t o o n o k u m o n o d a}|現役から引退した人は、足が遠のくものだ。
+BASIC5000_0041|jsut|{sh i g a i s e N w a pau h i f u g a N o h I k i o k o s U k o t o g a a r u}|紫外線は、皮膚癌を引き起こすことがある。
+BASIC5000_0946|jsut|{k o o k a n a m o n o m o a r e b a pau t a i h e N y a s u i m o n o m o a r u}|高価なものもあれば、大変安いものもある。
+BASIC5000_1500|jsut|{h a t a k e w a pau m e N s e k i g a s a N by a k u e e k a a i j o o a r u}|畑は、面積が３００エーカー以上ある。
+BASIC5000_3143|jsut|{ch I ch i o y a n o sh i g o t o n o k a N k e e k a r a pau y o o sh o o j i y o r i pau t a k a r a z u k a k a g e k i o h i N p a N n i k a N g e k I sh i pau h a n a y a k a n a s e k a i n i m i ry o o s a r e r u}|父親の仕事の関係から、幼少時より、宝塚歌劇を頻繁に観劇し、華やかな世界に魅了される。
+BASIC5000_3964|jsut|{y o s o o g a i n o k o t o n i b o o z e N t o s u r u k u r o y u m i n o n o d o n i pau z a N g i k u n o n a g e t a k a t a n a g a s a s a r i pau u g o k e n a k u n a cl t a k u r o y u m i w a pau y a n e k a r a o ch i t e sh i m a u}|予想外の事に呆然とする黒弓の喉に、残菊の投げた刀が刺さり、動けなくなった黒弓は、屋根から落ちてしまう。
+BASIC5000_0587|jsut|{h a ch i d o r i w a pau ch o o t o o n a j i g u r a i ch i i s a i t o r i d e s U}|ハチドリは、チョウと同じくらい小さい鳥です。
+BASIC5000_3511|jsut|{g o v i a n u s u g a k u y a sh i i n o w a pau o o k o k u o u sh i n a u k o t o y o r i m o pau k I f u j i N o u sh i n a u k o t o d a cl t a}|ゴヴィアヌスが悔しいのは、王国を失うことよりも、貴婦人を失うことだった。
+BASIC5000_3582|jsut|{s o n o t a m e pau m a N g a i ch i n o d e k i g o t o n i s o n a e t e s e e s a k U s a r e t a g e N r o o i N t o k U s e e n o k e m o n o m i m i n o k a t a ch i o sh I t a b u u s U t a a o m i n i ts U k e r u k o t o t o n a cl t a}|そのため、万が一の出来事に備えて製作された元老院特製の獣耳の形をしたブースターを身につけることとなった。
+BASIC5000_0840|jsut|{k u r o d a sh o o g a cl k o o d e w a pau k i m e r a r e t a j i k o k u n i a ts u m a cl t e pau sh u u d a N t o o k o o sh i m a s U}|黒田小学校では、決められた時刻に集まって、集団登校します。
+BASIC5000_2701|jsut|{n a i y o o o g o r a N n i n a r i pau t e k I s e ts u n a g o i k e N o i t a d a k e r e b a s a i w a i d e s U}|内容をご覧になり、適切なご意見をいただければ幸いです。
+BASIC5000_3633|jsut|{s o k o k a r a h a z u r e r u t o h I t o w a pau m i ch i n i m a y o u k I k e N o o k a s U k o t o n i n a r u}|そこから外れると人は、道に迷う危険を冒すことになる。
+BASIC5000_3000|jsut|{r o z a r i N d e n o h o o m o m a N z a r a d e m o n a i n o d a g a pau n a n i b u N s e k e N t e e g a k i n i n a r u n o d e d o o s u r u k o t o m o d e k i n a i}|ロザリンデの方もまんざらでもないのだが、なにぶん世間体が気になるのでどうすることもできない。
+BASIC5000_0505|jsut|{a r i s u w a pau n a n i k a k o k o r o n o sh I k o r i g a t o k e r u n o o k a N j i t a}|アリスは、何か心のしこりが溶けるのを感じた。
+BASIC5000_3065|jsut|{k a h o o n o y o r o i g a u r a r e t a t o s a w a g u b u k e n o g o i N ky o g a y o b i d a sh I t e sh i m a cl t a}|家宝の鎧が売られたと騒ぐ武家のご隠居が呼び出してしまった。
+BASIC5000_0030|jsut|{g a i j i N g a n i cl p o N sh o k u n i n a r e r u k o t o w a m u z u k a sh i i}|外人が日本食に慣れることはむずかしい。
+BASIC5000_3483|jsut|{i n u o ts u r e pau s a ts u g u u h o o g e N n o k o t o b a o ts U k a u}|犬を連れ、薩隅方言の言葉を使う。
+BASIC5000_1513|jsut|{s a N k o o n o t a m e n i pau k a t a r o g u o o k u r i k u d a s a i}|参考のために、カタログを送りください。
+BASIC5000_2826|jsut|{k a i m e N w a pau m i z u o ky u u sh u u sh i m a s U n o d e pau s u i s a i e n o g u o b o k a sh I t a r i s u r u t o k i n i b e N r i d e s U}|海綿は、水を吸収しますので、水彩絵具をぼかしたりする時に便利です。
+BASIC5000_0101|jsut|{z a cl t o m i ts u m o cl t e pau s o n o sh i g o t o w a pau n i sh u u k a N k a k a r u d a r o o}|ざっと見積もって、その仕事は、二週間かかるだろう。
+BASIC5000_2479|jsut|{z e e m u sh o w a sh o t o k u z e e n o d a ts u z e e n i m e o h I k a r a s e t e i m a s U}|税務署は所得税の脱税に目をひからせています。
+BASIC5000_0955|jsut|{f u u k e e n i k i o t o r a r e t e pau u N t e N sh a w a d o o r o k a r a m e o s o r a sh I t a}|風景に気を取られて、運転者は道路から目をそらした。
+BASIC5000_0582|jsut|{t e ts u n o k a a t e N g a pau y o o r o cl p a t a i r i k u n i o r i t a}|鉄のカーテンが、ヨーロッパ大陸におりた。
+BASIC5000_0767|jsut|{o r i n o n a k a d e k a w a r e r u t o pau k o d o m o o u m a n a i d o o b u ts u m o i r u}|檻の中で飼われると、子どもを産まない動物もいる。
+BASIC5000_1861|jsut|{ch I h o o j i ch i t a i n o j i d a i g a k i t a t o i w a r e t e k a r a pau h I s a sh i i}|地方自治体の時代が来たといわれてから、久しい。
+BASIC5000_0461|jsut|{k a N g o f u w a pau k a N j a n o k a i t e k i s a n i h a i ry o sh i n a k U t e w a i k e n a i}|看護婦は、患者の快適さに配慮しなくてはいけない。
+BASIC5000_3979|jsut|{y u u t o p i a k a i r o o n i ts u n a g a r u h a sh i o k a k e r u k e N g e N o m o ts u g a pau s e k a i t o sh o k a N n i h a i r u k o t o w a d e k i n a i}|ユートピア回廊に繋がる橋を架ける権限を持つが、世界図書館には入ることはできない。
+BASIC5000_1412|jsut|{m e e b o n i w a t a sh i n o n a m a e m o pau ts u i k a sh I t e k u d a s a i}|名簿に私の名前も、追加してください。
+BASIC5000_2899|jsut|{j i cl p a a g a t o ch u u d e h i cl k a k a cl t e pau a g a r a n a k u n a cl t e sh i m a cl t a}|ジッパーが途中で引っかかって、上がらなくなってしまった。
+BASIC5000_1059|jsut|{n a n i o sh I t e y o i k a w a k a r a n a k a cl t a n o d e pau k a r e n i j o g e N o m o t o m e t a}|何をしてよいか分からなかったので、彼に助言を求めた。
+BASIC5000_3850|jsut|{f U ts u u n o n i N g e N g a k o n o k o o s e N o a b i r u t o pau u s a m i m i k a m e N e n o i z o N d o g a t a k a m a r i pau k e N k o o o s o k o n e r u o s o r e g a a r u n o d e pau y o o ch u u i t o s a r e t e i r u}|普通の人間がこの光線を浴びると、ウサミミ仮面への依存度が高まり、健康を損ねる恐れがあるので、要注意とされている。
+BASIC5000_0115|jsut|{n i N n i k u o pau y o o j i N sh I t e t a b e r e b a t a m e n i n a r u}|にんにくを、用心して食べればためになる。
+BASIC5000_0854|jsut|{n a N d o m o n a N d o m o m a k e t a a t o d e pau ts u i n i k a r e w a k o o s a N sh I t a}|何度も何度も負けたあとで、ついに彼は降参した。
+BASIC5000_1485|jsut|{h o cl k a i d o o n i i cl t a r a pau y a cl p a r i pau u m i n o k o o o t a b e n a i t o pau i cl t a i m i g a n a i d e sh o o}|北海道に行ったら、やっぱり、海の幸を食べないと、行った意味がないでしょう。
+BASIC5000_3448|jsut|{k a i m e N n i k a t a m a cl t e t a d a y o u n a g a r e m o n i w a pau t a i y o o s e e n o gy o r u i n o ch i gy o y a pau y o k o e b i y a pau w a r e k a r a t o i cl t a k o g a t a n o s e cl s o k u d o o b u ts u n a d o g a a ts u m a r u}|海面にかたまって漂う流れ藻には、大洋性の魚類の稚魚や、ヨコエビや、ワレカラといった小型の節足動物などが集まる。
+BASIC5000_1940|jsut|{d a m a r u k o t o o sh i r a n a i m o n o w a pau h a n a sh i j o o z u d e w a n a i}|黙ることを知らない者は、話し上手ではない。
+BASIC5000_1200|jsut|{t o N b i n i pau a b u r a a g e o s a r a w a r e t a y o o n a m o n o d a}|鳶に、油揚げをさらわれたようなものだ。
+BASIC5000_3206|jsut|{s e e m o N w a s e e b o m a r i a o pau d a i s a N s o o n o o o n o gy a r a r i i w a k u r o b i s u n o t a i k a N o e g a i t e i r u}|正門は聖母マリアを、第三層の王のギャラリーはクロヴィスの戴冠を描いている。
+BASIC5000_2267|jsut|{s o o m e e n a k o d o m o w a pau sh i cl p a i sh I t e m o pau s o r e o g a m a N s u r u k o t o g a d e k i r u}|聡明な子供は、失敗しても、それを我慢することができる。
+BASIC5000_2606|jsut|{z e N n i N g a pau k a n a r a z u sh i m o s e e k o o s u r u t o w a k a g i r a n a i}|善人が、必ずしも成功するとは限らない。
+BASIC5000_1341|jsut|{s o sh I k i b a i y o o n o sh I t e N k a r a w a pau k o n o j i cl k e N n o k a N ky o o w a pau m o cl t o g e N m i ts u n i k I t e e s a r e r u b e k i d e a r u}|組織培養の視点からは、この実験の環境は、もっと厳密に規定されるべきである。
+BASIC5000_3863|jsut|{s o sh I t e pau z o n u u d a t o n o t a t a k a i g a o w a cl t a ch o k u g o pau g o o ky u u s u r u}|そして、ゾヌーダとの戦いが終わった直後、号泣する。
+BASIC5000_2431|jsut|{m i ch I t o i u m i ch i w a k a w a k a r a a f u r e d a sh I t a m i z u d e o o w a r e t e i t a}|道という道は川から溢れだした水で覆われていた。
+BASIC5000_3647|jsut|{k e e e e sh I t e i t a k o o m u t e N g a t o o s a N sh I t e k a r a h a t a r a k a n a k u n a r i pau s o r e k a r a s a k e b i t a r i n o m a i n i ch i d e pau a r u k o o r u sh i y o o sh o o g a i n i o ch i i r u}|経営していた工務店が倒産してから働かなくなり、それから酒浸りの毎日で、アルコール使用障害に陥る。
+BASIC5000_0421|jsut|{k o o k o g a k U sh a t o w a pau m u k a sh i n o m i N z o k u n o s e e k a ts u y o o sh I k i n i ts u i t e n o i t o g u ch i o pau s a g a sh i m o t o m e r u h I t o t a ch i d e a r u}|考古学者とは、昔の民族の生活様式についての糸口を、捜し求める人達である。
+BASIC5000_2186|jsut|{ts u i k a N b a N h e r u n i a o pau w a z u r a cl t e i m a s U}|椎間板ヘルニアを、わずらっています。
+BASIC5000_2381|jsut|{t o N d a r i pau s u o ts U k u cl t a r i s u r u n o w a pau t o r i n o h o N sh o o d e s U}|飛んだり、巣を造ったりするのは、鳥の本性です。
+BASIC5000_1262|jsut|{d a cl t e w a t a sh i t a ch i w a pau k e cl ky o k u ts u m e t a i ts U ch i n i t a o r e r u n o d a k a r a}|だって私達は、結局冷たい土に倒れるのだから。
+BASIC5000_0642|jsut|{s u N b a r a sh i i ts u m a d a sh i pau s u N b a r a sh i i h a h a o y a d a}|すんばらしい妻だし、すんばらしい母親だ。
+BASIC5000_1544|jsut|{g o ts u g o o n o y o i t o k i n i pau o t a z u n e k u d a s a i}|御都合のよいときに、おたずね下さい。
+BASIC5000_3958|jsut|{o s o r e h i m e w a k e N o m o cl t e m a u g a pau s u d e n i sh u u i w a h i n i k a k o m a r e t e o r i pau k a n o j o w a w a k a r e y o r i m o sh i o e r a b i j i g a i s u r u}|虞姫は剣を持って舞うが、すでに周囲は火に囲まれており、彼女は別れよりも死を選び自害する。
+BASIC5000_0513|jsut|{sh i k i n o n a k a d e w a t a sh i g a i ch i b a N s U k i n a n o w a pau a k i d a}|四季の中で私が一番好きなのは、秋だ。
+BASIC5000_0914|jsut|{k o cl t e r i pau a i ts u n o a b u r a o sh i b o cl t e y a cl t a}|こってり、あいつの油を絞ってやった。
+BASIC5000_1295|jsut|{o y a n o k o k o r o n o n a k a d e w a pau k o d o m o w a s e e ch o o sh I t e m o t o sh i o t o r a n a i n o d e a r u}|親の心のなかでは、子供は成長しても年をとらないのである。
+BASIC5000_2084|jsut|{g o r u f u d e w a pau s U k o a g a s U k u n a i h o d o y o i}|ゴルフでは、スコアが少ないほど良い。
+BASIC5000_0996|jsut|{f u s a i w a pau k a g a k u o k i N d a i k a g a k u e t o i cl p e N s a s e t a}|夫妻は、化学を近代科学へと一変させた。
+BASIC5000_0971|jsut|{m u j u N s u r u h o o k o k u o u k e t e pau s o n o y a k u i N w a pau j i b u N n o t a ch i b a o k a N g a e n a o sh I t a}|矛盾する報告を受けて、その役員は、自分の立場を考え直した。
+BASIC5000_3095|jsut|{sh i r u b i n e n i w a pau h o o k o o w a t a e r a r e n a i d a r o o t o o m o cl t a k a r a d a}|シルヴィネには、奉公は耐えられないだろうと思ったからだ。
+BASIC5000_3508|jsut|{m a i t o sh i pau t a i i k U s a i n o f i n a a r e o i r o d o r u}|毎年、体育祭のフィナーレを彩る。
+BASIC5000_3514|jsut|{i r o h a o s u u h a i sh I t e o r i pau k a r e n o i u k o t o o z e cl t a i t o s u r u h a N m e N pau k a r a k u r e n a i t o w a k a ch i k a N n o k a N g a e k a r a h a N m o k U sh i a cl t e i r u}|いろはを崇拝しており、彼の言うことを絶対とする反面、唐紅とは価値観の考えから反目しあっている。
+BASIC5000_1721|jsut|{k a g a k u w a h i j o o n i pau m e N m i ts u n a k a N s a ts u n i m o t o z u i t e i r u}|科学は非常に、綿密な観察に基づいている。
+BASIC5000_2718|jsut|{t a i h e N i k a N n a g a r a pau k a n o j o g a n a k u n a cl t a k o t o o o sh i r a s e sh i m a s U}|大変遺憾ながら、彼女が亡くなったことをお知らせします。
+BASIC5000_0190|jsut|{m e m o n i w a pau m i z u n i u k a b u r e N sh u u o s a s e r u y o o n i pau t o pau n a g u r i g a k I s a r e t e i t a}|メモには、水に浮かぶ練習をさせるように、と、殴り書きされていた。
+BASIC5000_0542|jsut|{t a i k U ts u s u r u d o k o r o k a pau t o t e m o t a n o sh i k a cl t a}|退屈するどころか、とても楽しかった。
+BASIC5000_2464|jsut|{k o z u ts u m i w a h a ch i g a ts u j u u sh I ch i n i ch i n i r o N d o N n i t o o ch a k u n o y o t e e d e s U}|小包は８月１７日にロンドンに到着の予定です。
+BASIC5000_0085|jsut|{b u N m e e w a pau i m a y a k a k U s e N s o o n i o b i y a k a s a r e t e i r u}|文明は、今や核戦争に脅かされている。
+BASIC5000_3427|jsut|{sh o h o o s e N n o t a cl s e e d o n i y o cl t e k e N k o o p o i N t o g a t a m a r i pau k e N k o o g u cl z u t o k o o k a N d e k i r u}|処方箋の達成度によって健康ポイントがたまり、健康グッズと交換できる。
+BASIC5000_0320|jsut|{k o o r i n o y o o n i ts u m e t a i m i z u n o n a k a d e o y o g o o t o s u r u n a N t e pau k a r e m o m u ch a n a k o t o o sh I t a m o n o d a}|氷のように冷たい水の中で泳ごうとするなんて、彼も無茶なことをした物だ。
+BASIC5000_2878|jsut|{k u r a s u k a i n i sh u cl s e k i sh I t e pau m u k a sh i n a ts U k a sh i i g a k U s e e j i d a i n o o m o i d e g a pau a r e k o r e t o y o m i g a e cl t a}|クラス会に出席して、昔懐かしい学生時代の思い出が、あれこれとよみがえった。
+BASIC5000_0300|jsut|{g o ry o o sh i N n i pau d o o z o y o r o sh I k u o ts U t a e k u d a s a i}|ご両親に、どうぞよろしくお伝えください。
+BASIC5000_0541|jsut|{sh i g e m i ch a N o h o i k u e N n i m u k a e n i i cl t e m o r a e r u}|しげみちゃんを保育園に迎えに行ってもらえる。
+BASIC5000_1723|jsut|{k o o s e N w a pau p u r i z u m u n i y o cl t e pau n a n a sh o k u n i b u N k a i s a r e r u}|光線は、プリズムによって、七色に分解される。
+BASIC5000_1228|jsut|{k e r i i w a pau t a i i k u o s a b o cl t e i e n i k a e cl t a}|ケリーは、体育をサボって家に帰った。
+BASIC5000_2257|jsut|{n i j u u ch i i m u g a t o o n a m e N t o n i sh U ts u j o o sh I t a}|２０チームがトーナメントに出場した。
+BASIC5000_1709|jsut|{n i N o gy o o j i t e n o m i pau y o k u u r a m i o t o k U k o t o o e r u}|忍を行じてのみ、よく怨みを解くことを得る。
+BASIC5000_3284|jsut|{ch I h o o n i f u n i N s u r u k a N ry o o y o r i pau j i ts u m u w a k a N r i g a n i g i cl t e i r u k o t o m o o o k a cl t a}|地方に赴任する官僚より、実務は胥吏が握っていることも多かった。
+BASIC5000_0583|jsut|{t e ts u w a pau n e cl sh I t e k a r a ky u u n i r e e ky a k u sh I t e y a k i o i r e r u}|鉄は、熱してから急に冷却して焼きを入れる。
+BASIC5000_2423|jsut|{k a sh U t o sh I t e k a n o j o w a s o n o k u n i d e i ch i ry u u d e s U}|歌手として彼女はその国で一流です。
+BASIC5000_1731|jsut|{t o r i n i k U t o s a k a n a d e w a pau d o ch i r a n o h o o g a s U k i d e s U k a}|鶏肉と魚では、どちらの方がすきですか。
+BASIC5000_1222|jsut|{s o t o n i d e r u t o pau s u g u n i a m e g a f u r i h a j i m e t a}|外に出ると、すぐに雨が降りはじめた。
+BASIC5000_2611|jsut|{d e p a a t o n o sh I sh o k U k o o n a a e i k U t o pau i r o i r o n a m o n o g a t a d a d e t a b e r a r e r u y o}|デパートの試食コーナーへ行くと、いろいろな物がただで食べられるよ。
+BASIC5000_1454|jsut|{t e k I t o o n a k i k a i g a a r e b a pau a n a t a o k a r e n i sh o o k a i sh i y o o}|適当な機会があれば、あなたを彼に紹介しよう。
+BASIC5000_3334|jsut|{s o n o m e sh i y a n i s e k i w a N n o o t o k o g a h a i cl t e k i t e pau k a n o j o n i sh a k u o ky o o y o o s u r u}|その飯屋に隻腕の男が入ってきて、彼女に酌を強要する。
+BASIC5000_1018|jsut|{m o n o i e b a k U ch i b i r u s a m u sh i pau b a k a h o d o i i t a g a r u}|物言えば唇寒し、馬鹿ほど言いたがる。
+BASIC5000_1823|jsut|{ts U k u e d e s u r u sh i g o t o w a pau d o o m o s e e n i a w a n a i}|机でする仕事は、どうも性に合わない。
+BASIC5000_2593|jsut|{g e i ts U sh a ch o o pau k o o k o k U sh u u ny u u o y u u z a a n i k a N g e N s u r u i k o o hy o o m e e}|ゲイツ会長、広告収入をユーザーに還元する意向表明。
+BASIC5000_1514|jsut|{ts u u w a n o m o o sh I k o m i o pau t o r i k e sh i m a sh o o k a}|通話の申し込みを、取り消しましょうか。
+BASIC5000_3202|jsut|{g o N g u j o o d o t o ts u i k u d e ts U k a w a r e r u k o t o g a o o i}|欣求浄土と対句で使われることが多い。
+BASIC5000_2169|jsut|{p u r o y a ky u u n i h a i cl t e m o pau b o k u n a N k a m e g a d e n a i N j a n a i k a n a}|プロ野球に入っても、僕なんか芽が出ないんじゃないかな。
+BASIC5000_0237|jsut|{o t a y o r i pau t a n o sh i m i n i o m a ch i sh I t e o r i m a s U}|お便り、楽しみにお待ちしております。
+BASIC5000_1543|jsut|{ch i N ry o o g a t e g o r o n a r a pau d o N n a m a N sh o N d e m o k a m a i m a s e N}|賃料が手頃なら、どんなマンションでも構いません。
+BASIC5000_1675|jsut|{e k i m a d e z u cl t o h a sh i cl t e pau k a r o o j i t e h a ch i j i n o r e cl sh a n i m a n i a cl t a}|駅までずっと走って、かろうじて８時の列車に間に合った。
+BASIC5000_0035|jsut|{y o o sh I t a N r e e pau z u n o o m e e s e k i pau u N d o o sh i N k e e b a ts u g u N pau i e w a k a n e m o ch i d e pau ts u i d e n i g a k U s e e k a i n o f U k u k a i ch o o o sh I t e t a r i m o s u r u pau i w a y u r u pau p a a f e k U t o n a y a cl k o d a}|容姿端麗、頭脳明晰、運動神経抜群、家は金持ちで、ついでに学生会の副会長をしてたりもする、いわゆる、パーフェクトな奴だ。
+BASIC5000_3151|jsut|{s o n o h a N m e N pau s a N sh i z o k u a i t e n i w a o s o r e o k a k U s e z u pau o y o b i g o sh i d e h a i e ts u sh I t e i t a}|その反面、三支族相手には畏れを隠せず、及び腰で拝謁していた。
+BASIC5000_2984|jsut|{u g o k e r u y o o n i n a r u t o pau k e N k o o n o a r i g a t a s a o j i cl k a N sh i m a s U y o n e}|動けるようになると、健康の有難さを実感しますよね。
+BASIC5000_1315|jsut|{o g a w a g a s a r a s a r a t o n a g a r e r u o t o g a k I k o e r u}|小川がさらさらと流れる音が聞こえる。
+BASIC5000_1809|jsut|{k a z a N n o b a k U h a ts u g a pau s o n o m u r a o o b i y a k a sh I t a}|火山の爆発が、その村をおびやかした。
+BASIC5000_0837|jsut|{m i ch I k o w a pau m a r u d e j i b u N j i sh i N g a h o cl ky o k u e i cl t e k i t a k a n o y o o n a k U ch i b u r i d a}|美智子は、まるで自分自身が北極へ行って来たかのような口ぶりだ。
+BASIC5000_1524|jsut|{s a i z e N r e ts u d e pau e o e g a i t e i r u o N n a n o k o w a pau w a t a sh i n o m e e d e s U}|最前列で、絵を描いている女の子は、私の姪です。
+BASIC5000_3120|jsut|{o o p u n i N g u n o t e e ky o o k u r e j i cl t o n i w a pau i cl k a d e t o o j o o s u r u a n i m e g a ts U k a w a r e t e i t a}|オープニングの提供クレジットには、一家で登場するアニメが使われていた。
+BASIC5000_3240|jsut|{k e N ry o k u o r a N y o o sh I t e sh I f u k u o k o y a sh I t a r i pau m i n a r a i m a d o o sh i n o k i r e i d o k o r o y a pau b u k a n o ny o o b o o o t e g o m e n i sh I t e i t a}|権力を乱用して私腹を肥やしたり、見習い魔道士のきれいどころや、部下の女房を手ごめにしていた。
+BASIC5000_0373|jsut|{b e cl d o d e n o t a b a k o o k i N z u r u pau k i b i sh i i k i s o k u g a a r u}|ベッドでの煙草を禁ずる、厳しい規則がある。
+BASIC5000_0761|jsut|{k e e k i g a s u g u n i k a i f U k u s u r u t o i i n o d e s U g a}|景気がすぐに回復するといいのですが。
+BASIC5000_0445|jsut|{m a a s o o k o o f u N sh i n a i d e pau o s u w a r i k u d a s a i}|まあそう興奮しないで、お座り下さい。
+BASIC5000_1136|jsut|{m i n i k u i a h i r u n o k o w a pau y u u g a n a h a k U ch o o t o n a cl t a}|醜いアヒルの子は、優雅な白鳥となった。
+BASIC5000_0460|jsut|{h o N n i k a k a r e t e i t a s u b e t e n o d a i e cl t o o t a m e sh i t a g a pau m a d a pau z e N z e N t a i j u u g a h e cl t e i n a i}|本に書かれていた全てのダイエットを試したが、まだ、全然体重が減っていない。
+BASIC5000_2288|jsut|{o r e pau k o n o k e N n i k a N sh I t e pau n o o t a cl ch i n a N d e}|俺、この件に関して、ノータッチなんで。
+BASIC5000_3759|jsut|{a i t e o h e cl d o r o cl k u n i t o r a e pau t o o b u o u d e d e sh i m e ts U k e n a g a r a pau o o k I k u s a y u u n i y u s a b u r u}|相手をヘッドロックにとらえ、頭部を腕で締め付けながら、大きく左右に揺さぶる。
+BASIC5000_2820|jsut|{k o g u N f u N t o o sh I t a k e r e d o pau sh u u k a t e k I s e z u pau k a r e n o b i j i n e s U p u r a N w a u k e i r e r a r e n a k a cl t a y o}|孤軍奮闘したけれど、衆寡敵せず、彼のビジネスプランは受け入れられなかったよ。
+BASIC5000_0632|jsut|{sh I f u k U k e e k a N g a pau sh i j u u d a i t o o ry o o n o sh i N p e N o k a t a m e t e i t a}|私服警官が、始終大統領の身辺を固めていた。
+BASIC5000_2879|jsut|{m i cl k a r e N z o k u d e t e ts u y a sh I t e r u k a r a pau m o o a cl p u a cl p u d a y o}|３日連続で徹夜してるから、もうアップアップだよ。
+BASIC5000_1829|jsut|{y a k U sh a w a pau s e r i f u o pau a N k I sh i n a k e r e b a n a r a n a i}|役者は、台詞を、暗記しなければならない。
+BASIC5000_3924|jsut|{z e N j u ts u sh I t a y o o n i h a n a e b i s U ch i ts u j o d e w a pau ch u u g o k u o o ch o o k a r a s a k U h o o k a r a u k e pau a r u i w a pau ch o o k o o o o k o n a u k o t o d e pau sh u u h e N sh o k o k u w a s o o sh u k o k u pau h a N z o cl k o k u n o k a N k e e t o n a cl t a}|前述したように華夷秩序では、中国王朝から冊封から受け、あるいは、朝貢を行うことで、周辺諸国は宗主国、藩属国の関係となった。
+BASIC5000_3034|jsut|{ky o o b o o s o o n i m i e t a n o w a pau h a d a k a n o g e N j u u m i N t o m i r e b a pau t e e d o n o h I k u i n i N g e N d a t o k a cl t e n i o m o i k o m u pau s a b e ts u t e k i n a h I t o b i t o o k o r a sh i m e r u t a m e n o sh i b a i d a cl t a}|凶暴そうに見えたのは、裸の原住民と見れば、程度の低い人間だと勝手に思い込む、差別的な人々をこらしめるための芝居だった。
+BASIC5000_1729|jsut|{k o o s a t e N n o sh i N g o o w a pau m a ch i n o k o o ts u u j i k o n o k a z u o f u e n a i y o o n i sh I t a}|交差点の信号は、町の交通事故の数を増えないようにした。
+BASIC5000_1770|jsut|{y o cl p o d o i N sh o o n i n o k o r u k o t o j a n a i t o pau o b o e t e n a i N d a y o n e}|よっぽど印象に残る事じゃないと、覚えてないんだよね。
+BASIC5000_0717|jsut|{i e i e w a pau o t a g a i n i ch I k a z u i t e t a cl t e i r u}|家々は、お互いに近付いてたっている。
+BASIC5000_1017|jsut|{m o cl ts a r e r a ch i i z u o k a k e t a p i z a n i w a pau m a cl s a k i n i t o b i ts u i t e sh i m a i m a s U}|モッツァレラチーズをかけたピザには、真っ先に飛びついてしまいます。
+BASIC5000_1859|jsut|{ry o o k e N t a ch i w a pau s o n o k I ts u n e o o i k a k e t e i r u}|猟犬たちは、そのキツネを追いかけている。
+BASIC5000_1396|jsut|{g e N z e e w a sh i b a sh i b a pau k e e z a i o sh i g e k I s u r u j u u y o o n a z a i s e e s e e s a k U sh u d a N t o sh I t e ts U k a w a r e r u}|減税はしばしば、経済を刺激する重要な財政政策手段として使われる。
+BASIC5000_2145|jsut|{r u ch i a a n o w a pau d a i s e e e N o s e o cl t e t a t a k a e r u k a m o sh i r e n a i g a pau k a r e w a pau m a d a h i y o k o n i s u g i n a i}|ルチアーノは、大声援を背負って戦えるかもしれないが、彼は、まだヒヨコに過ぎない。
+BASIC5000_3900|jsut|{s o n o s a i g o m a d e sh i j o o n i t o r a w a r e z u pau s u b e t e n o m o n o g a by o o d o o n i k a t a r a u sh a k a i n o j i ts u g e N o n o z o N d e i t a}|その最期まで私情に囚われず、全ての者が平等に語らう社会の実現を望んでいた。
+BASIC5000_1457|jsut|{b o k e e n o s o b o w a pau s o n o ky u u sh I k i n o d o r e s u o k i r u k o t o n i k o sh I ts u s u r u}|母系の祖母は、その旧式のドレスを着ることに固執する。
+BASIC5000_1896|jsut|{m i o k i r u y o o n a s a m u i n a k a d e pau w a z a w a z a a s o b a n a k U t e m o i i j a n a i}|身を切るような寒い中で、わざわざ遊ばなくてもいいじゃない。
+BASIC5000_2588|jsut|{o y a o m o i n o m u s u m e s a N d e a r u k o t o w a w a k a r i m a s U}|親思いの娘さんであることはわかります。
+BASIC5000_3638|jsut|{sh i r o i s o cl k U s u n i sh u u ch a k U s u r u s e e h e k i o m o ch i pau ky a k U t o sh I t e n o s e t a j o s e e n i pau s o cl k U s u o h a k a s e t e s a ts u g a i s u r u r e N z o k U s a ts u j i N h a N}|白いソックスに執着する性癖を持ち、客として乗せた女性に、ソックスを履かせて殺害する連続殺人犯。
+BASIC5000_0355|jsut|{hy a cl k a j i t e N o k a i t a i t o i u g o k a N sh i N w a a r i m a s U k a}|百科事典を買いたいという御関心はありますか。
+BASIC5000_1981|jsut|{m a y u k o w a pau w a t a sh i t a ch i o m u k a e n i h a sh i cl t e k i t a}|マユコは、私たちをむかえに走ってきた。
+BASIC5000_0836|jsut|{i r o k e y o r i k u i k e k a r a w a s o r o s o r o s o ts u gy o o sh I t e m o i i o t o sh i g o r o d a t o o m o u k e d o n e}|色気より食い気からはそろそろ卒業してもいいお年頃だと思うけどね。
+BASIC5000_1209|jsut|{k a N g u N n i ny u u j o o o y u r u s U t o w a pau d o o y u u ry o o k e N d a}|官軍に入城を許すとは、どういう了見だ。
+BASIC5000_0008|jsut|{o o g o e d e n a k i n a g a r a pau o N n a n o k o w a h a h a o y a o s a g a sh I t e i t a}|大声で泣きながら、女の子は母親を探していた。
+BASIC5000_2865|jsut|{o s e e b o w a pau n i cl p o N d o k u j i n o sh u u k a N n o h I t o ts u d e a r u}|お歳暮は、日本独自の習慣の一つである。
+BASIC5000_1841|jsut|{t a b a k o o h e r a s U k o t o y o r i pau m u sh i r o pau t a b a k o o y a m e r u cl t e n o h a d o o d e s U k a}|タバコをへらすことより、むしろ、タバコをやめるってのはどうですか。
+BASIC5000_2536|jsut|{m u b o o n a u N t e N d e pau f U t a r i n o o t o k o w a t a i h o s a r e t a}|無謀な運転で、二人の男は逮捕された。
+BASIC5000_1894|jsut|{sh o o gy o o t e r e b i w a pau k o o k o k u n o k o o k a t e k i n a sh u d a N d e a r u}|商業テレビは、広告の効果的な手段である。
+BASIC5000_0032|jsut|{h a r i g a n e w a pau d e N k i o ts U t a e r u n o n i m o ch i i r a r e r u}|針金は、電気を伝えるのにもちいられる。
+BASIC5000_0897|jsut|{sh i sh a w a pau h I s o k a n i r o N d o N e sh u cl p a ts u sh I t a}|使者は、ひそかにロンドンへ出発した。
+BASIC5000_1224|jsut|{s o t o d e w a ts u m e t a i k I t a k a z e g a pau g o o g o o t o f U k i a r e t e i t a}|外では冷たい北風が、轟々と吹き荒れていた。
+BASIC5000_0469|jsut|{o cl t o n i sh i n a r e t a t o k i pau w a t a sh i w a g e N k i o u sh i n a u m a i t o s u r u n o n i pau t a i h e N k u r o o sh i m a sh I t a}|夫に死なれたとき、私は元気を失うまいとするのに、大変苦労しました。
+BASIC5000_2578|jsut|{h a i g o n i k o e g a sh I t a n o d e pau k a n o j o w a k a r a d a o n e j i cl t e f u r i k a e cl t a}|背後に声がしたので、彼女は体をねじって振り返った。
+BASIC5000_3736|jsut|{e N s a N o pau s u i s a N k a n a t o r i u m u s u i y o o e k i d e pau t e k I t e e s u r u b a a i o k a N g a e r u}|塩酸を、水酸化ナトリウム水溶液で、滴定する場合を考える。

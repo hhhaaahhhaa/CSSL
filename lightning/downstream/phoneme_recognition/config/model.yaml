@@ -1,0 +1,3 @@
+lstm:
+  d_hidden: 256
+  num_layers: 2

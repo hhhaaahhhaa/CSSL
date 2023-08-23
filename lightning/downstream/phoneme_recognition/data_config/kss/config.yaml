@@ -1,0 +1,11 @@
+name: "kss"
+lang_id: "ko"
+
+data_dir: "_data/kss"
+
+subsets:
+    train: "train.txt"
+    val: "val.txt"
+    test: "test.txt"
+
+text_cleaners: ["transliteration_cleaners"]
