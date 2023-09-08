@@ -5,72 +5,12 @@ from torchaudio.models.decoder import ctc_decoder
 from typing import Dict
 import jiwer
 
-from dlhlp_lib.common.layers import WeightedSumLayer
-
-from lightning.systems.system import System
+from lightning.base.system import System
 from lightning.systems import load_system
 from lightning.utils.tool import ssl_match_length
 from .config_reader import ConfigReader
+from .model import BiLSTMDownstream
 from .saver import Saver
-
-
-class LinearDownstream(nn.Module):
-    def __init__(self, n_in_layers:int, upstream_dim: int, id2symbols: Dict) -> None:
-        super().__init__()
-        self.ws = WeightedSumLayer(n_in_layers=n_in_layers)
-        self.heads = nn.ModuleDict()
-        for id, v in id2symbols.items():
-            if len(v) > 0:
-                self.heads[f"head-{id}"] = nn.Linear(upstream_dim, len(v))
-
-    def forward(self, x, id: int):
-        # input: B, L, n_layers, dim
-        x = self.ws(x, dim=2)  # B, L, dim
-
-        return self.heads[f"head-{id}"](x)  # B, L, n_symbols
-    
-
-class BiLSTMDownstream(nn.Module):
-    """ BiLSTM """
-    def __init__(self,
-        n_in_layers:int, upstream_dim: int, id2symbols: Dict,
-        d_hidden: int=256,
-        num_layers: int=2,
-        use_proj: bool=True,
-    ) -> None:
-        super().__init__()
-        self.ws = WeightedSumLayer(n_in_layers=n_in_layers)
-        self.d_hidden = d_hidden
-        self.proj = nn.Linear(upstream_dim, self.d_hidden) if use_proj else None
-        
-        self.lstm = nn.LSTM(input_size=self.d_hidden, hidden_size=self.d_hidden // 2, 
-                                num_layers=num_layers, bidirectional=True, batch_first=True)
-        self.heads = nn.ModuleDict()
-        for id, v in id2symbols.items():
-            if len(v) > 0:
-                if use_proj:
-                    self.heads[f"head-{id}"] = nn.Linear(self.d_hidden, len(v))
-                else:
-                    self.heads[f"head-{id}"] = nn.Linear(upstream_dim, len(v))
-
-    def forward(self, x, lengths, id: int):
-        """
-        Args:
-            x: Representation with shape (B, L, n_layers, d_in).
-            lengths: Handle padding for LSTM.
-        Return:
-            Return tensor with shape (B, L, d_hidden)
-        """
-        x = self.ws(x, dim=2)  # B, L, d_in
-        if self.proj is not None:
-            x = self.proj(x)  # B, L, d_hidden
-        # total length should be record due to data parallelism issue (https://pytorch.org/docs/stable/notes/faq.html#pack-rnn-unpack-with-data-parallelism)
-        total_length = x.size(1)
-        x = nn.utils.rnn.pack_padded_sequence(x, lengths, batch_first=True, enforce_sorted=False)
-        x, _ = self.lstm(x)  # B, L, d_hidden
-        x, _ = nn.utils.rnn.pad_packed_sequence(x, batch_first=True, total_length=total_length)
-
-        return self.heads[f"head-{id}"](x)  # B, L, n_symbols
 
 
 class Expert(System):
@@ -82,6 +22,7 @@ class Expert(System):
         self.model_config.update({
             "upstream": upstream_info
         })
+        self.bs = self.train_config["optimizer"]["batch_size"]
     
     def build_model(self, upstream_info: Dict) -> None:
         from text.define import LANG_ID2SYMBOLS
@@ -124,10 +65,6 @@ class Expert(System):
             ssl_repr = ssl_match_length(ssl_repr, target_len=max(ssl_repr_lens))
             ssl_repr.detach()
 
-        print(ssl_repr.shape)
-        print(ssl_repr_lens)
-        input()
-
         output = self.model.forward(ssl_repr, lengths=ssl_repr_lens, id=repr_info["lang_id"])  # B, L, n_symbols
 
         # ctc
@@ -151,7 +88,7 @@ class Expert(System):
 
         # Log metrics to CometLogger
         loss_dict = {f"Train/{k}": v.item() for k, v in train_loss_dict.items()}
-        self.log_dict(loss_dict, sync_dist=True)
+        self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
         return {'loss': train_loss_dict["Total Loss"], 'losses': train_loss_dict, 'output': predictions, '_batch': labels, 'lang_id': repr_info["lang_id"]}
 
     
@@ -163,20 +100,23 @@ class Expert(System):
         emissions = torch.log_softmax(predictions.detach().cpu(), dim=2)
         beam_search_results = self.beam_search_decoder(emissions, info["ssl_repr_lens"])
         acc = 0
+        gt_transcripts, pred_transcripts = [], []
         for i, res in enumerate(beam_search_results):
             # Dirty since we need to manipulate redundant silence token from self.beam_search_decoder!
             pred_transcript = self.beam_search_decoder.idxs_to_tokens(res[0].tokens)
             pred_transcript = " ".join([p for p in pred_transcript if p != "|"])
             gt_transcript = self.beam_search_decoder.idxs_to_tokens(labels["texts"][i][:labels["text_lens"][i]].cpu())
             gt_transcript = " ".join([p for p in gt_transcript if p != "|"])
+            pred_transcripts.append(pred_transcript)
+            gt_transcripts.append(gt_transcript)
             acc += 1 - jiwer.wer(gt_transcript, pred_transcript)
         acc /= len(beam_search_results)
-        self.log_dict({"Val/Acc": acc}, sync_dist=True)
+        self.log_dict({"Val/Acc": acc}, sync_dist=True, batch_size=self.bs)
 
         # Log metrics to CometLogger
         loss_dict = {f"Val/{k}": v.item() for k, v in val_loss_dict.items()}
-        self.log_dict(loss_dict, sync_dist=True)
-        return {'loss': val_loss_dict["Total Loss"], 'losses': val_loss_dict, 'output': predictions, '_batch': labels, 'lang_id': repr_info["lang_id"]}
+        self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
+        return {'loss': val_loss_dict["Total Loss"], 'losses': val_loss_dict, 'output': (gt_transcripts, pred_transcripts), '_batch': labels, 'lang_id': repr_info["lang_id"]}
 
     def on_save_checkpoint(self, checkpoint):
         """ (Hacking!) Remove pretrained weights in checkpoint to save disk space. """

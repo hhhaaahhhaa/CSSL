@@ -5,7 +5,7 @@ data_dir: "_data/JSUT"
 
 subsets:
     train: "train.txt"
-    val: "val.txt"
+    val: "test.txt"
     test: "test.txt"
 
 text_cleaners: ["transliteration_cleaners"]

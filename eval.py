@@ -7,7 +7,6 @@ from pytorch_lightning.loggers import TensorBoardLogger, CometLogger
 import torch
 import yaml
 import torch.nn as nn
-from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
@@ -114,10 +113,7 @@ def main(args):
             "limit_val_batches": 50,  # Useful for debugging
         })
     trainer = pl.Trainer(logger=loggers, **TRAINER_CONFIG, **trainer_training_config)
-    if args.ckpt_file:
-        trainer.fit(model, datamodule=datamodule, ckpt_path=args.ckpt_file)
-    else:
-        trainer.fit(model, datamodule=datamodule)
+    trainer.fit(model, datamodule=datamodule, ckpt_path=args.ckpt_file)
 
 
 if __name__ == "__main__":

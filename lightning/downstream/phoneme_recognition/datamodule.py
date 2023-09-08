@@ -74,7 +74,7 @@ class PRDataModule(pl.LightningDataModule):
         """Training dataloader, not modified for multiple dataloaders."""
         self.train_loader = DataLoader(
             self.train_dataset,
-            batch_size=1,
+            batch_size=self.batch_size,
             shuffle=True,
             num_workers=Define.MAX_WORKERS,
             collate_fn=self.collate.collate_fn(),
@@ -85,7 +85,7 @@ class PRDataModule(pl.LightningDataModule):
         """Validation dataloader, not modified for multiple dataloaders."""
         self.val_loader = DataLoader(
             self.val_dataset,
-            batch_size=1,
+            batch_size=self.batch_size,
             shuffle=False,
             num_workers=0,
             collate_fn=self.collate.collate_fn(),

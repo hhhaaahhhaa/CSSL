@@ -1,7 +1,7 @@
 from typing import Type
 import pytorch_lightning as pl
 
-from lightning.systems.system import System
+from lightning.base.system import System
 from . import phoneme_recognition
 
 

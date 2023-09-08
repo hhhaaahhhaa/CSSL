@@ -8,7 +8,7 @@ optimizer:
   grad_clip_thresh: 1.0
   grad_acc_step: 1
 step:
-  total_step: 50000
+  total_step: 20000
   log_step: 100
   synth_step: 1000
   val_step: 2500

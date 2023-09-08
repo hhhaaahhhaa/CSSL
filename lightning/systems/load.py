@@ -1,11 +1,13 @@
 from typing import Type
+import pytorch_lightning as pl
 
-from .system import System
-from .s3prl import S3PRLWrapper
+from lightning.base.system import System
+from . import s3prl
+from . import CTrain
 
 
 SYSTEM_CTRAIN = {
-    "ctrain/hubert": None,
+    "CTrain/hubert": (CTrain.hubert.HubertSystem, CTrain.hubert.DataModule)
 }
 
 
@@ -15,7 +17,11 @@ SYSTEM = {
 
 
 def get_system(system_name: str) -> Type[System]:
-    return SYSTEM[system_name]
+    return SYSTEM[system_name][0]
+
+
+def get_datamodule(system_name: str) -> Type[pl.LightningDataModule]:
+    return SYSTEM[system_name][1]
 
 
 def load_system(system_name, ckpt_file):
@@ -26,4 +32,4 @@ def load_system(system_name, ckpt_file):
         return upstream
     
     # s3prl upstreams
-    return S3PRLWrapper(system_name)
+    return s3prl.S3PRLWrapper(system_name)

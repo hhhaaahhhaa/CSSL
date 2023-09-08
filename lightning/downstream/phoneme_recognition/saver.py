@@ -47,7 +47,7 @@ class Saver(Callback):
         self.val_loss_dicts = []
         self.log_loss_dicts = []
 
-    def on_train_batch_end(self, trainer, pl_module, outputs, batch, batch_idx, dataloader_idx):
+    def on_train_batch_end(self, trainer, pl_module, outputs, batch, batch_idx):
         loss = outputs['losses']
         output = outputs['output']
         _batch = outputs['_batch']
@@ -100,15 +100,11 @@ class Saver(Callback):
         # Log loss for each sample to csv files
         self.log_csv("Validation", step, 0, loss_dict)
 
-        # # Log asr results to logger + calculate acc
-        # if batch_idx == 0 and pl_module.local_rank == 0:
-
-        #     # log asr results
-        #     sentence = _batch[3][0]
-        #     gt_sentence, pred_sentence = self.recover_sentences(sentence, output[0].argmax(dim=1), symbol_id=lang_id)
-            
-        #     self.log_text(logger, "Val/GT: " + ", ".join(gt_sentence), step)
-        #     self.log_text(logger, "Val/Pred: " + ", ".join(pred_sentence), step)
+        # Log asr results to logger + calculate acc
+        if batch_idx < 2 and pl_module.local_rank == 0:
+            # log asr results
+            self.log_text(logger, "Val/GT: " + output[0][0], step)
+            self.log_text(logger, "Val/Pred: " + output[1][0], step)
 
     def on_validation_epoch_end(self, trainer, pl_module):
         loss_dict = merge_dicts(self.val_loss_dicts)

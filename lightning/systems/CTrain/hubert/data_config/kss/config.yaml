@@ -1,0 +1,13 @@
+name: "kss"
+lang_id: "ko"
+unit_name: hubert--ko-512c
+n_symbols: 512
+
+data_dir: "_data/kss"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["transliteration_cleaners"]

@@ -1,0 +1,11 @@
+name: "JSUT"
+lang_id: "jp"
+
+data_dir: "_data/JSUT"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["transliteration_cleaners"]

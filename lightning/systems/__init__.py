@@ -1,1 +1,1 @@
-from .load import load_system, get_system
+from .load import get_system, get_datamodule
