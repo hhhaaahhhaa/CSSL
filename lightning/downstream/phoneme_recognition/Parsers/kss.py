@@ -13,7 +13,6 @@ import Define
 from .interface import BasePreprocessor
 from .parser import DataParser
 from . import template
-from scripts.KoG2P.g2p import g2p_ko
 
 
 class KSSPreprocessor(BasePreprocessor):
@@ -102,6 +101,7 @@ class KSSPreprocessor(BasePreprocessor):
             os.link(txt_file, str(txt_link_file))
     
     def _generate_dictionary(self, output_path) -> None:
+        from scripts.KoG2P.g2p import g2p_ko
         if os.path.exists(output_path):
             return
         self.log(f"Create dictionary...")

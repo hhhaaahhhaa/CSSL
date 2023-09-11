@@ -99,7 +99,7 @@ def get_preprocess_args():
 
     parser.add_argument('-s', '--system_name', type=str, help='system identifier')
     parser.add_argument('-c', '--ckpt_file', type=str, help="upstream checkpoint path", default=None)
-    parser.add_argument('-d', '--roots', type=str, nargs='+', help="wave data directories")
+    parser.add_argument('-d', '--roots', type=str, nargs='+', help="preprocessed data directories")
     parser.add_argument('-n', '--cluster_name', type=str, help="cluster identifier")
     parser.add_argument('--n_cluster', type=int, default=512)
     parser.add_argument('--layer', type=int, default=-1)

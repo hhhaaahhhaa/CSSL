@@ -13,14 +13,13 @@ class HubertCustom(UpstreamExpert):
     def __init__(self):
         ckpt = _urls_to_filepaths("https://huggingface.co/s3prl/converted_ckpts/resolve/main/hubert_base_ls960.pt")
         super().__init__(ckpt)
-        self.remove_all_hooks()  # need to remove hooks or else keep saving tensor and cause GPU memory leak
 
     def _mask_forward(  # reimplement mask forward from fairseq code without nce logit calculation 
         self,
         source: torch.Tensor,
         padding_mask: Optional[torch.Tensor] = None,
     ) -> Dict[str, torch.Tensor]:
-        """output layer is 1-based"""
+        self._hook_hiddens.clear()  # need to remove hooks in every forwad pass or else keep saving tensor and cause GPU memory leak
         features = self.model.forward_features(source)
         features = features.transpose(1, 2)
         features = self.model.layer_norm(features)

@@ -45,23 +45,30 @@ class JSUTPreprocessor(BasePreprocessor):
         tasks = [(x,) for x in self.src_parser.basic5000]
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=False)
         self.data_parser.text.build_cache()
-
-    # Use prepared textgrids from hhhaaahhhaa's repo
-    def prepare_mfa(self, mfa_data_dir: Path):
-        pass
-    
-    # Use prepared textgrids from hhhaaahhhaa's repo
-    def mfa(self, mfa_data_dir: Path):
-        pass
     
     def preprocess(self):
+        textgrid_root = self.data_parser.textgrid.query_parser.root
+        if not os.path.exists(textgrid_root):
+            self.log("Missing textgrid!")
+            raise NotImplementedError
+
         queries = self.data_parser.get_all_queries()
         if Define.DEBUG:
             queries = queries[:128]
         template.preprocess(self.data_parser, queries)
+
+        phoneset_path = f"{os.path.dirname(__file__)}/../MFA/JSUT/phoneset.txt"
+        if not os.path.exists(phoneset_path):
+            self.log("Generate phoneme set...")
+            from scripts.collect_phonemes import collect_phonemes, generate_phoneme_set
+            phns = collect_phonemes([self.root])
+            generate_phoneme_set(phns, phoneset_path)
 
     def split_dataset(self, cleaned_data_info_path: str):
         output_dir = os.path.dirname(cleaned_data_info_path)
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
         template.split_monospeaker_dataset(self.data_parser, queries, output_dir, val_size=1000)
+
+    def log(self, msg):
+        print(f"[JSUTPreprocessor]: ", msg)

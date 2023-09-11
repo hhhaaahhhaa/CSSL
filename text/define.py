@@ -20,9 +20,9 @@ LANG_ID2SYMBOLS = {
     # "de": common_symbols + get_phoneme_set("MFA/German/phoneset.txt"),
     # "ru": [],
     # "es": common_symbols + get_phoneme_set("MFA/Spanish/phoneset.txt"),
-    "jp": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/kss/phoneset.txt"),
+    "jp": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/JSUT/phoneset.txt"),
     "cz": [],
-    "ko": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/JSUT/phoneset.txt"),
+    "ko": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/kss/phoneset.txt"),
     "nl": [],
 }
 
