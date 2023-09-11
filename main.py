@@ -25,11 +25,12 @@ if quiet:
     logging.getLogger("pytorch_lightning").setLevel(logging.ERROR)
 if Define.CUDA_LAUNCH_BLOCKING:
     os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
 
 
 TRAINER_CONFIG = {
     "accelerator": "gpu" if torch.cuda.is_available() else None,
-    "strategy": "auto",  # multigpu should use ddp
+    "strategy": "ddp_find_unused_parameters_true",  # multigpu should use ddp
     "profiler": 'simple',
 }
 
@@ -111,6 +112,7 @@ def main(args):
         TRAINER_CONFIG.update({
             "limit_train_batches": 200,
             "limit_val_batches": 50,
+            "max_epochs": 3
         })
     trainer = pl.Trainer(logger=loggers, **TRAINER_CONFIG, **trainer_training_config)
     trainer.fit(model, datamodule=datamodule, ckpt_path=args.ckpt_file)

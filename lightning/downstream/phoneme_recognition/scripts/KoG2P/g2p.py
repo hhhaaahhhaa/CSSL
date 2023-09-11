@@ -36,12 +36,14 @@ import optparse
 
 
 # Option
-parser = optparse.OptionParser()
-parser.add_option("-v", action="store_true", dest="verbose", default="False",
-                  help="This option prints the detail information of g2p process.")
+# parser = optparse.OptionParser()
+# parser.add_option("-v", action="store_true", dest="verbose", default="False",
+#                   help="This option prints the detail information of g2p process.")
 
-(options,args) = parser.parse_args()
-verbose = options.verbose
+# (options,args) = parser.parse_args()
+# verbose = options.verbose
+
+verbose = False
 
 # Check Python version
 ver_info = sys.version_info
@@ -332,14 +334,14 @@ def runTest(rulebook, testset):
 
 
 
-# Usage:
-if __name__ == '__main__':
+# # Usage:
+# if __name__ == '__main__':
 
-    if args[0] == 'test':   # G2P Performance Test
-        runTest('rulebook.txt', 'testset.txt')
+#     if args[0] == 'test':   # G2P Performance Test
+#         runTest('rulebook.txt', 'testset.txt')
 
-    else:
-        graph = args[0]
-        runKoG2P(graph, 'rulebook.txt')
+#     else:
+#         graph = args[0]
+#         runKoG2P(graph, 'rulebook.txt')
 
 

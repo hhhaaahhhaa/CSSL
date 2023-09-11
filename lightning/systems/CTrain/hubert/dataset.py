@@ -27,7 +27,7 @@ class ClusterDataset(Dataset):
 
         raw_feat = self.data_parser.wav_16000.read_from_query(query)
         idxs = self.unit_parser.clusters.read_from_query(query)
-        idxs = np.array([int(x) for x in idxs.split(" ")]) + 1
+        idxs = np.array([int(x) for x in idxs.split(" ")])
         
         sample = {
             "id": basename,

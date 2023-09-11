@@ -13,7 +13,7 @@ import Define
 from .interface import BasePreprocessor
 from .parser import DataParser
 from . import template
-from ..scripts.KoG2P.g2p import g2p_ko
+from scripts.KoG2P.g2p import g2p_ko
 
 
 class KSSPreprocessor(BasePreprocessor):
@@ -49,44 +49,23 @@ class KSSPreprocessor(BasePreprocessor):
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=False)
         self.data_parser.text.build_cache()
 
-    # def prepare_mfa(self, mfa_data_dir: Path):
-    #     queries = self.data_parser.get_all_queries()
-
-    #     # 1. create a similar structure in "mfa_data_dir" as in "wav_dir"
-    #     target_dir = mfa_data_dir / "kss"
-    #     target_dir.mkdir(parents=True, exist_ok=True)
-
-    #     # 2. create hard link for wav file
-    #     for query in tqdm(queries):
-    #         target_dir = mfa_data_dir / query['spk']
-    #         link_file = target_dir / f"{query['basename']}.wav"
-    #         txt_link_file = target_dir / f"{query['basename']}.txt"
-    #         wav_file = self.data_parser.wav_16000.read_filename(query, raw=True)
-    #         txt_file = self.data_parser.text.read_filename(query, raw=True)
-            
-    #         if link_file.exists():
-    #             os.unlink(str(link_file))
-    #         if txt_link_file.exists():
-    #             os.unlink(str(txt_link_file))
-    #         os.link(wav_file, str(link_file))
-    #         os.link(txt_file, str(txt_link_file))
-
-    # def mfa(self, mfa_data_dir: Path):
-    #     corpus_directory = str(mfa_data_dir)
-    #     dictionary_path = "MFA/kss/lexicon.txt"
-    #     acoustic_model_path = "MFA/kss/acoustic_model.zip"
-    #     output_directory = f"{self.root}/TextGrid"
-    #     cmd = f"mfa align {corpus_directory} {dictionary_path} {acoustic_model_path} {output_directory} -j 8 -v --clean"
-    #     os.system(cmd)
-
     def preprocess(self):
         textgrid_root = self.data_parser.textgrid.query_parser.root
         if not os.path.exists(textgrid_root):
+            self.log("Missing textgrid, start MFA...")
             self.mfa(textgrid_root)
+
         queries = self.data_parser.get_all_queries()
         if Define.DEBUG:
             queries = queries[:128]
         template.preprocess(self.data_parser, queries)
+
+        phoneset_path = f"{os.path.dirname(__file__)}/../MFA/kss/phoneset.txt"
+        if not os.path.exists(phoneset_path):
+            self.log("Generate phoneme set...")
+            from scripts.collect_phonemes import collect_phonemes, generate_phoneme_set
+            phns = collect_phonemes([self.root])
+            generate_phoneme_set(phns, phoneset_path)
 
     def split_dataset(self, cleaned_data_info_path: str):
         output_dir = os.path.dirname(cleaned_data_info_path)
@@ -140,9 +119,9 @@ class KSSPreprocessor(BasePreprocessor):
         self.log(f"Write {len(lexicons)} words.")
 
     def _prepare_mfa_model(self, mfa_data_dir, dictionary_path, output_path) -> None:
-        self.log(f"Create MFA model...")
         if os.path.exists(output_path):
             return
+        self.log(f"Create MFA model...")
         cmd = f"mfa train {mfa_data_dir} {dictionary_path} {output_path} -j 8 -v --clean"
         os.system(cmd)
 

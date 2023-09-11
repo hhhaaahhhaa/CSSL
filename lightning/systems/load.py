@@ -7,7 +7,8 @@ from . import CTrain
 
 
 SYSTEM_CTRAIN = {
-    "CTrain/hubert": (CTrain.hubert.HubertSystem, CTrain.hubert.DataModule)
+    "CTrain/hubert": (CTrain.hubert.HubertSystem, CTrain.hubert.DataModule),
+    "CTrain/wav2vec2": (CTrain.hubert.HubertSystem, CTrain.hubert.DataModule),
 }
 
 

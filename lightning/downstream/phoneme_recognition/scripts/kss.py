@@ -24,15 +24,3 @@ def generate_dictionary(raw_dir, dictionary_path):
         for k, v in lexicons.items():
             f.write(f"{k}\t{v}\n")
     print(f"Write {len(lexicons)} words.")
-
-if __name__ == "__main__":
-    raw_dir = "/mnt/d/Data/kss"  # change to local path
-    mfa_data_dir = "preprocessed_data/kss/mfa_data"
-    dictionary_path = "MFA/kss/lexicon.txt"
-    acoustic_model_path = "MFA/kss/acoustic_model.zip"
-
-    generate_dictionary(raw_dir, dictionary_path)
-
-    # Download from hhhaaahhhaa's repo
-    # cmd = f"mfa train {mfa_data_dir} {dictionary_path} {acoustic_model_path} -j 8 -v --clean"
-    # os.system(cmd)

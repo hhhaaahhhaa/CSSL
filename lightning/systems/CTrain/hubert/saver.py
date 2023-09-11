@@ -38,6 +38,8 @@ class Saver(Callback):
 
     def on_train_batch_end(self, trainer, pl_module, outputs, batch, batch_idx):
         loss = outputs['losses']
+        output = outputs['output']
+        _batch = outputs['_batch']
         step = pl_module.global_step + 1
         # if isinstance(pl_module.logger, list):
         #     assert len(list(pl_module.logger)) == 1
@@ -62,6 +64,8 @@ class Saver(Callback):
 
     def on_validation_batch_end(self, trainer, pl_module, outputs, batch, batch_idx, dataloader_idx=0):
         loss = outputs['losses']
+        output = outputs['output']
+        _batch = outputs['_batch']
         
         step = pl_module.global_step + 1
         # if isinstance(pl_module.logger, list):

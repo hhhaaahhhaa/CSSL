@@ -78,7 +78,7 @@ class HubertSystem(System):
             "Total Loss": loss,
         }
 
-        return loss_dict, output, None
+        return loss_dict, None, None
 
     def training_step(self, batch, batch_idx):
         labels, _ = batch

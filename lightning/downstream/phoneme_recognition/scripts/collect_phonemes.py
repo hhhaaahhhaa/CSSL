@@ -28,14 +28,3 @@ def generate_phoneme_set(phns: Set[str], output_path: str) -> None:
     with open(output_path, 'w', encoding='utf-8') as f:
         for p in phns:
             f.write(f"{p}\n")
-
-
-if __name__ == "__main__":
-    phns = collect_phonemes([
-        "_data/JSUT"
-    ])
-    generate_phoneme_set(phns, "_phoneset/JSUT.txt")
-    phns = collect_phonemes([
-        "_data/kss"
-    ])
-    generate_phoneme_set(phns, "_phoneset/kss.txt")

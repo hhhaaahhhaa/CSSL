@@ -16,6 +16,7 @@ random.seed(0)
 
 
 def preprocess(data_parser: DataParser, queries):
+    data_parser.create_unit_feature(unit_name="mfa")
     ignore_errors = not Define.DEBUG
     textgrid2segment_and_phoneme(
         queries,
