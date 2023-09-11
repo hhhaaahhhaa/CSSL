@@ -12,14 +12,6 @@ class BasePreprocessor(metaclass=abc.ABCMeta):
         raise NotImplementedError
     
     @abc.abstractmethod
-    def prepare_mfa(self, mfa_data_dir: Path) -> None:
-        raise NotImplementedError
-
-    @abc.abstractmethod
-    def mfa(self, mfa_data_dir: Path) -> None:
-        raise NotImplementedError
-    
-    @abc.abstractmethod
     def preprocess(self, *args, **kwargs) -> None:
         raise NotImplementedError
 

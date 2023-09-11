@@ -16,9 +16,7 @@ random.seed(0)
 
 
 def preprocess(data_parser: DataParser, queries):
-    ignore_errors = True
-    if Define.DEBUG:
-        ignore_errors = False
+    ignore_errors = not Define.DEBUG
     textgrid2segment_and_phoneme(
         queries,
         data_parser.textgrid,
@@ -33,12 +31,6 @@ def preprocess(data_parser: DataParser, queries):
         data_parser.units["mfa"].segment,
         data_parser.wav_trim_16000,
         n_workers=1,
-        ignore_errors=ignore_errors
-    )
-    wav_to_mel(
-        queries,
-        data_parser.wav_16000,
-        data_parser.mel,
         ignore_errors=ignore_errors
     )
     segment2duration(
@@ -59,27 +51,7 @@ def preprocess(data_parser: DataParser, queries):
 def split_monospeaker_dataset(data_parser: DataParser, queries, output_dir, val_size=1000):
     train_set = queries[:-val_size]
     test_set = queries[-val_size:]
-    val_set = random.sample(train_set, k=val_size)
+    val_set = test_set
     write_queries_to_txt(data_parser, train_set, f"{output_dir}/train.txt")
     write_queries_to_txt(data_parser, val_set, f"{output_dir}/val.txt")
     write_queries_to_txt(data_parser, test_set, f"{output_dir}/test.txt")
-
-
-# def split_multispeaker_dataset(data_parser: DataParser, queries, output_dir, val_spk_size=40):
-#     spks = data_parser.get_all_speakers()
-#     assert len(spks) > val_spk_size
-#     train_spk, val_spk = spks[:-val_spk_size], spks[-val_spk_size:]
-
-#     train_set, val_set = [], []
-#     for q in queries:
-#         if q["spk"] in train_spk:
-#             train_set.append(q)
-#         elif q["spk"] in val_spk:
-#             val_set.append(q)
-#         else:
-#             raise ValueError("Unknown speaker detected, some error exists when preprocessing data.")
-#     test_set = random.sample(val_set, k=200)
-    
-#     write_queries_to_txt(data_parser, train_set, f"{output_dir}/train.txt")
-#     write_queries_to_txt(data_parser, val_set, f"{output_dir}/val.txt")
-#     write_queries_to_txt(data_parser, test_set, f"{output_dir}/test.txt")
