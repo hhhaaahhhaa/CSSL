@@ -63,15 +63,12 @@ class LibriTTSPreprocessor(BasePreprocessor):
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=False)
         self.data_parser.text.build_cache()
 
-    # Use prepared textgrids from ming024's repo
-    def prepare_mfa(self, mfa_data_dir: Path) -> None:
-        pass
-    
-    # Use prepared textgrids from ming024's repo
-    def mfa(self, mfa_data_dir: Path) -> None:
-        pass
-    
     def preprocess(self):
+        textgrid_root = self.data_parser.textgrid.query_parser.root
+        if not os.path.exists(textgrid_root):
+            self.log("Missing textgrid!")
+            raise NotImplementedError
+
         queries = self.data_parser.get_all_queries()
         if Define.DEBUG:
             queries = queries[:128]
@@ -96,3 +93,6 @@ class LibriTTSPreprocessor(BasePreprocessor):
         write_queries_to_txt(self.data_parser, train_set, f"{output_dir}/train.txt")
         write_queries_to_txt(self.data_parser, val_set, f"{output_dir}/val.txt")
         write_queries_to_txt(self.data_parser, test_set, f"{output_dir}/test.txt")
+
+    def log(self, msg):
+        print(f"[LibriTTSPreprocessor]: ", msg)
