@@ -6,7 +6,8 @@ from .interface import BasePreprocessor
 from .libritts import LibriTTSPreprocessor
 from .ljspeech import LJSpeechPreprocessor
 from .aishell3 import AISHELL3Preprocessor
-# from .css10 import CSS10Preprocessor
+from .css10 import CSS10Preprocessor
+from .csmsc import CSMSCPreprocessor
 from .kss import KSSPreprocessor
 from .jsut import JSUTPreprocessor
 
@@ -15,7 +16,8 @@ PREPROCESSORS = {
     "LJSpeech": LJSpeechPreprocessor,
     "LibriTTS": LibriTTSPreprocessor,
     "AISHELL-3": AISHELL3Preprocessor,
-    # "CSS10": CSS10Preprocessor,
+    "CSS10": CSS10Preprocessor,
+    "CSMSC": CSMSCPreprocessor,
     "KSS": KSSPreprocessor,
     "JSUT": JSUTPreprocessor,
     # "TAT": TATPreprocessor,
