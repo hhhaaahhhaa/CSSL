@@ -117,8 +117,7 @@ class CSS10Preprocessor(BasePreprocessor):
         if os.path.exists(output_path):
             return
         self.log(f"Create MFA model...")
-        os.system(f"mfa models download acoustic {self._get_mfa_identifier()}")
-        cmd = f"mfa adapt {mfa_data_dir} {dictionary_path} {self._get_mfa_identifier()} {output_path} -j 8 -v --clean"
+        cmd = f"mfa train {mfa_data_dir} {dictionary_path} {output_path} -j 8 -v --clean"
         os.system(cmd)
 
     def mfa(self, output_path) -> None:
