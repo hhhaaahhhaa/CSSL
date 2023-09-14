@@ -21,5 +21,5 @@ torchaudio
 pandas
 xmltodict
 jiwer
-nnmnkwii
+praatio
 comet-ml

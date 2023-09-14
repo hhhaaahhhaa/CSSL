@@ -133,8 +133,8 @@ class KSSPreprocessor(BasePreprocessor):
 
         self._prepare_mfa_dir(mfa_data_dir)
         self._generate_dictionary(dictionary_path)
-        self._prepare_mfa_model(str(mfa_dir), dictionary_path, model_path)
+        self._prepare_mfa_model(mfa_data_dir, dictionary_path, model_path)
 
         self.log("Start MFA align!")
-        cmd = f"mfa align {str(mfa_data_dir)} {dictionary_path} {model_path} {output_path} -j 8 -v --clean"
+        cmd = f"mfa align {mfa_data_dir} {dictionary_path} {model_path} {output_path} -j 8 -v --clean"
         os.system(cmd)

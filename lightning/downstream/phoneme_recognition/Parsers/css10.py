@@ -111,14 +111,14 @@ class CSS10Preprocessor(BasePreprocessor):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
         os.system(f"mfa models download g2p {self._get_mfa_identifier()}")
-        os.system(f"mfa g2p {self._get_mfa_identifier()} {str(mfa_data_dir)} {output_path} --clean")
+        os.system(f"mfa g2p {mfa_data_dir} {self._get_mfa_identifier()} {output_path} --clean")
 
     def _prepare_mfa_model(self, mfa_data_dir, dictionary_path, output_path) -> None:
         if os.path.exists(output_path):
             return
         self.log(f"Create MFA model...")
         os.system(f"mfa models download acoustic {self._get_mfa_identifier()}")
-        cmd = f"mfa adapt {str(mfa_data_dir)} {dictionary_path} {self._get_mfa_identifier()} {output_path} -j 8 -v --clean"
+        cmd = f"mfa adapt {mfa_data_dir} {dictionary_path} {self._get_mfa_identifier()} {output_path} -j 8 -v --clean"
         os.system(cmd)
 
     def mfa(self, output_path) -> None:
@@ -129,8 +129,8 @@ class CSS10Preprocessor(BasePreprocessor):
 
         self._prepare_mfa_dir(mfa_data_dir)
         self._generate_dictionary(mfa_data_dir, dictionary_path)
-        self._prepare_mfa_model(str(mfa_dir), dictionary_path, model_path)
+        self._prepare_mfa_model(mfa_data_dir, dictionary_path, model_path)
 
         self.log("Start MFA align!")
-        cmd = f"mfa align {str(mfa_data_dir)} {dictionary_path} {model_path} {output_path} -j 8 -v --clean"
+        cmd = f"mfa align {mfa_data_dir} {dictionary_path} {model_path} {output_path} -j 8 -v --clean"
         os.system(cmd)
