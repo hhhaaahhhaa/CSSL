@@ -67,7 +67,12 @@ class CSS10Preprocessor(BasePreprocessor):
             phns = collect_phonemes([self.root])
             generate_phoneme_set(phns, phoneset_path)
 
-    def split_dataset(self, cleaned_data_info_path: str):
+    def clean(self):
+        cleaned_data_info_path = f"data_config/CSS10/{self.lang}/clean.json"
+        template.clean(self.data_parser, output_path=cleaned_data_info_path)
+    
+    def split_dataset(self):
+        cleaned_data_info_path = f"data_config/CSS10/{self.lang}/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)

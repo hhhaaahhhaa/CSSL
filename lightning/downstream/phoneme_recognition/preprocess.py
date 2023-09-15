@@ -1,3 +1,5 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import argparse
 import os
 import torchaudio
@@ -42,21 +44,16 @@ class Preprocessor(object):
             #     print("[INFO] Denoising corpus...")
             #     torchaudio.set_audio_backend("sox_io")
             #     processor.denoise()
-            # 2. Prepare MFA
-            # if self.args.prepare_mfa:
-            #     print("[INFO] Preparing data for Montreal Force Alignment...")
-            #     processor.prepare_mfa(Path(self.preprocessed_root) / "mfa_data")
-            # # 3. MFA
-            # if self.args.mfa:
-            #     print("[INFO] Performing Montreal Force Alignment...")
-            #     processor.mfa(Path(self.preprocessed_root) / "mfa_data")
-            # 4. Create Dataset
+            # 2. Create Dataset
             if self.args.preprocess:
                 print("[INFO] Preprocess all utterances...")
                 processor.preprocess()
+            if self.args.clean:
+                print("[INFO] Clean...")
+                processor.clean()
             if self.args.create_dataset is not None:
                 print("[INFO] Creating dataset splits...")
-                processor.split_dataset(self.args.create_dataset)
+                processor.split_dataset()
 
     def print_message(self):
         print("\n")
@@ -70,10 +67,6 @@ class Preprocessor(object):
             print("* Parsing raw corpus")
         if self.args.denoise:
             print("* Denoising corpus")
-        if self.args.prepare_mfa:
-            print("* Preparing data for Montreal Force Alignment")
-        if self.args.mfa:
-            print("* Montreal Force Alignment")
         if self.args.preprocess:
             print("* Preprocess dataset")
         if self.args.create_dataset is not None:
@@ -95,10 +88,9 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str)
     parser.add_argument("--parse_raw", action="store_true", default=False)
     parser.add_argument("--denoise", action="store_true", default=False)
-    parser.add_argument("--prepare_mfa", action="store_true", default=False)
-    parser.add_argument("--mfa", action="store_true", default=False)
     parser.add_argument("--preprocess", action="store_true", default=False)
-    parser.add_argument("--create_dataset", type=str, help="cleaned data_info path")
+    parser.add_argument("--clean", action="store_true", default=False)
+    parser.add_argument("--create_dataset", action="store_true", default=False)
     parser.add_argument("--debug", action="store_true", default=False)
     parser.add_argument("--force", action="store_true", default=False)
     args = parser.parse_args()

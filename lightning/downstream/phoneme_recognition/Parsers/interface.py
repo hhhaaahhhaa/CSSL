@@ -16,5 +16,9 @@ class BasePreprocessor(metaclass=abc.ABCMeta):
         raise NotImplementedError
 
     @abc.abstractmethod
+    def clean(self, *args, **kwargs) -> None:
+        raise NotImplementedError
+    
+    @abc.abstractmethod
     def split_dataset(self, *args, **kwargs) -> None:
         raise NotImplementedError

@@ -60,7 +60,12 @@ class CSMSCPreprocessor(BasePreprocessor):
             queries = queries[:128]
         template.preprocess(self.data_parser, queries)
 
-    def split_dataset(self, cleaned_data_info_path: str):
+    def clean(self):
+        cleaned_data_info_path = f"data_config/CSMSC/clean.json"
+        template.clean(self.data_parser, output_path=cleaned_data_info_path)
+    
+    def split_dataset(self):
+        cleaned_data_info_path = f"data_config/CSMSC/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)

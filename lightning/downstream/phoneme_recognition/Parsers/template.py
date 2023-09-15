@@ -2,6 +2,8 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import os
 import random
+from typing import List
+import json
 
 from dlhlp_lib.audio import AUDIO_CONFIG
 from dlhlp_lib.tts_preprocess.basic2 import *
@@ -9,6 +11,7 @@ from dlhlp_lib.tts_preprocess.basic2 import *
 import Define
 from .parser import DataParser
 from .utils import write_queries_to_txt
+from .checkers import *
 
 
 FRAME_PERIOD = AUDIO_CONFIG["stft"]["hop_length"] / AUDIO_CONFIG["audio"]["sampling_rate"]
@@ -56,3 +59,19 @@ def split_monospeaker_dataset(data_parser: DataParser, queries, output_dir, val_
     write_queries_to_txt(data_parser, train_set, f"{output_dir}/train.txt")
     write_queries_to_txt(data_parser, val_set, f"{output_dir}/val.txt")
     write_queries_to_txt(data_parser, test_set, f"{output_dir}/test.txt")
+
+
+def clean(data_parser: DataParser, output_path: str) -> List:
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    queries = data_parser.get_all_queries()
+    checkers = [
+        LengthChecker(data_parser),
+        UnknownTokenChecker(data_parser, unk_list=["spn"]),
+        SSLFeatureChecker("hubert", data_parser),
+        SSLFeatureChecker("wav2vec2", data_parser)
+    ]
+    res = queries
+    for checker in checkers:
+        res = checker.filter(res)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(res, f, indent=4)
