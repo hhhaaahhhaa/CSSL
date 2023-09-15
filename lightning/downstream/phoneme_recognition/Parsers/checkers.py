@@ -6,7 +6,7 @@ from typing import List
 from dlhlp_lib.s3prl import S3PRLExtractor
 from dlhlp_lib.utils.numeric import torch_exist_nan
 
-from Parsers.parser import DataParser
+from .parser import DataParser
 
 
 class BaseChecker(object):

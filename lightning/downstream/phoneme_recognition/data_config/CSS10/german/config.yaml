@@ -1,0 +1,11 @@
+name: "CSS10/german"
+lang_id: "de"
+
+data_dir: "_data/CSS10/german"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["basic_cleaners"]

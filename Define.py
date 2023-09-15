@@ -2,7 +2,7 @@ import torch
 
 
 # Machine settings
-LOCAL = True
+LOCAL = False
 CUDA_LAUNCH_BLOCKING = False
 MAX_WORKERS = 4
 if LOCAL:
