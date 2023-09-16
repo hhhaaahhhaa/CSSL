@@ -55,23 +55,25 @@ class AISHELL3Preprocessor(BasePreprocessor):
         tasks = [(x,) for x in self.src_parser.train_set + self.src_parser.test_set]
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=True)
         self.data_parser.text.build_cache()
-
-    # Use prepared textgrids from ming024's repo
-    def prepare_mfa(self, mfa_data_dir: Path) -> None:
-        pass
-    
-    # Use prepared textgrids from ming024's repo
-    def mfa(self, mfa_data_dir: Path) -> None:
-        pass
     
     def preprocess(self):
+        textgrid_root = self.data_parser.textgrid.query_parser.root
+        if not os.path.exists(textgrid_root):
+            self.log("Missing textgrid!")
+            raise NotImplementedError
+        
         queries = self.data_parser.get_all_queries()
         if Define.DEBUG:
             queries = queries[:128]
         template.preprocess(self.data_parser, queries)
 
-    def split_dataset(self, cleaned_data_info_path: str):
+    def clean(self):
+        cleaned_data_info_path = f"data_config/AISHELL-3/clean.json"
+        template.clean(self.data_parser, output_path=cleaned_data_info_path)
+    
+    def split_dataset(self):
         random.seed(0)
+        cleaned_data_info_path = f"data_config/AISHELL-3/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
@@ -82,7 +84,10 @@ class AISHELL3Preprocessor(BasePreprocessor):
                 train_set.append(q)
             else:
                 test_set.append(q)
-        val_set = random.sample(train_set, k=2500)
+        val_set = random.sample(test_set, k=2500)
         write_queries_to_txt(self.data_parser, train_set, f"{output_dir}/train.txt")
         write_queries_to_txt(self.data_parser, val_set, f"{output_dir}/val.txt")
         write_queries_to_txt(self.data_parser, test_set, f"{output_dir}/test.txt")
+
+    def log(self, msg):
+        print(f"[AISHELL3Preprocessor]: ", msg)
