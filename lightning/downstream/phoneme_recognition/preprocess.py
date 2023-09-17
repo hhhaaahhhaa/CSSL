@@ -51,7 +51,7 @@ class Preprocessor(object):
             if self.args.clean:
                 print("[INFO] Clean...")
                 processor.clean()
-            if self.args.create_dataset is not None:
+            if self.args.create_dataset:
                 print("[INFO] Creating dataset splits...")
                 processor.split_dataset()
 
@@ -69,7 +69,9 @@ class Preprocessor(object):
             print("* Denoising corpus")
         if self.args.preprocess:
             print("* Preprocess dataset")
-        if self.args.create_dataset is not None:
+        if self.args.clean:
+            print("* Clean")
+        if self.args.create_dataset:
             print("* Creating dataset splits")
         print("\n")
 

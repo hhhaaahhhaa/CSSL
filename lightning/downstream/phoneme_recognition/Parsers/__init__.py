@@ -10,6 +10,7 @@ from .css10 import CSS10Preprocessor
 from .csmsc import CSMSCPreprocessor
 from .kss import KSSPreprocessor
 from .jsut import JSUTPreprocessor
+from .m_ailabs import MAILABSPreprocessor
 
 
 PREPROCESSORS = {
@@ -20,6 +21,7 @@ PREPROCESSORS = {
     "CSMSC": CSMSCPreprocessor,
     "KSS": KSSPreprocessor,
     "JSUT": JSUTPreprocessor,
+    "M-AILABS": MAILABSPreprocessor,
     # "TAT": TATPreprocessor,
     # "TATTTS": TATTTSPreprocessor,
 }

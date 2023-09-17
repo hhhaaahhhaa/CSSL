@@ -1,0 +1,11 @@
+name: "LJSpeech"
+lang_id: "en"
+
+data_dir: "_data/LJSpeech"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["english_cleaners"]

@@ -16,9 +16,9 @@ def get_phoneme_set(path, encoding='utf-8'):
 LANG_ID2SYMBOLS = {
     "en": en_symbols,
     "zh": zh_symbols,
-    # "fr": common_symbols + get_phoneme_set("MFA/French/phoneset.txt"),
+    "fr": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/M-AILABS/fr_FR/phoneset.txt"),
     "de": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/CSS10/german/phoneset.txt"),
-    # "ru": [],
+    "ru": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/M-AILABS/ru_RU/phoneset.txt"),
     # "es": common_symbols + get_phoneme_set("MFA/Spanish/phoneset.txt"),
     "jp": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/JSUT/phoneset.txt"),
     "cz": [],
