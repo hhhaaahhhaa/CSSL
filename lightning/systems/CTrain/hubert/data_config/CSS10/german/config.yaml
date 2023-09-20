@@ -1,0 +1,13 @@
+name: "CSS10/german"
+lang_id: "de"
+unit_name: hubert--de-512c
+n_symbols: 512
+
+data_dir: "_data/CSS10/german"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["basic_cleaners"]

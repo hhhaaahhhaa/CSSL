@@ -1,0 +1,13 @@
+name: "LJSpeech"
+lang_id: "en"
+unit_name: hubert--en1-512c
+n_symbols: 512
+
+data_dir: "_data/LJSpeech"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["english_cleaners"]

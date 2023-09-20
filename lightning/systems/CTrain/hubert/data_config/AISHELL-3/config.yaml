@@ -1,0 +1,13 @@
+name: "AISHELL-3"
+lang_id: "zh"
+unit_name: hubert--zh2-512c
+n_symbols: 512
+
+data_dir: "_data/AISHELL-3"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["transliteration_cleaners"]

@@ -1,5 +1,7 @@
 name: "LibriTTS"
 lang_id: "en"
+unit_name: hubert--en2-512c
+n_symbols: 512
 
 data_dir: "_data/LibriTTS"
 
