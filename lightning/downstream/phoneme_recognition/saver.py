@@ -45,6 +45,7 @@ class Saver(Callback):
         print("Result directory:", self.result_dir)
 
         self.val_loss_dicts = []
+        self.val_accs = []
         self.log_loss_dicts = []
 
     def on_train_batch_end(self, trainer, pl_module, outputs, batch, batch_idx):
@@ -80,12 +81,14 @@ class Saver(Callback):
 
     def on_validation_epoch_start(self, trainer, pl_module):
         self.val_loss_dicts = []
+        self.val_accs = []
 
     def on_validation_batch_end(self, trainer, pl_module, outputs, batch, batch_idx, dataloader_idx=0):
         loss = outputs['losses']
         output = outputs['output']
         _batch = outputs['_batch']
         lang_id = outputs['lang_id']
+        acc = outputs['acc']
         
         step = pl_module.global_step + 1
         if isinstance(pl_module.logger, list):
@@ -96,9 +99,10 @@ class Saver(Callback):
 
         loss_dict = {k: v.item() for k, v in loss.items()}
         self.val_loss_dicts.append(loss_dict)
+        self.val_accs.append(acc)
 
         # Log loss for each sample to csv files
-        self.log_csv("Validation", step, 0, loss_dict)
+        # self.log_csv("Validation", step, 0, loss_dict)
 
         # Log asr results to logger + calculate acc
         if batch_idx < 2 and pl_module.local_rank == 0:
@@ -125,6 +129,11 @@ class Saver(Callback):
         df.to_csv(log_file_path, mode='a', header=not os.path.exists(log_file_path), index=True)
         # Reset
         self.log_loss_dicts = []
+
+        acc_file_path = os.path.join(self.log_dir, 'acc.txt')
+        if len(self.val_accs) > 0:
+            with open(acc_file_path, 'a') as f:
+                f.write(f"{sum(self.val_accs) / len(self.val_accs)}\n")
     
     def log_csv(self, stage, step, basename, loss_dict):
         if stage in ("Training", "Validation"):

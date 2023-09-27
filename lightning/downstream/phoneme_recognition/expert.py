@@ -90,7 +90,6 @@ class Expert(System):
         loss_dict = {f"Train/{k}": v.item() for k, v in train_loss_dict.items()}
         self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
         return {'loss': train_loss_dict["Total Loss"], 'losses': train_loss_dict, 'output': predictions, '_batch': labels, 'lang_id': repr_info["lang_id"]}
-
     
     def validation_step(self, batch, batch_idx):
         labels, repr_info = batch
@@ -116,7 +115,7 @@ class Expert(System):
         # Log metrics to CometLogger
         loss_dict = {f"Val/{k}": v.item() for k, v in val_loss_dict.items()}
         self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
-        return {'loss': val_loss_dict["Total Loss"], 'losses': val_loss_dict, 'output': (gt_transcripts, pred_transcripts), '_batch': labels, 'lang_id': repr_info["lang_id"]}
+        return {'loss': val_loss_dict["Total Loss"], 'losses': val_loss_dict, 'output': (gt_transcripts, pred_transcripts), '_batch': labels, 'lang_id': repr_info["lang_id"], 'acc': acc}
 
     def on_save_checkpoint(self, checkpoint):
         """ (Hacking!) Remove pretrained weights in checkpoint to save disk space. """
