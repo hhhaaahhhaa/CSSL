@@ -1,0 +1,8 @@
+name: "ESC50"
+
+data_dir: "_data/ESC50"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"

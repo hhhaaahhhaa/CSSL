@@ -3,6 +3,7 @@ from typing import Type
 from .interface import BasePreprocessor
 # from .TAT import TATPreprocessor
 # from .TAT_TTS import TATTTSPreprocessor
+from .librispeech import LibriSpeechPreprocessor
 from .libritts import LibriTTSPreprocessor
 from .ljspeech import LJSpeechPreprocessor
 from .aishell3 import AISHELL3Preprocessor
@@ -14,6 +15,7 @@ from .m_ailabs import MAILABSPreprocessor
 
 
 PREPROCESSORS = {
+    "LibriSpeech": LibriSpeechPreprocessor,
     "LJSpeech": LJSpeechPreprocessor,
     "LibriTTS": LibriTTSPreprocessor,
     "AISHELL-3": AISHELL3Preprocessor,
