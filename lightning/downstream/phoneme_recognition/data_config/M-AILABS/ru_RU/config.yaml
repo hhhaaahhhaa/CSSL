@@ -1,0 +1,11 @@
+name: "M-AILABS/ru_RU"
+lang_id: "ru"
+
+data_dir: "_data/M-AILABS/ru_RU"
+
+subsets:
+    train: "train.txt"
+    val: "test.txt"
+    test: "test.txt"
+
+text_cleaners: ["basic_cleaners"]

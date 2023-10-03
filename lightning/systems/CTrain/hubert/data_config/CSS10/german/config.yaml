@@ -1,6 +1,6 @@
 name: "CSS10/german"
 lang_id: "de"
-unit_name: hubert--de-512c
+unit_name: hubert--de-512c-l9
 n_symbols: 512
 
 data_dir: "_data/CSS10/german"

@@ -89,10 +89,18 @@ def main(args):
 
     # Init system
     system = get_system(args.system)
-    model = system(
-        data_configs, model_config, train_config, algorithm_config,
-        log_dir, result_dir, ckpt_dir,
-    )
+    if args.pretrain_path is None:
+        model = system(
+            data_configs, model_config, train_config, algorithm_config,
+            log_dir, result_dir, ckpt_dir,
+        )
+    else:
+        print("Load from checkpoint...")
+        model = system.load_from_checkpoint(
+            args.pretrain_path,
+            data_configs=data_configs, model_config=model_config, train_config=train_config, algorithm_config=algorithm_config,
+            log_dir=log_dir, result_dir=result_dir, ckpt_dir=ckpt_dir
+        )
     if Define.DEBUG:
         print("System module prepared.")
         input()
@@ -134,6 +142,10 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "-c", "--ckpt_file", type=str, help="ckpt file name",
+        default=None,
+    )
+    parser.add_argument(
+        "-pre", "--pretrain_path", type=str, help="pretrained model path",
         default=None,
     )
     parser.add_argument(

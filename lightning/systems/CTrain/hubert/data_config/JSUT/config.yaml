@@ -1,6 +1,6 @@
 name: "JSUT"
 lang_id: "jp"
-unit_name: hubert--jp-512c
+unit_name: hubert--jp-512c-l9
 n_symbols: 512
 
 data_dir: "_data/JSUT"

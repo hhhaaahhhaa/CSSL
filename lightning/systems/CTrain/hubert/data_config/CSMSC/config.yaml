@@ -1,6 +1,6 @@
 name: "CSMSC"
 lang_id: "zh"
-unit_name: hubert--zh1-512c
+unit_name: hubert--zh1-512c-l9
 n_symbols: 512
 
 data_dir: "_data/CSMSC"
