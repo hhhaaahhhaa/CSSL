@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 from typing import Dict
 
@@ -29,9 +30,9 @@ class LinearDownstream(nn.Module):
         self.pooling = MeanPooling()
         self.head = nn.Linear(upstream_dim, d_out)
     
-    def forward(self, x, id: int):
+    def forward(self, x, lengths):
         # input: B, L, n_layers, dim
         x = self.ws(x, dim=2)  # B, L, dim
-        x = self.pooling(x)  # B, dim
+        x = self.pooling(x, lengths)  # B, dim
 
         return self.head(x)  # B, d_out

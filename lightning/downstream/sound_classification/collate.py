@@ -23,7 +23,6 @@ class ClassificationCollate(object):
 
         repr_info = {}
         repr_info["wav"] = [torch.from_numpy(data[idx]["wav"]).float() for idx in idx_arr]
-        # repr_info["n_symbols"] = data[0]["n_symbols"]
 
         return (labels, repr_info)
 
@@ -38,7 +37,7 @@ def reprocess(data, idxs):
 
     res = {
         "ids": ids,
-        "labels": torch.from_numpy(speakers).long(),
+        "labels": torch.from_numpy(labels).long(),
     }
 
     return res

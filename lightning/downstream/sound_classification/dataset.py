@@ -1,5 +1,6 @@
 import numpy as np
 from torch.utils.data import Dataset
+import json
 
 from .Parsers.parser import DataParser
 
@@ -15,7 +16,7 @@ class ClassificationDataset(Dataset):
         self.basename, self.labels = self.process_meta(filename)
 
         with open(f"{self.data_parser.root}/classes.json", 'r') as f:
-            all_classes = json.load(f)
+            self.classes = json.load(f)
 
     def __len__(self):
         return len(self.basename)
@@ -27,14 +28,11 @@ class ClassificationDataset(Dataset):
         }
 
         raw_feat = self.data_parser.wav_16000.read_from_query(query)
-        label = self.data_parser.label.read_from_query(query)["class"]
-
-        text = np.array(text_to_sequence(phonemes, self.cleaners, self.lang_id))
-        raw_feat = self.data_parser.wav_trim_16000.read_from_query(query)
+        label = self.data_parser.label.read_from_query(query)
 
         sample = {
             "id": basename,
-            "label": all_classes.index(label)
+            "label": self.classes.index(label["class"]),
             "wav": raw_feat,
         }
 
