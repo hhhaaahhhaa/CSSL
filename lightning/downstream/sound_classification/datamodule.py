@@ -4,7 +4,6 @@ from torch.utils.data import DataLoader, ConcatDataset
 
 import Define
 from lightning.datasets.utils import EpisodicInfiniteWrapper
-from .Parsers.parser import DataParser
 from .dataset import ClassificationDataset
 from .collate import ClassificationCollate
 from .config_reader import ConfigReader

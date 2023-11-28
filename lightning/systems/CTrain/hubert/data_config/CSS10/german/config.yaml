@@ -1,9 +1,10 @@
 name: "CSS10/german"
+parser: "nest-sf"
 lang_id: "de"
 unit_name: hubert--de-512c-l9
 n_symbols: 512
 
-data_dir: "_data/CSS10/german"
+data_dir: "lightning/downstream/phoneme_recognition/_data/CSS10/german"
 
 subsets:
     train: "train.txt"

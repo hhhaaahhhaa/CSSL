@@ -22,6 +22,7 @@ class Collate(object):
         else:
             idx_arr = np.arange(data_size)
         labels = reprocess(data, idx_arr)
+        # labels = reprocess_mu(data, idx_arr)  # TODO: Support mix units
 
         repr_info = {}
         repr_info["wav"] = [torch.from_numpy(data[idx]["wav"]).float() for idx in idx_arr]
@@ -34,20 +35,26 @@ def reprocess(data, idxs):
     Pad data and calculate length of data.
     """
     ids = [data[idx]["id"] for idx in idxs]
-    speakers = [data[idx]["speaker"] for idx in idxs]
-    speakers = np.array(speakers)
+    # speakers = [data[idx]["speaker"] for idx in idxs]
+    # speakers = np.array(speakers)
 
-    # Text labels
-    clusters = [data[idx]["idxs"] for idx in idxs]
-    cluster_lens = np.array([cluster.shape[0] for cluster in clusters])
-    clusters = pad_1D(clusters)
+    # Code labels
+    codes = [data[idx]["idxs"] for idx in idxs]
+    code_lens = np.array([code.shape[0] for code in codes])
+    codes = pad_1D(codes)
 
     res = {
         "ids": ids,
-        "speaker_args": torch.from_numpy(speakers).long(),
-        "clusters": torch.from_numpy(clusters).long(),
-        "cluster_lens": torch.from_numpy(cluster_lens),
-        "max_cluster_len": max(cluster_lens),
+        "codes": torch.from_numpy(codes).long(),
+        "code_lens": torch.from_numpy(code_lens),
+        "max_code_len": max(code_lens),
     }
 
     return res
+
+
+def reprocess_mu(data, idxs):  # TODO: Support mix units
+    """
+    reprocess for mix unit training
+    """
+    raise NotImplementedError

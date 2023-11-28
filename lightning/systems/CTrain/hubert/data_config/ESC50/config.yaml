@@ -1,0 +1,9 @@
+name: "ESC50"
+parser: "plain"
+unit_name: "mfcc-64c"
+data_dir: "lightning/downstream/sound_classification/_data/ESC50"
+
+subsets:
+    train: "train.json"
+    val: "val.json"
+    test: "test.json"

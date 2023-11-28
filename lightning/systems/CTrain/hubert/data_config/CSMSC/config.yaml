@@ -1,9 +1,10 @@
 name: "CSMSC"
+parser: "nest-sf"
 lang_id: "zh"
 unit_name: hubert--zh1-512c-l9
 n_symbols: 512
 
-data_dir: "_data/CSMSC"
+data_dir: "lightning/downstream/phoneme_recognition/_data/CSMSC"
 
 subsets:
     train: "train.txt"

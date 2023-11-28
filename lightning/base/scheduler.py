@@ -19,7 +19,12 @@ def get_scheduler(optimizer, train_config):
 
 
 def sqrt_schedule(train_config):
-    n_warmup_steps = train_config["optimizer"].get("warm_up_step", 0)
+    if "warm_up_step" in train_config["optimizer"] and "warm_up_step" not in train_config["optimizer"]:
+        n_warmup_steps = train_config["optimizer"]["warm_up_step"]
+    elif "warm_up_step_ratio" in train_config["optimizer"]:
+        n_warmup_steps = train_config["optimizer"]["warm_up_step_ratio"] * train_config["step"]["total_step"]
+    else:
+        n_warmup_steps = 0
     anneal_steps = train_config["optimizer"].get("anneal_steps", [])
     anneal_rate = train_config["optimizer"].get("anneal_rate", 1.0)
 
@@ -41,7 +46,12 @@ def sqrt_schedule(train_config):
 
 
 def const_schedule(train_config):
-    n_warmup_steps = train_config["optimizer"].get("warm_up_step", 0)
+    if "warm_up_step" in train_config["optimizer"] and "warm_up_step" not in train_config["optimizer"]:
+        n_warmup_steps = train_config["optimizer"]["warm_up_step"]
+    elif "warm_up_step_ratio" in train_config["optimizer"]:
+        n_warmup_steps = train_config["optimizer"]["warm_up_step_ratio"] * train_config["step"]["total_step"]
+    else:
+        n_warmup_steps = 0
     anneal_steps = train_config["optimizer"].get("anneal_steps", [])
     anneal_rate = train_config["optimizer"].get("anneal_rate", 1.0)
 

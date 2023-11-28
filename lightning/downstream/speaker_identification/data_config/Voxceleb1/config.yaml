@@ -1,0 +1,6 @@
+data_dir: _data/Voxceleb1
+name: Voxceleb1
+subsets:
+  test: test.json
+  train: train.json
+  val: val.json

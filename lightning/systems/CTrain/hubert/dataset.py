@@ -1,49 +1,37 @@
 import numpy as np
 from torch.utils.data import Dataset
+import json
 
-from .parser import DataParser
+from .Parsers import get_parser
 
 
-class ClusterDataset(Dataset):
+class CodeDataset(Dataset):
     def __init__(self, filename, config):
-        self.data_parser = DataParser(config['data_dir'])
+        self.data_parser = get_parser(config["parser"])(config['data_dir'])
 
         self.name = config["name"]
         self.unit_name = config["unit_name"]
         self.unit_parser = self.data_parser.units[self.unit_name]
-
-        self.basename, self.speaker = self.process_meta(filename)
+        self.unit_type = config["unit_type"]
+        with open(filename, "r", encoding="utf-8") as f:  # Unify IO interface
+            self.data_infos = json.load(f)
 
     def __len__(self):
-        return len(self.basename)
+        return len(self.data_infos)
 
     def __getitem__(self, idx):
-        basename = self.basename[idx]
-        speaker = self.speaker[idx]
-        query = {
-            "spk": speaker,
-            "basename": basename,
-        }
+        query = self.data_infos[idx]
 
         raw_feat = self.data_parser.wav_16000.read_from_query(query)
-        idxs = self.unit_parser.clusters.read_from_query(query)
+        idxs = self.unit_parser.codes.read_from_query(query)
         idxs = np.array([int(x) for x in idxs.split(" ")])
         
         sample = {
-            "id": basename,
-            "speaker": -1,
+            "id": query['basename'],
+            "speaker": query.get("spk", -1),
             "idxs": idxs,
             "wav": raw_feat,
+            "unit_type": self.unit_type,  # we may need mix unit training in future
         }
 
         return sample
-
-    def process_meta(self, filename):
-        with open(filename, "r", encoding="utf-8") as f:
-            name = []
-            speaker = []
-            for line in f.readlines():
-                n, s, t, r = line.strip("\n").split("|")
-                name.append(n)
-                speaker.append(s)
-            return name, speaker

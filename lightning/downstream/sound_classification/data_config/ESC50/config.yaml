@@ -1,8 +1,6 @@
-name: "ESC50"
-
-data_dir: "_data/ESC50"
-
+data_dir: _data/ESC50
+name: ESC50
 subsets:
-    train: "train.txt"
-    val: "test.txt"
-    test: "test.txt"
+  test: test.json
+  train: train.json
+  val: val.json

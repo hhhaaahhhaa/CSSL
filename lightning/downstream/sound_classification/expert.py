@@ -17,9 +17,9 @@ class Expert(System):
 
     def build_configs(self, upstream_info: Dict) -> None:
         self.data_configs = [ConfigReader.read(x) for x in self.data_configs]
-        self.model_config = {  # self.model_config default is None in this task
+        self.model_config.update({
             "upstream": upstream_info
-        }
+        })
         self.bs = self.train_config["optimizer"]["batch_size"]
         self.classes = self.data_configs[0]["classes"]  # Currenly only support single dataset
     
@@ -29,7 +29,9 @@ class Expert(System):
         self.model = LinearDownstream(
             n_in_layers=self.upstream.n_layers,
             upstream_dim=self.upstream.dim,
-            d_out=len(self.classes)
+            d_out=len(self.classes),
+            d_hidden=self.model_config["d_hidden"],
+            use_proj=self.model_config["use_proj"],
         )
         self.loss_func = nn.CrossEntropyLoss()
 

@@ -1,0 +1,16 @@
+# Downstream task configuration
+phoneme_recognition:
+  en0: "LibriSpeech"
+  en1: "LJSpeech"
+  en2: "LibriTTS"
+  zh1: "CSMSC"
+  zh2: "AISHELL-3"
+  jp: "JSUT"
+  ko: "kss"
+  de: "CSS10/german"
+  fr: "M-AILABS/fr_FR"
+  ru: "M-AILABS/ru_RU"
+sound_classification:
+  sc1: "ESC50"
+speaker_identification:
+  sid1: "Voxceleb1"

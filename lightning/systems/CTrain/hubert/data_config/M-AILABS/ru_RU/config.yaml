@@ -1,9 +1,10 @@
 name: "M-AILABS/ru_RU"
+parser: "nest-sf"
 lang_id: "ru"
 unit_name: hubert--ru-512c-l9
 n_symbols: 512
 
-data_dir: "_data/M-AILABS/ru_RU"
+data_dir: "lightning/downstream/phoneme_recognition/_data/M-AILABS/ru_RU"
 
 subsets:
     train: "train.txt"

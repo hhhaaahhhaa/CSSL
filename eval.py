@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 import Define
 from lightning.downstream import get_downstream, get_datamodule
-from lightning.systems import load_system
+from lightning.downstream.Define import DOWNSTREAM_TASKS
 
 
 quiet = False
@@ -43,7 +43,9 @@ def main(args):
     model_config = yaml.load(open(f"{downstream_dir}/config/model.yaml", "r"), Loader=yaml.FullLoader)
     train_config = yaml.load(open(f"{downstream_dir}/config/train.yaml", "r"), Loader=yaml.FullLoader)
     algorithm_config = yaml.load(open(f"{downstream_dir}/config/algorithm.yaml", "r"), Loader=yaml.FullLoader)
-    data_configs = args.preprocess_config
+    # data_configs = args.preprocess_config
+    tmp = f"lightning/downstream/{args.downstream}/data_config/{DOWNSTREAM_TASKS[args.downstream][args.task]}"
+    data_configs = [tmp]
 
     # Init logger
     if Define.LOGGER == "comet":
@@ -119,6 +121,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("upstream", type=str, help="upstream identifier")
     parser.add_argument("downstream", type=str, help="downstream identifier")
+    parser.add_argument("-t", "--task", type=str, help="task identifier")
     parser.add_argument(
         "-c", "--upstream_ckpt", type=str, help="upstream checkpoint path", default=None
     )

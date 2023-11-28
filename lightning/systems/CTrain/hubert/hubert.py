@@ -5,6 +5,7 @@ import torch.nn.functional as F
 from dlhlp_lib.s3prl import S3PRLExtractor
 
 from lightning.base.system import System
+from lightning.utils.tool import ssl_match_length
 from .config_reader import ConfigReader
 from .model import HubertCustom
 from .saver import Saver
@@ -63,14 +64,9 @@ class HubertSystem(System):
         # print(sim.shape)
 
         # match length & only calculate loss on mask indices
-        target = labels["clusters"]  # B, L?
-        if target.shape[1] > sim.shape[1]:
-            target = target[:, :sim.shape[1]]  # (B, L)
-        if target.shape[1] < sim.shape[1]:
-            diff = sim.shape[1] - target.shape[1]
-            pad_vec = target[:, -1].unsqueeze(1)  # (B, 1)
-            target = torch.cat((target, pad_vec.repeat(1, diff)), dim=1)  # (B, L)
-        # print(target.shape)
+        target = labels["codes"]  # B, L?
+        target = ssl_match_length(inputs=target.unsqueeze(-1), target_len=target.shape[1]).squeeze(-1)
+        
         loss = self.loss_func(sim.transpose(1, 2), target)  # B, L
         loss = torch.mean(loss[mask_indices])
     

@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader, ConcatDataset
 
 import Define
 from lightning.datasets.utils import EpisodicInfiniteWrapper
-from .dataset import ClusterDataset
+from .dataset import CodeDataset
 from .collate import Collate
 from .config_reader import ConfigReader
 
@@ -14,7 +14,7 @@ class DataModule(pl.LightningDataModule):
     Train: PRDataset + PRCollate.
     Val: PRDataset + PRCollate.
     """
-    def __init__(self, data_configs, model_config, train_config, algorithm_config, log_dir, result_dir, dataset_cls=ClusterDataset):
+    def __init__(self, data_configs, model_config, train_config, algorithm_config, log_dir, result_dir, dataset_cls=CodeDataset):
         super().__init__()
         self.data_configs = [ConfigReader.read(x) for x in data_configs]
         self.model_config = model_config
@@ -48,15 +48,8 @@ class DataModule(pl.LightningDataModule):
             self._train_setup()
             self._validation_setup()
 
-        # if stage in (None, 'test', 'predict'):
-        #     self.test_datasets = [
-        #         TextDataset(
-        #             data_config['subsets']['test'],
-        #             data_config
-        #         ) for data_config in self.data_configs if 'test' in data_config['subsets']
-        #     ]
-        #     self.test_dataset = ConcatDataset(self.test_datasets)
-        #     self._test_setup()
+        if stage in ('test', 'predict'):
+            raise NotImplementedError
 
     def _train_setup(self):
         if not isinstance(self.train_dataset, EpisodicInfiniteWrapper):
@@ -91,12 +84,7 @@ class DataModule(pl.LightningDataModule):
         )
         return self.val_loader
 
-    # def test_dataloader(self):
-    #     """Test dataloader"""
-    #     self.test_loader = DataLoader(
-    #         self.test_dataset,
-    #         batch_size=self.batch_size//torch.cuda.device_count(),
-    #         shuffle=False,
-    #         collate_fn=self.collate2.collate_fn(False, re_id=False),
-    #     )
-    #     return self.test_loader
+    def test_dataloader(self):
+        """Test dataloader"""
+        raise NotImplementedError
+    
