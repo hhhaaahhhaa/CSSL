@@ -1,0 +1,6 @@
+data_dir: _data/VocalSet
+name: VocalSet
+subsets:
+  test: test.json
+  train: train.json
+  val: val.json

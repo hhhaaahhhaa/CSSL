@@ -1,8 +1,10 @@
+import os
 import gc
 import torch
 from tqdm import tqdm
 from typing import List
 
+from dlhlp_lib.parsers.Feature import Feature
 from dlhlp_lib.s3prl import S3PRLExtractor
 from dlhlp_lib.utils.numeric import torch_exist_nan
 
@@ -51,3 +53,16 @@ class SSLFeatureChecker(BaseChecker):
         self.extractor.cpu()
 
         return res
+
+
+class ExistenceChecker(BaseChecker):
+    def __init__(self, feature_name: str, feature: Feature):
+        self.feature_name = feature_name
+        self.feature = feature
+
+    def _check(self, query) -> bool:
+        assert os.path.isfile(self.feature.read_filename(query, raw=True))
+
+    def filter(self, queries) -> List:
+        print(f"Check file existence({self.feature_name})...")
+        return super().filter(queries)

@@ -1,7 +1,6 @@
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import os
-import random
 from typing import List
 import json
 
@@ -9,13 +8,11 @@ from parser import DataParser
 from .checkers import *
 
 
-random.seed(0)
-
-
 def clean(data_parser: DataParser, output_path: str) -> List:
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     queries = data_parser.get_all_queries()
     checkers = [
+        ExistenceChecker("wav_16000", data_parser.wav_16000),
         SSLFeatureChecker("hubert", data_parser),
         SSLFeatureChecker("wav2vec2", data_parser)
     ]

@@ -4,72 +4,51 @@ import librosa
 import yaml
 
 from dlhlp_lib.parsers.Interfaces import BasePreprocessor
-from dlhlp_lib.parsers.raw_parsers import FMAMusicRawParser, FMAMusicInstance
+from dlhlp_lib.parsers.raw_parsers import VocalSetRawParser, VocalSetInstance
 from dlhlp_lib.tts_preprocess.basic2 import process_tasks_mp
-from dlhlp_lib.audio.tools import wav_normalization
 
 from parser import DataParser
 from . import template
 
 
-class FMAMusicPreprocessor(BasePreprocessor):
+class VocalSetPreprocessor(BasePreprocessor):
 
     def __init__(self, src: str, root: str) -> None:
         super().__init__(src, root)
-        self.src_parser = FMAMusicRawParser(src)
+        self.src_parser = VocalSetRawParser(src)
         self.data_parser = DataParser(root)
 
-    def parse_raw_process(self, instance: FMAMusicInstance) -> None:
+    def parse_raw_process(self, instance: VocalSetInstance) -> None:
         query = {
             "basename": instance.id,
         }
-        try:
-            wav_16000, _ = librosa.load(instance.wav_path, sr=16000)
-            wav_16000 = wav_normalization(wav_16000)
-        except:
-            print("Skipped: ", instance.wav_path)
-            return
+        wav_16000, _ = librosa.load(instance.wav_path, sr=16000)
         self.data_parser.wav_16000.save(wav_16000, query)
         self.data_parser.label.save(
-            {"class": instance.genre}, 
+            {"class": instance.technique, "singer": instance.speaker}, 
             query
         )
 
     def parse_raw(self, n_workers=8, chunksize=64) -> None:
-        n_workers=1
         # create data info
         data_info = []
-        all_genres = []
-        for instance in self.src_parser.training:
-            query = {
-                "basename": instance.id,
-                "dset": "training"
-            }
-            data_info.append(query)
-            if instance.genre not in all_genres:
-                all_genres.append(instance.genre)
-        for instance in self.src_parser.validation:
-            query = {
-                "basename": instance.id,
-                "dset": "validation"
-            }
-            data_info.append(query)
-            if instance.genre not in all_genres:
-                all_genres.append(instance.genre)
-        for instance in self.src_parser.test:
-            query = {
-                "basename": instance.id,
-                "dset": "test"
-            }
-            data_info.append(query)
-            if instance.genre not in all_genres:
-                all_genres.append(instance.genre)
+        all_techs = [  # Only utilize 10 techniques for classification
+            "vibrato", "straight", "breathy", "vocal_fry", "lip_trill",
+            "trill", "trillo", "inhaled", "belt", "spoken"
+        ]
+        for instance in self.src_parser.dataset:
+            if instance.technique in all_techs:
+                query = {
+                    "basename": instance.id,
+                }
+                data_info.append(query)
+        
         with open(self.data_parser.metadata_path, "w", encoding="utf-8") as f:
             json.dump(data_info, f, indent=4)
         with open(f"{self.data_parser.root}/classes.json", "w", encoding="utf-8") as f:
-            json.dump(all_genres, f, indent=4)
+            json.dump(all_techs, f, indent=4)
 
-        tasks = [(x,) for x in self.src_parser.training + self.src_parser.validation + self.src_parser.test]
+        tasks = [(x,) for x in self.src_parser.dataset]
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=False)
         self.data_parser.label.build_cache()
     
@@ -77,39 +56,42 @@ class FMAMusicPreprocessor(BasePreprocessor):
         pass
 
     def clean(self):
-        cleaned_data_info_path = "data_config/fma/clean.json"
+        cleaned_data_info_path = "data_config/VocalSet/clean.json"
         template.clean(self.data_parser, output_path=cleaned_data_info_path)
-    
+
     def split_dataset(self):
-        cleaned_data_info_path = "data_config/fma/clean.json"
+        cleaned_data_info_path = "data_config/VocalSet/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
+        self.data_parser.label.read_all()
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
 
-        train_set, val_set, test_set = [], [], []
+        test_singers = [
+            "female8", "female9", "male10", "female11"
+        ]
+        train_set, test_set = [], []
         for q in queries:
-            if q["dset"] == "training":
-                train_set.append(q)
-            elif q["dset"] == "validation":
-                val_set.append(q)
-            else:
+            singer = self.data_parser.label.read_from_query(q)["singer"]
+            if singer in test_singers:
                 test_set.append(q)
+            else:
+                train_set.append(q)
 
         # Write, txt for human readable and json(unified format) for system usage
         self.write_queries_to_txt(train_set, f"{output_dir}/train.txt")
-        self.write_queries_to_txt(val_set, f"{output_dir}/val.txt")
+        self.write_queries_to_txt(test_set, f"{output_dir}/val.txt")
         self.write_queries_to_txt(test_set, f"{output_dir}/test.txt")
         with open(f"{output_dir}/train.json", 'w', encoding='utf-8') as f:
             json.dump(train_set, f, indent=4)
         with open(f"{output_dir}/val.json", 'w', encoding='utf-8') as f:
-            json.dump(val_set, f, indent=4)
+            json.dump(test_set, f, indent=4)
         with open(f"{output_dir}/test.json", 'w', encoding='utf-8') as f:
             json.dump(test_set, f, indent=4)
 
         # Generate config.yaml
-        with open("data_config/fma/config.yaml", 'w') as yamlfile:
+        with open("data_config/VocalSet/config.yaml", 'w') as yamlfile:
             config = {
-                "name": "fma",
+                "name": "VocalSet",
                 "data_dir": self.data_parser.root,
                 "subsets": {
                     "train": "train.json",
@@ -136,4 +118,4 @@ class FMAMusicPreprocessor(BasePreprocessor):
                 f.write('\n')
 
     def log(self, msg):
-        print(f"[FMAMusicPreprocessor]: ", msg)
+        print(f"[VocalSetPreprocessor]: ", msg)

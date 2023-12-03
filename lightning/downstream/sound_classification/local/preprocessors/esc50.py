@@ -70,6 +70,7 @@ class ESC50Preprocessor(BasePreprocessor):
     def split_dataset(self):
         cleaned_data_info_path = "data_config/ESC50/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
+        self.data_parser.label.read_all()
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
 
@@ -112,7 +113,6 @@ class ESC50Preprocessor(BasePreprocessor):
     
     def write_queries_to_txt(self, queries, path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        self.data_parser.label.read_all()
         lines = []
         for query in queries:
             try:

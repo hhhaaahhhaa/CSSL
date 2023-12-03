@@ -3,4 +3,4 @@ dst=$2
 ds=$3
 
 . ./path.sh
-python local/preprocess.py $src $dst --dataset $ds --create_dataset
+python local/preprocess.py $src $dst --dataset $ds --parse_raw --preprocess --clean --create_dataset
