@@ -24,11 +24,10 @@ LANG_ID2SYMBOLS = {
     "cz": [],
     "ko": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/kss/phoneset.txt"),
     "nl": [],
+    "en0": common_symbols + get_phoneme_set("lightning/downstream/phoneme_recognition/MFA/LibriSpeech/phoneset.txt"),
 }
 
 
-LANGS = [
-    "en", "zh", "fr", "de", "ru", "es", "jp", "cz", "ko", "nl"
-]
+LANGS = list(LANG_ID2SYMBOLS.keys())
 LANG_ID2NAME = {i: name for i, name in enumerate(LANGS)}
 LANG_NAME2ID = {name: i for i, name in enumerate(LANGS)}

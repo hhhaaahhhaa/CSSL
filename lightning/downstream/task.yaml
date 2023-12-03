@@ -12,5 +12,7 @@ phoneme_recognition:
   ru: "M-AILABS/ru_RU"
 sound_classification:
   sc1: "ESC50"
+  genre: "fma"
+  tech: "VocalSet"
 speaker_identification:
   sid1: "Voxceleb1"

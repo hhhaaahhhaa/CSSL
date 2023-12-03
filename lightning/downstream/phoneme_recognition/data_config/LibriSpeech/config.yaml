@@ -1,0 +1,11 @@
+name: "LibriSpeech"
+lang_id: "en0"
+
+data_dir: "_data/LibriSpeech"
+
+subsets:
+    train: "train.txt"
+    val: "val.txt"
+    test: "test.txt"
+
+text_cleaners: ["english_cleaners"]

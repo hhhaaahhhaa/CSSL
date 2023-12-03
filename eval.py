@@ -24,6 +24,7 @@ if quiet:
     import logging
     # configure logging at the root level of lightning
     logging.getLogger("pytorch_lightning").setLevel(logging.ERROR)
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
 if Define.CUDA_LAUNCH_BLOCKING:
     os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 
@@ -120,7 +121,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("upstream", type=str, help="upstream identifier")
-    parser.add_argument("downstream", type=str, help="downstream identifier")
+    parser.add_argument("-d", "--downstream", type=str, help="downstream identifier")
     parser.add_argument("-t", "--task", type=str, help="task identifier")
     parser.add_argument(
         "-c", "--upstream_ckpt", type=str, help="upstream checkpoint path", default=None
@@ -128,10 +129,10 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n", "--exp_name", type=str, help="experiment name, default is algorithm's name",
     )
-    parser.add_argument(
-        "-p", "--preprocess_config", type=str, nargs='+', help="path to data config directory",
-        default=['config/preprocess/LibriTTS'],
-    )
+    # parser.add_argument(
+    #     "-p", "--preprocess_config", type=str, nargs='+', help="path to data config directory",
+    #     default=['config/preprocess/LibriTTS'],
+    # )
     parser.add_argument(
         "--logger", type=str, help="output result path",
         default="tb",

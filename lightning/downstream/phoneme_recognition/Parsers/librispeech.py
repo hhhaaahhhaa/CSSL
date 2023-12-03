@@ -75,6 +75,13 @@ class LibriSpeechPreprocessor(BasePreprocessor):
             queries = queries[:128]
         template.preprocess(self.data_parser, queries)
 
+        phoneset_path = f"{os.path.dirname(__file__)}/../MFA/LibriSpeech/phoneset.txt"
+        if not os.path.exists(phoneset_path):
+            self.log("Generate phoneme set...")
+            from scripts.collect_phonemes import collect_phonemes, generate_phoneme_set
+            phns = collect_phonemes([self.root])
+            generate_phoneme_set(phns, phoneset_path)
+
     def clean(self):
         cleaned_data_info_path = f"data_config/LibriSpeech/clean.json"
         template.clean(self.data_parser, output_path=cleaned_data_info_path)
@@ -94,8 +101,6 @@ class LibriSpeechPreprocessor(BasePreprocessor):
                 val_set.append(q)
             else:
                 test_set.append(q)
-        val_set = random.sample(val_set, k=2500)
-        test_set = random.sample(test_set, k=2500)
         write_queries_to_txt(self.data_parser, train_set, f"{output_dir}/train.txt")
         write_queries_to_txt(self.data_parser, val_set, f"{output_dir}/val.txt")
         write_queries_to_txt(self.data_parser, test_set, f"{output_dir}/test.txt")
