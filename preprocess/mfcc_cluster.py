@@ -32,6 +32,7 @@ class MfccFeatureReader(object):
                 waveform=x,
                 sample_frequency=self.sample_rate,
                 use_energy=False,
+                frame_shift=20.0,
             )  # (time, freq)
             mfccs = mfccs.transpose(0, 1)  # (freq, time)
             deltas = torchaudio.functional.compute_deltas(mfccs)

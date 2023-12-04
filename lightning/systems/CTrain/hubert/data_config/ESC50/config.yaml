@@ -1,6 +1,7 @@
 name: "ESC50"
 parser: "plain"
 unit_name: "mfcc-64c"
+n_symbols: 64
 data_dir: "lightning/downstream/sound_classification/_data/ESC50"
 
 subsets:

@@ -33,6 +33,7 @@ TRAINER_CONFIG = {
     "accelerator": "gpu" if torch.cuda.is_available() else None,
     "strategy": "ddp_find_unused_parameters_true",  # multigpu should use ddp
     "profiler": 'simple',
+    "use_distributed_sampler": False,  # Add this to ensure no shuffle on dataset (Designed task Sequence in CL will broke.)
 }
 
 
@@ -53,8 +54,7 @@ def load_configs(args):
 
     # Useful for debugging
     if Define.DEBUG:
-        train_config["optimizer"]["batch_size"] = 2
-        train_config["optimizer"]["grad_acc_step"] = 1
+        train_config["optimizer"]["batch_size"] = 1
 
     return data_configs, model_config, train_config, algorithm_config
 

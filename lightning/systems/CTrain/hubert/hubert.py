@@ -63,11 +63,13 @@ class HubertSystem(System):
 
         uid = labels["uid"][0]  # Here we assume all uids in the same batch is identical
         sim = self.head(res["x"], tid=uid)  # B, L, n_c
+        # print(labels["uid"])
         # print(sim.shape)
 
         # match length & only calculate loss on mask indices
         target = labels["codes"]  # B, L?
-        target = ssl_match_length(inputs=target.unsqueeze(-1), target_len=target.shape[1]).squeeze(-1)  # B, L
+        with torch.no_grad():
+            target = ssl_match_length(inputs=target.unsqueeze(-1), target_len=sim.shape[1]).squeeze(-1)  # B, L
         
         loss = self.loss_func(sim.transpose(1, 2), target)  # B, L
         loss = torch.mean(loss[mask_indices])

@@ -1,0 +1,3 @@
+tasks:
+- lightning/systems/CTrain/hubert/data_config/LJSpeech
+- lightning/systems/CTrain/hubert/data_config/LibriTTS

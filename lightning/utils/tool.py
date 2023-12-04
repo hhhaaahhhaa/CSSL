@@ -239,6 +239,8 @@ def ssl_match_length(inputs, target_len: int):
     """
     factors = [1] * inputs.dim()
     input_len, label_len = inputs.size(1), target_len
+    if abs(label_len - input_len) >= 10:
+        raise ValueError(f"Length mismatch with large margin ({abs(label_len - input_len)}), please debug.")
     if input_len > label_len:
         inputs = inputs[:, :label_len, :]
     elif input_len < label_len:

@@ -3,7 +3,7 @@ from torch.utils.data import Dataset
 import random
 
 
-class EpisodicInfiniteWrapper:
+class EpisodicInfiniteWrapper(Dataset):
     def __init__(self, dataset: Dataset, epoch_length: int, weights=None):
         self.dataset = dataset
         self.epoch_length = epoch_length
@@ -21,10 +21,13 @@ class EpisodicInfiniteWrapper:
         return self.epoch_length
 
 
-class TaskSequenceWrapper:
-    def __init__(self, tid_seq: list[int], datasets: list[Dataset], batch_size: int):
-        self.tid_seq = tid_seq
-        self.epoch_length = len(tid_seq)
+class TaskSequenceWrapper(Dataset):
+    def __init__(self, tid_seq: list[int], datasets: list[Dataset], batch_size: int, grad_acc_step=1):
+        if grad_acc_step > 1:
+            self.tid_seq = np.array(tid_seq).repeat(grad_acc_step)
+        else:
+            self.tid_seq = tid_seq
+        self.epoch_length = len(self.tid_seq)
         self.datasets = datasets
         self.bs = batch_size
 
@@ -33,6 +36,8 @@ class TaskSequenceWrapper:
         return True
     
     def __getitem__(self, idx):
+        # print("getitem:", idx, self.tid_seq[idx])
+        # print()
         dataset = self.datasets[self.tid_seq[idx]]
         idxs = np.random.randint(len(dataset), size=self.bs)
         return [dataset[t] for t in idxs]
