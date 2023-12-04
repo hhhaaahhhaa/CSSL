@@ -25,7 +25,7 @@ class Expert(System):
         self.bs = self.train_config["optimizer"]["batch_size"]
     
     def build_model(self, upstream_info: Dict) -> None:
-        from text.define import LANG_ID2SYMBOLS
+        from lightning.text.define import LANG_ID2SYMBOLS
 
         self.upstream = load_system(**upstream_info)
         self.upstream.freeze()

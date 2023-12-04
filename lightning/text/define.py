@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-from text.symbols import common_symbols, en_symbols, zh_symbols
+from .symbols import common_symbols, en_symbols, zh_symbols
 
 
 def get_phoneme_set(path, encoding='utf-8'):

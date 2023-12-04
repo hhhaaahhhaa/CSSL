@@ -10,7 +10,7 @@ from tqdm import tqdm
 from pytorch_lightning.callbacks import Callback
 from pytorch_lightning.loggers.logger import merge_dicts
 
-from text.define import LANG_ID2SYMBOLS
+from lightning.text.define import LANG_ID2SYMBOLS
 
 
 CSV_COLUMNS = ["Total Loss"]

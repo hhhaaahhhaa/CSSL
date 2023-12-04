@@ -5,8 +5,8 @@ import json
 from dlhlp_lib.utils.tool import segment2duration
 from dlhlp_lib.utils.numeric import numpy_exist_nan
 
-from text import text_to_sequence
-from text.define import LANG_ID2SYMBOLS
+from lightning.text import text_to_sequence
+from lightning.text.define import LANG_ID2SYMBOLS
 from .parser import DataParser
 
 

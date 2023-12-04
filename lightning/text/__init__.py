@@ -1,8 +1,8 @@
 """ from https://github.com/keithito/tacotron """
 import re
-from text import cleaners
-# from text.symbols import symbols
-from text.define import LANG_ID2SYMBOLS
+from . import cleaners
+# from .symbols import symbols
+from .define import LANG_ID2SYMBOLS
 
 
 # Mappings from symbol to numeric ID and vice versa:
