@@ -84,7 +84,7 @@ def main(args):
                     distance = np.linalg.norm(np.expand_dims(repr, axis=1) - np.expand_dims(centroids, axis=0), axis=2)  # L, n_c
                     cluster_ids = np.argmin(distance, axis=1)
                     cluster_ids = [str(x) for x in cluster_ids]
-                    data_parser.units[args.cluster_name].clusters.save(" ".join(cluster_ids), query)
+                    data_parser.units[args.cluster_name].codes.save(" ".join(cluster_ids), query)
                     # print(time.time() - st)
             except:
                 fail_cnt += 1
