@@ -2,7 +2,7 @@ import os
 from typing import List, Set
 from tqdm import tqdm
 
-from Parsers.parser import DataParser
+from lightning.downstream.phoneme_recognition.parser import DataParser
 
 
 def collect_phonemes(data_dirs) -> Set[str]:

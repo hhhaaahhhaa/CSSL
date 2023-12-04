@@ -12,7 +12,7 @@ class CodeDataset(Dataset):
         self.name = config["name"]
         self.unit_name = config["unit_name"]
         self.unit_parser = self.data_parser.units[self.unit_name]
-        self.unit_type = config["unit_type"]
+        self.uid = config["uid"]
         with open(filename, "r", encoding="utf-8") as f:  # Unify IO interface
             self.data_infos = json.load(f)
 
@@ -31,7 +31,7 @@ class CodeDataset(Dataset):
             "speaker": query.get("spk", -1),
             "idxs": idxs,
             "wav": raw_feat,
-            "unit_type": self.unit_type,  # we may need mix unit training in future
+            "uid": self.uid,  # we may need mix unit training in future
         }
 
         return sample

@@ -12,6 +12,7 @@ from tqdm import tqdm
 
 import Define
 from lightning.systems import get_system, get_datamodule
+from lightning.systems.task_reader import TaskSequenceConfig
 
 
 quiet = False
@@ -35,19 +36,35 @@ TRAINER_CONFIG = {
 }
 
 
+def load_configs(args):
+    downstream_dir = f"lightning/systems/{args.system}"
+    model_config = yaml.load(open(f"{downstream_dir}/config/model.yaml", "r"), Loader=yaml.FullLoader)
+    train_config = yaml.load(open(f"{downstream_dir}/config/train.yaml", "r"), Loader=yaml.FullLoader)
+    algorithm_config = yaml.load(open(f"{downstream_dir}/config/algorithm.yaml", "r"), Loader=yaml.FullLoader)
+    
+    # Compatible loading
+    if "task_config" in args.task_config[0]:
+        meta_config = TaskSequenceConfig(args.task_config[0])
+        n = meta_config.get_info()["training"]["total_step"]
+        if n != -1:
+            train_config["step"]["total_step"] = n
+    
+    data_configs = args.task_config
+
+    # Useful for debugging
+    if Define.DEBUG:
+        train_config["optimizer"]["batch_size"] = 2
+        train_config["optimizer"]["grad_acc_step"] = 1
+
+    return data_configs, model_config, train_config, algorithm_config
+
+
 def main(args):
     print("Prepare training ...")
     downstream_dir = f"lightning/systems/{args.system}"
 
     # load configs
-    model_config = yaml.load(open(f"{downstream_dir}/config/model.yaml", "r"), Loader=yaml.FullLoader)
-    train_config = yaml.load(open(f"{downstream_dir}/config/train.yaml", "r"), Loader=yaml.FullLoader)
-    algorithm_config = yaml.load(open(f"{downstream_dir}/config/algorithm.yaml", "r"), Loader=yaml.FullLoader)
-    data_configs = args.preprocess_config
-
-    # Useful for debugging
-    if Define.DEBUG:
-        train_config["optimizer"]["batch_size"] = 2
+    data_configs, model_config, train_config, algorithm_config = load_configs(args)
 
     # Init logger
     if Define.LOGGER == "comet":
@@ -109,6 +126,8 @@ def main(args):
     trainer_training_config = {
         'max_steps': train_config["step"]["total_step"],
         'log_every_n_steps': train_config["step"]["log_step"],
+        'val_check_interval': train_config["step"]["val_step"],
+        'check_val_every_n_epoch': None,
         'gradient_clip_val': train_config["optimizer"]["grad_clip_thresh"],
         'accumulate_grad_batches': train_config["optimizer"]["grad_acc_step"],
     }
@@ -133,8 +152,7 @@ if __name__ == "__main__":
         "-n", "--exp_name", type=str, help="experiment name, default is algorithm's name",
     )
     parser.add_argument(
-        "-p", "--preprocess_config", type=str, nargs='+', help="path to data config directory",
-        default=['config/preprocess/LibriTTS'],
+        "-t", "--task_config", type=str, nargs='+', help="path to data config directory",
     )
     parser.add_argument(
         "-e", "--exp_key", type=str, help="experiment key (comet)",

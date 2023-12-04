@@ -1,11 +1,9 @@
-name: "kss"
-lang_id: "ko"
-
-data_dir: "_data/kss"
-
+data_dir: _data/kss
+lang_id: ko
+name: kss
 subsets:
-    train: "train.txt"
-    val: "test.txt"
-    test: "test.txt"
-
-text_cleaners: ["transliteration_cleaners"]
+  test: test.json
+  train: train.json
+  val: val.json
+text_cleaners:
+- transliteration_cleaners

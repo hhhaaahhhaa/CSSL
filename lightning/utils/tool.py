@@ -208,7 +208,7 @@ def pad(input_ele, mel_max_length=None):
 #             # Transfer learning module
 #             segment = data_parser.mfa_segment.read_from_query(query)
 #             if Define.UPSTREAM == "mel":
-#                 pass  # TODO: Mel version
+#                 pass  # Mel version
 #             else:
 #                 raw_feat = data_parser.wav_trim_16000.read_from_query(query)
 #                 avg_frames = segment2duration(segment, fp=0.02)

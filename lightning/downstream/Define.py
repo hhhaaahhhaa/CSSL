@@ -8,7 +8,7 @@ LOCAL = True
 CUDA_LAUNCH_BLOCKING = False
 MAX_WORKERS = 4
 if LOCAL:
-    CUDA_LAUNCH_BLOCKING = True  # TODO: Always crash on my PC if false
+    CUDA_LAUNCH_BLOCKING = True  # Always crash on my PC if false
     MAX_WORKERS = 2
 
 # Global variables

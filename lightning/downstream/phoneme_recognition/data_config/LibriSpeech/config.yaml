@@ -1,11 +1,9 @@
-name: "LibriSpeech"
-lang_id: "en0"
-
-data_dir: "_data/LibriSpeech"
-
+data_dir: _data/LibriSpeech
+lang_id: en0
+name: LibriSpeech
 subsets:
-    train: "train.txt"
-    val: "val.txt"
-    test: "test.txt"
-
-text_cleaners: ["english_cleaners"]
+  test: test.json
+  train: train.json
+  val: val.json
+text_cleaners:
+- english_cleaners

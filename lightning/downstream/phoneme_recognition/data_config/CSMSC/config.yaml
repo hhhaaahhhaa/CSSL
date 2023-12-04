@@ -1,11 +1,9 @@
-name: "CSMSC"
-lang_id: "zh"
-
-data_dir: "_data/CSMSC"
-
+data_dir: _data/CSMSC
+lang_id: zh
+name: CSMSC
 subsets:
-    train: "train.txt"
-    val: "test.txt"
-    test: "test.txt"
-
-text_cleaners: ["transliteration_cleaners"]
+  test: test.json
+  train: train.json
+  val: val.json
+text_cleaners:
+- transliteration_cleaners

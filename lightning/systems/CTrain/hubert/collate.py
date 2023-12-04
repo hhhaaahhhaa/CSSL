@@ -21,8 +21,8 @@ class Collate(object):
             raise NotImplementedError
         else:
             idx_arr = np.arange(data_size)
-        labels = reprocess(data, idx_arr)
-        # labels = reprocess_mu(data, idx_arr)  # TODO: Support mix units
+        # labels = reprocess(data, idx_arr)
+        labels = reprocess_mu(data, idx_arr)
 
         repr_info = {}
         repr_info["wav"] = [torch.from_numpy(data[idx]["wav"]).float() for idx in idx_arr]
@@ -53,8 +53,11 @@ def reprocess(data, idxs):
     return res
 
 
-def reprocess_mu(data, idxs):  # TODO: Support mix units
+def reprocess_mu(data, idxs):
     """
-    reprocess for mix unit training
+    reprocess for general mix unit training
     """
-    raise NotImplementedError
+    res = reprocess(data, idxs)
+    res["uid"] = [data[idx]["uid"] for idx in idxs]
+
+    return res

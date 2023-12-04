@@ -36,10 +36,10 @@ class System(pl.LightningModule):
             print("Total trainable params: ", pytorch_total_params)
 
             print("====================================================================")
-            print(self.data_configs)
-            print(self.model_config)
-            print(self.train_config)
-            print(self.algorithm_config)
+            print("[Data Config]", self.data_configs)
+            print("[Model Config]", self.model_config)
+            print("[Train Config]", self.train_config)
+            print("[Algorithm Config]", self.algorithm_config)
             print("====================================================================")
 
     def build_configs(self):

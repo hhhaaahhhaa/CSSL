@@ -3,7 +3,8 @@ import pytorch_lightning as pl
 from torch.utils.data import DataLoader, ConcatDataset
 
 import Define
-from lightning.datasets.utils import EpisodicInfiniteWrapper
+from lightning.systems.task_reader import TaskSequenceConfig, PlainConfigAdapter
+from lightning.datasets.utils import EpisodicInfiniteWrapper, TaskSequenceWrapper, batch_collate_wrapper
 from .dataset import CodeDataset
 from .collate import Collate
 from .config_reader import ConfigReader
@@ -11,12 +12,18 @@ from .config_reader import ConfigReader
 
 class DataModule(pl.LightningDataModule):
     """
-    Train: PRDataset + PRCollate.
-    Val: PRDataset + PRCollate.
+    Train: CodeDataset + Collate.
+    Val: CodeDataset + Collate.
     """
     def __init__(self, data_configs, model_config, train_config, algorithm_config, log_dir, result_dir, dataset_cls=CodeDataset):
         super().__init__()
-        self.data_configs = [ConfigReader.read(x) for x in data_configs]
+        # Compatible loading
+        if "task_config" in data_configs[0]:
+            self.task_config = TaskSequenceConfig(data_configs[0])
+        else:
+            self.task_config = PlainConfigAdapter(data_configs)
+        self.data_configs = [ConfigReader.read(x) for x in self.task_config.get_tasks()]
+
         self.model_config = model_config
         self.train_config = train_config
         self.algorithm_config = algorithm_config
@@ -37,14 +44,6 @@ class DataModule(pl.LightningDataModule):
                     data_config
                 ) for data_config in self.data_configs if 'train' in data_config['subsets']
             ]
-            self.val_datasets = [
-                self.dataset_cls(
-                    data_config['subsets']['val'],
-                    data_config
-                ) for data_config in self.data_configs if 'val' in data_config['subsets']
-            ]
-            self.train_dataset = ConcatDataset(self.train_datasets)
-            self.val_dataset = ConcatDataset(self.val_datasets)
             self._train_setup()
             self._validation_setup()
 
@@ -54,22 +53,33 @@ class DataModule(pl.LightningDataModule):
     def _train_setup(self):
         if not isinstance(self.train_dataset, EpisodicInfiniteWrapper):
             self.batch_size = self.train_config["optimizer"]["batch_size"]
-            self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
-    
+            info = self.task_config.get_info()
+            if info["tid_seq"] is None:  # Default iid version
+                self.train_dataset = ConcatDataset(self.train_datasets)
+                self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
+            else:
+                self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size)
+
     def _validation_setup(self):
-        pass
+        self.val_dataset = self.val_datasets[0]  # dummy, validation during CSSL training is not informative, need to apply downstream task.
 
     def _test_setup(self):
         pass
 
     def train_dataloader(self):
         """Training dataloader, not modified for multiple dataloaders."""
+        if getattr(self.train_dataset, "is_batched", False):
+            collate_fn = batch_collate_wrapper(self.collate.collate_fn())
+            batch_size = 1
+        else:
+            collate_fn = self.collate.collate_fn()
+            batch_size = self.batch_size
         self.train_loader = DataLoader(
             self.train_dataset,
-            batch_size=self.batch_size,
-            shuffle=True,
+            batch_size=batch_size,
+            shuffle=False,  # Shuffle in wrapper
             num_workers=Define.MAX_WORKERS,
-            collate_fn=self.collate.collate_fn(),
+            collate_fn=collate_fn,
         )
         return self.train_loader
 

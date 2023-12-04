@@ -2,11 +2,10 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import argparse
 import os
-import torchaudio
-from pathlib import Path
-
 import Define
-import Parsers
+
+from parser import DataParser
+from preprocessors import get_preprocessor
 
 
 if Define.CUDA_LAUNCH_BLOCKING:
@@ -22,7 +21,7 @@ class Preprocessor(object):
         self.dataset = args.dataset
         self.src = args.raw_dir
         self.preprocessed_root = args.preprocessed_dir
-        self.processor_cls = Parsers.get_preprocessor(args.dataset)
+        self.processor_cls = get_preprocessor(args.dataset)
 
     def exec(self, force=False):
         self.print_message()
@@ -39,11 +38,6 @@ class Preprocessor(object):
             if self.args.parse_raw:
                 print("[INFO] Parsing raw corpus...")
                 processor.parse_raw(n_workers=8)
-            # # 1. Denoising
-            # if self.args.denoise:
-            #     print("[INFO] Denoising corpus...")
-            #     torchaudio.set_audio_backend("sox_io")
-            #     processor.denoise()
             # 2. Create Dataset
             if self.args.preprocess:
                 print("[INFO] Preprocess all utterances...")
@@ -65,8 +59,6 @@ class Preprocessor(object):
         print(" [INFO] The following will be executed:")
         if self.args.parse_raw:
             print("* Parsing raw corpus")
-        if self.args.denoise:
-            print("* Denoising corpus")
         if self.args.preprocess:
             print("* Preprocess dataset")
         if self.args.clean:
@@ -89,7 +81,6 @@ if __name__ == "__main__":
 
     parser.add_argument("--dataset", type=str)
     parser.add_argument("--parse_raw", action="store_true", default=False)
-    parser.add_argument("--denoise", action="store_true", default=False)
     parser.add_argument("--preprocess", action="store_true", default=False)
     parser.add_argument("--clean", action="store_true", default=False)
     parser.add_argument("--create_dataset", action="store_true", default=False)

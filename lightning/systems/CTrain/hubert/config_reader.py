@@ -13,10 +13,11 @@ class ConfigReader(object):
             config["lang_id"] = "en"
         for k in config['subsets']:
             config['subsets'][k] = f"{root}/{config['subsets'][k]}"
-        if "unit_type" not in config:
-            config["unit_type"] = config["name"]
+        if "uid" not in config:
+            config["uid"] = config["name"] + ":" + config["unit_name"]
 
         assert "unit_name" in config
         assert "n_symbols" in config
+        assert "uid" in config
         
         return config

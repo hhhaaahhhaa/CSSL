@@ -1,12 +1,13 @@
 import numpy as np
 from torch.utils.data import Dataset
+import json
 
 from dlhlp_lib.utils.tool import segment2duration
 from dlhlp_lib.utils.numeric import numpy_exist_nan
 
 from text import text_to_sequence
 from text.define import LANG_ID2SYMBOLS
-from .Parsers.parser import DataParser
+from .parser import DataParser
 
 
 class PRDataset(Dataset):
@@ -22,18 +23,16 @@ class PRDataset(Dataset):
         self.cleaners = config["text_cleaners"]
         self.unit_parser = self.data_parser.units[self.unit_name]
 
-        self.basename, self.speaker = self.process_meta(filename)
+        with open(filename, "r", encoding="utf-8") as f:  # Unify IO interface
+            self.data_infos = json.load(f)
 
     def __len__(self):
-        return len(self.basename)
+        return len(self.data_infos)
 
     def __getitem__(self, idx):
-        basename = self.basename[idx]
-        speaker = self.speaker[idx]
-        query = {
-            "spk": speaker,
-            "basename": basename,
-        }
+        query = self.data_infos[idx]
+        basename = query["basename"]
+        speaker = query["spk"]
 
         phonemes = self.unit_parser.phoneme.read_from_query(query)
         raw_text = self.data_parser.text.read_from_query(query)
@@ -54,16 +53,6 @@ class PRDataset(Dataset):
 
         return sample
 
-    def process_meta(self, filename):
-        with open(filename, "r", encoding="utf-8") as f:
-            name = []
-            speaker = []
-            for line in f.readlines():
-                n, s, t, r = line.strip("\n").split("|")
-                name.append(n)
-                speaker.append(s)
-            return name, speaker
-
 
 class FramewisePRDataset(Dataset):
     """
@@ -80,18 +69,16 @@ class FramewisePRDataset(Dataset):
 
         self.fp = config["fp"]
 
-        self.basename, self.speaker = self.process_meta(filename)
+        with open(filename, "r", encoding="utf-8") as f:  # Unify IO interface
+            self.data_infos = json.load(f)
 
     def __len__(self):
-        return len(self.basename)
+        return len(self.data_infos)
 
     def __getitem__(self, idx):
-        basename = self.basename[idx]
-        speaker = self.speaker[idx]
-        query = {
-            "spk": speaker,
-            "basename": basename,
-        }
+        query = self.data_infos[idx]
+        basename = query["basename"]
+        speaker = query["spk"]
 
         phonemes = self.unit_parser.phoneme.read_from_query(query)
         raw_text = self.data_parser.text.read_from_query(query)
@@ -128,13 +115,3 @@ class FramewisePRDataset(Dataset):
         }
 
         return sample
-
-    def process_meta(self, filename):
-        with open(filename, "r", encoding="utf-8") as f:
-            name = []
-            speaker = []
-            for line in f.readlines():
-                n, s, t, r = line.strip("\n").split("|")
-                name.append(n)
-                speaker.append(s)
-            return name, speaker

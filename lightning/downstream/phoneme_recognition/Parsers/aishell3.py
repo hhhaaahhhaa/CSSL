@@ -10,7 +10,7 @@ from dlhlp_lib.audio.tools import wav_normalization
 
 import Define
 from .interface import BasePreprocessor
-from .parser import DataParser
+from ..parser import DataParser
 from .utils import write_queries_to_txt
 from . import template
 

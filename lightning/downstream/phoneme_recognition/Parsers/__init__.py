@@ -1,33 +1,35 @@
-from typing import Type
+# WHOLE DIR DEPRECATED
 
-from .interface import BasePreprocessor
-# from .TAT import TATPreprocessor
-# from .TAT_TTS import TATTTSPreprocessor
-from .librispeech import LibriSpeechPreprocessor
-from .libritts import LibriTTSPreprocessor
-from .ljspeech import LJSpeechPreprocessor
-from .aishell3 import AISHELL3Preprocessor
-from .css10 import CSS10Preprocessor
-from .csmsc import CSMSCPreprocessor
-from .kss import KSSPreprocessor
-from .jsut import JSUTPreprocessor
-from .m_ailabs import MAILABSPreprocessor
+# from typing import Type
 
-
-PREPROCESSORS = {
-    "LibriSpeech": LibriSpeechPreprocessor,
-    "LJSpeech": LJSpeechPreprocessor,
-    "LibriTTS": LibriTTSPreprocessor,
-    "AISHELL-3": AISHELL3Preprocessor,
-    "CSS10": CSS10Preprocessor,
-    "CSMSC": CSMSCPreprocessor,
-    "KSS": KSSPreprocessor,
-    "JSUT": JSUTPreprocessor,
-    "M-AILABS": MAILABSPreprocessor,
-    # "TAT": TATPreprocessor,
-    # "TATTTS": TATTTSPreprocessor,
-}
+# from .interface import BasePreprocessor
+# # from .TAT import TATPreprocessor
+# # from .TAT_TTS import TATTTSPreprocessor
+# from .librispeech import LibriSpeechPreprocessor
+# from .libritts import LibriTTSPreprocessor
+# from .ljspeech import LJSpeechPreprocessor
+# from .aishell3 import AISHELL3Preprocessor
+# from .css10 import CSS10Preprocessor
+# from .csmsc import CSMSCPreprocessor
+# from .kss import KSSPreprocessor
+# from .jsut import JSUTPreprocessor
+# from .m_ailabs import MAILABSPreprocessor
 
 
-def get_preprocessor(tag: str) -> Type[BasePreprocessor]:
-    return PREPROCESSORS[tag]
+# PREPROCESSORS = {
+#     "LibriSpeech": LibriSpeechPreprocessor,
+#     "LJSpeech": LJSpeechPreprocessor,
+#     "LibriTTS": LibriTTSPreprocessor,
+#     "AISHELL-3": AISHELL3Preprocessor,
+#     "CSS10": CSS10Preprocessor,
+#     "CSMSC": CSMSCPreprocessor,
+#     "KSS": KSSPreprocessor,
+#     "JSUT": JSUTPreprocessor,
+#     "M-AILABS": MAILABSPreprocessor,
+#     # "TAT": TATPreprocessor,
+#     # "TATTTS": TATTTSPreprocessor,
+# }
+
+
+# def get_preprocessor(tag: str) -> Type[BasePreprocessor]:
+#     return PREPROCESSORS[tag]
