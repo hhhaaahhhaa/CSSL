@@ -7,8 +7,8 @@ n_symbols: 512
 data_dir: "lightning/downstream/phoneme_recognition/_data/LibriTTS"
 
 subsets:
-    train: "train.txt"
-    val: "val.txt"
-    test: "test.txt"
+    train: "train.json"
+    val: "val.json"
+    test: "test.json"
 
 text_cleaners: ["english_cleaners"]

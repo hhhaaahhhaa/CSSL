@@ -7,8 +7,8 @@ n_symbols: 512
 data_dir: "lightning/downstream/phoneme_recognition/_data/M-AILABS/fr_FR"
 
 subsets:
-    train: "train.txt"
-    val: "test.txt"
-    test: "test.txt"
+    train: "train.json"
+    val: "test.json"
+    test: "test.json"
 
 text_cleaners: ["basic_cleaners"]

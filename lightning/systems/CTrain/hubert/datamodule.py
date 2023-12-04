@@ -44,6 +44,12 @@ class DataModule(pl.LightningDataModule):
                     data_config
                 ) for data_config in self.data_configs if 'train' in data_config['subsets']
             ]
+            self.val_datasets = [
+                self.dataset_cls(
+                    data_config['subsets']['val'],
+                    data_config
+                ) for data_config in self.data_configs if 'val' in data_config['subsets']
+            ]
             self._train_setup()
             self._validation_setup()
 
@@ -51,14 +57,13 @@ class DataModule(pl.LightningDataModule):
             raise NotImplementedError
 
     def _train_setup(self):
-        if not isinstance(self.train_dataset, EpisodicInfiniteWrapper):
-            self.batch_size = self.train_config["optimizer"]["batch_size"]
-            info = self.task_config.get_info()
-            if info["tid_seq"] is None:  # Default iid version
-                self.train_dataset = ConcatDataset(self.train_datasets)
-                self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
-            else:
-                self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size)
+        self.batch_size = self.train_config["optimizer"]["batch_size"]
+        info = self.task_config.get_info()
+        if info["tid_seq"] is None:  # Default iid version
+            self.train_dataset = ConcatDataset(self.train_datasets)
+            self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
+        else:
+            self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size)
 
     def _validation_setup(self):
         self.val_dataset = self.val_datasets[0]  # dummy, validation during CSSL training is not informative, need to apply downstream task.

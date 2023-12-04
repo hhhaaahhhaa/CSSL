@@ -4,11 +4,11 @@ lang_id: "en0"
 unit_name: hubert--en0-512c-l9
 n_symbols: 512
 
-data_dir: "_data/LibriSpeech"
+data_dir: "lightning/downstream/phoneme_recognition/_data/LibriSpeech"
 
 subsets:
-    train: "train.txt"
-    val: "val.txt"
-    test: "test.txt"
+    train: "train.json"
+    val: "val.json"
+    test: "test.json"
 
 text_cleaners: ["english_cleaners"]
