@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import copy
 
 from lightning.base.optimizer import get_optimizer
 from lightning.base.scheduler import get_scheduler
@@ -11,20 +12,25 @@ class HubertSLSystem(HubertSystem):
         super().__init__(*args, **kwargs)
 
     # separate optimizers
-    def build_optimized_model(self) -> list[nn.Module]:
-        return [self.extractor, self.head]
+    def build_optimized_model(self) -> dict[str, nn.Module]:
+        return {
+            "slow": self.extractor,
+            "fast": self.head,
+        }
 
     def configure_optimizers(self):
-        # TODO: decompose train config into multiple configs here
-        """Initialize optimizers, batch-wise and epoch-wise schedulers."""
         optimizers, schedulers = [], []
         optimized_modules = self.build_optimized_model()
-        for idx, optimized_module in optimized_modules:
-            cnt = sum([p.numel() for p in optimized_module.parameters() if p.requires_grad])
-            print(f"Optimiable parameters ({idx}): {cnt}")
-            optimizer = get_optimizer(optimized_module, self.model_config, self.train_config)
+
+        for name in ["slow", "fast"]:
+            cfg = copy.deepcopy(self.train_config)
+            cfg["optimizer"]["lr"] = self.algorithm_config["lr"][name]
+            module = optimized_modules[name]
+            cnt = sum([p.numel() for p in module.parameters() if p.requires_grad])
+            print(f"Optimiable parameters ({name}): {cnt}")
+            optimizer = get_optimizer(module, self.model_config, cfg)
             scheduler = {
-                "scheduler": get_scheduler(optimizer, self.train_config),
+                "scheduler": get_scheduler(optimizer, cfg),
                 'interval': 'step', # "epoch" or "step"
                 'frequency': 1,
                 'monitor': self.default_monitor,
@@ -39,10 +45,19 @@ class HubertSLSystem(HubertSystem):
         return False
     
     def _custom_optimization(self, loss, batch_idx) -> None:
+        # correctly count global step
+        # See issue at https://github.com/Lightning-AI/pytorch-lightning/issues/17958
+        opts = []
+        for idx, opt in enumerate(self.optimizers()):
+            if idx > 0:
+                opt._on_before_step = lambda : self.trainer.profiler.start("optimizer_step")
+                opt._on_after_step = lambda : self.trainer.profiler.stop("optimizer_step")
+            opts.append(opt)
+        
         # gradient accumulation
         self.manual_backward(loss / self.train_config["optimizer"]["grad_acc_step"])
         if (batch_idx + 1) % self.train_config["optimizer"]["grad_acc_step"] == 0:
-            for opt in self.optimizers():
+            for opt in opts:
                 # clip gradients
                 self.clip_gradients(
                     opt,
@@ -50,12 +65,14 @@ class HubertSLSystem(HubertSystem):
                     gradient_clip_algorithm="norm"
                 )
                 opt.step()
+            for opt in opts:
                 opt.zero_grad()
 
     def training_step(self, batch, batch_idx):
         labels, _ = batch
         train_loss_dict, predictions, _ = self.common_step(batch, batch_idx, train=True)
         
+        # print(self.global_step, batch_idx)
         self._custom_optimization(train_loss_dict["Total Loss"], batch_idx)
 
         # Log metrics to CometLogger

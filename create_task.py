@@ -4,7 +4,7 @@ import yaml
 
 
 def debug():
-    root = "./debug"
+    root = "task_config/debug"
     os.makedirs(root, exist_ok=True)
 
     tasks = [
@@ -29,7 +29,7 @@ def debug():
 
 
 def exp1a():
-    root = "./exp1a-seq"
+    root = "task_config/exp1a-seq"
     os.makedirs(root, exist_ok=True)
 
     tasks = [
@@ -53,7 +53,7 @@ def exp1a():
 
 
 def exp1b():
-    root = "./exp1b-seq"
+    root = "task_config/exp1b-seq"
     os.makedirs(root, exist_ok=True)
 
     tasks = [

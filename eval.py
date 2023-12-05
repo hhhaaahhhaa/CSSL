@@ -137,10 +137,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n", "--exp_name", type=str, help="experiment name, default is algorithm's name",
     )
-    # parser.add_argument(
-    #     "-p", "--preprocess_config", type=str, nargs='+', help="path to data config directory",
-    #     default=['config/preprocess/LibriTTS'],
-    # )
     parser.add_argument(
         "--logger", type=str, help="output result path",
         default="tb",

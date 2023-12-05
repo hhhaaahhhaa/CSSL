@@ -1,4 +1,0 @@
-tasks:
-- lightning/systems/CTrain/hubert/data_config/LibriSpeech
-- lightning/systems/CTrain/hubert/data_config/ESC50
-- lightning/systems/CTrain/hubert/data_config/LibriTTS
