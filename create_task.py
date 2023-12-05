@@ -33,8 +33,10 @@ def exp1a():
     os.makedirs(root, exist_ok=True)
 
     tasks = [
-        "lightning/systems/CTrain/hubert/data_config/CSMSC",
         "lightning/systems/CTrain/hubert/data_config/AISHELL-3",
+        "lightning/systems/CTrain/hubert/data_config/CSMSC",
+        "lightning/systems/CTrain/hubert/data_config/LJSpeech",
+        "lightning/systems/CTrain/hubert/data_config/LibriTTS",
     ]
     with open(f"{root}/config.yaml", 'w') as f:
         yaml.dump({"tasks": tasks}, f)

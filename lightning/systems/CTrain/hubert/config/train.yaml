@@ -7,7 +7,6 @@ optimizer:
   weight_decay: 0.0
   grad_clip_thresh: 1.0
   grad_acc_step: 2
-  warm_up_step_ratio: 0.08  # 8% of total step as in original paper
 step:
   total_step: 40000
   log_step: 100
