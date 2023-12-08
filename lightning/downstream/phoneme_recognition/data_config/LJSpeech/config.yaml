@@ -1,11 +1,9 @@
-name: "LJSpeech"
-lang_id: "en"
-
-data_dir: "_data/LJSpeech"
-
+data_dir: _data/LJSpeech
+lang_id: en
+name: LJSpeech
 subsets:
-    train: "train.txt"
-    val: "test.txt"
-    test: "test.txt"
-
-text_cleaners: ["english_cleaners"]
+  test: test.json
+  train: train.json
+  val: val.json
+text_cleaners:
+- english_cleaners
