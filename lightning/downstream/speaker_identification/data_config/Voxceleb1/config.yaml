@@ -3,4 +3,4 @@ name: Voxceleb1
 subsets:
   test: test.json
   train: train.json
-  val: val.json
+  val: test.json

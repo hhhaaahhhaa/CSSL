@@ -25,8 +25,6 @@ class ClassificationCollate(object):
         repr_info["wav"] = []
         for idx in idx_arr:
             wav = torch.from_numpy(data[idx]["wav"]).float()
-            if len(wav) > 16000 * 15:  # always trim the first 15s only to accelerate classification training
-                wav = wav[:16000 * 15]
             repr_info["wav"].append(wav)
 
         return (labels, repr_info)

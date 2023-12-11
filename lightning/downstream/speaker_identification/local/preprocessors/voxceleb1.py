@@ -110,7 +110,7 @@ class Voxceleb1Preprocessor(BasePreprocessor):
                 "data_dir": self.data_parser.root,
                 "subsets": {
                     "train": "train.json",
-                    "val": "val.json",
+                    "val": "test.json",
                     "test": "test.json"
                 }
             }
