@@ -1,0 +1,6 @@
+data_dir: _data/UrbanSound8K
+name: UrbanSound8K
+subsets:
+  test: test.json
+  train: train.json
+  val: val.json

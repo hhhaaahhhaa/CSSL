@@ -12,7 +12,9 @@ phoneme_recognition:
   ru: "M-AILABS/ru_RU"
 sound_classification:
   sc1: "ESC50"
+  sc2: "UrbanSound8K"
   genre: "fma"
   tech: "VocalSet"
+  key: "giantsteps"
 speaker_identification:
   sid1: "Voxceleb1"
