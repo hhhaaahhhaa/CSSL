@@ -21,6 +21,24 @@ class EpisodicInfiniteWrapper(Dataset):
         return self.epoch_length
 
 
+class InfiniteShuffleWrapper(object):
+    def __init__(self, dataset: Dataset):
+        assert len(dataset) > 0
+        self.dataset = dataset
+        self.length = len(dataset)
+
+    def __iter__(self) -> int:
+        order = list(range((len(self.length))))
+        random.shuffle(order)
+        idx = 0
+        while True:
+            yield self.dataset[order[idx]]
+            idx += 1
+            if idx == len(order):
+                random.shuffle(order)
+                idx = 0
+
+
 class TaskSequenceWrapper(Dataset):
     def __init__(self, tid_seq: list[int], datasets: list[Dataset], batch_size: int, grad_acc_step=1):
         if grad_acc_step > 1:
@@ -28,7 +46,7 @@ class TaskSequenceWrapper(Dataset):
         else:
             self.tid_seq = tid_seq
         self.epoch_length = len(self.tid_seq)
-        self.datasets = datasets
+        self.datasets = [InfiniteShuffleWrapper(ds) for ds in datasets]
         self.bs = batch_size
 
     @property
@@ -39,8 +57,7 @@ class TaskSequenceWrapper(Dataset):
         # print("getitem:", idx, self.tid_seq[idx])
         # print()
         dataset = self.datasets[self.tid_seq[idx]]
-        idxs = np.random.randint(len(dataset), size=self.bs)
-        return [dataset[t] for t in idxs]
+        return [next(dataset) for _ in range(self.bs)]
 
     def __len__(self):
         return self.epoch_length

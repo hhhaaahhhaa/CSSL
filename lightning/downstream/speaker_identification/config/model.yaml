@@ -1,2 +1,2 @@
-use_proj: False
+use_proj: True
 d_hidden: 256

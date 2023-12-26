@@ -44,8 +44,6 @@ class PRDataModule(pl.LightningDataModule):
                     data_config
                 ) for data_config in self.data_configs if 'val' in data_config['subsets']
             ]
-            self.train_dataset = ConcatDataset(self.train_datasets)
-            self.val_dataset = ConcatDataset(self.val_datasets)
             self._train_setup()
             self._validation_setup()
 
@@ -60,12 +58,11 @@ class PRDataModule(pl.LightningDataModule):
         #     self._test_setup()
 
     def _train_setup(self):
-        if not isinstance(self.train_dataset, EpisodicInfiniteWrapper):
-            self.batch_size = self.train_config["optimizer"]["batch_size"]
-            self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
-    
+        self.batch_size = self.train_config["optimizer"]["batch_size"]
+        self.train_dataset = ConcatDataset(self.train_datasets)
+        
     def _validation_setup(self):
-        pass
+        self.val_dataset = ConcatDataset(self.val_datasets)
 
     def _test_setup(self):
         pass

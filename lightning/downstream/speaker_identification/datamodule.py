@@ -43,18 +43,17 @@ class ClassificationDataModule(pl.LightningDataModule):
                     data_config
                 ) for data_config in self.data_configs if 'val' in data_config['subsets']
             ]
-            self.train_dataset = ConcatDataset(self.train_datasets)
-            self.val_dataset = ConcatDataset(self.val_datasets)
             self._train_setup()
             self._validation_setup()
 
     def _train_setup(self):
-        if not isinstance(self.train_dataset, EpisodicInfiniteWrapper):
-            self.batch_size = self.train_config["optimizer"]["batch_size"]
-            self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
-    
+        self.batch_size = self.train_config["optimizer"]["batch_size"]
+        self.train_dataset = ConcatDataset(self.train_datasets)
+        
     def _validation_setup(self):
-        pass
+        for ds in self.val_datasets:
+            ds.max_timestep = None
+        self.val_dataset = ConcatDataset(self.val_datasets)
 
     def _test_setup(self):
         pass
@@ -74,7 +73,7 @@ class ClassificationDataModule(pl.LightningDataModule):
         """Validation dataloader, not modified for multiple dataloaders."""
         self.val_loader = DataLoader(
             self.val_dataset,
-            batch_size=self.batch_size,
+            batch_size=1,
             shuffle=False,
             num_workers=0,
             collate_fn=self.collate.collate_fn(),

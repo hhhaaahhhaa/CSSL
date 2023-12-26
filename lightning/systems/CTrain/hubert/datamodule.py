@@ -62,7 +62,6 @@ class DataModule(pl.LightningDataModule):
         info = self.task_config.get_info()
         if info["tid_seq"] is None:  # Default iid version
             self.train_dataset = ConcatDataset(self.train_datasets)
-            self.train_dataset = EpisodicInfiniteWrapper(self.train_dataset, self.val_step*self.batch_size)
         else:
             self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size, grad_acc_step)
 

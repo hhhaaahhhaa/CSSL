@@ -6,9 +6,9 @@ optimizer:
   eps: 0.000000001
   weight_decay: 0.0
   grad_clip_thresh: 1.0
-  grad_acc_step: 1
+  grad_acc_step: 2
 step:
-  total_step: 100000
-  log_step: 500
-  val_step: 5000
-  save_step: 20000
+  total_step: 40000
+  log_step: 400
+  val_step: 40000
+  save_step: 40000

@@ -9,6 +9,8 @@ from tqdm import tqdm
 from pytorch_lightning.callbacks import Callback
 from pytorch_lightning.loggers.logger import merge_dicts
 
+from lightning.utils.logging import AttentionVisualizer
+
 
 CSV_COLUMNS = ["Total Loss"]
 COL_SPACE = [len(col) for col in ["200000", "Validation"]+CSV_COLUMNS]  # max step: 200000, longest stage: validation
@@ -38,6 +40,8 @@ class Saver(Callback):
         self.val_accs = []
         self.log_loss_dicts = []
 
+        self.visualizer = AttentionVisualizer()
+
     def on_train_batch_end(self, trainer, pl_module, outputs, batch, batch_idx):
         loss = outputs['losses']
         output = outputs['output']
@@ -62,6 +66,9 @@ class Saver(Callback):
             self.log_loss_dicts.append(loss_dict)
 
             # log classification results
+            acc = (_batch["labels"] == output.argmax(dim=1)).sum() / len(output)
+            self.log_text(logger, f"Train/Acc: {acc}", step)
+
             self.log_text(logger, "Train/GT: " + self.classes[int(_batch["labels"][0])], step)
             self.log_text(logger, "Train/Pred: " + self.classes[int(output[0].argmax())], step)
 
@@ -137,3 +144,30 @@ class Saver(Callback):
                 text=text,
                 step=step,
             )
+
+    # Tensor logging
+    def plot_tensor(self, x, title, x_labels: List[str], y_labels: List[str]):
+        "Wrapper method for calling visualizer to plot."
+        info = {
+            "title": title,
+            "x_labels": x_labels,
+            "y_labels": y_labels,
+            "attn": x.detach().cpu().numpy()
+        }
+        fig = self.visualizer.plot(info)
+        return fig
+    
+    def log_1D_tensor(self, logger, x, step, title, stage="val"):
+        """ Visualize any 1D tensors """
+        fig = self.plot_tensor(x.view(1, -1), title, [str(i) for i in range(len(x))], ["Weight"])
+        figure_name = f"{stage}/{title}/step_{step}"
+        if isinstance(logger, pl.loggers.CometLogger):
+            logger.experiment.log_figure(
+                figure_name=figure_name,
+                figure=fig,
+                step=step,
+            )
+        plt.close(fig)
+
+    def log_layer_weights(self, logger, layer_weights, step, stage="val"):
+        self.log_1D_tensor(logger, layer_weights, step, "Layer weights", stage=stage)

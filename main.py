@@ -128,16 +128,19 @@ def main(args):
         'log_every_n_steps': train_config["step"]["log_step"],
         'val_check_interval': train_config["step"]["val_step"],
         'check_val_every_n_epoch': None,
-        'gradient_clip_val': train_config["optimizer"]["grad_clip_thresh"],
-        'accumulate_grad_batches': train_config["optimizer"]["grad_acc_step"],
     }
+    if model.automatic_optimization:
+        trainer_training_config.update({
+            'gradient_clip_val': train_config["optimizer"]["grad_clip_thresh"],
+            'accumulate_grad_batches': train_config["optimizer"]["grad_acc_step"],
+        })
 
     pl.seed_everything(43, True)
     print("========================== Start Training! ==========================")
     # Useful for debugging
     if Define.DEBUG:
         TRAINER_CONFIG.update({
-            "limit_train_batches": 200,
+            "limit_train_batches": 300,
             "limit_val_batches": 50,
             "max_epochs": 3
         })
