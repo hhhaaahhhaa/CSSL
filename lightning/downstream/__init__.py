@@ -1,1 +1,1 @@
-from .load import get_downstream, get_datamodule
+from .load import get_downstream, get_datamodule, get_configs

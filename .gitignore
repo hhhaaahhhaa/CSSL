@@ -163,4 +163,5 @@ preprocessed_data/
 task_config/
 output/
 exp/
+data/
 _*/

@@ -11,9 +11,7 @@ from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
 import Define
-from lightning.downstream import get_downstream, get_datamodule
-from lightning.downstream.Define import DOWNSTREAM_TASKS
-
+from lightning.downstream import get_downstream, get_datamodule, get_configs
 
 quiet = False
 if quiet:
@@ -36,23 +34,12 @@ TRAINER_CONFIG = {
 }
 
 
-def load_configs(args):
-    downstream_dir = f"lightning/downstream/{args.downstream}"
-    model_config = yaml.load(open(f"{downstream_dir}/config/model.yaml", "r"), Loader=yaml.FullLoader)
-    train_config = yaml.load(open(f"{downstream_dir}/config/train.yaml", "r"), Loader=yaml.FullLoader)
-    algorithm_config = yaml.load(open(f"{downstream_dir}/config/algorithm.yaml", "r"), Loader=yaml.FullLoader)
-    tmp = f"lightning/downstream/{args.downstream}/data_config/{DOWNSTREAM_TASKS[args.downstream][args.task]}"
-    data_configs = [tmp]
-
-    return data_configs, model_config, train_config, algorithm_config
-
-
 def main(args):
     print("Prepare training ...")
     downstream_dir = f"lightning/downstream/{args.downstream}"
 
     # load configs
-    data_configs, model_config, train_config, algorithm_config = load_configs(args)
+    data_configs, model_config, train_config, algorithm_config = get_configs(args.downstream, args.task)
 
     # Init logger
     if Define.LOGGER == "comet":
