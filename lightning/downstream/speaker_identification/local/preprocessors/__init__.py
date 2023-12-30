@@ -2,11 +2,11 @@ from typing import Type
 
 from dlhlp_lib.parsers.Interfaces import BasePreprocessor
 
-from .voxceleb1 import Voxceleb1Preprocessor
+from .voxceleb1 import VoxCeleb1Preprocessor
 
 
 PREPROCESSORS = {
-    "Voxceleb1": Voxceleb1Preprocessor,
+    "VoxCeleb1": VoxCeleb1Preprocessor,
 }
 
 

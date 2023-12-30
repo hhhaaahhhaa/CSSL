@@ -1,5 +1,5 @@
-data_dir: _data/Voxceleb1
-name: Voxceleb1
+data_dir: _data/VoxCeleb1
+name: VoxCeleb1
 subsets:
   test: test.json
   train: train.json

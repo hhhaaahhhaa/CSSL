@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import librosa
 import yaml
+from tqdm import tqdm
 
 from dlhlp_lib.parsers.Interfaces import BasePreprocessor
 from dlhlp_lib.parsers.raw_parsers import Voxceleb1RawParser, Voxceleb1Instance
@@ -11,7 +12,7 @@ from dlhlp_lib.tts_preprocess.basic2 import process_tasks_mp
 from parser import DataParser
 
 
-class Voxceleb1Preprocessor(BasePreprocessor):
+class VoxCeleb1Preprocessor(BasePreprocessor):
 
     def __init__(self, src: str, root: str) -> None:
         super().__init__(src, root)
@@ -28,49 +29,41 @@ class Voxceleb1Preprocessor(BasePreprocessor):
         os.link(instance.wav_path, tgt_path)
 
     def parse_raw(self, n_workers=8, chunksize=64) -> None:
+        # load mini
+        local_dir = os.path.dirname(os.path.dirname(__file__))
+        mini_names = [line.strip().split(" ")[1][:-4] for line in open(f"{local_dir}/mini_voxceleb1.txt", "r").readlines()]
+        mini_names = [x.replace("/", "-") for x in mini_names]
+                
         # create data info
         data_info = []
         all_speakers = []
-        for instance in self.src_parser.train:
-            query = {
-                "basename": instance.id,
-                "spk": instance.speaker,
-                "dset": "train"
-            }
-            data_info.append(query)
-            if instance.speaker not in all_speakers:
-                all_speakers.append(instance.speaker)
-        for instance in self.src_parser.dev:
-            query = {
-                "basename": instance.id,
-                "spk": instance.speaker,
-                "dset": "dev"
-            }
-            data_info.append(query)
-            if instance.speaker not in all_speakers:
-                all_speakers.append(instance.speaker)
-        for instance in self.src_parser.test:
-            query = {
-                "basename": instance.id,
-                "spk": instance.speaker,
-                "dset": "test"
-            }
-            data_info.append(query)
-            if instance.speaker not in all_speakers:
-                all_speakers.append(instance.speaker)
+        mini_set = []
+        for dset in ["train", "dev", "test"]:
+            for instance in tqdm(getattr(self.src_parser, dset)):
+                if instance.id not in mini_names:
+                    continue
+                mini_set.append(instance)
+                query = {
+                    "basename": instance.id,
+                    "spk": instance.speaker,
+                    "dset": dset
+                }
+                data_info.append(query)
+                if instance.speaker not in all_speakers:
+                    all_speakers.append(instance.speaker)
         with open(self.data_parser.metadata_path, "w", encoding="utf-8") as f:
             json.dump(data_info, f, indent=4)
         with open(f"{self.data_parser.root}/speakers.json", "w", encoding="utf-8") as f:
             json.dump(all_speakers, f, indent=4)
 
-        tasks = [(x,) for x in self.src_parser.train + self.src_parser.dev + self.src_parser.test]
+        tasks = [(x,) for x in mini_set]
         process_tasks_mp(tasks, self.parse_raw_process, n_workers=n_workers, chunksize=chunksize, ignore_errors=False)
     
     def preprocess(self):
         pass
 
     def clean(self):
-        cleaned_data_info_path = "data_config/Voxceleb1/clean.json"
+        cleaned_data_info_path = "data_config/VoxCeleb1/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
         os.makedirs(output_dir, exist_ok=True)
         queries = self.data_parser.get_all_queries()
@@ -78,7 +71,7 @@ class Voxceleb1Preprocessor(BasePreprocessor):
             json.dump(queries, f, indent=4)
     
     def split_dataset(self):
-        cleaned_data_info_path = "data_config/Voxceleb1/clean.json"
+        cleaned_data_info_path = "data_config/VoxCeleb1/clean.json"
         output_dir = os.path.dirname(cleaned_data_info_path)
         with open(cleaned_data_info_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
@@ -104,9 +97,9 @@ class Voxceleb1Preprocessor(BasePreprocessor):
             json.dump(test_set, f, indent=4)
 
         # Generate config.yaml
-        with open("data_config/Voxceleb1/config.yaml", 'w') as yamlfile:
+        with open("data_config/VoxCeleb1/config.yaml", 'w') as yamlfile:
             config = {
-                "name": "Voxceleb1",
+                "name": "VoxCeleb1",
                 "data_dir": self.data_parser.root,
                 "subsets": {
                     "train": "train.json",
@@ -132,4 +125,4 @@ class Voxceleb1Preprocessor(BasePreprocessor):
                 f.write('\n')
     
     def log(self, msg):
-        print(f"[Voxceleb1Preprocessor]: ", msg)
+        print(f"[VoxCeleb1Preprocessor]: ", msg)
