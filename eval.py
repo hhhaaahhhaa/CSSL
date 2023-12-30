@@ -60,9 +60,9 @@ def main(args):
         result_dir = f"{downstream_dir}/exp/{comet_logger.version}/result"
         ckpt_dir = f"{downstream_dir}/exp/{comet_logger.version}/ckpt"
     elif Define.LOGGER == "tb":
-        log_dir = f"{downstream_dir}/exp/{args.exp_name}/log"
-        result_dir = f"{downstream_dir}/exp/{args.exp_name}/result"
-        ckpt_dir = f"{downstream_dir}/exp/{args.exp_name}/ckpt"
+        log_dir = f"{downstream_dir}/exp/{args.exp_name}/{args.task}/log"
+        result_dir = f"{downstream_dir}/exp/{args.exp_name}/{args.task}/result"
+        ckpt_dir = f"{downstream_dir}/exp/{args.exp_name}/{args.task}/ckpt"
         os.makedirs(log_dir, exist_ok=True)
         os.makedirs(result_dir, exist_ok=True)
         os.makedirs(ckpt_dir, exist_ok=True)

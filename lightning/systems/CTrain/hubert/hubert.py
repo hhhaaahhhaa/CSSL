@@ -27,7 +27,7 @@ class HubertSystem(System):
         self.bs = self.train_config["optimizer"]["batch_size"]
     
     def build_model(self) -> None:
-        self.extractor = S3PRLExtractor("hubert")
+        self.extractor = S3PRLExtractor("hubert", custom=True)
         self.extractor.set_model(HubertCustom())
 
         tid2n_cls = {}
