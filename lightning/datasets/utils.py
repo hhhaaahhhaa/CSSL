@@ -26,9 +26,10 @@ class InfiniteShuffleWrapper(object):
         assert len(dataset) > 0
         self.dataset = dataset
         self.length = len(dataset)
+        self.__gen = self.__create_gen()
 
-    def __iter__(self) -> int:
-        order = list(range((len(self.length))))
+    def __create_gen(self):
+        order = list(range(self.length))
         random.shuffle(order)
         idx = 0
         while True:
@@ -37,6 +38,12 @@ class InfiniteShuffleWrapper(object):
             if idx == len(order):
                 random.shuffle(order)
                 idx = 0
+
+    def __iter__(self):
+        return self.__gen
+
+    def __next__(self) -> int:
+        return next(self.__gen)
 
 
 class TaskSequenceWrapper(Dataset):
@@ -55,9 +62,12 @@ class TaskSequenceWrapper(Dataset):
     
     def __getitem__(self, idx):
         # print("getitem:", idx, self.tid_seq[idx])
-        # print()
         dataset = self.datasets[self.tid_seq[idx]]
-        return [next(dataset) for _ in range(self.bs)]
+
+        res = []
+        for _ in range(self.bs):
+            res.append(next(dataset))
+        return res
 
     def __len__(self):
         return self.epoch_length
