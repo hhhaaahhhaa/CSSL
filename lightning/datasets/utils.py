@@ -1,5 +1,6 @@
+from typing import Iterator
 import numpy as np
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, IterableDataset
 import random
 
 
@@ -21,25 +22,28 @@ class EpisodicInfiniteWrapper(Dataset):
         return self.epoch_length
 
 
-class InfiniteShuffleWrapper(object):
-    def __init__(self, dataset: Dataset):
+class InfiniteWrapper(IterableDataset):
+    def __init__(self, dataset: Dataset, shuffle=False):
         assert len(dataset) > 0
         self.dataset = dataset
         self.length = len(dataset)
+        self.shuffle = shuffle
         self.__gen = self.__create_gen()
 
     def __create_gen(self):
         order = list(range(self.length))
-        random.shuffle(order)
+        if self.shuffle:
+            random.shuffle(order)
         idx = 0
         while True:
             yield self.dataset[order[idx]]
             idx += 1
             if idx == len(order):
-                random.shuffle(order)
+                if self.shuffle:
+                    random.shuffle(order)
                 idx = 0
-
-    def __iter__(self):
+                
+    def __iter__(self) -> Iterator:
         return self.__gen
 
     def __next__(self) -> int:
@@ -53,7 +57,7 @@ class TaskSequenceWrapper(Dataset):
         else:
             self.tid_seq = tid_seq
         self.epoch_length = len(self.tid_seq)
-        self.datasets = [InfiniteShuffleWrapper(ds) for ds in datasets]
+        self.datasets = [InfiniteWrapper(ds, shuffle=True) for ds in datasets]
         self.bs = batch_size
 
     @property

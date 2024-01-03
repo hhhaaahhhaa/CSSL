@@ -71,7 +71,9 @@ class HubertSPUSystem(hubert.HubertSystem):
         dm = self.trainer.datamodule  # link to datamodule
         assert isinstance(dm, DataModule)
         info = dm.task_config.get_info()
-        task_dataloader = dm.task_dataloader(info["tid_seq"][self.global_step], batch_size=self.bs)
+        tid = info["tid_seq"][self.global_step]
+        print("Task ", tid)
+        task_dataloader = dm.task_dataloader(tid, batch_size=self.bs)
 
         self._warmup(task_dataloader)
         self._select_parameter(task_dataloader)
