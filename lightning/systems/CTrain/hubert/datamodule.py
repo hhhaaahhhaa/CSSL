@@ -60,7 +60,8 @@ class DataModule(pl.LightningDataModule):
         self.batch_size = self.train_config["optimizer"]["batch_size"]
         grad_acc_step = self.train_config["optimizer"].get("grad_acc_step", 1)
         info = self.task_config.get_info()
-        if info["tid_seq"] is None:  # Default iid version
+        self.use_tid_seq = True if info["tid_seq"] is None else False
+        if not self.use_tid_seq:  # Default iid version
             self.train_dataset = ConcatDataset(self.train_datasets)
         else:
             self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size, grad_acc_step)
@@ -82,7 +83,7 @@ class DataModule(pl.LightningDataModule):
         self.train_loader = DataLoader(
             self.train_dataset,
             batch_size=batch_size,
-            shuffle=False,  # Shuffle in wrapper
+            shuffle=(not self.use_tid_seq),
             num_workers=Define.MAX_WORKERS,
             collate_fn=collate_fn,
         )

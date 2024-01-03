@@ -1,0 +1,9 @@
+name: "UrbanSound8K"
+parser: "plain"
+unit_name: "mfcc-64c"
+n_symbols: 64
+data_dir: "lightning/downstream/sound_classification/_data/UrbanSound8K"
+subsets:
+  test: test.json
+  train: train.json
+  val: val.json

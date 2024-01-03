@@ -1,10 +1,12 @@
 import os
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import pytorch_lightning as pl
 import random
 from tqdm import tqdm
+from functools import reduce
 from contextlib import contextmanager
 import matplotlib
 from matplotlib import pyplot as plt
@@ -256,3 +258,8 @@ def flat_merge_dict(d):
         for name, val in v.items():
             res[f"{k}/{name}"] = val
     return res
+
+
+def get_module_by_name(module: nn.Module, access_string: str) -> nn.Module:
+    names = access_string.split(sep='.')
+    return reduce(getattr, names, module)

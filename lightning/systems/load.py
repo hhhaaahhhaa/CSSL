@@ -5,6 +5,7 @@ from lightning.base.system import System
 from . import s3prl
 from . import CTrain
 from . import SlowLearner
+from . import SPU
 
 
 SYSTEM_CTRAIN = {
@@ -19,9 +20,15 @@ SYSTEM_SL = {
 }
 
 
+SYSTEM_SPU = {
+    "SPU/hubert": (SPU.hubert.HubertSPUSystem, SPU.hubert.DataModule),
+}
+
+
 SYSTEM = {
     **SYSTEM_CTRAIN,
     **SYSTEM_SL,
+    **SYSTEM_SPU,
 }
 
 

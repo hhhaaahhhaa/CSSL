@@ -43,6 +43,7 @@ class TaskSequenceConfig(BaseConfig):
         self._info["training"] = {
             "total_step": -1,
             "saving_steps": [],
+            "task_boundaries": [],
         }
         if os.path.isfile(f"{self.root}/tid_seq.json"):
             with open(f"{self.root}/tid_seq.json", 'r') as f:
@@ -54,6 +55,10 @@ class TaskSequenceConfig(BaseConfig):
         if os.path.isfile(f"{self.root}/saving_steps.json"):
             with open(f"{self.root}/saving_steps.json", 'r') as f:
                 self._info["training"]["saving_steps"] = json.load(f)
+        
+        if os.path.isfile(f"{self.root}/task_boundaries.json"):
+            with open(f"{self.root}/task_boundaries.json", 'r') as f:
+                self._info["training"]["task_boundaries"] = json.load(f)
 
     def log(self, msg):
         print(f"[TaskSequenceConfig]: ", msg)
@@ -68,4 +73,5 @@ class PlainConfigAdapter(BaseConfig):
         self._info["training"] = {
             "total_step": -1,
             "saving_steps": [],
+            "task_boundaries": [],
         }
