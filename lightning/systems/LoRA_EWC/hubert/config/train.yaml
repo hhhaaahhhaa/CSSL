@@ -1,0 +1,13 @@
+scheduler_type: const
+optimizer:
+  batch_size: 4
+  betas: [0.9, 0.98]
+  eps: 0.000000001
+  weight_decay: 0.0
+  grad_clip_thresh: 1.0
+  grad_acc_step: 2
+step:
+  total_step: 40000
+  log_step: 1000
+  val_step: 40000
+  save_step: 1000000

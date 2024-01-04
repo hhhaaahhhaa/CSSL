@@ -10,12 +10,14 @@ from lightning.base.scheduler import get_scheduler
 from lightning.systems.plugin import ITaskBoundary
 from lightning.systems.CTrain import hubert
 from lightning.systems.CTrain.hubert.model import HubertCustom
-from .datamodule import DataModule
+from lightning.systems.SPU.hubert.datamodule import DataModule
 
 
-class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
+class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self._importances = None
+        self._history = None
 
     # separate optimizers
     def build_optimized_model(self) -> dict[str, nn.Module]:
@@ -70,11 +72,18 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
         task_dataloader = dm.task_dataloader(tid, batch_size=self.bs)
 
         self._warmup(task_dataloader)
-        self._select_parameter(task_dataloader)
-    
-    def task_end(self) -> None:
-        pass
 
+    def task_end(self) -> None:
+        # create task dataloader
+        dm = self.trainer.datamodule  # link to datamodule
+        assert isinstance(dm, DataModule)
+        info = dm.task_config.get_info()
+        tid = info["tid_seq"][self.global_step - 1]
+        print("Task end", tid)
+        task_dataloader = dm.task_dataloader(tid, batch_size=self.bs, infinite=False)
+        self._calc_fisher_matrix(task_dataloader)
+        self._history = self._snapshot()
+   
     # Task warmup
     def _warmup(self, task_dataloader) -> None:
         task_warmup_step = self.algorithm_config.get("task_warmup_step", -1)
@@ -110,46 +119,58 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
             opt.step()
             opt.zero_grad()
 
-    # Selective Parameter Update (SPU)    
-    def _select_parameter(self, task_dataloader) -> None:
-        print("Selecting parameters...")
+    # EWC
+    def _calc_fisher_matrix(self, task_dataloader):
+        print("Calculate fisher matrix...")
+
         # compute statisitcs from task dataloader
-        cnt = 0
-        n_estimate = self.algorithm_config["n_estimate"]
-        for batch_idx, batch in enumerate(task_dataloader):
+        self.eval()
+        self._importances = []
+        modules = self._localize()
+        with torch.no_grad():
+            for module in modules:
+                self._importances.append({
+                    name: torch.zeros_like(p.data) for name, p in module.named_parameters()
+                })
+
+        length = self.algorithm_config.get("n_estimate_batch", len(task_dataloader))
+        for batch_idx, batch in tqdm(enumerate(task_dataloader), total=length):
             train_loss_dict, _, _ = self.common_step(batch, batch_idx, train=True)
             loss = train_loss_dict["Total Loss"]
             self.manual_backward(loss)
-            cnt += self.bs
-            if cnt >= n_estimate:
+
+            with torch.no_grad():
+                for importances, module in zip(self._importances, modules):
+                    for name, p in module.named_parameters():
+                        importances[name] += p.grad.data.clone().pow(2)
+            self.zero_grad()
+            if batch_idx + 1 == length:
                 break
-        
-        # select and create gradient masks
-        with torch.no_grad():
-            self._spu_mask = []
-            modules = self._localize()
-            for module in modules:
-                grad = module.weight.grad.data
-                mask = torch.zeros_like(grad)
-                h, w = mask.shape
-                n_selected = int(h * w * self.algorithm_config["selection_rate"])
-                _, idxs_flatten = torch.topk(torch.abs(grad.flatten()), n_selected)
-                mask[(idxs_flatten // w).long(), (idxs_flatten % w).long()] = 1
-                self._spu_mask.append(mask)
+
+        # average over dataset length
+        for importances in self._importances:
+            for _, imp in importances.items():
+                imp /= float(length)
 
         # zero grad
         self.zero_grad(set_to_none=True)
+        self.train()
         print("Done.")
-
-    def _gradient_masking(self):
-        """ Mask out unselected weights by directly modifying gradients """
+    
+    def _snapshot(self):
+        return None # LoRA_EWC avoids copying model
+    
+    def _ewc_loss(self):
+        if self._importances is None:
+            return torch.zeros(1, device=self.device)
+        
+        ewc_loss = 0
         modules = self._localize()
-        # print(modules[0].weight.data[100:108, 100:108])
-        # print(self._spu_mask[0][100:108, 100:108])
-        for module, mask in zip(modules, self._spu_mask):
-            grad = module.weight.grad
-            grad.detach().mul_(mask)
-
+        for importances, module in zip(self._importances, modules):
+            for name, p in module.named_parameters():
+                ewc_loss += torch.sum(importances[name] * (p ** 2))
+        return ewc_loss
+    
     def _localize(self) -> list[nn.Module]:
         """ Get specific modules, here we use first layer of MLP in transformer encoder """
         res = []
@@ -158,7 +179,7 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
             module = get_module_by_name(self.extractor._model, f"model.encoder.layers.{i}.fc1")  # nn.Linear
             res.append(module)
         return res
-
+    
     # training
     def on_train_start(self) -> None:
         # prevent duplicate init or end since gradient accumulation return same global step multiple times
@@ -171,7 +192,7 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
                 self.task_init()
                 self._is_task_init = True
                 self._is_task_end = False
-    
+
     def on_train_batch_end(self, output: Any, batch: Any, batch_idx: int) -> None:
         if self.is_task_boundary() and self.global_step > 0:  # skip the first boundary which is 0
             if not self._is_task_end:
@@ -182,6 +203,11 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
     def training_step(self, batch, batch_idx):
         labels, _ = batch
         train_loss_dict, predictions, _ = self.common_step(batch, batch_idx, train=True)
+        ewc_loss = self.algorithm_config["ewc_loss_weight"] * self._ewc_loss()
+        train_loss_dict = {
+            "Total Loss": train_loss_dict["Total Loss"] + ewc_loss,
+            "EWC Loss": ewc_loss
+        }
         
         # print(self.global_step, batch_idx)
         self._custom_optimization(train_loss_dict["Total Loss"], batch_idx)
@@ -205,7 +231,6 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
         # gradient accumulation
         self.manual_backward(loss / self.train_config["optimizer"]["grad_acc_step"])
         if (batch_idx + 1) % self.train_config["optimizer"]["grad_acc_step"] == 0:
-            self._gradient_masking()
             for key in opts:
                 # clip gradients
                 self.clip_gradients(

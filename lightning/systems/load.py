@@ -6,6 +6,7 @@ from . import s3prl
 from . import CTrain
 from . import SlowLearner
 from . import SPU
+from . import LoRA_EWC
 
 
 SYSTEM_CTRAIN = {
@@ -25,10 +26,16 @@ SYSTEM_SPU = {
 }
 
 
+SYSTEM_EWC = {
+    "LoRA_EWC/hubert": (LoRA_EWC.hubert.HubertLoRAEWCSystem, SPU.hubert.DataModule),
+}
+
+
 SYSTEM = {
     **SYSTEM_CTRAIN,
     **SYSTEM_SL,
     **SYSTEM_SPU,
+    **SYSTEM_EWC,
 }
 
 

@@ -9,10 +9,12 @@ class DataModule(hubert.DataModule):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
     
-    def task_dataloader(self, idx, batch_size):
+    def task_dataloader(self, idx, batch_size, infinite=True):
         ds = self.train_datasets[idx]
+        if infinite:
+            ds = InfiniteWrapper(ds, shuffle=True)
         self.train_loader = DataLoader(
-            InfiniteWrapper(ds, shuffle=True),
+            ds,
             batch_size=batch_size,
             num_workers=Define.MAX_WORKERS,
             collate_fn=self.collate.collate_fn(),

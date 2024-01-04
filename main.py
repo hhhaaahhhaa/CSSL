@@ -55,6 +55,7 @@ def load_configs(args):
     # Useful for debugging
     if Define.DEBUG:
         train_config["optimizer"]["batch_size"] = 1
+        train_config["step"]["log_step"] = 10
 
     return data_configs, model_config, train_config, algorithm_config
 
