@@ -1,7 +1,0 @@
-ewc_loss_weight: 0.5
-n_estimate_batch: 16
-lr:
-  backbone: 0.00005
-  head: 0.01
-  warmup: 0.01
-task_warmup_step: 5

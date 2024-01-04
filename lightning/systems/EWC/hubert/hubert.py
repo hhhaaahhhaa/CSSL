@@ -4,16 +4,14 @@ import torch.nn as nn
 import copy
 from tqdm import tqdm
 
-from lightning.utils.tool import get_module_by_name
 from lightning.base.optimizer import get_optimizer
 from lightning.base.scheduler import get_scheduler
 from lightning.systems.plugin import ITaskBoundary
 from lightning.systems.CTrain import hubert
-from lightning.systems.CTrain.hubert.model import HubertCustom
 from lightning.systems.SPU.hubert.datamodule import DataModule
 
 
-class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
+class HubertEWCSystem(hubert.HubertSystem, ITaskBoundary):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._importances = None
@@ -22,7 +20,7 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
     # separate optimizers
     def build_optimized_model(self) -> dict[str, nn.Module]:
         return {
-            "backbone": nn.ModuleList(self._localize()),
+            "backbone": self.extractor,
             "head": self.head,
             "warmup": self.head,
         }
@@ -82,7 +80,7 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
         print("Task end", tid)
         task_dataloader = dm.task_dataloader(tid, batch_size=self.bs, infinite=False)
         self._calc_fisher_matrix(task_dataloader)
-        self._history = self._snapshot()
+        self._snapshot()
    
     # Task warmup
     def _warmup(self, task_dataloader) -> None:
@@ -126,12 +124,14 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
         # compute statisitcs from task dataloader
         self.eval()
         self._importances = []
+        self._removed_names = []
         modules = self._localize()
         with torch.no_grad():
             for module in modules:
                 self._importances.append({
                     name: torch.zeros_like(p.data) for name, p in module.named_parameters()
                 })
+                self._removed_names.append(set())
 
         length = self.algorithm_config.get("n_estimate_batch", len(task_dataloader))
         for batch_idx, batch in tqdm(enumerate(task_dataloader), total=length):
@@ -140,17 +140,24 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
             self.manual_backward(loss)
 
             with torch.no_grad():
-                for importances, module in zip(self._importances, modules):
+                for importances, removed_names, module in zip(self._importances, self._removed_names, modules):
                     for name, p in module.named_parameters():
-                        importances[name] += p.grad.data.clone().pow(2)
+                        if p.grad is not None:
+                            importances[name] += p.grad.data.clone().pow(2)
+                        else:
+                            removed_names.add(name)
+            
             self.zero_grad()
             if batch_idx + 1 == length:
                 break
 
-        # average over dataset length
-        for importances in self._importances:
-            for _, imp in importances.items():
-                imp /= float(length)
+        # print(self._removed_names)
+
+        # average over dataset length, save gpu cache
+        with torch.no_grad():
+            for importances in self._importances:
+                for name, imp in importances.items():
+                    importances[name] = (imp / float(length)).cpu()        
 
         # zero grad
         self.zero_grad(set_to_none=True)
@@ -158,7 +165,13 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
         print("Done.")
     
     def _snapshot(self):
-        return None # LoRA_EWC avoids copying model
+        self._history = []
+        modules = self._localize()
+        with torch.no_grad():
+            for module in modules:
+                self._history.append({
+                    name: p.clone().detach().cpu() for name, p in module.named_parameters()
+                })
     
     def _ewc_loss(self):
         if self._importances is None:
@@ -166,39 +179,36 @@ class HubertLoRAEWCSystem(hubert.HubertSystem, ITaskBoundary):
         
         ewc_loss = 0
         modules = self._localize()
-        for importances, module in zip(self._importances, modules):
+        for importances, removed_names, module, history in zip(self._importances, self._removed_names, modules, self._history):
             for name, p in module.named_parameters():
-                ewc_loss += torch.sum(importances[name] * (p ** 2))
+                if name not in removed_names:
+                    ewc_loss += torch.sum(importances[name].to(p.device) * ((history[name].to(p.device) - p) ** 2))
         return ewc_loss
     
     def _localize(self) -> list[nn.Module]:
-        """ Get specific modules, here we use first layer of MLP in transformer encoder """
-        res = []
-        assert isinstance(self.extractor._model, HubertCustom)
-        for i in range(12):
-            module = get_module_by_name(self.extractor._model, f"model.encoder.layers.{i}.fc1")  # nn.Linear
-            res.append(module)
-        return res
+        return [self.extractor]
     
     # training
     def on_train_start(self) -> None:
         # prevent duplicate init or end since gradient accumulation return same global step multiple times
         self._is_task_init = False 
-        self._is_task_end = False
     
     def on_train_batch_start(self, batch: Any, batch_idx: int) -> None:
         if self.is_task_boundary():
             if not self._is_task_init:
+                if self.global_step > 0:  # skip the first boundary which is 0
+                    self.task_end()
                 self.task_init()
                 self._is_task_init = True
-                self._is_task_end = False
+        else:
+            self._is_task_init = False
 
-    def on_train_batch_end(self, output: Any, batch: Any, batch_idx: int) -> None:
-        if self.is_task_boundary() and self.global_step > 0:  # skip the first boundary which is 0
-            if not self._is_task_end:
-                self.task_end()
-                self._is_task_init = False
-                self._is_task_end = True
+    # def on_train_batch_end(self, output: Any, batch: Any, batch_idx: int) -> None:
+    #     if self.is_task_boundary() and self.global_step > 0:  # skip the first boundary which is 0
+    #         if not self._is_task_end:
+    #             self.task_end()
+    #             self._is_task_init = False
+    #             self._is_task_end = True
     
     def training_step(self, batch, batch_idx):
         labels, _ = batch

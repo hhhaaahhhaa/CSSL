@@ -1,5 +1,4 @@
-selection_rate: 0.1
-n_estimate: 128
+ewc_loss_weight: 0.001
 lr:
   backbone: 0.0005
   head: 0.0005

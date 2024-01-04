@@ -163,21 +163,16 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
     def on_train_start(self) -> None:
         # prevent duplicate init or end since gradient accumulation return same global step multiple times
         self._is_task_init = False 
-        self._is_task_end = False
     
     def on_train_batch_start(self, batch: Any, batch_idx: int) -> None:
         if self.is_task_boundary():
             if not self._is_task_init:
+                if self.global_step > 0:  # skip the first boundary which is 0
+                    self.task_end()
                 self.task_init()
                 self._is_task_init = True
-                self._is_task_end = False
-    
-    def on_train_batch_end(self, output: Any, batch: Any, batch_idx: int) -> None:
-        if self.is_task_boundary() and self.global_step > 0:  # skip the first boundary which is 0
-            if not self._is_task_end:
-                self.task_end()
-                self._is_task_init = False
-                self._is_task_end = True
+        else:
+            self._is_task_init = False
     
     def training_step(self, batch, batch_idx):
         labels, _ = batch
