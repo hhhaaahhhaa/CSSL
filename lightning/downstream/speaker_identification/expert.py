@@ -33,6 +33,7 @@ class Expert(System):
             d_hidden=self.model_config["d_hidden"],
             use_proj=self.model_config["use_proj"],
         )
+        print(self.model)
         self.loss_func = nn.CrossEntropyLoss()
 
     def build_optimized_model(self):

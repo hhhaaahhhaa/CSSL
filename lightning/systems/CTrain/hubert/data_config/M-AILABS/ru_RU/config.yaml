@@ -1,7 +1,7 @@
 name: "M-AILABS/ru_RU"
 parser: "nest-sf"
 lang_id: "ru"
-unit_name: hubert--ru-512c-l9
+unit_name: mfcc-512c
 n_symbols: 512
 
 data_dir: "lightning/downstream/phoneme_recognition/_data/M-AILABS/ru_RU"

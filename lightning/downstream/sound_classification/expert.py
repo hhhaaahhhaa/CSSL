@@ -39,8 +39,8 @@ class Expert(System):
         return nn.ModuleList([self.model])
 
     def build_saver(self):
-        saver = Saver(self.data_configs, self.log_dir, self.result_dir)
-        return saver
+        self.saver = Saver(self.data_configs, self.log_dir, self.result_dir)
+        return self.saver
 
     def common_step(self, batch, batch_idx, train=True):
         labels, repr_info = batch
@@ -73,6 +73,10 @@ class Expert(System):
         labels, repr_info = batch
         val_loss_dict, predictions, _ = self.common_step(batch, batch_idx)
 
+        if batch_idx == 0:
+            layer_weights = torch.nn.functional.softmax(self.model.ws.weight_raw, dim=0)
+            self.saver.log_layer_weights(self.logger, layer_weights.data, self.global_step + 1, "val")
+        
         # calculate classification acc
         acc = (labels["labels"] == predictions.argmax(dim=1)).sum() / len(predictions)
         self.log_dict({"Val/Acc": acc}, sync_dist=True, batch_size=self.bs)

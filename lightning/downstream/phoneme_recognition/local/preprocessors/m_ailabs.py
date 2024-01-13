@@ -82,7 +82,7 @@ class MAILABSPreprocessor(BasePreprocessor):
         with open(f"data_config/M-AILABS/{self.lang}/config.yaml", 'w') as yamlfile:
             config = {
                 "name": f"M-AILABS/{self.lang}",
-                "lang_id": "",  # TODO: Create mapping from self.lang to ISO code 
+                "lang_id": "ru",  # TODO: Create mapping from self.lang to ISO code 
                 "data_dir": self.data_parser.root,
                 "subsets": {
                     "train": "train.json",

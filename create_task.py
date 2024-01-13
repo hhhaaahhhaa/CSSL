@@ -67,9 +67,40 @@ def exp1b():
     os.makedirs(root, exist_ok=True)
 
     tasks = [
-        "lightning/systems/CTrain/hubert/data_config/ESC50",
+        "lightning/systems/CTrain/hubert/data_config/AISHELL-3",
+        "lightning/systems/CTrain/hubert/data_config/kss",
+        "lightning/systems/CTrain/hubert/data_config/M-AILABS/ru_RU",
+        "lightning/systems/CTrain/hubert/data_config/LibriTTS",
+    ]
+    with open(f"{root}/config.yaml", 'w') as f:
+        yaml.dump({"tasks": tasks}, f)
+    
+    # create tid sequence
+    tid_seq, saving_steps = [], []
+    for i in range(len(tasks)):
+        tid_seq.extend([i]* 40000)
+        saving_steps.append((i + 1) * 40000)
+    task_boundaries = [0] + saving_steps
+    
+    with open(f"{root}/tid_seq.json", 'w') as f:
+        json.dump(tid_seq, f)
+
+    with open(f"{root}/saving_steps.json", 'w') as f:
+        json.dump(saving_steps, f)
+
+    with open(f"{root}/task_boundaries.json", 'w') as f:
+        json.dump(task_boundaries, f)
+
+
+def exp2a():
+    root = "task_config/exp2a-seq"
+    os.makedirs(root, exist_ok=True)
+
+    tasks = [
         "lightning/systems/CTrain/hubert/data_config/Urban8K",
         "lightning/systems/CTrain/hubert/data_config/TAU2019UAS",
+        "lightning/systems/CTrain/hubert/data_config/VocalSet",
+        "lightning/systems/CTrain/hubert/data_config/fma",
     ]
     with open(f"{root}/config.yaml", 'w') as f:
         yaml.dump({"tasks": tasks}, f)
@@ -92,6 +123,7 @@ def exp1b():
 
 
 if __name__ == "__main__":
-    debug()
-    exp1a()
-    exp1b()
+    # debug()
+    # exp1a()
+    # exp1b()
+    exp2a()

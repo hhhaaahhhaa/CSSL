@@ -1,6 +1,6 @@
 ewc_loss_weight: 0.001
 lr:
-  backbone: 0.0005
-  head: 0.0005
+  backbone: 0.00005
+  head: 0.01
   warmup: 0.01
 task_warmup_step: 1000

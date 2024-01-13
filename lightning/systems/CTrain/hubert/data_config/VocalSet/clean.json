@@ -1,0 +1,5210 @@
+[
+    {
+        "basename": "female6-f6_scales_lip_trill_u"
+    },
+    {
+        "basename": "female6-f6_scales_lip_trill_a"
+    },
+    {
+        "basename": "female6-f6_scales_lip_trill_o"
+    },
+    {
+        "basename": "female6-f6_scales_lip_trill_e"
+    },
+    {
+        "basename": "female6-f6_scales_lip_trill_i"
+    },
+    {
+        "basename": "female6-f6_scales_vibrato_e"
+    },
+    {
+        "basename": "female6-f6_scales_vibrato_o"
+    },
+    {
+        "basename": "female6-f6_scales_vibrato_u"
+    },
+    {
+        "basename": "female6-f6_scales_vibrato_a"
+    },
+    {
+        "basename": "female6-f6_scales_vibrato_i"
+    },
+    {
+        "basename": "female6-f6_scales_straight_i"
+    },
+    {
+        "basename": "female6-f6_scales_straight_u"
+    },
+    {
+        "basename": "female6-f6_scales_straight_o"
+    },
+    {
+        "basename": "female6-f6_scales_straight_a"
+    },
+    {
+        "basename": "female6-f6_scales_straight_e"
+    },
+    {
+        "basename": "female6-f6_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female6-f6_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female6-f6_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female6-f6_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female6-f6_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female6-f6_scales_breathy_i"
+    },
+    {
+        "basename": "female6-f6_scales_breathy_e"
+    },
+    {
+        "basename": "female6-f6_scales_breathy_u"
+    },
+    {
+        "basename": "female6-f6_scales_breathy_o"
+    },
+    {
+        "basename": "female6-f6_scales_breathy_a"
+    },
+    {
+        "basename": "female6-f6_scales_belt_o"
+    },
+    {
+        "basename": "female6-f6_scales_belt_i"
+    },
+    {
+        "basename": "female6-f6_scales_belt_a"
+    },
+    {
+        "basename": "female6-f6_scales_belt_u"
+    },
+    {
+        "basename": "female6-f6_scales_belt_e"
+    },
+    {
+        "basename": "female6-f6_row_spoken"
+    },
+    {
+        "basename": "female6-f6_caro_vibrato"
+    },
+    {
+        "basename": "female6-f6_row_vibrato"
+    },
+    {
+        "basename": "female6-f6_dona_vibrato"
+    },
+    {
+        "basename": "female6-f6_dona_straight"
+    },
+    {
+        "basename": "female6-f6_caro_straight"
+    },
+    {
+        "basename": "female6-f6_row_straight"
+    },
+    {
+        "basename": "female6-f6_long_straight_i"
+    },
+    {
+        "basename": "female6-f6_long_straight_o"
+    },
+    {
+        "basename": "female6-f6_long_straight_e"
+    },
+    {
+        "basename": "female6-f6_long_straight_u"
+    },
+    {
+        "basename": "female6-f6_long_straight_a"
+    },
+    {
+        "basename": "female6-f6_long_inhaled_i"
+    },
+    {
+        "basename": "female6-f6_long_inhaled_u"
+    },
+    {
+        "basename": "female6-f6_long_inhaled_e"
+    },
+    {
+        "basename": "female6-f6_long_inhaled_o"
+    },
+    {
+        "basename": "female6-f6_long_inhaled_a"
+    },
+    {
+        "basename": "female6-f6_long_trill_o"
+    },
+    {
+        "basename": "female6-f6_long_trill_u"
+    },
+    {
+        "basename": "female6-f6_long_trill_a"
+    },
+    {
+        "basename": "female6-f6_long_trill_i"
+    },
+    {
+        "basename": "female6-f6_long_trill_e"
+    },
+    {
+        "basename": "female6-f6_long_trillo_a"
+    },
+    {
+        "basename": "female6-f6_long_trillo_e"
+    },
+    {
+        "basename": "female6-f6_long_trillo_o"
+    },
+    {
+        "basename": "female6-f6_long_trillo_i"
+    },
+    {
+        "basename": "female6-f6_long_trillo_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_straight_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_straight_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_straight_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_straight_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_straight_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_2_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_1_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_1_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_2_i"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_1_e"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_2_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_1_a"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_2_u"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_1_o"
+    },
+    {
+        "basename": "female6-f6_arpeggios_belt_2_o"
+    },
+    {
+        "basename": "female3-f3_scales_lip_trill_o"
+    },
+    {
+        "basename": "female3-f3_scales_lip_trill_i"
+    },
+    {
+        "basename": "female3-f3_scales_lip_trill_u"
+    },
+    {
+        "basename": "female3-f3_scales_lip_trill_e"
+    },
+    {
+        "basename": "female3-f3_scales_lip_trill_a"
+    },
+    {
+        "basename": "female3-f3_scales_vibrato_o"
+    },
+    {
+        "basename": "female3-f3_scales_vibrato_a"
+    },
+    {
+        "basename": "female3-f3_scales_vibrato_u"
+    },
+    {
+        "basename": "female3-f3_scales_vibrato_e"
+    },
+    {
+        "basename": "female3-f3_scales_vibrato_i"
+    },
+    {
+        "basename": "female3-f3_scales_straight_i"
+    },
+    {
+        "basename": "female3-f3_scales_straight_o"
+    },
+    {
+        "basename": "female3-f3_scales_straight_a"
+    },
+    {
+        "basename": "female3-f3_scales_straight_u"
+    },
+    {
+        "basename": "female3-f3_scales_straight_e"
+    },
+    {
+        "basename": "female3-f3_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female3-f3_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female3-f3_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female3-f3_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female3-f3_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female3-f3_scales_breathy_u"
+    },
+    {
+        "basename": "female3-f3_scales_breathy_e"
+    },
+    {
+        "basename": "female3-f3_scales_breathy_i"
+    },
+    {
+        "basename": "female3-f3_scales_breathy_a"
+    },
+    {
+        "basename": "female3-f3_scales_breathy_o"
+    },
+    {
+        "basename": "female3-f3_scales_belt_o"
+    },
+    {
+        "basename": "female3-f3_scales_belt_a"
+    },
+    {
+        "basename": "female3-f3_scales_belt_u"
+    },
+    {
+        "basename": "female3-f3_scales_belt_e"
+    },
+    {
+        "basename": "female3-f3_scales_belt_i"
+    },
+    {
+        "basename": "female3-f3_row_spoken"
+    },
+    {
+        "basename": "female3-f3_caro_vibrato"
+    },
+    {
+        "basename": "female3-f3_row_vibrato"
+    },
+    {
+        "basename": "female3-f3_dona_vibrato"
+    },
+    {
+        "basename": "female3-f3_dona_straight"
+    },
+    {
+        "basename": "female3-f3_row_straight"
+    },
+    {
+        "basename": "female3-f3_caro_straight"
+    },
+    {
+        "basename": "female3-f3_long_straight_a"
+    },
+    {
+        "basename": "female3-f3_long_straight_u"
+    },
+    {
+        "basename": "female3-f3_long_straight_o"
+    },
+    {
+        "basename": "female3-f3_long_straight_i"
+    },
+    {
+        "basename": "female3-f3_long_straight_e"
+    },
+    {
+        "basename": "female3-f3_long_inhaled_e"
+    },
+    {
+        "basename": "female3-f3_long_inhaled_o"
+    },
+    {
+        "basename": "female3-f3_long_inhaled_i"
+    },
+    {
+        "basename": "female3-f3_long_inhaled_a"
+    },
+    {
+        "basename": "female3-f3_long_inhaled_u"
+    },
+    {
+        "basename": "female3-f3_long_trill_e"
+    },
+    {
+        "basename": "female3-f3_long_trill_i"
+    },
+    {
+        "basename": "female3-f3_long_trill_u"
+    },
+    {
+        "basename": "female3-f3_long_trill_a"
+    },
+    {
+        "basename": "female3-f3_long_trill_o"
+    },
+    {
+        "basename": "female3-f3_long_trillo_o"
+    },
+    {
+        "basename": "female3-f3_long_trillo_a"
+    },
+    {
+        "basename": "female3-f3_long_trillo_i"
+    },
+    {
+        "basename": "female3-f3_long_trillo_e"
+    },
+    {
+        "basename": "female3-f3_long_trillo_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female3-f3_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female3-f3_arpeggios_straight_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_straight_o"
+    },
+    {
+        "basename": "female3-f3_arpeggios_straight_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_straight_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_straight_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female3-f3_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female3-f3_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_belt_i"
+    },
+    {
+        "basename": "female3-f3_arpeggios_belt_u"
+    },
+    {
+        "basename": "female3-f3_arpeggios_belt_e"
+    },
+    {
+        "basename": "female3-f3_arpeggios_belt_a"
+    },
+    {
+        "basename": "female3-f3_arpeggios_belt_o"
+    },
+    {
+        "basename": "male2-m2_scales_lip_trill_i"
+    },
+    {
+        "basename": "male2-m2_scales_lip_trill_e"
+    },
+    {
+        "basename": "male2-m2_scales_lip_trill_o"
+    },
+    {
+        "basename": "male2-m2_scales_lip_trill_u"
+    },
+    {
+        "basename": "male2-m2_scales_lip_trill_a"
+    },
+    {
+        "basename": "male2-m2_scales_vibrato_u"
+    },
+    {
+        "basename": "male2-m2_scales_vibrato_i"
+    },
+    {
+        "basename": "male2-m2_scales_vibrato_a"
+    },
+    {
+        "basename": "male2-m2_scales_vibrato_o"
+    },
+    {
+        "basename": "male2-m2_scales_vibrato_e"
+    },
+    {
+        "basename": "male2-m2_scales_straight_a"
+    },
+    {
+        "basename": "male2-m2_scales_straight_i"
+    },
+    {
+        "basename": "male2-m2_scales_straight_o"
+    },
+    {
+        "basename": "male2-m2_scales_straight_e"
+    },
+    {
+        "basename": "male2-m2_scales_straight_u"
+    },
+    {
+        "basename": "male2-m2_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male2-m2_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male2-m2_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male2-m2_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male2-m2_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male2-m2_scales_breathy_u"
+    },
+    {
+        "basename": "male2-m2_scales_breathy_e"
+    },
+    {
+        "basename": "male2-m2_scales_breathy_a"
+    },
+    {
+        "basename": "male2-m2_scales_breathy_i"
+    },
+    {
+        "basename": "male2-m2_scales_breathy_o"
+    },
+    {
+        "basename": "male2-m2_scales_belt_i"
+    },
+    {
+        "basename": "male2-m2_scales_belt_o"
+    },
+    {
+        "basename": "male2-m2_scales_belt_a"
+    },
+    {
+        "basename": "male2-m2_scales_belt_e"
+    },
+    {
+        "basename": "male2-m2_scales_belt_u"
+    },
+    {
+        "basename": "male2-m2_row_spoken"
+    },
+    {
+        "basename": "male2-m2_row_vibrato"
+    },
+    {
+        "basename": "male2-m2_caro_vibrato"
+    },
+    {
+        "basename": "male2-m2_dona_straight"
+    },
+    {
+        "basename": "male2-m2_caro_straight"
+    },
+    {
+        "basename": "male2-m2_row_straight"
+    },
+    {
+        "basename": "male2-m2_long_straight_a"
+    },
+    {
+        "basename": "male2-m2_long_straight_o"
+    },
+    {
+        "basename": "male2-m2_long_straight_e"
+    },
+    {
+        "basename": "male2-m2_long_straight_i"
+    },
+    {
+        "basename": "male2-m2_long_straight_u"
+    },
+    {
+        "basename": "male2-m2_long_inhaled_a"
+    },
+    {
+        "basename": "male2-m2_long_inhaled_e"
+    },
+    {
+        "basename": "male2-m2_long_inhaled_o"
+    },
+    {
+        "basename": "male2-m2_long_inhaled_i"
+    },
+    {
+        "basename": "male2-m2_long_inhaled_u"
+    },
+    {
+        "basename": "male2-m2_long_trill_a"
+    },
+    {
+        "basename": "male2-m2_long_trill_i"
+    },
+    {
+        "basename": "male2-m2_long_trill_e"
+    },
+    {
+        "basename": "male2-m2_long_trill_u"
+    },
+    {
+        "basename": "male2-m2_long_trill_o"
+    },
+    {
+        "basename": "male2-m2_long_trillo_a"
+    },
+    {
+        "basename": "male2-m2_long_trillo_u"
+    },
+    {
+        "basename": "male2-m2_long_trillo_e"
+    },
+    {
+        "basename": "male2-m2_long_trillo_o"
+    },
+    {
+        "basename": "male2-m2_long_trillo_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male2-m2_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_straight_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_straight_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_straight_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_straight_a"
+    },
+    {
+        "basename": "male2-m2_arpeggios_straight_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male2-m2_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male2-m2_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_belt_u"
+    },
+    {
+        "basename": "male2-m2_arpeggios_belt_o"
+    },
+    {
+        "basename": "male2-m2_arpeggios_belt_i"
+    },
+    {
+        "basename": "male2-m2_arpeggios_belt_e"
+    },
+    {
+        "basename": "male2-m2_arpeggios_belt_a"
+    },
+    {
+        "basename": "male5-m5_scales_lip_trill_i"
+    },
+    {
+        "basename": "male5-m5_scales_lip_trill_e"
+    },
+    {
+        "basename": "male5-m5_scales_lip_trill_o"
+    },
+    {
+        "basename": "male5-m5_scales_lip_trill_a"
+    },
+    {
+        "basename": "male5-m5_scales_lip_trill_u"
+    },
+    {
+        "basename": "male5-m5_scales_vibrato_i"
+    },
+    {
+        "basename": "male5-m5_scales_vibrato_e"
+    },
+    {
+        "basename": "male5-m5_scales_vibrato_u"
+    },
+    {
+        "basename": "male5-m5_scales_vibrato_a"
+    },
+    {
+        "basename": "male5-m5_scales_vibrato_o"
+    },
+    {
+        "basename": "male5-m5_scales_straight_u"
+    },
+    {
+        "basename": "male5-m5_scales_straight_i"
+    },
+    {
+        "basename": "male5-m5_scales_straight_e"
+    },
+    {
+        "basename": "male5-m5_scales_straight_o"
+    },
+    {
+        "basename": "male5-m5_scales_straight_a"
+    },
+    {
+        "basename": "male5-m5_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male5-m5_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male5-m5_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male5-m5_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male5-m5_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male5-m5_scales_breathy_a"
+    },
+    {
+        "basename": "male5-m5_scales_breathy_i"
+    },
+    {
+        "basename": "male5-m5_scales_breathy_e"
+    },
+    {
+        "basename": "male5-m5_scales_breathy_u"
+    },
+    {
+        "basename": "male5-m5_scales_breathy_o"
+    },
+    {
+        "basename": "male5-m5_scales_belt_i"
+    },
+    {
+        "basename": "male5-m5_scales_belt_o"
+    },
+    {
+        "basename": "male5-m5_scales_belt_u"
+    },
+    {
+        "basename": "male5-m5_scales_belt_e"
+    },
+    {
+        "basename": "male5-m5_scales_belt_a"
+    },
+    {
+        "basename": "male5-m5_row_spoken"
+    },
+    {
+        "basename": "male5-m5_caro_vibrato"
+    },
+    {
+        "basename": "male5-m5_dona_vibrato"
+    },
+    {
+        "basename": "male5-m5_row_vibrato"
+    },
+    {
+        "basename": "male5-m5_row_straight"
+    },
+    {
+        "basename": "male5-m5_caro_straight"
+    },
+    {
+        "basename": "male5-m5_dona_straight"
+    },
+    {
+        "basename": "male5-m5_long_straight_a"
+    },
+    {
+        "basename": "male5-m5_long_straight_o"
+    },
+    {
+        "basename": "male5-m5_long_straight_u"
+    },
+    {
+        "basename": "male5-m5_long_straight_i"
+    },
+    {
+        "basename": "male5-m5_long_straight_e"
+    },
+    {
+        "basename": "male5-m5_long_inhaled_i"
+    },
+    {
+        "basename": "male5-m5_long_inhaled_e"
+    },
+    {
+        "basename": "male5-m5_long_inhaled_u"
+    },
+    {
+        "basename": "male5-m5_long_inhaled_a"
+    },
+    {
+        "basename": "male5-m5_long_inhaled_o"
+    },
+    {
+        "basename": "male5-m5_long_trill_i"
+    },
+    {
+        "basename": "male5-m5_long_trill_a"
+    },
+    {
+        "basename": "male5-m5_long_trill_o"
+    },
+    {
+        "basename": "male5-m5_long_trill_e"
+    },
+    {
+        "basename": "male5-m5_long_trill_u"
+    },
+    {
+        "basename": "male5-m5_long_trillo_a"
+    },
+    {
+        "basename": "male5-m5_long_trillo_u"
+    },
+    {
+        "basename": "male5-m5_long_trillo_e"
+    },
+    {
+        "basename": "male5-m5_long_trillo_o"
+    },
+    {
+        "basename": "male5-m5_long_trillo_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male5-m5_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_straight_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_straight_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_straight_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_straight_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_straight_o"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male5-m5_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male5-m5_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_belt_u"
+    },
+    {
+        "basename": "male5-m5_arpeggios_belt_a"
+    },
+    {
+        "basename": "male5-m5_arpeggios_belt_e"
+    },
+    {
+        "basename": "male5-m5_arpeggios_belt_i"
+    },
+    {
+        "basename": "male5-m5_arpeggios_belt_o"
+    },
+    {
+        "basename": "male8-m8_scales_lip_trill_e"
+    },
+    {
+        "basename": "male8-m8_scales_lip_trill_o"
+    },
+    {
+        "basename": "male8-m8_scales_lip_trill_i"
+    },
+    {
+        "basename": "male8-m8_scales_lip_trill_u"
+    },
+    {
+        "basename": "male8-m8_scales_lip_trill_a"
+    },
+    {
+        "basename": "male8-m8_scales_vibrato_o"
+    },
+    {
+        "basename": "male8-m8_scales_vibrato_a"
+    },
+    {
+        "basename": "male8-m8_scales_vibrato_e"
+    },
+    {
+        "basename": "male8-m8_scales_vibrato_u"
+    },
+    {
+        "basename": "male8-m8_scales_vibrato_i"
+    },
+    {
+        "basename": "male8-m8_scales_straight_a"
+    },
+    {
+        "basename": "male8-m8_scales_straight_e"
+    },
+    {
+        "basename": "male8-m8_scales_straight_i"
+    },
+    {
+        "basename": "male8-m8_scales_straight_u"
+    },
+    {
+        "basename": "male8-m8_scales_straight_o"
+    },
+    {
+        "basename": "male8-m8_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male8-m8_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male8-m8_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male8-m8_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male8-m8_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male8-m8_scales_breathy_u"
+    },
+    {
+        "basename": "male8-m8_scales_breathy_e"
+    },
+    {
+        "basename": "male8-m8_scales_breathy_o"
+    },
+    {
+        "basename": "male8-m8_scales_breathy_a"
+    },
+    {
+        "basename": "male8-m8_scales_breathy_i"
+    },
+    {
+        "basename": "male8-m8_scales_belt_i"
+    },
+    {
+        "basename": "male8-m8_scales_belt_a"
+    },
+    {
+        "basename": "male8-m8_scales_belt_u"
+    },
+    {
+        "basename": "male8-m8_scales_belt_o"
+    },
+    {
+        "basename": "male8-m8_scales_belt_e"
+    },
+    {
+        "basename": "male8-m8_row_spoken"
+    },
+    {
+        "basename": "male8-m9_caro_vibrato"
+    },
+    {
+        "basename": "male8-m8_dona_vibrato"
+    },
+    {
+        "basename": "male8-m8_row_vibrato"
+    },
+    {
+        "basename": "male8-m8_dona_straight"
+    },
+    {
+        "basename": "male8-row_straight"
+    },
+    {
+        "basename": "male8-m8_caro_straight"
+    },
+    {
+        "basename": "male8-m8_long_straight_u"
+    },
+    {
+        "basename": "male8-m8_long_straight_o"
+    },
+    {
+        "basename": "male8-m8_long_straight_a"
+    },
+    {
+        "basename": "male8-m8_long_straight_e"
+    },
+    {
+        "basename": "male8-m8_long_straight_i"
+    },
+    {
+        "basename": "male8-m8_long_inhaled_o"
+    },
+    {
+        "basename": "male8-m8_long_inhaled_i"
+    },
+    {
+        "basename": "male8-m8_long_inhaled_e"
+    },
+    {
+        "basename": "male8-m8_long_inhaled_u"
+    },
+    {
+        "basename": "male8-m8_long_inhaled_a"
+    },
+    {
+        "basename": "male8-m8_long_trill_e"
+    },
+    {
+        "basename": "male8-m8_long_trill_u"
+    },
+    {
+        "basename": "male8-m8_long_trill_i"
+    },
+    {
+        "basename": "male8-m8_long_trill_a"
+    },
+    {
+        "basename": "male8-m8_long_trill_o"
+    },
+    {
+        "basename": "male8-m8_long_trillo_i"
+    },
+    {
+        "basename": "male8-m8_long_trillo_a"
+    },
+    {
+        "basename": "male8-m8_long_trillo_o"
+    },
+    {
+        "basename": "male8-m8_long_trillo_e"
+    },
+    {
+        "basename": "male8-m8_long_trillo_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male8-m8_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_straight_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_straight_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_straight_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_straight_e"
+    },
+    {
+        "basename": "male8-m8_arpeggios_straight_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male8-m8_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_belt_u"
+    },
+    {
+        "basename": "male8-m8_arpeggios_belt_a"
+    },
+    {
+        "basename": "male8-m8_arpeggios_belt_o"
+    },
+    {
+        "basename": "male8-m8_arpeggios_belt_i"
+    },
+    {
+        "basename": "male8-m8_arpeggios_belt_e"
+    },
+    {
+        "basename": "female8-f8_scales_lip_trill_o"
+    },
+    {
+        "basename": "female8-f8_scales_lip_trill_a"
+    },
+    {
+        "basename": "female8-f8_scales_lip_trill_e"
+    },
+    {
+        "basename": "female8-f8_scales_lip_trill_i"
+    },
+    {
+        "basename": "female8-f8_scales_lip_trill_u"
+    },
+    {
+        "basename": "female8-f8_scales_vibrato_e"
+    },
+    {
+        "basename": "female8-f8_scales_vibrato_o"
+    },
+    {
+        "basename": "female8-f8_scales_vibrato_i"
+    },
+    {
+        "basename": "female8-f8_scales_vibrato_a"
+    },
+    {
+        "basename": "female8-f8_scales_vibrato_u"
+    },
+    {
+        "basename": "female8-f8_scales_straight_o"
+    },
+    {
+        "basename": "female8-f8_scales_straight_i"
+    },
+    {
+        "basename": "female8-f8_scales_straight_e"
+    },
+    {
+        "basename": "female8-f8_scales_straight_a"
+    },
+    {
+        "basename": "female8-f8_scales_straight_u"
+    },
+    {
+        "basename": "female8-f8_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female8-f8_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female8-f8_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female8-f8_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female8-f8_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female8-f8_scales_breathy_o"
+    },
+    {
+        "basename": "female8-f8_scales_breathy_a"
+    },
+    {
+        "basename": "female8-f8_scales_breathy_i"
+    },
+    {
+        "basename": "female8-f8_scales_breathy_u"
+    },
+    {
+        "basename": "female8-f8_scales_breathy_e"
+    },
+    {
+        "basename": "female8-f8_scales_belt_o"
+    },
+    {
+        "basename": "female8-f8_scales_belt_a"
+    },
+    {
+        "basename": "female8-f8_scales_belt_u"
+    },
+    {
+        "basename": "female8-f8_scales_belt_e"
+    },
+    {
+        "basename": "female8-f8_scales_belt_i"
+    },
+    {
+        "basename": "female8-f8_row_spoken"
+    },
+    {
+        "basename": "female8-f8_row_vibrato"
+    },
+    {
+        "basename": "female8-f8_caro_vibrato"
+    },
+    {
+        "basename": "female8-f8_dona_vibrato"
+    },
+    {
+        "basename": "female8-f8_caro_straight"
+    },
+    {
+        "basename": "female8-f8_row_straight"
+    },
+    {
+        "basename": "female8-f8_dona_straight"
+    },
+    {
+        "basename": "female8-f8_long_straight_a"
+    },
+    {
+        "basename": "female8-f8_long_straight_i"
+    },
+    {
+        "basename": "female8-f8_long_straight_e"
+    },
+    {
+        "basename": "female8-f8_long_straight_o"
+    },
+    {
+        "basename": "female8-f8_long_straight_u"
+    },
+    {
+        "basename": "female8-f8_long_inhaled_e"
+    },
+    {
+        "basename": "female8-f8_long_inhaled_a"
+    },
+    {
+        "basename": "female8-f8_long_inhaled_i"
+    },
+    {
+        "basename": "female8-f8_long_inhaled_o"
+    },
+    {
+        "basename": "female8-f8_long_inhaled_u"
+    },
+    {
+        "basename": "female8-f8_long_trill_i"
+    },
+    {
+        "basename": "female8-f8_long_trill_a"
+    },
+    {
+        "basename": "female8-f8_long_trill_u"
+    },
+    {
+        "basename": "female8-f8_long_trill_e"
+    },
+    {
+        "basename": "female8-f8_long_trill_o"
+    },
+    {
+        "basename": "female8-f8_long_trillo_a"
+    },
+    {
+        "basename": "female8-f8_long_trillo_i"
+    },
+    {
+        "basename": "female8-f8_long_trillo_e"
+    },
+    {
+        "basename": "female8-f8_long_trillo_o"
+    },
+    {
+        "basename": "female8-f8_long_trillo_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female8-f8_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_straight_a"
+    },
+    {
+        "basename": "female8-f8_arpeggios_straight_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_straight_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_straight_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_straight_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female8-f8_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_belt_u"
+    },
+    {
+        "basename": "female8-f8_arpeggios_belt_i"
+    },
+    {
+        "basename": "female8-f8_arpeggios_belt_e"
+    },
+    {
+        "basename": "female8-f8_arpeggios_belt_o"
+    },
+    {
+        "basename": "female8-f8_arpeggios_belt_a"
+    },
+    {
+        "basename": "female5-f5_scales_lip_trill_u"
+    },
+    {
+        "basename": "female5-f5_scales_lip_trill_i"
+    },
+    {
+        "basename": "female5-f5_scales_lip_trill_e"
+    },
+    {
+        "basename": "female5-f5_scales_lip_trill_a"
+    },
+    {
+        "basename": "female5-f5_scales_lip_trill_o"
+    },
+    {
+        "basename": "female5-f5_scales_vibrato_a"
+    },
+    {
+        "basename": "female5-f5_scales_vibrato_o"
+    },
+    {
+        "basename": "female5-f5_scales_vibrato_e"
+    },
+    {
+        "basename": "female5-f5_scales_vibrato_u"
+    },
+    {
+        "basename": "female5-f5_scales_vibrato_i"
+    },
+    {
+        "basename": "female5-f5_scales_straight_a"
+    },
+    {
+        "basename": "female5-f5_scales_straight_e"
+    },
+    {
+        "basename": "female5-f5_scales_straight_u"
+    },
+    {
+        "basename": "female5-f5_scales_straight_o"
+    },
+    {
+        "basename": "female5-f5_scales_straight_i"
+    },
+    {
+        "basename": "female5-f5_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female5-f5_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female5-f5_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female5-f5_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female5-f5_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female5-f5_scales_breathy_a"
+    },
+    {
+        "basename": "female5-f5_scales_breathy_i"
+    },
+    {
+        "basename": "female5-f5_scales_breathy_e"
+    },
+    {
+        "basename": "female5-f5_scales_breathy_o"
+    },
+    {
+        "basename": "female5-f5_scales_breathy_u"
+    },
+    {
+        "basename": "female5-f5_scales_belt_o"
+    },
+    {
+        "basename": "female5-f5_scales_belt_u"
+    },
+    {
+        "basename": "female5-f5_scales_belt_i"
+    },
+    {
+        "basename": "female5-f5_scales_belt_a"
+    },
+    {
+        "basename": "female5-f5_scales_belt_e"
+    },
+    {
+        "basename": "female5-f5_row_spoken"
+    },
+    {
+        "basename": "female5-f5_row_vibrato"
+    },
+    {
+        "basename": "female5-f5_caro_vibrato"
+    },
+    {
+        "basename": "female5-f5_dona_vibrato"
+    },
+    {
+        "basename": "female5-f5_row_straight"
+    },
+    {
+        "basename": "female5-f5_dona_straight"
+    },
+    {
+        "basename": "female5-f5_caro_straight"
+    },
+    {
+        "basename": "female5-f5_long_straight_a"
+    },
+    {
+        "basename": "female5-f5_long_straight_e"
+    },
+    {
+        "basename": "female5-f5_long_straight_u"
+    },
+    {
+        "basename": "female5-f5_long_straight_i"
+    },
+    {
+        "basename": "female5-f5_long_straight_o"
+    },
+    {
+        "basename": "female5-f5_long_inhaled_o"
+    },
+    {
+        "basename": "female5-f5_long_inhaled_u"
+    },
+    {
+        "basename": "female5-f5_long_inhaled_a"
+    },
+    {
+        "basename": "female5-f5_long_inhaled_e"
+    },
+    {
+        "basename": "female5-f5_long_inhaled_i"
+    },
+    {
+        "basename": "female5-f5_long_trill_i"
+    },
+    {
+        "basename": "female5-f5_long_trill_e"
+    },
+    {
+        "basename": "female5-f5_long_trill_a"
+    },
+    {
+        "basename": "female5-f5_long_trill_o"
+    },
+    {
+        "basename": "female5-f5_long_trill_u"
+    },
+    {
+        "basename": "female5-f5_long_trillo_e"
+    },
+    {
+        "basename": "female5-f5_long_trillo_a"
+    },
+    {
+        "basename": "female5-f5_long_trillo_o"
+    },
+    {
+        "basename": "female5-f5_long_trillo_u"
+    },
+    {
+        "basename": "female5-f5_long_trillo_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female5-f5_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_straight_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_straight_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_straight_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_straight_o"
+    },
+    {
+        "basename": "female5-f5_arpeggios_straight_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female5-f5_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_belt_a"
+    },
+    {
+        "basename": "female5-f5_arpeggios_belt_i"
+    },
+    {
+        "basename": "female5-f5_arpeggios_belt_u"
+    },
+    {
+        "basename": "female5-f5_arpeggios_belt_e"
+    },
+    {
+        "basename": "female5-f5_arpeggios_belt_o"
+    },
+    {
+        "basename": "male10-m10_scales_lip_trill_u"
+    },
+    {
+        "basename": "male10-m10_scales_lip_trill_o"
+    },
+    {
+        "basename": "male10-m10_scales_lip_trill_a"
+    },
+    {
+        "basename": "male10-m10_scales_lip_trill_e"
+    },
+    {
+        "basename": "male10-m10_scales_lip_trill_i"
+    },
+    {
+        "basename": "male10-m10_scales_vibrato_u"
+    },
+    {
+        "basename": "male10-m10_scales_vibrato_i"
+    },
+    {
+        "basename": "male10-m10_scales_vibrato_a"
+    },
+    {
+        "basename": "male10-m10_scales_vibrato_o"
+    },
+    {
+        "basename": "male10-m10_scales_vibrato_e"
+    },
+    {
+        "basename": "male10-m10_scales_straight_i"
+    },
+    {
+        "basename": "male10-m10_scales_straight_e"
+    },
+    {
+        "basename": "male10-m10_scales_straight_o"
+    },
+    {
+        "basename": "male10-m10_scales_straight_u"
+    },
+    {
+        "basename": "male10-m10_scales_straight_a"
+    },
+    {
+        "basename": "male10-m10_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male10-m10_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male10-m10_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male10-m10_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male10-m10_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male10-m10_scales_breathy_e"
+    },
+    {
+        "basename": "male10-m10_scales_breathy_u"
+    },
+    {
+        "basename": "male10-m10_scales_breathy_i"
+    },
+    {
+        "basename": "male10-m10_scales_breathy_o"
+    },
+    {
+        "basename": "male10-m10_scales_breathy_a"
+    },
+    {
+        "basename": "male10-m10_scales_belt_e"
+    },
+    {
+        "basename": "male10-m10_scales_belt_o"
+    },
+    {
+        "basename": "male10-m10_scales_belt_a"
+    },
+    {
+        "basename": "male10-m10_scales_belt_i"
+    },
+    {
+        "basename": "male10-m10_scales_belt_u"
+    },
+    {
+        "basename": "male10-m10_row_spoken"
+    },
+    {
+        "basename": "male10-dona_vibrato"
+    },
+    {
+        "basename": "male10-caro_vibrato"
+    },
+    {
+        "basename": "male10-row_vibrato"
+    },
+    {
+        "basename": "male10-m10_dona_straight"
+    },
+    {
+        "basename": "male10-m10_row_straight"
+    },
+    {
+        "basename": "male10-m10_caro_straight"
+    },
+    {
+        "basename": "male10-m10_long_straight_i"
+    },
+    {
+        "basename": "male10-m10_long_straight_o"
+    },
+    {
+        "basename": "male10-m10_long_straight_e"
+    },
+    {
+        "basename": "male10-m10_long_straight_u"
+    },
+    {
+        "basename": "male10-m10_long_straight_a"
+    },
+    {
+        "basename": "male10-m10_long_inhaled_o"
+    },
+    {
+        "basename": "male10-m10_long_inhaled_a"
+    },
+    {
+        "basename": "male10-m10_long_inhaled_u"
+    },
+    {
+        "basename": "male10-m10_long_inhaled_e"
+    },
+    {
+        "basename": "male10-m10_long_inhaled_i"
+    },
+    {
+        "basename": "male10-m10_long_trill_a"
+    },
+    {
+        "basename": "male10-m10_long_trill_u"
+    },
+    {
+        "basename": "male10-m10_long_trill_e"
+    },
+    {
+        "basename": "male10-m10_long_trill_i"
+    },
+    {
+        "basename": "male10-m10_long_trill_o"
+    },
+    {
+        "basename": "male10-m10_long_trillo_e"
+    },
+    {
+        "basename": "male10-m10_long_trillo_i"
+    },
+    {
+        "basename": "male10-m10_long_trillo_o"
+    },
+    {
+        "basename": "male10-m10_long_trillo_u"
+    },
+    {
+        "basename": "male10-m10_long_trillo_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male10-m10_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_straight_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_straight_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_straight_o"
+    },
+    {
+        "basename": "male10-m10_arpeggios_straight_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_straight_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male10-m10_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male10-m10_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_belt_e"
+    },
+    {
+        "basename": "male10-m10_arpeggios_belt_a"
+    },
+    {
+        "basename": "male10-m10_arpeggios_belt_i"
+    },
+    {
+        "basename": "male10-m10_arpeggios_belt_u"
+    },
+    {
+        "basename": "male10-m10_arpeggios_belt_o"
+    },
+    {
+        "basename": "male1-m1_scales_lip_trill_e"
+    },
+    {
+        "basename": "male1-m1_scales_lip_trill_i"
+    },
+    {
+        "basename": "male1-m1_scales_lip_trill_a"
+    },
+    {
+        "basename": "male1-m1_scales_lip_trill_u"
+    },
+    {
+        "basename": "male1-m1_scales_lip_trill_o"
+    },
+    {
+        "basename": "male1-m1_scales_vibrato_u"
+    },
+    {
+        "basename": "male1-m1_scales_vibrato_a"
+    },
+    {
+        "basename": "male1-m1_scales_vibrato_o"
+    },
+    {
+        "basename": "male1-m1_scales_vibrato_i"
+    },
+    {
+        "basename": "male1-m1_scales_vibrato_e"
+    },
+    {
+        "basename": "male1-m1_scales_straight_a"
+    },
+    {
+        "basename": "male1-m1_scales_straight_i"
+    },
+    {
+        "basename": "male1-m1_scales_straight_o"
+    },
+    {
+        "basename": "male1-m1_straight_tone_scales_u"
+    },
+    {
+        "basename": "male1-m1_scales_straight_e"
+    },
+    {
+        "basename": "male1-m1_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male1-m1_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male1-m1_scales_breathy_a"
+    },
+    {
+        "basename": "male1-m1_scales_breathy_u"
+    },
+    {
+        "basename": "male1-m1_scales_breathy_e"
+    },
+    {
+        "basename": "male1-m1_scales_breathy_i"
+    },
+    {
+        "basename": "male1-m1_scales_breathy_o"
+    },
+    {
+        "basename": "male1-m1_scales_belt_o"
+    },
+    {
+        "basename": "male1-m1_scales_belt_u"
+    },
+    {
+        "basename": "male1-m1_scales_belt_i"
+    },
+    {
+        "basename": "male1-m1_scales_belt_e"
+    },
+    {
+        "basename": "male1-m1_scales_belt_a"
+    },
+    {
+        "basename": "male1-m1_row_spoken"
+    },
+    {
+        "basename": "male1-m1_dona_vibrato"
+    },
+    {
+        "basename": "male1-m1_caro_vibrato"
+    },
+    {
+        "basename": "male1-m1_row_vibrato"
+    },
+    {
+        "basename": "male1-m1_caro_straight"
+    },
+    {
+        "basename": "male1-m1_row_straight"
+    },
+    {
+        "basename": "male1-m1_dona_straight"
+    },
+    {
+        "basename": "male1-m1_long_straight_o"
+    },
+    {
+        "basename": "male1-m1_long_straight_i"
+    },
+    {
+        "basename": "male1-m1_long_straight_e"
+    },
+    {
+        "basename": "male1-m1_long_straight_a"
+    },
+    {
+        "basename": "male1-m1_long_straight_u"
+    },
+    {
+        "basename": "male1-m1_long_inhaled_a"
+    },
+    {
+        "basename": "male1-m1_long_inhaled_u"
+    },
+    {
+        "basename": "male1-m1_long_inhaled_o"
+    },
+    {
+        "basename": "male1-m1_long_inhaled_e"
+    },
+    {
+        "basename": "male1-m1_long_inhaled_i"
+    },
+    {
+        "basename": "male1-m1_long_trill_e"
+    },
+    {
+        "basename": "male1-m1_long_trill_a"
+    },
+    {
+        "basename": "male1-m1_long_trill_o"
+    },
+    {
+        "basename": "male1-m1_long_trill_u"
+    },
+    {
+        "basename": "male1-m1_long_trill_i"
+    },
+    {
+        "basename": "male1-m1_long_trillo_u"
+    },
+    {
+        "basename": "male1-m1_long_trillo_o"
+    },
+    {
+        "basename": "male1-m1_long_trillo_i"
+    },
+    {
+        "basename": "male1-m1_long_trillo_e"
+    },
+    {
+        "basename": "male1-m1_long_trillo_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_straight_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_straight_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_straight_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_straight_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_straight_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male1-m1_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_belt_e"
+    },
+    {
+        "basename": "male1-m1_arpeggios_belt_u"
+    },
+    {
+        "basename": "male1-m1_arpeggios_belt_o"
+    },
+    {
+        "basename": "male1-m1_arpeggios_belt_i"
+    },
+    {
+        "basename": "male1-m1_arpeggios_belt_a"
+    },
+    {
+        "basename": "female7-f7_scales_lip_trill_o"
+    },
+    {
+        "basename": "female7-f7_scales_lip_trill_e"
+    },
+    {
+        "basename": "female7-f7_scales_lip_trill_i"
+    },
+    {
+        "basename": "female7-f7_scales_lip_trill_u"
+    },
+    {
+        "basename": "female7-f7_scales_lip_trill_a"
+    },
+    {
+        "basename": "female7-f7_scales_vibrato_o"
+    },
+    {
+        "basename": "female7-f7_scales_vibrato_i"
+    },
+    {
+        "basename": "female7-f7_scales_vibrato_u"
+    },
+    {
+        "basename": "female7-f7_scales_vibrato_a"
+    },
+    {
+        "basename": "female7-f7_scales_vibrato_e"
+    },
+    {
+        "basename": "female7-f7_scales_straight_e"
+    },
+    {
+        "basename": "female7-f7_scales_straight_u"
+    },
+    {
+        "basename": "female7-f7_scales_straight_o"
+    },
+    {
+        "basename": "female7-f7_scales_straight_i"
+    },
+    {
+        "basename": "female7-f7_scales_straight_a"
+    },
+    {
+        "basename": "female7-f7_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female7-f7_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female7-f7_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female7-f7_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female7-f7_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female7-f7_scales_breathy_i"
+    },
+    {
+        "basename": "female7-f7_scales_breathy_a"
+    },
+    {
+        "basename": "female7-f7_scales_breathy_u"
+    },
+    {
+        "basename": "female7-f7_scales_breathy_e"
+    },
+    {
+        "basename": "female7-f7_scales_breathy_o"
+    },
+    {
+        "basename": "female7-f7_scales_belt_a"
+    },
+    {
+        "basename": "female7-f7_scales_belt_i"
+    },
+    {
+        "basename": "female7-f7_scales_belt_u"
+    },
+    {
+        "basename": "female7-f7_scales_belt_o"
+    },
+    {
+        "basename": "female7-f7_scales_belt_e"
+    },
+    {
+        "basename": "female7-f7_row_spoken"
+    },
+    {
+        "basename": "female7-f7_dona_vibrato"
+    },
+    {
+        "basename": "female7-f7_row_vibrato"
+    },
+    {
+        "basename": "female7-f7_caro_vibrato"
+    },
+    {
+        "basename": "female7-f7_dona_straight"
+    },
+    {
+        "basename": "female7-f7_caro_straight"
+    },
+    {
+        "basename": "female7-f7_row_straight"
+    },
+    {
+        "basename": "female7-f7_long_straight_u"
+    },
+    {
+        "basename": "female7-f7_long_straight_e"
+    },
+    {
+        "basename": "female7-f7_long_straight_i"
+    },
+    {
+        "basename": "female7-f7_long_straight_o"
+    },
+    {
+        "basename": "female7-f7_long_straight_a"
+    },
+    {
+        "basename": "female7-f7_long_inhaled_e"
+    },
+    {
+        "basename": "female7-f7_long_inhaled_i"
+    },
+    {
+        "basename": "female7-f7_long_inhaled_o"
+    },
+    {
+        "basename": "female7-f7_long_inhaled_a"
+    },
+    {
+        "basename": "female7-f7_long_inhaled_u"
+    },
+    {
+        "basename": "female7-f7_long_trill_i"
+    },
+    {
+        "basename": "female7-f7_long_trill_a"
+    },
+    {
+        "basename": "female7-f7_long_trill_u"
+    },
+    {
+        "basename": "female7-f7_long_trill_o"
+    },
+    {
+        "basename": "female7-f7_long_trill_e"
+    },
+    {
+        "basename": "female7-f7_ long_trillo_i"
+    },
+    {
+        "basename": "female7-f7_ long_trillo_u"
+    },
+    {
+        "basename": "female7-f7_ long_trillo_a"
+    },
+    {
+        "basename": "female7-f7_ long_trillo_o"
+    },
+    {
+        "basename": "female7-f7_ long_trillo_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female7-f7_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_straight_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_straight_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_straight_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_straight_i"
+    },
+    {
+        "basename": "female7-f7_arpeggios_straight_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female7-f7_arpeggios_belt_e"
+    },
+    {
+        "basename": "female7-f7_arpeggios_belt_o"
+    },
+    {
+        "basename": "female7-f7_arpeggios_belt_u"
+    },
+    {
+        "basename": "female7-f7_arpeggios_belt_a"
+    },
+    {
+        "basename": "female7-f7_arpeggios_belt_i"
+    },
+    {
+        "basename": "female9-f9_scales_lip_trill_e"
+    },
+    {
+        "basename": "female9-f9_scales_lip_trill_o"
+    },
+    {
+        "basename": "female9-f9_scales_lip_trill_u"
+    },
+    {
+        "basename": "female9-f9_scales_lip_trill_a"
+    },
+    {
+        "basename": "female9-f9_scales_lip_trill_i"
+    },
+    {
+        "basename": "female9-f9_scales_vibrato_a"
+    },
+    {
+        "basename": "female9-f9_scales_vibrato_e"
+    },
+    {
+        "basename": "female9-f9_scales_vibrato_o"
+    },
+    {
+        "basename": "female9-f9_scales_vibrato_u"
+    },
+    {
+        "basename": "female9-f9_scales_vibrato_i"
+    },
+    {
+        "basename": "female9-f9_scales_straight_o"
+    },
+    {
+        "basename": "female9-f9_scales_straight_u"
+    },
+    {
+        "basename": "female9-f9_scales_straight_a"
+    },
+    {
+        "basename": "female9-f9_scales_straight_e"
+    },
+    {
+        "basename": "female9-f9_scales_straight_i"
+    },
+    {
+        "basename": "female9-f9_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female9-f9_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female9-f9_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female9-f9_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female9-f9_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female9-f9_scales_breathy_a"
+    },
+    {
+        "basename": "female9-f9_scales_breathy_i"
+    },
+    {
+        "basename": "female9-f9_scales_breathy_e"
+    },
+    {
+        "basename": "female9-f9_scales_breathy_o"
+    },
+    {
+        "basename": "female9-f9_scales_breathy_u"
+    },
+    {
+        "basename": "female9-f9_scales_belt_a"
+    },
+    {
+        "basename": "female9-f9_scales_belt_o"
+    },
+    {
+        "basename": "female9-f9_scales_belt_u"
+    },
+    {
+        "basename": "female9-f9_scales_belt_e"
+    },
+    {
+        "basename": "female9-f9_scales_belt_i"
+    },
+    {
+        "basename": "female9-f9_row_spoken"
+    },
+    {
+        "basename": "female9-f9_row_vibrato"
+    },
+    {
+        "basename": "female9-f9_dona_vibrato"
+    },
+    {
+        "basename": "female9-f9_caro_vibrato"
+    },
+    {
+        "basename": "female9-f9_caro_straight"
+    },
+    {
+        "basename": "female9-f9_dona_straight"
+    },
+    {
+        "basename": "female9-f9_row_straight"
+    },
+    {
+        "basename": "female9-f9_long_straight_e"
+    },
+    {
+        "basename": "female9-f9_long_straight_i"
+    },
+    {
+        "basename": "female9-f9_long_straight_a"
+    },
+    {
+        "basename": "female9-f9_long_straight_o"
+    },
+    {
+        "basename": "female9-f9_long_straight_u"
+    },
+    {
+        "basename": "female9-f9_long_inhaled_a"
+    },
+    {
+        "basename": "female9-f9_long_inhaled_e"
+    },
+    {
+        "basename": "female9-f9_long_inhaled_o"
+    },
+    {
+        "basename": "female9-f9_long_inhaled_i"
+    },
+    {
+        "basename": "female9-f9_long_inhaled_u"
+    },
+    {
+        "basename": "female9-f9_long_trill_i"
+    },
+    {
+        "basename": "female9-f9_long_trill_a"
+    },
+    {
+        "basename": "female9-f9_long_trill_o"
+    },
+    {
+        "basename": "female9-f9_long_trill_e"
+    },
+    {
+        "basename": "female9-f9_long_trill_u"
+    },
+    {
+        "basename": "female9-f9_long_trillo_a"
+    },
+    {
+        "basename": "female9-f9_long_trillo_u"
+    },
+    {
+        "basename": "female9-f9_long_trillo_o"
+    },
+    {
+        "basename": "female9-f9_long_trillo_i"
+    },
+    {
+        "basename": "female9-f9_long_trillo_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_straight_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_straight_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_straight_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_straight_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_straight_u"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female9-f9_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female9-f9_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_belt_a"
+    },
+    {
+        "basename": "female9-f9_arpeggios_belt_o"
+    },
+    {
+        "basename": "female9-f9_arpeggios_belt_e"
+    },
+    {
+        "basename": "female9-f9_arpeggios_belt_i"
+    },
+    {
+        "basename": "female9-f9_arpeggios_belt_u"
+    },
+    {
+        "basename": "female2-f2_scales_lip_trill_a"
+    },
+    {
+        "basename": "female2-f2_scales_lip_trill_o"
+    },
+    {
+        "basename": "female2-f2_scales_lip_trill_u"
+    },
+    {
+        "basename": "female2-f2_scales_lip_trill_e"
+    },
+    {
+        "basename": "female2-f2_scales_lip_trill_i"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_a(1)"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_a"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_e"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_o"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_u"
+    },
+    {
+        "basename": "female2-f2_scales_vibrato_i"
+    },
+    {
+        "basename": "female2-f2_scales_straight_u"
+    },
+    {
+        "basename": "female2-f2_scales_straight_a"
+    },
+    {
+        "basename": "female2-f2_scales_straight_i"
+    },
+    {
+        "basename": "female2-f2_scales_straight_e"
+    },
+    {
+        "basename": "female2-f2_scales_straight_u(1)"
+    },
+    {
+        "basename": "female2-f2_scales_straight_o"
+    },
+    {
+        "basename": "female2-f2_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female2-scales_vocal_fry"
+    },
+    {
+        "basename": "female2-f2_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female2-f2_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female2-f2_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female2-f2_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female2-f2_scales_breathy_o"
+    },
+    {
+        "basename": "female2-f2_scales_breathy_u"
+    },
+    {
+        "basename": "female2-f2_scales_breathy_a"
+    },
+    {
+        "basename": "female2-f2_scales_breathy_e"
+    },
+    {
+        "basename": "female2-f2_scales_breathy_i"
+    },
+    {
+        "basename": "female2-f2_scales_belt_a"
+    },
+    {
+        "basename": "female2-f2_scales_belt_u"
+    },
+    {
+        "basename": "female2-f2_scales_belt_o"
+    },
+    {
+        "basename": "female2-f2_scales_belt_i"
+    },
+    {
+        "basename": "female2-f2_scales_belt_e"
+    },
+    {
+        "basename": "female2-f2_row_spoken"
+    },
+    {
+        "basename": "female2-f2_row_vibrato"
+    },
+    {
+        "basename": "female2-f2_caro_vibrato"
+    },
+    {
+        "basename": "female2-f2_dona_vibrato"
+    },
+    {
+        "basename": "female2-f2_dona_straight"
+    },
+    {
+        "basename": "female2-f2_caro_straight"
+    },
+    {
+        "basename": "female2-f2_row_straight"
+    },
+    {
+        "basename": "female2-f2_long_straight_o"
+    },
+    {
+        "basename": "female2-f2_long_straight_u"
+    },
+    {
+        "basename": "female2-f2_long_straight_i"
+    },
+    {
+        "basename": "female2-f2_long_straight_a"
+    },
+    {
+        "basename": "female2-f2_long_straight_e"
+    },
+    {
+        "basename": "female2-f2_long_inhaled_e"
+    },
+    {
+        "basename": "female2-f2_long_inhaled_u"
+    },
+    {
+        "basename": "female2-f2_long_inhaled_i"
+    },
+    {
+        "basename": "female2-f2_long_inhaled_a"
+    },
+    {
+        "basename": "female2-f2_long_inhaled_o"
+    },
+    {
+        "basename": "female2-f2_long_trill_o"
+    },
+    {
+        "basename": "female2-f2_long_trill_a"
+    },
+    {
+        "basename": "female2-f2_long_trill_i"
+    },
+    {
+        "basename": "female2-f2_long_trill_e"
+    },
+    {
+        "basename": "female2-f2_long_trill_u"
+    },
+    {
+        "basename": "female2-f2_long_trillo_e"
+    },
+    {
+        "basename": "female2-f2_long_trillo_i"
+    },
+    {
+        "basename": "female2-f2_long_trillo_u"
+    },
+    {
+        "basename": "female2-f2_long_trillo_a"
+    },
+    {
+        "basename": "female2-f2_long_trillo_o"
+    },
+    {
+        "basename": "female2-f2_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female2-f2_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female2-f2_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female2-f2_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female2-lip_trill_arps"
+    },
+    {
+        "basename": "female2-f2_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female2-f2_arpeggios_straight_i"
+    },
+    {
+        "basename": "female2-f2_arpeggios_straight_o"
+    },
+    {
+        "basename": "female2-f2_arpeggios_straight_a"
+    },
+    {
+        "basename": "female2-f2_arpeggios_straight_e"
+    },
+    {
+        "basename": "female2-f2_arpeggios_straight_u"
+    },
+    {
+        "basename": "female2-f2_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female2-f2_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female2-f2_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female2-f2_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female2-f2_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female2-f2_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female2-f2_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female2-f2_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female2-f2_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female2-f2_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female2-f2_arpeggios_belt_a"
+    },
+    {
+        "basename": "female2-f2_arpeggios_belt_o"
+    },
+    {
+        "basename": "female2-f2_arpeggios_belt_u"
+    },
+    {
+        "basename": "female2-f2_arpeggios_belt_e"
+    },
+    {
+        "basename": "female2-f2_arpeggios_belt_i"
+    },
+    {
+        "basename": "male4-m4_scales_lip_trill_a"
+    },
+    {
+        "basename": "male4-m4_scales_lip_trill_o"
+    },
+    {
+        "basename": "male4-m4_scales_lip_trill_e"
+    },
+    {
+        "basename": "male4-m4_scales_lip_trill_i"
+    },
+    {
+        "basename": "male4-m4_scales_lip_trill_u"
+    },
+    {
+        "basename": "male4-m4_scales_vibrato_u"
+    },
+    {
+        "basename": "male4-m4_scales_vibrato_o"
+    },
+    {
+        "basename": "male4-m4_scales_vibrato_e"
+    },
+    {
+        "basename": "male4-m4_scales_vibrato_a"
+    },
+    {
+        "basename": "male4-m4_scales_vibrato_i"
+    },
+    {
+        "basename": "male4-m4_scales_straight_u"
+    },
+    {
+        "basename": "male4-m4_scales_straight_o"
+    },
+    {
+        "basename": "male4-m4_scales_straight_i"
+    },
+    {
+        "basename": "male4-m4_scales_straight_a"
+    },
+    {
+        "basename": "male4-m4_scales_straight_e"
+    },
+    {
+        "basename": "male4-m4_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male4-m4_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male4-m4_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male4-m4_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male4-m4_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male4-m4_scales_breathy_o"
+    },
+    {
+        "basename": "male4-m4_scales_breathy_a"
+    },
+    {
+        "basename": "male4-m4_scales_breathy_u"
+    },
+    {
+        "basename": "male4-m4_scales_breathy_i"
+    },
+    {
+        "basename": "male4-m4_scales_breathy_e"
+    },
+    {
+        "basename": "male4-m4_scales_belt_o"
+    },
+    {
+        "basename": "male4-m4_scales_belt_e"
+    },
+    {
+        "basename": "male4-m4_scales_belt_a"
+    },
+    {
+        "basename": "male4-m4_scales_belt_i"
+    },
+    {
+        "basename": "male4-m4_scales_belt_u"
+    },
+    {
+        "basename": "male4-m4_ row_spoken"
+    },
+    {
+        "basename": "male4-m4_caro_vibrato"
+    },
+    {
+        "basename": "male4-m4_row_vibrato"
+    },
+    {
+        "basename": "male4-m4_dona_vibrato"
+    },
+    {
+        "basename": "male4-m4_dona_straight"
+    },
+    {
+        "basename": "male4-m4_row_straight"
+    },
+    {
+        "basename": "male4-m4_caro_straight"
+    },
+    {
+        "basename": "male4-m4_long_straight_u"
+    },
+    {
+        "basename": "male4-m4_long_straight_i"
+    },
+    {
+        "basename": "male4-m4_long_straight_o"
+    },
+    {
+        "basename": "male4-m4_long_straight_e"
+    },
+    {
+        "basename": "male4-m4_long_straight_a"
+    },
+    {
+        "basename": "male4-m4_long_inhaled_i"
+    },
+    {
+        "basename": "male4-m4_long_inhaled_u"
+    },
+    {
+        "basename": "male4-m4_long_inhaled_o"
+    },
+    {
+        "basename": "male4-m4_long_inhaled_a"
+    },
+    {
+        "basename": "male4-m4_long_inhaled_e"
+    },
+    {
+        "basename": "male4-m4_long_trill_e"
+    },
+    {
+        "basename": "male4-m4_long_trill_a"
+    },
+    {
+        "basename": "male4-m4_long_trill_u"
+    },
+    {
+        "basename": "male4-m4_long_trill_o"
+    },
+    {
+        "basename": "male4-m4_long_trill_i"
+    },
+    {
+        "basename": "male4-m4_long_trillo_a"
+    },
+    {
+        "basename": "male4-m4_long_trillo_o"
+    },
+    {
+        "basename": "male4-m4_long_trillo_i"
+    },
+    {
+        "basename": "male4-m4_long_trillo_e"
+    },
+    {
+        "basename": "male4-m4_long_trillo_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male4-m4_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male4-m4_arpeggios_straight_i"
+    },
+    {
+        "basename": "male4-m4_arpeggios_straight_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_straight_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_straight_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_straight_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male4-m4_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_belt_o"
+    },
+    {
+        "basename": "male4-m4_arpeggios_belt_u"
+    },
+    {
+        "basename": "male4-m4_arpeggios_belt_e"
+    },
+    {
+        "basename": "male4-m4_arpeggios_belt_a"
+    },
+    {
+        "basename": "male4-m4_arpeggios_belt_i"
+    },
+    {
+        "basename": "male7-m7_scales_lip_trill_a"
+    },
+    {
+        "basename": "male7-m7_scales_lip_trill_o"
+    },
+    {
+        "basename": "male7-m7_scales_lip_trill_u"
+    },
+    {
+        "basename": "male7-m7_scales_lip_trill_e"
+    },
+    {
+        "basename": "male7-m7_scales_lip_trill_i"
+    },
+    {
+        "basename": "male7-m7_scales_vibrato_a"
+    },
+    {
+        "basename": "male7-m7_scales_vibrato_o"
+    },
+    {
+        "basename": "male7-m7_scales_vibrato_i"
+    },
+    {
+        "basename": "male7-m7_scales_vibrato_u"
+    },
+    {
+        "basename": "male7-m7_scales_vibrato_e"
+    },
+    {
+        "basename": "male7-m7_scales_straight_a"
+    },
+    {
+        "basename": "male7-m7_scales_straight_o"
+    },
+    {
+        "basename": "male7-m7_scales_straight_e"
+    },
+    {
+        "basename": "male7-m7_scales_straight_u"
+    },
+    {
+        "basename": "male7-m7_scales_straight_i"
+    },
+    {
+        "basename": "male7-m7_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male7-m7_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male7-m7_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male7-m7_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male7-m7_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male7-m7_scales_breathy_o"
+    },
+    {
+        "basename": "male7-m7_scales_breathy_a"
+    },
+    {
+        "basename": "male7-m7_scales_breathy_e"
+    },
+    {
+        "basename": "male7-m7_scales_breathy_i"
+    },
+    {
+        "basename": "male7-m7_scales_breathy_u"
+    },
+    {
+        "basename": "male7-m7_scales_belt_o"
+    },
+    {
+        "basename": "male7-m7_scales_belt_u"
+    },
+    {
+        "basename": "male7-m7_scales_belt_a"
+    },
+    {
+        "basename": "male7-m7_scales_belt_i"
+    },
+    {
+        "basename": "male7-m7_scales_belt_e"
+    },
+    {
+        "basename": "male7-m7_row_spoken"
+    },
+    {
+        "basename": "male7-m7_row_vibrato"
+    },
+    {
+        "basename": "male7-m7_caro_vibrato"
+    },
+    {
+        "basename": "male7-m7_dona_vibrato"
+    },
+    {
+        "basename": "male7-m7_dona_straight"
+    },
+    {
+        "basename": "male7-m7_row_straight"
+    },
+    {
+        "basename": "male7-m7_caro_straight"
+    },
+    {
+        "basename": "male7-m7_long_straight_i"
+    },
+    {
+        "basename": "male7-m7_long_straight_u"
+    },
+    {
+        "basename": "male7-m7_long_straight_e"
+    },
+    {
+        "basename": "male7-m7_long_straight_a"
+    },
+    {
+        "basename": "male7-m7_long_straight_o"
+    },
+    {
+        "basename": "male7-m7_long_inhaled_a"
+    },
+    {
+        "basename": "male7-m7_long_inhaled_i"
+    },
+    {
+        "basename": "male7-m7_long_inhaled_o"
+    },
+    {
+        "basename": "male7-m7_long_inhaled_u"
+    },
+    {
+        "basename": "male7-m7_long_inhaled_e"
+    },
+    {
+        "basename": "male7-m7_long_trill_i"
+    },
+    {
+        "basename": "male7-m7_long_trill_e"
+    },
+    {
+        "basename": "male7-m7_long_trill_o"
+    },
+    {
+        "basename": "male7-m7_long_trill_a"
+    },
+    {
+        "basename": "male7-m7_long_trill_u"
+    },
+    {
+        "basename": "male7-m7_long_trillo_i"
+    },
+    {
+        "basename": "male7-m7_long_trillo_u"
+    },
+    {
+        "basename": "male7-m7_long_trillo_a"
+    },
+    {
+        "basename": "male7-m7_long_trillo_o"
+    },
+    {
+        "basename": "male7-m7_long_trillo_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_straight_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_straight_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_straight_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_straight_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_straight_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male7-m7_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_belt_o"
+    },
+    {
+        "basename": "male7-m7_arpeggios_belt_u"
+    },
+    {
+        "basename": "male7-m7_arpeggios_belt_i"
+    },
+    {
+        "basename": "male7-m7_arpeggios_belt_a"
+    },
+    {
+        "basename": "male7-m7_arpeggios_belt_e"
+    },
+    {
+        "basename": "male3-m3_scales_lip_trill_a"
+    },
+    {
+        "basename": "male3-m3_scales_lip_trill_e"
+    },
+    {
+        "basename": "male3-m3_scales_lip_trill_i"
+    },
+    {
+        "basename": "male3-m3_scales_lip_trill_o"
+    },
+    {
+        "basename": "male3-m3_scales_lip_trill_u"
+    },
+    {
+        "basename": "male3-scales_lip_trill"
+    },
+    {
+        "basename": "male3-m3_scales_vibrato_i"
+    },
+    {
+        "basename": "male3-m3_scales_vibrato_a"
+    },
+    {
+        "basename": "male3-m3_scales_vibrato_e"
+    },
+    {
+        "basename": "male3-m3_scales_vibrato_o"
+    },
+    {
+        "basename": "male3-m3_scales_vibrato_u"
+    },
+    {
+        "basename": "male3-m3_scales_straight_a"
+    },
+    {
+        "basename": "male3-m3_scales_straight_i"
+    },
+    {
+        "basename": "male3-m3_scales_straight_o"
+    },
+    {
+        "basename": "male3-m3_scales_straight_u"
+    },
+    {
+        "basename": "male3-m3_scales_straight_e"
+    },
+    {
+        "basename": "male3-m3_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male3-m3_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male3-m3_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male3-m3_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male3-m3_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male3-m3_scales_breathy_e"
+    },
+    {
+        "basename": "male3-m3_scales_breathy_i"
+    },
+    {
+        "basename": "male3-m3_scales_breathy_a"
+    },
+    {
+        "basename": "male3-m3_scales_breathy_o"
+    },
+    {
+        "basename": "male3-m3_scales_breathy_u"
+    },
+    {
+        "basename": "male3-m3_scales_belt_e"
+    },
+    {
+        "basename": "male3-m3_scales_belt_u"
+    },
+    {
+        "basename": "male3-m3_scales_belt_a"
+    },
+    {
+        "basename": "male3-m3_scales_belt_o"
+    },
+    {
+        "basename": "male3-m3_scales_belt_i"
+    },
+    {
+        "basename": "male3-m3_row_spoken"
+    },
+    {
+        "basename": "male3-m3_caro_vibrato"
+    },
+    {
+        "basename": "male3-m3_row_vibrato"
+    },
+    {
+        "basename": "male3-m3_dona_vibrato"
+    },
+    {
+        "basename": "male3-m3_row_straight"
+    },
+    {
+        "basename": "male3-m3_caro_straight"
+    },
+    {
+        "basename": "male3-m3_dona_straight"
+    },
+    {
+        "basename": "male3-m3_long_straight_i"
+    },
+    {
+        "basename": "male3-m3_long_straight_o"
+    },
+    {
+        "basename": "male3-m3_long_straight_e"
+    },
+    {
+        "basename": "male3-m3_long_straight_a"
+    },
+    {
+        "basename": "male3-m3_long_straight_u"
+    },
+    {
+        "basename": "male3-m3_long_inhaled_a"
+    },
+    {
+        "basename": "male3-m3_long_inhaled_o"
+    },
+    {
+        "basename": "male3-m3_long_inhaled_i"
+    },
+    {
+        "basename": "male3-m3_long_inhaled_u"
+    },
+    {
+        "basename": "male3-m3_long_inhaled_e"
+    },
+    {
+        "basename": "male3-m3_long_trill_e"
+    },
+    {
+        "basename": "male3-m3_long_trill_i"
+    },
+    {
+        "basename": "male3-m3_long_trill_u"
+    },
+    {
+        "basename": "male3-m3_long_trill_a"
+    },
+    {
+        "basename": "male3-m3_long_trill_o"
+    },
+    {
+        "basename": "male3-m3_long_trillo_u"
+    },
+    {
+        "basename": "male3-m3_long_trillo_i"
+    },
+    {
+        "basename": "male3-m3_long_trillo_e"
+    },
+    {
+        "basename": "male3-m3_long_trillo_a"
+    },
+    {
+        "basename": "male3-m3_long_trillo_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male3-m3_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_straight_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_straight_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_straight_i"
+    },
+    {
+        "basename": "male3-m3_arpeggios_straight_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_straight_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male3-m3_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male3-m3_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_belt_u"
+    },
+    {
+        "basename": "male3-m3_arpeggios_belt_o"
+    },
+    {
+        "basename": "male3-m3_arpeggios_belt_e"
+    },
+    {
+        "basename": "male3-m3_arpeggios_belt_a"
+    },
+    {
+        "basename": "male3-m3_arpeggios_belt_i"
+    },
+    {
+        "basename": "male6-m6_scales_lip_trill_e"
+    },
+    {
+        "basename": "male6-m6_scales_lip_trill_i"
+    },
+    {
+        "basename": "male6-m6_scales_lip_trill_a"
+    },
+    {
+        "basename": "male6-m6_scales_lip_trill_o"
+    },
+    {
+        "basename": "male6-m6_scales_lip_trill_u"
+    },
+    {
+        "basename": "male6-m6_scales_vibrato_o"
+    },
+    {
+        "basename": "male6-m6_scales_vibrato_u"
+    },
+    {
+        "basename": "male6-m6_scales_vibrato_i"
+    },
+    {
+        "basename": "male6-m6_scales_vibrato_a"
+    },
+    {
+        "basename": "male6-m6_scales_vibrato_e"
+    },
+    {
+        "basename": "male6-m6_scales_straight_e"
+    },
+    {
+        "basename": "male6-m6_scales_straight_o"
+    },
+    {
+        "basename": "male6-m6_scales_straight_i"
+    },
+    {
+        "basename": "male6-m6_scales_straight_u"
+    },
+    {
+        "basename": "male6-m6_scales_straight_a"
+    },
+    {
+        "basename": "male6-m6_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male6-m6_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male6-m6_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male6-m6_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male6-m6_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male6-m6_scales_breathy_u"
+    },
+    {
+        "basename": "male6-m6_scales_breathy_i"
+    },
+    {
+        "basename": "male6-m6_scales_breathy_a"
+    },
+    {
+        "basename": "male6-m6_scales_breathy_e"
+    },
+    {
+        "basename": "male6-m6_scales_breathy_o"
+    },
+    {
+        "basename": "male6-m6_scales_belt_o"
+    },
+    {
+        "basename": "male6-m6_scales_belt_i"
+    },
+    {
+        "basename": "male6-m6_scales_belt_e"
+    },
+    {
+        "basename": "male6-m6_scales_belt_u"
+    },
+    {
+        "basename": "male6-m6_scales_belt_a"
+    },
+    {
+        "basename": "male6-m6_row_spoken"
+    },
+    {
+        "basename": "male6-m6_caro_vibrato"
+    },
+    {
+        "basename": "male6-m6_dona_vibrato"
+    },
+    {
+        "basename": "male6-m6_row_vibrato"
+    },
+    {
+        "basename": "male6-m6_dona_straight"
+    },
+    {
+        "basename": "male6-m6_row_straight"
+    },
+    {
+        "basename": "male6-m6_caro_straight"
+    },
+    {
+        "basename": "male6-m6_long_straight_i"
+    },
+    {
+        "basename": "male6-m6_long_straight_a"
+    },
+    {
+        "basename": "male6-m6_long_straight_o"
+    },
+    {
+        "basename": "male6-m6_long_straight_e"
+    },
+    {
+        "basename": "male6-m6_long_straight_u"
+    },
+    {
+        "basename": "male6-m6_long_inhaled_a"
+    },
+    {
+        "basename": "male6-m6_long_inhaled_i"
+    },
+    {
+        "basename": "male6-m6_long_inhaled_e"
+    },
+    {
+        "basename": "male6-m6_long_inhaled_u"
+    },
+    {
+        "basename": "male6-m6_long_inhaled_o"
+    },
+    {
+        "basename": "male6-m6_long_trill_a"
+    },
+    {
+        "basename": "male6-m6_long_trill_o"
+    },
+    {
+        "basename": "male6-m6_long_trill_u"
+    },
+    {
+        "basename": "male6-m6_long_trill_e"
+    },
+    {
+        "basename": "male6-m6_long_trill_i"
+    },
+    {
+        "basename": "male6-m6_long_trillo_u"
+    },
+    {
+        "basename": "male6-m6_long_trillo_e"
+    },
+    {
+        "basename": "male6-m6_long_trillo_a"
+    },
+    {
+        "basename": "male6-m6_long_trillo_o"
+    },
+    {
+        "basename": "male6-m6_long_trillo_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_straight_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_straight_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_straight_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_straight_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_straight_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male6-m6_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_belt_o"
+    },
+    {
+        "basename": "male6-m6_arpeggios_belt_e"
+    },
+    {
+        "basename": "male6-m6_arpeggios_belt_u"
+    },
+    {
+        "basename": "male6-m6_arpeggios_belt_a"
+    },
+    {
+        "basename": "male6-m6_arpeggios_belt_i"
+    },
+    {
+        "basename": "male9-m9_scales_lip_trill_e"
+    },
+    {
+        "basename": "male9-m9_scales_lip_trill_o"
+    },
+    {
+        "basename": "male9-m9_scales_lip_trill_u"
+    },
+    {
+        "basename": "male9-m9_scales_lip_trill_a"
+    },
+    {
+        "basename": "male9-m9_scales_lip_trill_i"
+    },
+    {
+        "basename": "male9-m9_scales_vibrato_i"
+    },
+    {
+        "basename": "male9-m9_scales_vibrato_o"
+    },
+    {
+        "basename": "male9-m9_scales_vibrato_u"
+    },
+    {
+        "basename": "male9-m9_scales_vibrato_e"
+    },
+    {
+        "basename": "male9-m9_scales_vibrato_a"
+    },
+    {
+        "basename": "male9-m9_scales_straight_i"
+    },
+    {
+        "basename": "male9-m9_scales_straight_o"
+    },
+    {
+        "basename": "male9-m9_scales_straight_e"
+    },
+    {
+        "basename": "male9-m9_scales_straight_u"
+    },
+    {
+        "basename": "male9-m9_scales_straight_a"
+    },
+    {
+        "basename": "male9-m9_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male9-m9_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male9-m9_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male9-m9_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male9-m9_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male9-m9_scales_breathy_o"
+    },
+    {
+        "basename": "male9-m9_scales_breathy_e"
+    },
+    {
+        "basename": "male9-m9_scales_breathy_a"
+    },
+    {
+        "basename": "male9-m9_scales_breathy_i"
+    },
+    {
+        "basename": "male9-m9_scales_breathy_u"
+    },
+    {
+        "basename": "male9-m9_scales_belt_a"
+    },
+    {
+        "basename": "male9-m9_scales_belt_e"
+    },
+    {
+        "basename": "male9-m9_scales_belt_u"
+    },
+    {
+        "basename": "male9-m9_scales_belt_o"
+    },
+    {
+        "basename": "male9-m9_scales_belt_i"
+    },
+    {
+        "basename": "male9-m9_row_spoken"
+    },
+    {
+        "basename": "male9-m9_row_vibrato"
+    },
+    {
+        "basename": "male9-m9_dona_vibrato"
+    },
+    {
+        "basename": "male9-m9_caro_vibrato"
+    },
+    {
+        "basename": "male9-m9_row_straight"
+    },
+    {
+        "basename": "male9-m9_dona_straight"
+    },
+    {
+        "basename": "male9-m9_caro_straight"
+    },
+    {
+        "basename": "male9-m9_long_straight_o"
+    },
+    {
+        "basename": "male9-m9_long_straight_i"
+    },
+    {
+        "basename": "male9-m9_long_straight_a"
+    },
+    {
+        "basename": "male9-m9_long_straight_e"
+    },
+    {
+        "basename": "male9-m9_long_straight_u"
+    },
+    {
+        "basename": "male9-m9_long_inhaled_u"
+    },
+    {
+        "basename": "male9-m9_long_inhaled_e"
+    },
+    {
+        "basename": "male9-m9_long_inhaled_i"
+    },
+    {
+        "basename": "male9-m9_long_inhaled_o"
+    },
+    {
+        "basename": "male9-m9_long_inhaled_a"
+    },
+    {
+        "basename": "male9-m9_long_trill_i"
+    },
+    {
+        "basename": "male9-m9_long_trill_o"
+    },
+    {
+        "basename": "male9-m9_long_trill_e"
+    },
+    {
+        "basename": "male9-m9_long_trill_a"
+    },
+    {
+        "basename": "male9-m9_long_trill_u"
+    },
+    {
+        "basename": "male9-m9_long_trillo_u"
+    },
+    {
+        "basename": "male9-m9_long_trillo_i"
+    },
+    {
+        "basename": "male9-m9_long_trillo_o"
+    },
+    {
+        "basename": "male9-m9_long_trillo_a"
+    },
+    {
+        "basename": "male9-m9_long_trillo_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_straight_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_straight_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_straight_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_straight_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_straight_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male9-m9_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_belt_u"
+    },
+    {
+        "basename": "male9-m9_arpeggios_belt_a"
+    },
+    {
+        "basename": "male9-m9_arpeggios_belt_o"
+    },
+    {
+        "basename": "male9-m9_arpeggios_belt_i"
+    },
+    {
+        "basename": "male9-m9_arpeggios_belt_e"
+    },
+    {
+        "basename": "female4-f4_scales_lip_trill_a"
+    },
+    {
+        "basename": "female4-f4_scales_lip_trill_o"
+    },
+    {
+        "basename": "female4-f4_scales_lip_trill_i"
+    },
+    {
+        "basename": "female4-f4_scales_lip_trill_e"
+    },
+    {
+        "basename": "female4-f4_scales_lip_trill_u"
+    },
+    {
+        "basename": "female4-f4_scales_vibrato_e"
+    },
+    {
+        "basename": "female4-f4_scales_vibrato_o"
+    },
+    {
+        "basename": "female4-f4_scales_vibrato_u"
+    },
+    {
+        "basename": "female4-f4_scales_vibrato_a"
+    },
+    {
+        "basename": "female4-f4_scales_vibrato_i"
+    },
+    {
+        "basename": "female4-scales_straight_o"
+    },
+    {
+        "basename": "female4-scales_straight_e"
+    },
+    {
+        "basename": "female4-scales_straight_u"
+    },
+    {
+        "basename": "female4-scales_straight_a"
+    },
+    {
+        "basename": "female4-scales_straight_i"
+    },
+    {
+        "basename": "female4-f4_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female4-f4_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female4-f4_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female4-f4_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female4-f4_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female4-f4_scales_breathy_a"
+    },
+    {
+        "basename": "female4-f4_scales_breathy_i"
+    },
+    {
+        "basename": "female4-f4_scales_breathy_u"
+    },
+    {
+        "basename": "female4-f4_scales_breathy_e"
+    },
+    {
+        "basename": "female4-f4_scales_breathy_o"
+    },
+    {
+        "basename": "female4-f4_scales_belt_a"
+    },
+    {
+        "basename": "female4-f4_scales_belt_i"
+    },
+    {
+        "basename": "female4-f4_scales_belt_o"
+    },
+    {
+        "basename": "female4-f4_scales_belt_e"
+    },
+    {
+        "basename": "female4-f4_scales_belt_u"
+    },
+    {
+        "basename": "female4-f4_row_spoken"
+    },
+    {
+        "basename": "female4-f4_row_vibrato"
+    },
+    {
+        "basename": "female4-f4_dona_vibrato"
+    },
+    {
+        "basename": "female4-f4_caro_vibrato"
+    },
+    {
+        "basename": "female4-f4_caro_straight"
+    },
+    {
+        "basename": "female4-f4_dona_straight"
+    },
+    {
+        "basename": "female4-f4_row_straight"
+    },
+    {
+        "basename": "female4-f4_long_straight_a"
+    },
+    {
+        "basename": "female4-f4_long_straight_i"
+    },
+    {
+        "basename": "female4-f4_long_straight_e"
+    },
+    {
+        "basename": "female4-f4_long_straight_o"
+    },
+    {
+        "basename": "female4-f4_long_straight_u"
+    },
+    {
+        "basename": "female4-f4_long_inhaled_o"
+    },
+    {
+        "basename": "female4-f4_long_inhaled_e"
+    },
+    {
+        "basename": "female4-f4_long_inhaled_u"
+    },
+    {
+        "basename": "female4-f4_long_inhaled_a"
+    },
+    {
+        "basename": "female4-f4_long_inhaled_i"
+    },
+    {
+        "basename": "female4-f4_long_trillo_u"
+    },
+    {
+        "basename": "female4-f4_long_trillo_i"
+    },
+    {
+        "basename": "female4-f4_long_trillo_e"
+    },
+    {
+        "basename": "female4-f4_long_trillo_o"
+    },
+    {
+        "basename": "female4-f4_long_trillo_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female4-f4_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female4-f4_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female4-f4_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female4-arpeggios_straight_o"
+    },
+    {
+        "basename": "female4-arpeggios_straight_i"
+    },
+    {
+        "basename": "female4-arpeggios_straight_a"
+    },
+    {
+        "basename": "female4-arpeggios_straight_u"
+    },
+    {
+        "basename": "female4-arpeggios_straight_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female4-f4_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female4-f4_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female4-f4_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female4-f4_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female4-f4_arpeggios_belt_u"
+    },
+    {
+        "basename": "female4-f4_arpeggios_belt_e"
+    },
+    {
+        "basename": "female4-f4_arpeggios_belt_a"
+    },
+    {
+        "basename": "female4-f4_arpeggios_belt_o"
+    },
+    {
+        "basename": "female4-f4_arpeggios_belt_i"
+    },
+    {
+        "basename": "female1-f1_scales_lip_trill_a"
+    },
+    {
+        "basename": "female1-f1_scales_lip_trill_o"
+    },
+    {
+        "basename": "female1-f1_scales_lip_trill_u"
+    },
+    {
+        "basename": "female1-f1_scales_lip_trill_i"
+    },
+    {
+        "basename": "female1-f1_scales_lip_trill_e"
+    },
+    {
+        "basename": "female1-f1_scales_vibrato_e"
+    },
+    {
+        "basename": "female1-f1_scales_vibrato_a"
+    },
+    {
+        "basename": "female1-f1_scales_vibrato_u"
+    },
+    {
+        "basename": "female1-f1_scales_vibrato_i"
+    },
+    {
+        "basename": "female1-f1_scales_vibrato_o"
+    },
+    {
+        "basename": "female1-f1_scales_straight_i"
+    },
+    {
+        "basename": "female1-f1_scales_straight_a"
+    },
+    {
+        "basename": "female1-f1_scales_straight_e"
+    },
+    {
+        "basename": "female1-f1_scales_straight_o"
+    },
+    {
+        "basename": "female1-f1_scales_straight_u"
+    },
+    {
+        "basename": "female1-f1_scales_vocal_fry_o"
+    },
+    {
+        "basename": "female1-f1_scales_vocal_fry_u"
+    },
+    {
+        "basename": "female1-f1_scales_vocal_fry_i"
+    },
+    {
+        "basename": "female1-f1_scales_vocal_fry_e"
+    },
+    {
+        "basename": "female1-f1_scales_vocal_fry_a"
+    },
+    {
+        "basename": "female1-f1_scales_breathy_a"
+    },
+    {
+        "basename": "female1-f1_scales_breathy_e"
+    },
+    {
+        "basename": "female1-f1_scales_breathy_u"
+    },
+    {
+        "basename": "female1-f1_scales_breathy_i"
+    },
+    {
+        "basename": "female1-f1_scales_breathy_o"
+    },
+    {
+        "basename": "female1-f1_scales_belt_a"
+    },
+    {
+        "basename": "female1-f1_scales_belt_e"
+    },
+    {
+        "basename": "female1-f1_scales_belt_i"
+    },
+    {
+        "basename": "female1-f1_scales_belt_u"
+    },
+    {
+        "basename": "female1-f1_scales_belt_o"
+    },
+    {
+        "basename": "female1-f1_row_spoken"
+    },
+    {
+        "basename": "female1-f1_caro_vibrato"
+    },
+    {
+        "basename": "female1-f1_dona_vibrato"
+    },
+    {
+        "basename": "female1-f1_row_vibrato"
+    },
+    {
+        "basename": "female1-f1_caro_straight"
+    },
+    {
+        "basename": "female1-f1_dona_straight"
+    },
+    {
+        "basename": "female1-f1_row_straight"
+    },
+    {
+        "basename": "female1-f1_long_straight_i"
+    },
+    {
+        "basename": "female1-f1_long_straight_u"
+    },
+    {
+        "basename": "female1-f1_long_straight_e"
+    },
+    {
+        "basename": "female1-f1_long_straight_o"
+    },
+    {
+        "basename": "female1-f1_long_straight_a"
+    },
+    {
+        "basename": "female1-f1_long_inhaled_i"
+    },
+    {
+        "basename": "female1-f1_long_inhaled_a"
+    },
+    {
+        "basename": "female1-f1_long_inhaled_e"
+    },
+    {
+        "basename": "female1-f1_long_inhaled_u"
+    },
+    {
+        "basename": "female1-f1_long_inhaled_o"
+    },
+    {
+        "basename": "female1-f1_long_trill_o"
+    },
+    {
+        "basename": "female1-f1_long_trill_a"
+    },
+    {
+        "basename": "female1-f1_long_trill_i"
+    },
+    {
+        "basename": "female1-f1_long_trill_e"
+    },
+    {
+        "basename": "female1-f1_long_trill_u"
+    },
+    {
+        "basename": "female1-f1_long_trillo_i"
+    },
+    {
+        "basename": "female1-f1_long_trillo_o"
+    },
+    {
+        "basename": "female1-f1_long_trillo_a"
+    },
+    {
+        "basename": "female1-f1_long_trillo_e"
+    },
+    {
+        "basename": "female1-f1_long_trillo_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_straight_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_straight_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_straight_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_straight_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_straight_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_breathy_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_breathy_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_breathy_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_breathy_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_breathy_u"
+    },
+    {
+        "basename": "female1-f1_arpeggios_belt_c_i"
+    },
+    {
+        "basename": "female1-f1_arpeggios_belt_c_e"
+    },
+    {
+        "basename": "female1-f1_arpeggios_belt_c_a"
+    },
+    {
+        "basename": "female1-f1_arpeggios_belt_c_o"
+    },
+    {
+        "basename": "female1-f1_arpeggios_belt_c_u"
+    },
+    {
+        "basename": "male11-m11_scales_lip_trill_o"
+    },
+    {
+        "basename": "male11-m11_scales_lip_trill_a"
+    },
+    {
+        "basename": "male11-m11_scales_lip_trill_i"
+    },
+    {
+        "basename": "male11-m11_scales_lip_trill_e"
+    },
+    {
+        "basename": "male11-m11_scales_lip_trill_u"
+    },
+    {
+        "basename": "male11-m11_scales_vibrato_u"
+    },
+    {
+        "basename": "male11-m11_scales_vibrato_o"
+    },
+    {
+        "basename": "male11-m11_scales_vibrato_a"
+    },
+    {
+        "basename": "male11-m11_scales_vibrato_e"
+    },
+    {
+        "basename": "male11-m11_scales_vibrato_i"
+    },
+    {
+        "basename": "male11-m11_scales_straight_o"
+    },
+    {
+        "basename": "male11-m11_scales_straight_u"
+    },
+    {
+        "basename": "male11-m11_scales_straight_a"
+    },
+    {
+        "basename": "male11-m11_scales_straight_e"
+    },
+    {
+        "basename": "male11-m11_scales_straight_i"
+    },
+    {
+        "basename": "male11-m11_scales_vocal_fry_e"
+    },
+    {
+        "basename": "male11-m11_scales_vocal_fry_a"
+    },
+    {
+        "basename": "male11-m11_scales_vocal_fry_i"
+    },
+    {
+        "basename": "male11-m11_scales_vocal_fry_o"
+    },
+    {
+        "basename": "male11-m11_scales_vocal_fry_u"
+    },
+    {
+        "basename": "male11-m11_scales_breathy_u"
+    },
+    {
+        "basename": "male11-m11_scales_breathy_o"
+    },
+    {
+        "basename": "male11-m11_scales_breathy_a"
+    },
+    {
+        "basename": "male11-m11_scales_breathy_e"
+    },
+    {
+        "basename": "male11-m11_scales_breathy_i"
+    },
+    {
+        "basename": "male11-m11_scales_belt_u"
+    },
+    {
+        "basename": "male11-m11_scales_belt_o"
+    },
+    {
+        "basename": "male11-m11_scales_belt_e"
+    },
+    {
+        "basename": "male11-m11_scales_belt_i"
+    },
+    {
+        "basename": "male11-m11_scales_belt_a"
+    },
+    {
+        "basename": "male11-m11_row_spoken"
+    },
+    {
+        "basename": "male11-m11_dona_vibrato"
+    },
+    {
+        "basename": "male11-m11_row_vibrato"
+    },
+    {
+        "basename": "male11-m11_caro_vibrato"
+    },
+    {
+        "basename": "male11-m11_caro_straight"
+    },
+    {
+        "basename": "male11-m11_dona_straight"
+    },
+    {
+        "basename": "male11-m11_row_straight"
+    },
+    {
+        "basename": "male11-m11_long_straight_i"
+    },
+    {
+        "basename": "male11-m11_long_straight_o"
+    },
+    {
+        "basename": "male11-m11_long_straight_e"
+    },
+    {
+        "basename": "male11-m11_long_straight_u"
+    },
+    {
+        "basename": "male11-m11_long_straight_a"
+    },
+    {
+        "basename": "male11-m11_long_inhaled_e"
+    },
+    {
+        "basename": "male11-m11_long_inhaled_i"
+    },
+    {
+        "basename": "male11-m11_long_inhaled_o"
+    },
+    {
+        "basename": "male11-m11_long_inhaled_u"
+    },
+    {
+        "basename": "male11-m11_long_inhaled_a"
+    },
+    {
+        "basename": "male11-m11_long_trill_i"
+    },
+    {
+        "basename": "male11-m11_long_trill_o"
+    },
+    {
+        "basename": "male11-m11_long_trill_e"
+    },
+    {
+        "basename": "male11-m11_long_trill_a"
+    },
+    {
+        "basename": "male11-m11_long_trill_u"
+    },
+    {
+        "basename": "male11-m11_long_trillo_e"
+    },
+    {
+        "basename": "male11-m11_long_trillo_u"
+    },
+    {
+        "basename": "male11-m11_long_trillo_o"
+    },
+    {
+        "basename": "male11-m11_long_trillo_a"
+    },
+    {
+        "basename": "male11-m11_long_trillo_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_lip_trill_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_lip_trill_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_lip_trill_o"
+    },
+    {
+        "basename": "male11-m11_arpeggios_lip_trill_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_lip_trill_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vibrato_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vibrato_o"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vibrato_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vibrato_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vibrato_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_straight_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_straight_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_straight_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_straight_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_straight_o"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vocal_fry_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vocal_fry_o"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vocal_fry_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vocal_fry_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_vocal_fry_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_breathy_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_breathy_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_breathy_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_breathy_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_breathy_o"
+    },
+    {
+        "basename": "male11-m11_arpeggios_belt_a"
+    },
+    {
+        "basename": "male11-m11_arpeggios_belt_u"
+    },
+    {
+        "basename": "male11-m11_arpeggios_belt_i"
+    },
+    {
+        "basename": "male11-m11_arpeggios_belt_e"
+    },
+    {
+        "basename": "male11-m11_arpeggios_belt_o"
+    }
+]

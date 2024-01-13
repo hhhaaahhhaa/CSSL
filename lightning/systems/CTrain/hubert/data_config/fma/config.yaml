@@ -1,0 +1,9 @@
+data_dir: "lightning/downstream/sound_classification/_data/fma"
+name: fma
+parser: "plain"
+unit_name: "mfcc-512c"
+n_symbols: 512
+subsets:
+  test: test.json
+  train: train.json
+  val: val.json

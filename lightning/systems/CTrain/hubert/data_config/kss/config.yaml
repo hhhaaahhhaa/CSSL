@@ -1,7 +1,7 @@
 name: "kss"
 parser: "nest-sf"
 lang_id: "ko"
-unit_name: hubert--ko-512c-l9
+unit_name: mfcc-512c
 n_symbols: 512
 
 data_dir: "lightning/downstream/phoneme_recognition/_data/kss"
