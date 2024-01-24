@@ -1,6 +1,7 @@
 import os
 import yaml
 import json
+import copy
 
 
 class BaseConfig(object):
@@ -13,10 +14,10 @@ class BaseConfig(object):
         self._info = {}
 
     def get_tasks(self, *args, **kwargs):
-        return self._tasks
+        return copy.deepcopy(self._tasks)
     
     def get_info(self, *args, **kwargs):
-        return self._info
+        return copy.deepcopy(self._info)
 
 
 class PlainConfig(BaseConfig):

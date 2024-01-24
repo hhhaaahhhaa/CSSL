@@ -68,6 +68,8 @@ class HubertSystem(System):
 
         # match length & only calculate loss on mask indices
         target = labels["codes"].cuda()  # B, L?
+        # print(target)
+        # input()
         with torch.no_grad():
             target = ssl_match_length(inputs=target.unsqueeze(-1), target_len=sim.shape[1]).squeeze(-1)  # B, L
         

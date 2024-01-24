@@ -13,10 +13,10 @@ class DataModule(hubert.DataModule):
         ds = self.train_datasets[idx]
         if infinite:
             ds = InfiniteWrapper(ds, shuffle=True)
-        self.train_loader = DataLoader(
+        loader = DataLoader(
             ds,
             batch_size=batch_size,
             num_workers=Define.MAX_WORKERS,
             collate_fn=self.collate.collate_fn(),
         )
-        return self.train_loader
+        return loader

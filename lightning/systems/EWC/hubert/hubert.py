@@ -92,7 +92,7 @@ class HubertEWCSystem(hubert.HubertSystem, ITaskBoundary):
         cnt = 0
         total_step = task_warmup_step * self.train_config["optimizer"]["grad_acc_step"]
         while cnt < total_step:
-            for batch_idx, batch in tqdm(enumerate(task_dataloader)):
+            for batch_idx, batch in tqdm(enumerate(task_dataloader), total=total_step):
                 train_loss_dict, _, _ = self.common_step(batch, batch_idx, train=True)
                 self._warmup_optimization(train_loss_dict["Total Loss"], batch_idx)
                 cnt += 1
@@ -122,6 +122,7 @@ class HubertEWCSystem(hubert.HubertSystem, ITaskBoundary):
         print("Calculate fisher matrix...")
 
         # compute statisitcs from task dataloader
+        self.zero_grad()
         self.eval()
         self._importances = []
         self._removed_names = []
@@ -202,13 +203,6 @@ class HubertEWCSystem(hubert.HubertSystem, ITaskBoundary):
                 self._is_task_init = True
         else:
             self._is_task_init = False
-
-    # def on_train_batch_end(self, output: Any, batch: Any, batch_idx: int) -> None:
-    #     if self.is_task_boundary() and self.global_step > 0:  # skip the first boundary which is 0
-    #         if not self._is_task_end:
-    #             self.task_end()
-    #             self._is_task_init = False
-    #             self._is_task_end = True
     
     def training_step(self, batch, batch_idx):
         labels, _ = batch

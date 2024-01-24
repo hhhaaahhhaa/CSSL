@@ -16,8 +16,8 @@ SYSTEM_CTRAIN = {
 
 
 SYSTEM_SL = {
-    "SlowLearner/hubert": (SlowLearner.hubert.HubertSLSystem, CTrain.hubert.DataModule),
-    "SlowLearner/wav2vec2": (SlowLearner.hubert.HubertSLSystem, CTrain.hubert.DataModule),
+    "SlowLearner/hubert": (SlowLearner.hubert.HubertSLSystem, SPU.hubert.DataModule),
+    "SlowLearner/wav2vec2": (SlowLearner.hubert.HubertSLSystem, SPU.hubert.DataModule),
 }
 
 

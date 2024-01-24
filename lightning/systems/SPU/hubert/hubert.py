@@ -85,7 +85,7 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
         cnt = 0
         total_step = task_warmup_step * self.train_config["optimizer"]["grad_acc_step"]
         while cnt < total_step:
-            for batch_idx, batch in tqdm(enumerate(task_dataloader)):
+            for batch_idx, batch in tqdm(enumerate(task_dataloader), total=total_step):
                 train_loss_dict, _, _ = self.common_step(batch, batch_idx, train=True)
                 self._warmup_optimization(train_loss_dict["Total Loss"], batch_idx)
                 cnt += 1
@@ -114,6 +114,7 @@ class HubertSPUSystem(hubert.HubertSystem, ITaskBoundary):
     def _select_parameter(self, task_dataloader) -> None:
         print("Selecting parameters...")
         # compute statisitcs from task dataloader
+        self.zero_grad()
         cnt = 0
         n_estimate = self.algorithm_config["n_estimate"]
         for batch_idx, batch in enumerate(task_dataloader):

@@ -60,11 +60,11 @@ class DataModule(pl.LightningDataModule):
         self.batch_size = self.train_config["optimizer"]["batch_size"]
         grad_acc_step = self.train_config["optimizer"].get("grad_acc_step", 1)
         info = self.task_config.get_info()
-        self.use_tid_seq = True if info["tid_seq"] is None else False
-        if not self.use_tid_seq:  # Default iid version
-            self.train_dataset = ConcatDataset(self.train_datasets)
-        else:
+        self.use_tid_seq = (info["tid_seq"] is not None)
+        if self.use_tid_seq:  # Default iid version
             self.train_dataset = TaskSequenceWrapper(info["tid_seq"], self.train_datasets, self.batch_size, grad_acc_step)
+        else:  # Default iid version
+            self.train_dataset = ConcatDataset(self.train_datasets)
 
     def _validation_setup(self):
         self.val_dataset = self.val_datasets[0]  # dummy, validation during CSSL training is not informative, need to apply downstream task.

@@ -97,7 +97,7 @@ def exp2a():
     os.makedirs(root, exist_ok=True)
 
     tasks = [
-        "lightning/systems/CTrain/hubert/data_config/Urban8K",
+        "lightning/systems/CTrain/hubert/data_config/UrbanSound8K",
         "lightning/systems/CTrain/hubert/data_config/TAU2019UAS",
         "lightning/systems/CTrain/hubert/data_config/VocalSet",
         "lightning/systems/CTrain/hubert/data_config/fma",
