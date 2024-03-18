@@ -135,3 +135,87 @@ class System(pl.LightningModule):
 
         if is_changed:
             checkpoint.pop("optimizer_states", None)
+
+
+class BaseSystem(pl.LightningModule):
+    """ Abstract base class for all systems. (v2) """
+    def __init__(self, config):
+        super().__init__()
+        self.config = config
+        self.build_configs()  # Customize config hook
+
+        self.build_model()
+        if Define.DEBUG:
+            print("Model structure:")
+            print(self)
+            pytorch_total_params = sum(p.numel() for p in self.parameters() if p.requires_grad)
+            print("Total trainable params: ", pytorch_total_params)
+        
+        self.save_hyperparameters()
+
+    def build_configs(self):
+        """ Parser additional information """
+        pass
+
+    def build_model(self):
+        """ Build all components here. """
+        raise NotImplementedError
+    
+    def build_saver(self) -> list:
+        """ Return a saver class. """
+        return []
+    
+    def configure_callbacks(self):
+        # Checkpoint saver
+        # save_step = self.train_config["step"]["save_step"]
+        # checkpoint = ModelCheckpoint(
+        #     dirpath=self.ckpt_dir,
+        #     monitor="Val/Total Loss", mode="min",
+        #     every_n_train_steps=save_step, save_top_k=-1
+        # )
+
+        # Progress bars (step/epoch)
+        outer_bar = GlobalProgressBar(process_position=1)
+
+        # Monitor learning rate / gpu stats
+        lr_monitor = LearningRateMonitor()
+
+        callbacks = [outer_bar, lr_monitor, *self.build_saver()]
+
+        return callbacks
+
+    def on_save_checkpoint(self, checkpoint):
+        """Overwrite if you want to save more things in the checkpoint."""
+        return checkpoint
+
+    def on_load_checkpoint(self, checkpoint: dict) -> None:
+        self.test_global_step = checkpoint["global_step"]
+        state_dict = checkpoint["state_dict"]
+        model_state_dict = self.state_dict()
+        is_changed = False
+        state_dict_pop_keys = []
+        for k in state_dict:
+            if k in model_state_dict:
+                if state_dict[k].shape != model_state_dict[k].shape:
+                    if self.local_rank == 0:
+                        print(f"Skip loading parameter: {k}, "
+                                    f"required shape: {model_state_dict[k].shape}, "
+                                    f"loaded shape: {state_dict[k].shape}")
+                    state_dict[k] = model_state_dict[k]
+                    is_changed = True
+            else:
+                # if self.local_rank == 0:
+                #     print(f"Dropping parameter {k}")
+                state_dict_pop_keys.append(k)
+                is_changed = True
+
+        # modify state_dict format to model_state_dict format
+        for k in state_dict_pop_keys:
+            state_dict.pop(k)
+        for k in model_state_dict:
+            if k not in state_dict:
+                # print("Reinitialize: ", k)
+                state_dict[k] = model_state_dict[k]
+
+        if is_changed:
+            checkpoint.pop("optimizer_states", None)

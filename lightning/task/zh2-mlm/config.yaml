@@ -1,0 +1,10 @@
+data_dir: ../zh2/_data/AISHELL-3
+name: AISHELL-3
+subsets:
+  test: ../zh2/split/test.json
+  train: ../zh2/split/train.json
+  val: ../zh2/split/val.json
+
+feature:
+- wav: wav_16000
+- label: units/mfcc-512c/codes

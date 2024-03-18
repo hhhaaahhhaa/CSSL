@@ -1,0 +1,4 @@
+dataset_config_paths:
+- dataset_config/AISHELL-3/config.yaml
+
+lang_id: zh

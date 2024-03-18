@@ -1,0 +1,11 @@
+task_config:
+  mapper_config:
+    lstm:
+      d_hidden: 256
+      num_layers: 1
+
+dataset_config:
+  feature:
+    wav: wav_trim_16000
+    phoneme: units/mfa/phoneme
+    text: text

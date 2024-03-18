@@ -1,0 +1,9 @@
+data_dir: ../../downstream/phoneme_recognition/_data/LibriSpeech  # connect to v1's data storage
+lang_id: en0
+name: LibriSpeech
+subsets:
+  test: dataset_config/LibriSpeech/split/test.json
+  train: dataset_config/LibriSpeech/split/train.json
+  val: dataset_config/LibriSpeech/split/val.json
+text_cleaners:
+- english_cleaners

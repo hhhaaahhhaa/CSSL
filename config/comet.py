@@ -1,7 +1,7 @@
 COMET_CONFIG = {
     "api_key": "EuKsVWhTw10JQZ6ahNeQHAm3G",
     "workspace": "jcping",
-    "project_name": "cssl",
+    "project_name": "cssl-v2",
     "log_code": True,
     "log_graph": True,
     "parse_args": True,
@@ -11,4 +11,5 @@ COMET_CONFIG = {
     "log_env_gpu": True,
     "log_env_cpu": True,
     "log_env_host": True,
+    "display_summary_level": 0,
 }

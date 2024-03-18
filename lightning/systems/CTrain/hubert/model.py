@@ -13,7 +13,7 @@ class HubertCustom(UpstreamExpert):
     def __init__(self):
         ckpt = _urls_to_filepaths("https://huggingface.co/s3prl/converted_ckpts/resolve/main/hubert_base_ls960.pt")
         super().__init__(ckpt)
-        # self.feature_grad_mult = 1.0  # This enables feature extractor tuning (see forward_features())
+        self.model.feature_grad_mult = 1.0  # This enables feature extractor tuning (see forward_features())
 
     def _mask_forward(  # reimplement mask forward from fairseq code without nce logit calculation 
         self,

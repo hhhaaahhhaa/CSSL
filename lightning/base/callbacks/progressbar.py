@@ -21,7 +21,10 @@ class GlobalProgressBar(Callback):
 
     def on_train_start(self, trainer, pl_module):
         if pl_module.local_rank == 0:
-            desc = self.global_desc.format(steps=pl_module.global_step + 1, max_steps=trainer.max_steps)
+            if trainer.max_steps > 0:
+                desc = self.global_desc.format(steps=pl_module.global_step + 1, max_steps=trainer.max_steps)
+            else:
+                desc=""
 
             self.global_pb = tqdm(
                 desc=desc,
@@ -43,13 +46,13 @@ class GlobalProgressBar(Callback):
         if pl_module.local_rank == 0:
 
             # Set description
-            desc = self.global_desc.format(steps=pl_module.global_step + 1, max_steps=trainer.max_steps)
+            if trainer.max_steps > 0:
+                desc = self.global_desc.format(steps=pl_module.global_step + 1, max_steps=trainer.max_steps)
+            else:
+                desc=""
             self.global_pb.set_description(desc)
 
             # Update progress
-            if pl_module.global_step+1 != self.cur:
+            if pl_module.global_step + 1 != self.cur:
                 self.global_pb.update(1)
-                self.cur = pl_module.global_step+1
-
-            # if (pl_module.global_step+1) % trainer.accumulate_grad_batches == 0:
-            #     self.global_pb.update(1)
+                self.cur = pl_module.global_step + 1

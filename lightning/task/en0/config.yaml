@@ -1,0 +1,4 @@
+dataset_config_paths:
+- dataset_config/LibriSpeech/config.yaml
+
+lang_id: en0
