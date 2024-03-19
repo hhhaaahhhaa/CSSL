@@ -40,18 +40,23 @@ TRAINER_CONFIG = {
 
 def create_config(args) -> dict:
     """ Create a dictionary for full configuration """
+    tid = args.tid
+    config_reader = AutoConfigReader.from_tid(tid)
     res = {
         "exp_name": args.exp_name,
         "system_name": args.system_name,
         "model_config": None,
-        "train_config": None,
-        "algorithm_config": None,
+        "train_config": config_reader.train_config,
+        "algorithm_config": {
+            "freeze_mode": "all"
+        },
+        "task_configs": {tid: config_reader.task_config},
+        "saver_names": [tid],
+        "core_checkpoint_path": args.core_ckpt_file,
     }
-    config = yaml.load(open(args.config, "r"), Loader=yaml.FullLoader)
-    res.update(config)
-
-    tid = args.tid
-    res["task_configs"] = {tid: AutoConfigReader.from_tid(tid)}
+    if args.config is not None:
+        config = yaml.load(open(args.config, "r"), Loader=yaml.FullLoader)
+        res.update(config)
 
     # Useful for debugging
     if Define.DEBUG:
@@ -141,8 +146,6 @@ def main(args):
     print("Result directory: ", config["output_dir"]["result_dir"])
     print("Checkpoint directory: ", config["output_dir"]["ckpt_dir"])
 
-    if args.core_ckpt_file is not None and args.ckpt_file is None:
-        system.load_core_checkpoint(args.core_ckpt_file)
     trainer = pl.Trainer(logger=logger, callbacks=savers, **trainer_training_config)
     trainer.fit(system, datamodule=datamodule, ckpt_path=args.ckpt_file)
 
@@ -150,10 +153,10 @@ def main(args):
 if __name__ == "__main__":
     """
     Usage:
-        python mapper_train.py -n ONE-hubert -t en0 -n unnamed --config config/mapper_train.yaml 
+        python mapper_train.py -s ONE-hubert -t en0 -n unnamed1
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("-s", "--system_name", type=str, help="system identifier", default="MTL-hubert")
+    parser.add_argument("-s", "--system_name", type=str, help="system identifier", default="ONE-hubert")
     parser.add_argument(
         "-n", "--exp_name", type=str, help="experiment name, default is algorithm's name", default="unnamed"
     )
@@ -165,7 +168,7 @@ if __name__ == "__main__":
         default=None,
     )
     parser.add_argument(
-        "--config", type=str, help="config file name",
+        "--config", type=str, help="config file name", default=None,
     )
     parser.add_argument(
         "--logger", type=str, help="output result path",

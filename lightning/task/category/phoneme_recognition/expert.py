@@ -5,7 +5,6 @@ from torch.utils.data import ConcatDataset
 from lightning.base.expert import BaseExpert
 from .dataset import PRDataset
 from .mapper import PRMapper
-from .saver import PRSaver
 from .collate import PRCollate
 
 
@@ -56,6 +55,3 @@ class Expert(BaseExpert):
 
     def get_mapper(self, core: nn.Module):
         return PRMapper(self.mapper_config, core)
-    
-    def get_saver(self):
-        return PRSaver(self.config)

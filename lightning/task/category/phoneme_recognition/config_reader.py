@@ -2,13 +2,16 @@ import os
 import yaml
 import copy
 
+from lightning.base.config_reader import BaseConfigReader
 
-class ConfigReader(object):
-    def __init__(self):
+
+class ConfigReader(BaseConfigReader):
+    def __init__(self, config):
+        super().__init__(config)
         self.default_config = yaml.load(open(
             "lightning/task/category/phoneme_recognition/default_config.yaml", "r"), Loader=yaml.FullLoader)
-    
-    def from_tid(self, tid: str):
+
+        tid = config["tid"]
         root = f"lightning/task/{tid}"
         task_config = yaml.load(open(f"{root}/config.yaml", "r"), Loader=yaml.FullLoader)
 
@@ -26,11 +29,11 @@ class ConfigReader(object):
             tmp["data_dir"] = os.path.normpath(os.path.join(root, tmp["data_dir"]))
             task_config["dataset_configs"].append(tmp)
 
-        res = copy.deepcopy(self.default_config["task_config"])
-        res.update(task_config)
+        self.task_config = copy.deepcopy(self.default_config["task_config"])
+        self.task_config.update(task_config)
 
         # add tokens for phoneme recognition
         from lightning.text.define import LANG_ID2SYMBOLS
-        res["mapper_config"]["tokens"] = LANG_ID2SYMBOLS[res["lang_id"]]
+        self.task_config["mapper_config"]["tokens"] = LANG_ID2SYMBOLS[self.task_config["lang_id"]]
 
-        return res
+        self.train_config = self.default_config["train_config"]

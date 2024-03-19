@@ -1,6 +1,7 @@
 import os
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import Callback
+from pytorch_lightning.loggers import TensorBoardLogger, CometLogger
 from pytorch_lightning.loggers.logger import merge_dicts
 from pytorch_lightning.utilities import rank_zero_only
 import pandas as pd
@@ -19,7 +20,7 @@ import jiwer
 #     COL_SPACE = [len(col) for col in ["200000", "Validation"]+CSV_COLUMNS]
 
 
-class PRSaver(Callback):
+class Saver(Callback):
     def __init__(self, config):
         super().__init__()
         self.config = config
@@ -40,11 +41,11 @@ class PRSaver(Callback):
         record = outputs['record']
         train_loss_dict = {f"Train/{k}": v.item() for k, v in record['losses'].items()}
         self.train_loss_dicts.append(train_loss_dict)
-        if step % trainer.log_every_n_steps == 0 and batch_idx + 1 % self.config["train_config"]["optimizer"]["grad_acc_step"] == 0:
+        if step % trainer.log_every_n_steps == 0 and (batch_idx + 1) % self.config["train_config"]["optimizer"]["grad_acc_step"] == 0:
             # log average loss
             avg_train_loss_dict = merge_dicts(self.train_loss_dicts)
-            logger.log_dict(avg_train_loss_dict, sync_dist=True, batch_size=pl_module.bs)
-            print(avg_train_loss_dict)
+            pl_module.log_dict(avg_train_loss_dict, sync_dist=True, batch_size=pl_module.bs)
+            tqdm.write(f"Step {step}: {str(avg_train_loss_dict)}")
 
             # set_format(list(loss_dict.keys()))
             # loss_dict.update({"Step": step, "Stage": "Training"})
@@ -70,8 +71,8 @@ class PRSaver(Callback):
             pred_transcript = pl_module.beam_search_decoder.idxs_to_tokens(beams[0].tokens)
             pred_transcript = " ".join([p for p in pred_transcript if p != "|"])
             
-            self.log_text(logger, "Train/GT: " + gt_transcript, step)
-            self.log_text(logger, "Train/Pred: " + pred_transcript, step)
+            self.log_text(logger, gt_transcript, step, "Train/GT")
+            self.log_text(logger, pred_transcript, step, "Train/Pred")
 
             self.train_loss_dicts.clear()
 
@@ -98,8 +99,8 @@ class PRSaver(Callback):
 
         # log average loss
         avg_val_loss_dict = merge_dicts(self.val_loss_dicts)
-        logger.log_dict(avg_val_loss_dict, sync_dist=True, batch_size=pl_module.bs)
-        print(avg_val_loss_dict)
+        pl_module.log_dict(avg_val_loss_dict, sync_dist=True, batch_size=pl_module.bs)
+        tqdm.write(str(avg_val_loss_dict))
         
         # Log total loss to log.txt and print to stdout
         # loss_dict.update({"Step": step, "Stage": "Validation"})
@@ -120,14 +121,14 @@ class PRSaver(Callback):
         # log PER
         per_file_path = os.path.join(self.log_dir, 'per.txt')
         per = jiwer.wer(self.val_transcriptions["gt"], self.val_transcriptions["pred"])
-        logger.log(per, sync_dist=True, batch_size=pl_module.bs)
+        pl_module.log_dict({f"Val/PER": per}, sync_dist=True, batch_size=pl_module.bs)
         with open(per_file_path, 'a') as f:
             f.write(f"Epoch {pl_module.current_epoch}: {per * 100:.2f}%\n")
 
         # log asr results
         for i in range(2):
-            self.log_text(logger, f"Val/GT-{i}: {self.val_transcriptions['gt'][i]}", step)
-            self.log_text(logger, f"Val/Pred-{i}: {self.val_transcriptions['pred'][i]}", step)
+            self.log_text(logger, self.val_transcriptions['gt'][i], step, f"Val/GT-{i}")
+            self.log_text(logger, self.val_transcriptions['pred'][i], step, f"Val/Pred-{i}")
 
         self.val_loss_dicts.clear()
         self.val_transcriptions.clear()
@@ -143,9 +144,12 @@ class PRSaver(Callback):
     #     df = pd.DataFrame(loss_dict, columns=CSV_COLUMNS, index=[step])
     #     df.to_csv(csv_file_path, mode='a', header=not os.path.exists(csv_file_path), index=True, index_label="Step")
 
-    def log_text(self, logger, text, step):
-        if isinstance(logger, pl.loggers.CometLogger):
+    def log_text(self, logger, text, step, tag):
+        if isinstance(logger, CometLogger):
             logger.experiment.log_text(
                 text=text,
                 step=step,
+                metadata={"tag": tag}
             )
+        elif isinstance(logger, TensorBoardLogger):
+            logger.experiment.add_text(tag, text, step)

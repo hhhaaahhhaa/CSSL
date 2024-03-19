@@ -102,7 +102,7 @@ class MTLSaver(Callback):
         # log average loss
         avg_val_loss_dict = merge_dicts(self.val_loss_dicts)
         pl_module.log_dict(avg_val_loss_dict, sync_dist=True, batch_size=pl_module.bs)
-        print(avg_val_loss_dict)
+        tqdm.write(str(avg_val_loss_dict))
         
         # Log total loss to log.txt and print to stdout
         # loss_dict.update({"Step": step, "Stage": "Validation"})
@@ -125,6 +125,7 @@ class MTLSaver(Callback):
             per_file_path = os.path.join(self.log_dir, f'per-{tid}.txt')
             for tid in self.val_transcriptions:
                 per = jiwer.wer(self.val_transcriptions[tid]["gt"], self.val_transcriptions[tid]["pred"])
+                pl_module.log_dict({f"[{tid}] Val/PER": per}, sync_dist=True, batch_size=pl_module.bs)
                 with open(per_file_path, 'a') as f:
                     f.write(f"Epoch {pl_module.current_epoch}: {per * 100:.2f}%\n")
         

@@ -1,15 +1,14 @@
 import torch
 import torch.nn as nn
-from pytorch_lightning.callbacks import ModelCheckpoint
 
 from dlhlp_lib.s3prl import S3PRLExtractor
 
 from lightning.base.expert import BaseExpert, BaseMapper
-from lightning.base.system import BaseSystem
 from lightning.auto import AutoExpert
+from .. import ONE
 
 
-class System(BaseSystem):
+class System(ONE.hubert.System):
     """ Multitask learning with hubert base. """
 
     experts: dict[str, BaseExpert]
@@ -21,6 +20,7 @@ class System(BaseSystem):
     def build_configs(self) -> None:
         self.task_configs = self.config["task_configs"]
         self.train_config = self.config["train_config"]
+        self.algorithm_config = self.config["algorithm_config"]
         self.bs = self.train_config["optimizer"]["batch_size"]
 
         # build experts
@@ -36,37 +36,26 @@ class System(BaseSystem):
         for tid in self.experts:
             self.mappers[tid] = self.experts[tid].get_mapper(self.core)
 
-    def build_saver(self) -> list:
-        checkpoint = ModelCheckpoint(
-            dirpath=self.config["output_dir"]["ckpt_dir"],
-            filename='{epoch}',
-            monitor="Val/Total Loss", mode="min",
-            save_top_k=-1
-        )
-        return [checkpoint]
+        core_ckpt_path = self.config.get("core_checkpoint_path", None)
+        if core_ckpt_path is not None:
+            self._load_core_checkpoint(core_ckpt_path)
+        if self.algorithm_config is not None and "freeze_mode" in self.algorithm_config:
+            self._set_freeze_mode(self.algorithm_config["freeze_mode"])
 
     def training_step(self, batch, batch_idx):
         tid, batch = batch
         record = {"tid": tid}
         loss = self.mappers[tid].training_step(batch, batch_idx, record=record)
 
-        # Log metrics to CometLogger
-        # loss_dict = {f"Train/{k}": v.item() for k, v in record["losses"].items()}
-        # self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
         return {'loss': loss, 'record': record}
     
     def validation_step(self, batch, batch_idx):
         tid, batch = batch
         record = {"tid": tid}
         loss = self.mappers[tid].validation_step(batch, batch_idx, record=record)
-
-        # Log metrics to CometLogger
-        # loss_dict = {f"Val/{k}": v.item() for k, v in record["losses"].items()}
-        # self.log_dict(loss_dict, sync_dist=True, batch_size=self.bs)
+        
         return {'loss': loss, 'record': record}
     
-    # refer to documents for multiple optimizers + schedulers
-    # https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.core.LightningModule.html#lightning.pytorch.core.LightningModule.configure_optimizers
     def configure_optimizers(self):
         """Initialize optimizers, batch-wise and epoch-wise schedulers."""
         optimized_modules = [module.build_optimized_model() for module in self.mappers.values()]

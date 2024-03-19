@@ -45,6 +45,3 @@ class BaseExpert(object):
     
     def get_mapper(self) -> BaseMapper:
         raise NotImplementedError
-    
-    def get_saver(self) -> pl.Callback:
-        raise NotImplementedError

@@ -51,7 +51,11 @@ def create_config(args) -> dict:
         tids = [args.data_config]
     else:
         tids = yaml.load(open(args.data_config, "r"), Loader=yaml.FullLoader)
-    res["task_configs"] = {tid: AutoConfigReader.from_tid(tid) for tid in tids}
+    
+    res["task_configs"] = {}
+    for tid in tids:
+        config_reader = AutoConfigReader.from_tid(tid)
+        res["task_configs"][tid] = config_reader.task_config
 
     # Useful for debugging
     if Define.DEBUG:
@@ -146,7 +150,7 @@ def main(args):
 if __name__ == "__main__":
     """
     Usage:
-        python mtl.py -n MTL-hubert -d config/data/pr.yaml -n unnamed --config config/mtl-pr.yaml 
+        python mtl.py -s MTL-hubert -d config/data/pr.yaml -n unnamed --config config/mtl-pr.yaml 
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--system_name", type=str, help="system identifier", default="MTL-hubert")

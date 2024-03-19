@@ -11,7 +11,8 @@ from .expert import Expert
 class Evaluator(BaseEvaluator):
     def __init__(self, config) -> None:
         super().__init__(config)
-        expert = Expert(config=ConfigReader().from_tid(self.config["tid"]))
+        config_reader = ConfigReader({"tid": self.config["tid"]})
+        expert = Expert(config=config_reader.task_config)
         self.dataset = expert.get_test_dataset()
         self.logdir = f"{self.config['logdir']}/evaluator/{self.config['tid']}"
         os.makedirs(self.logdir, exist_ok=True)

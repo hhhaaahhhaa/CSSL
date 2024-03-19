@@ -1,3 +1,4 @@
+from lightning.base.config_reader import BaseConfigReader
 from lightning.task import (
     TID_PHONEME_RECOGNITION,
     TID_AUDIO_CLASSIFICATION,
@@ -32,6 +33,6 @@ class AutoConfigReader(object):
         )
 
     @classmethod
-    def from_tid(cls, tid: str) -> dict:
-        config_reader = CONFIG_READER_MAPPING[tid]()
-        return config_reader.from_tid(tid)
+    def from_tid(cls, tid: str) -> BaseConfigReader:
+        config_reader_cls = CONFIG_READER_MAPPING[tid]
+        return config_reader_cls({"tid": tid})

@@ -1,9 +1,28 @@
 from pytorch_lightning.callbacks import Callback
+from lightning.task import (
+    TID_PHONEME_RECOGNITION,
+    TID_AUDIO_CLASSIFICATION,
+)
+from lightning.task.category import (
+    audio_classification,
+    mlm,
+    phoneme_recognition,
+    speaker_identification,
+)
 from lightning import saver
 
 
+SAVER_MAPPING_PHONEME_RECOGNITION = {
+    tid: phoneme_recognition.Saver for tid in TID_PHONEME_RECOGNITION
+}
+
+# SAVER_MAPPING_AUDIO_CLASSIFICATION = {
+#     tid: audio_classification.Expert for tid in TID_AUDIO_CLASSIFICATION
+# }
+
 SAVER_MAPPING = {
-    "mtl-pr": saver.phoneme_recognition.MTLSaver
+    **SAVER_MAPPING_PHONEME_RECOGNITION,
+    "mtl-pr": saver.phoneme_recognition.MTLSaver,
 }
 
 
