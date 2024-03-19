@@ -1,3 +1,7 @@
+"""
+Load core, fix core, train mapper only.
+This is a part of SSL evaluation pipeline.
+"""
 import argparse
 import os
 
@@ -46,12 +50,8 @@ def create_config(args) -> dict:
     config = yaml.load(open(args.config, "r"), Loader=yaml.FullLoader)
     res.update(config)
 
-    from lightning.task import TID
-    if args.data_config in TID:  # single task name
-        tids = [args.data_config]
-    else:
-        tids = yaml.load(open(args.data_config, "r"), Loader=yaml.FullLoader)
-    res["task_configs"] = {tid: AutoConfigReader.from_tid(tid) for tid in tids}
+    tid = args.tid
+    res["task_configs"] = {tid: AutoConfigReader.from_tid(tid)}
 
     # Useful for debugging
     if Define.DEBUG:
@@ -133,12 +133,16 @@ def main(args):
 
     pl.seed_everything(43, True)
     print("========================== Start Training! ==========================")
+    print("Task ID: ", args.tid)
     print("Exp name: ", config["exp_name"])
     print("System name: ", config["system_name"])
+    print("Core checkpoint path: ", args.core_ckpt_file)
     print("Log directory: ", config["output_dir"]["log_dir"])
     print("Result directory: ", config["output_dir"]["result_dir"])
     print("Checkpoint directory: ", config["output_dir"]["ckpt_dir"])
-    
+
+    if args.core_ckpt_file is not None and args.ckpt_file is None:
+        system.load_core_checkpoint(args.core_ckpt_file)
     trainer = pl.Trainer(logger=logger, callbacks=savers, **trainer_training_config)
     trainer.fit(system, datamodule=datamodule, ckpt_path=args.ckpt_file)
 
@@ -146,7 +150,7 @@ def main(args):
 if __name__ == "__main__":
     """
     Usage:
-        python mtl.py -n MTL-hubert -d config/data/pr.yaml -n unnamed --config config/mtl-pr.yaml 
+        python mapper_train.py -n ONE-hubert -t en0 -n unnamed --config config/mapper_train.yaml 
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--system_name", type=str, help="system identifier", default="MTL-hubert")
@@ -154,7 +158,11 @@ if __name__ == "__main__":
         "-n", "--exp_name", type=str, help="experiment name, default is algorithm's name", default="unnamed"
     )
     parser.add_argument(
-        "-d", "--data_config", type=str, help="data config file name or a single task name", default="en0"
+        "-t", "--tid", type=str, help="single task name", default="en0"
+    )
+    parser.add_argument(
+        "-c", "--core_ckpt_file", type=str, help="core checkpoint file name",
+        default=None,
     )
     parser.add_argument(
         "--config", type=str, help="config file name",

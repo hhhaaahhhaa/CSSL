@@ -11,3 +11,7 @@ train_config:
   step:
     max_epochs: 6
     log_step: 1000
+saver_names:
+- mtl-pr
+algorithm_config:
+  freeze_core: "cnn"

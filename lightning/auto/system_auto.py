@@ -1,22 +1,19 @@
 from lightning.base.system import BaseSystem
-from lightning.systems import (
+from lightning.system import (
     MTL,
     ONE,
-    CTrain,
-    SlowLearner,
-    SPU,
-    EWC
+    CFT,
 )
 
 
 SYSTEM_MAPPING: dict[str, BaseSystem] = {
     "MTL-hubert": MTL.hubert.System,
     "ONE-hubert": ONE.hubert.System,
-    "CTrain/hubert": CTrain.hubert.HubertSystem,
-    "CTrain/wav2vec2": CTrain.hubert.HubertSystem,
-    "SlowLearner/hubert": SlowLearner.hubert.HubertSLSystem,
-    "SPU/hubert": SPU.hubert.HubertSPUSystem,
-    "EWC/hubert": EWC.hubert.HubertEWCSystem,
+    # "CTrain/hubert": CTrain.hubert.HubertSystem,
+    # "CTrain/wav2vec2": CTrain.hubert.HubertSystem,
+    # "SlowLearner/hubert": SlowLearner.hubert.HubertSLSystem,
+    # "SPU/hubert": SPU.hubert.HubertSPUSystem,
+    # "EWC/hubert": EWC.hubert.HubertEWCSystem,
 }
 
 

@@ -27,4 +27,4 @@ class System(MTL.hubert.System):
         return [checkpoint, saver]
     
     def load_core_checkpoint(self, ckpt_file: str):
-        self.core.load_state_dict(torch.load(ckpt_file))
+        self.core.load_state_dict(torch.load(ckpt_file, map_location='cpu'))

@@ -1,21 +1,20 @@
 import pytorch_lightning as pl
-from lightning.systems import (
+from lightning.system import (
     MTL,
     ONE,
-    CTrain,
-    SPU,
+    CFT,
 )
 
 
 DATAMODULE_MAPPING = {
     "MTL-hubert": MTL.datamodule.MTLDataModule,
     "ONE-hubert": ONE.datamodule.ONEDataModule,
-    "SL-hubert": MTL.datamodule.MTLDataModule,
-    "CTrain/hubert": CTrain.hubert.DataModule,
-    "CTrain/wav2vec2": CTrain.hubert.DataModule,
-    "SlowLearner/hubert": SPU.hubert.DataModule,
-    "SPU/hubert": SPU.hubert.DataModule,
-    "EWC/hubert": SPU.hubert.DataModule,
+    "CFT-hubert": MTL.datamodule.MTLDataModule,
+    # "CTrain/hubert": CTrain.hubert.DataModule,
+    # "CTrain/wav2vec2": CTrain.hubert.DataModule,
+    # "SlowLearner/hubert": SPU.hubert.DataModule,
+    # "SPU/hubert": SPU.hubert.DataModule,
+    # "EWC/hubert": SPU.hubert.DataModule,
 }
 
 

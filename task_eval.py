@@ -37,12 +37,13 @@ def task_eval(tid, ckpt_path, exp_root=None):
     print("Exp root: ", exp_root)
     print("System name: ", exp_config["system_name"])
     print("Checkpoint path: ", ckpt_path)
-    evaluator.run(inference_func)
 
+    evaluator.run(inference_func)
     system.cpu()
     gc.collect()
 
 
 if __name__ == "__main__":
-    for tid in LANGUAGE:
-        task_eval(tid, "exp/MTL-hubert/unnamed/ckpt/epoch=2.ckpt")
+    task_eval("en0", "exp/MTL-hubert/unnamed/ckpt/epoch=2.ckpt")
+    # for tid in LANGUAGE:
+    #     task_eval(tid, "exp/MTL-hubert/unnamed/ckpt/epoch=2.ckpt")
