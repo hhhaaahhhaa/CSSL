@@ -61,14 +61,14 @@ class Saver(Callback):
 
             # log phoneme recognition results
             output = record['output']
-            beam_search_results = pl_module.beam_search_decoder(output["emissions"], output["emission_lengths"])
+            beam_search_results = pl_module.mapper.beam_search_decoder(output["emissions"], output["emission_lengths"])
             labels, _ = output["batch"]
             gt_label = labels["texts"][0][:labels["text_lens"][0]].cpu()
-            gt_transcript = pl_module.beam_search_decoder.idxs_to_tokens(gt_label)
+            gt_transcript = pl_module.mapper.beam_search_decoder.idxs_to_tokens(gt_label)
             gt_transcript = " ".join([p for p in gt_transcript if p != "|"])
 
             beams = beam_search_results[0]
-            pred_transcript = pl_module.beam_search_decoder.idxs_to_tokens(beams[0].tokens)
+            pred_transcript = pl_module.mapper.beam_search_decoder.idxs_to_tokens(beams[0].tokens)
             pred_transcript = " ".join([p for p in pred_transcript if p != "|"])
             
             self.log_text(logger, gt_transcript, step, "Train/GT")

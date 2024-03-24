@@ -5,6 +5,7 @@ from lightning.task import (
 )
 from lightning.task.category import (
     phoneme_recognition,
+    audio_classification,
 )
 
 
@@ -12,8 +13,14 @@ EVALUATOR_MAPPING_PHONEME_RECOGNITION = {
     tid: phoneme_recognition.Evaluator for tid in TID_PHONEME_RECOGNITION
 }
 
+EVALUATOR_MAPPING_AUDIO_CLASSIFICATION = {
+    tid: audio_classification.Evaluator for tid in TID_AUDIO_CLASSIFICATION
+}
+
+
 EVALUATOR_MAPPING = {
     **EVALUATOR_MAPPING_PHONEME_RECOGNITION,
+    **EVALUATOR_MAPPING_AUDIO_CLASSIFICATION,
 }
 
 

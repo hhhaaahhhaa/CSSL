@@ -1,0 +1,6 @@
+data_dir: ../../downstream/sound_classification/_data/TAU2019UAS  # connect to v1 data
+name: TAU2019UAS
+subsets:
+  test: dataset_config/TAU2019UAS/split/test.json
+  train: dataset_config/TAU2019UAS/split/train.json
+  val: dataset_config/TAU2019UAS/split/val.json

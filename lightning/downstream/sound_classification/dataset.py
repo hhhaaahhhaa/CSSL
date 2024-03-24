@@ -38,6 +38,7 @@ class ClassificationDataset(Dataset):
         sample = {
             "id": query["basename"],
             "label": self.classes.index(label["class"]),
+            "class": label["class"],
             "wav": wav,
         }
 

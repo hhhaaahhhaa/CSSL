@@ -16,13 +16,15 @@ SAVER_MAPPING_PHONEME_RECOGNITION = {
     tid: phoneme_recognition.Saver for tid in TID_PHONEME_RECOGNITION
 }
 
-# SAVER_MAPPING_AUDIO_CLASSIFICATION = {
-#     tid: audio_classification.Expert for tid in TID_AUDIO_CLASSIFICATION
-# }
+SAVER_MAPPING_AUDIO_CLASSIFICATION = {
+    tid: audio_classification.Saver for tid in TID_AUDIO_CLASSIFICATION
+}
 
 SAVER_MAPPING = {
     **SAVER_MAPPING_PHONEME_RECOGNITION,
+    **SAVER_MAPPING_AUDIO_CLASSIFICATION,
     "mtl-pr": saver.phoneme_recognition.MTLSaver,
+    "mtl-sc": saver.audio_classification.MTLSaver,
 }
 
 

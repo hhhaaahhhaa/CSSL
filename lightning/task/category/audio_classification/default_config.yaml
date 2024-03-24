@@ -1,14 +1,12 @@
 task_config:
   mapper_config:
-    lstm:
+    UtteranceLevel:
       d_hidden: 256
-      num_layers: 1
 
 dataset_config:
   feature:
-    wav: wav_trim_16000
-    phoneme: units/mfa/phoneme
-    text: text
+    wav: wav_16000
+    label: label
 
 train_config:
   scheduler_type: const

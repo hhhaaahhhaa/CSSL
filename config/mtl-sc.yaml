@@ -1,19 +1,7 @@
-task_config:
-  mapper_config:
-    lstm:
-      d_hidden: 256
-      num_layers: 1
-
-dataset_config:
-  feature:
-    wav: wav_trim_16000
-    phoneme: units/mfa/phoneme
-    text: text
-
 train_config:
   scheduler_type: const
   optimizer:
-    lr: 0.001
+    lr: 0.00005
     batch_size: 4
     betas: [0.9, 0.98]
     eps: 0.000000001
@@ -23,3 +11,5 @@ train_config:
   step:
     max_epochs: 6
     log_step: 1000
+saver_names:
+- mtl-sc

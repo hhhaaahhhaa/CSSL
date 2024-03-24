@@ -12,10 +12,15 @@ TID_PHONEME_RECOGNITION = [
 ]
 
 TID_AUDIO_CLASSIFICATION = [
-    
+    "sc1",
+    "sc2",
+    "sc3",
+    "tech",
+    "genre",
 ]
 
 TID = [
     *TID_PHONEME_RECOGNITION,
-    *TID_AUDIO_CLASSIFICATION
+    *TID_AUDIO_CLASSIFICATION,
+    "sid1",
 ]

@@ -14,10 +14,11 @@ class PRMapper(BaseMapper):
     """ CAUTION: this module is entangled with core class !!! """
     def __init__(self, mapper_config, core: nn.Module) -> None:
         super().__init__(mapper_config, core)
+        self.tokens = mapper_config["tokens"]
         self.model = WSBiLSTMModel(
             n_in_layers=self.core.n_layers,
             d_in=self.core.dim,
-            d_out=len(mapper_config["tokens"]),
+            d_out=len(self.tokens),
             **mapper_config["lstm"]
         )
         self.loss_func = nn.CTCLoss(blank=1, zero_infinity=True)  # "-" is indexed as 1

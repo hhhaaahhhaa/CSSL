@@ -15,13 +15,14 @@ EXPERT_MAPPING_PHONEME_RECOGNITION = {
     tid: phoneme_recognition.Expert for tid in TID_PHONEME_RECOGNITION
 }
 
-# EXPERT_MAPPING_AUDIO_CLASSIFICATION = {
-#     tid: audio_classification.Expert for tid in TID_AUDIO_CLASSIFICATION
-# }
+EXPERT_MAPPING_AUDIO_CLASSIFICATION = {
+    tid: audio_classification.Expert for tid in TID_AUDIO_CLASSIFICATION
+}
 
 
 EXPERT_MAPPING = {
     **EXPERT_MAPPING_PHONEME_RECOGNITION,
+    **EXPERT_MAPPING_AUDIO_CLASSIFICATION,
 }
 
 
